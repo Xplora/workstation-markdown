@@ -256,9 +256,9 @@ Reconocemos que muchos turistas enfrentan la dificultad de encontrar paquetes co
 
 A través de nuestra aplicación TripMatch, brindamos un espacio donde los usuarios pueden explorar, comparar y reservar actividades y experiencias turísticas únicas desde sus teléfonos móviles, filtradas por destino, tipo de viaje, duración o presupuesto. Al mismo tiempo, las agencias pueden administrar su catálogo de servicios, responder consultas en tiempo real mediante chat móvil y recibir reservas de forma directa y sencilla. Nuestro enfoque está en ofrecer una experiencia fluida y confiable tanto para el viajero como para el proveedor, promoviendo el turismo responsable y local.
 
-Misión: Nuestra misión es facilitar el acceso a experiencias turísticas auténticas y personalizadas mediante una aplicación móvil que conecte a viajeros con agencias de turismo de manera directa, eficiente y transparente. Trabajamos para simplificar el proceso de búsqueda y reserva de actividades, fomentando al mismo tiempo el crecimiento de negocios turísticos locales a través de soluciones tecnológicas intuitivas.
+**Misión:** Nuestra misión es facilitar el acceso a experiencias turísticas auténticas y personalizadas mediante una aplicación móvil que conecte a viajeros con agencias de turismo de manera directa, eficiente y transparente. Trabajamos para simplificar el proceso de búsqueda y reserva de actividades, fomentando al mismo tiempo el crecimiento de negocios turísticos locales a través de soluciones tecnológicas intuitivas.
 
-Visión: Convertirnos en la aplicación de referencia para la planificación y reserva de experiencias turísticas móviles, destacándonos por promover el turismo responsable, la innovación tecnológica y el fortalecimiento de agencias locales. Aspiramos a ser una solución global que conecte millones de viajeros con sus destinos a través de su smartphone.
+**Visión:** Convertirnos en la aplicación de referencia para la planificación y reserva de experiencias turísticas móviles, destacándonos por promover el turismo responsable, la innovación tecnológica y el fortalecimiento de agencias locales. Aspiramos a ser una solución global que conecte millones de viajeros con sus destinos a través de su smartphone.
 
 Valores: Defendemos la integridad, la innovación y el turismo sostenible. Aseguramos precisión en la información, apoyamos a agencias locales y ofrecemos experiencias personalizadas para garantizar viajes auténticos, seguros y responsables.
 
@@ -273,4 +273,135 @@ Valores: Defendemos la integridad, la innovación y el turismo sostenible. Asegu
 |   |    |  |   |
 
 ## 1.2. Solution Profile
+
+La propuesta de solución está orientada al diseño y desarrollo de **TripMatch**, una aplicación móvil que conecta a los usuarios con experiencias de viaje personalizadas según sus intereses, presupuesto y tiempo disponible. La solución busca responder a la creciente necesidad de contar con herramientas móviles que permitan planificar viajes de forma rápida, flexible y desde cualquier lugar, optimizando tanto la búsqueda como la gestión de reservas de actividades turísticas.
+
 ### 1.2.1. Antecedentes y problemática
+
+**What**
+- ¿Cuál es el problema? <br>
+    El problema central radica en la desconexión entre viajeros y agencias de turismo locales. Los turistas tienen dificultades para encontrar experiencias auténticas y personalizadas, mientras que las agencias locales carecen de herramientas digitales efectivas que les permitan visibilizar y gestionar sus servicios en un mercado cada vez más competitivo.  
+- ¿Cuál es la relación con la persona en cuestión? <br>
+  La aplicación TripMatch (de Xplora) busca cerrar esa brecha. Para el viajero, TripMatch facilita la búsqueda, comparación y reserva de experiencias desde cualquier lugar mediante la app móvil, incorporando filtros relevantes, reseñas verificadas y opciones de reserva rápida. Para la agencia local, la plataforma ofrece herramientas sencillas de administración que reducen la dependencia de intermediarios y permiten llegar a clientes en el momento de decisión.
+
+**When**
+- ¿Cuándo sucede el problema? <br>
+    El problema se manifiesta principalmente en las etapas de planificación y organización del viaje, cuando los turistas intentan investigar y contratar servicios turísticos confiables y personalizados desde sus dispositivos móviles. También ocurre durante el desplazamiento, cuando buscan actividades adicionales o alternativas a lo inicialmente planeado y requieren inmediatez en la información y la reserva.
+
+- ¿Cuándo utiliza el cliente el producto? <br>
+  El cliente utiliza la plataforma TripMatch en dos momentos clave: antes del viaje, cuando explora actividades y destinos desde casa o el trabajo mediante su smartphone o tablet; y durante el viaje, cuando ya se encuentra en el destino y busca experiencias complementarias, aprovechando la facilidad de realizar reservas y consultas directamente desde su móvil.
+
+**Where**
+- ¿Dónde está el cliente cuando utiliza el producto? <br>
+  El usuario puede acceder a la plataforma desde múltiples ubicaciones. Desde su hogar durante la fase de planificación, utilizando dispositivos como computadoras o celulares; o bien desde su destino turístico y necesita encontrar nuevas experiencias turisticas.
+- ¿A dónde se dirige? <br>
+  El usuario se dirige a destinos nacionales o internacionales, buscando experiencias auténticas y personalizadas. Puede tratarse de destinos populares donde evita lo masificado o de lugares poco explorados en los que necesita orientación especializada que le aporte confianza y seguridad.
+- ¿Dónde surge el problema? <br>
+  El problema surge principalmente en el espacio digital fragmentado del sector turístico, donde la información se encuentra dispersa en múltiples sitios web, aplicaciones y plataformas, dificultando la comparación de opciones y la verificación de la calidad y autenticidad de las experiencias ofrecidas por agencias locales que a menudo carecen de presencia digital efectiva.
+
+**Who**
+- ¿Quiénes están involucrados? <br>
+  Los principales involucrados son los turistas que buscan experiencias personalizadas, las agencias locales que ofrecen servicios especializados, los operadores turísticos y las plataformas tecnológicas que no integran oferta ni demanda de manera eficiente.
+- ¿A quiénes les sucede el problema? <br>
+  Afecta a dos actores principales: los turistas que buscan opciones auténticas y no logran comunicarse con proveedores locales de forma confiable, y las agencias locales que tienen dificultades para digitalizar sus servicios y competir frente a las grandes plataformas.
+- ¿Quién lo utiliza? <br>
+  La plataforma TripMatch será utilizada por viajeros independientes que buscan experiencias turísticas auténticas y personalizadas más allá del turismo masivo, así como por agencias locales de turismo que buscan ampliar su presencia digital y conectar directamente con clientes potenciales sin intermediarios que reduzcan sus márgenes o limiten su capacidad de personalización.
+
+**Why**
+- ¿Cuál es la causa del problema? <br>
+  La causa radica en la falta de personalización de los paquetes turísticos y en la limitada digitalización de las agencias locales. Los viajeros quieren experiencias únicas y en tiempo real, pero reciben ofertas genéricas. Además, la baja presencia digital limita la interacción inmediata, clave para usuarios que gestionan sus viajes desde el internet  (KPMG Tendencias, 2024).
+
+**How**
+- ¿En qué condiciones nuestros clientes usan el producto? <br>
+  Los clientes acceden a nuestra plataforma TripMatch cuando buscan experiencias turísticas auténticas y personalizadas que se ajusten a sus intereses específicos, presupuesto y disponibilidad de tiempo. Esto ocurre tanto durante la planificación anticipada de su viaje, desde casa o el trabajo, como cuando ya se encuentran en el destino y requieren modificar o complementar su itinerario con actividades locales recomendadas. En este último caso, la facilidad de acceder desde dispositivos móviles resulta clave para obtener información inmediata y concretar reservas en tiempo real.  
+
+- ¿Cómo nos conocieron nuestros compradores? <br>
+  Los usuarios conocen nuestra plataforma principalmente a través de marketing digital especializado en viajes y comunidades de viajeros, recomendaciones de otros usuarios satisfechos en redes sociales, y posicionamiento en buscadores especializados en turismo cuando buscan alternativas a las grandes plataformas tradicionales.  
+
+- ¿Cómo prefieren nuestros consumidores acceder a nuestro producto? <br>
+  Los usuarios acceden a nuestra plataforma mediante un sitio web para la planificación detallada previa, y a través de dispositivos móviles que les permiten facilitar reservas rápidas durante su viaje.  
+
+- ¿Qué llevó a la persona a esa situación? <br>
+  El creciente deseo de los viajeros por experiencias auténticas y personalizadas, junto con la frustración provocada por las plataformas masivas que ofrecen opciones estandarizadas, lleva a los usuarios a buscar alternativas que faciliten la conexión directa con proveedores locales. A la vez, las agencias de turismo local llegan a nuestra plataforma motivadas por la necesidad de digitalizar sus servicios y expandir su alcance.
+
+
+**How Much** <br>
+Aproximadamente el 82% de las reservas de viajes en 2018 se realizaron a través de Internet, según un análisis de Mize (2021). Este cambio refleja cómo la tecnología ha transformado la industria turística, eliminando intermediarios y facilitando la personalización de experiencias para los viajeros. Además, más del 50% de viajeros suelen dedicar su tiempo en investigar sitios locales de reseñas de viajes con el objetivo de tomar una decisión informada sobre su próximo viaje, considerando aspectos como videos y fotos de destinos, la capacidad de los hoteles para destacar sus servicios y la experiencia previa de otros viajeros, entre otros factores (Travelperk, 2022). Asimismo, según el Ministerio de Comercio Exterior y Turismo (MINCETUR, 2024) solo en el Perú, aproximadamente 48 millones de viajes se realizan anualmente por motivos de turismo interno, incluyendo tanto turistas extranjeros que visitan el país como locales que viajan a otras ciudades dentro del territorio nacional.
+
+![Flujo de Viajes por Turismo Interno](./img/Flujo-de-Viajes-por-Turismo-Interno.png)
+
+### 1.2.2. Lean UX Process
+#### 1.2.2.1. Lean UX Problem Statements
+Nuestro servicio ofrece una aplicación que conecta a viajeros con agencias de turismo locales, permitiendo a los usuarios explorar, comparar y reservar experiencias auténticas y personalizadas basadas en sus preferencias, presupuesto y destino. Al mismo tiempo, brindamos a las agencias locales herramientas digitales para gestionar sus servicios, interactuar con clientes en tiempo real y ampliar su alcance comercial de manera eficiente, promoviendo el turismo responsable y el crecimiento de negocios locales. <br>  
+Hemos identificado un factor crítico que afecta tanto a viajeros como a agencias locales. Los turistas enfrentan dificultades para encontrar experiencias confiables y adaptadas a sus intereses, mientras que las agencias carecen de una presencia digital efectiva para competir en un mercado cada vez más globalizado. Esta desconexión genera frustración en los viajeros, que terminan recurriendo a opciones genéricas o masificadas, y limita el crecimiento de las agencias, que no logran aprovechar la creciente demanda de turismo auténtico y personalizado. <br>  
+¿Cómo podemos mejorar la conexión entre viajeros y agencias locales para garantizar experiencias turísticas auténticas y personalizadas simplificando el proceso de planificación y reserva, con un impacto positivo en el turismo responsable?
+
+#### 1.2.2.2. Lean UX Assumptions
+**User Assumptions**
+- ¿Quién es mi usuario? <br>
+  Nuestros usuarios son viajeros que buscan experiencias auténticas y personalizadas, y agencias de turismo locales que necesitan digitalizar sus servicios para llegar a más clientes.
+- ¿Dónde encaja nuestro producto en su trabajo o vida? <br>
+  Para viajeros, simplifica la búsqueda y reserva de actividades únicas; para agencias, es una herramienta de gestión y conexión directa con turistas.
+- ¿Qué problemas tiene nuestro producto? ¿Resolver? <br>
+  Resuelve la dificultad de los viajeros para encontrar opciones confiables y personalizadas, y la falta de visibilidad digital de las agencias locales.
+- ¿Cuándo y cómo es nuestro producto? ¿Usado? <br>
+  Los viajeros lo usan al planificar su viaje o durante este para reservar actividades; las agencias lo usan diariamente para gestionar servicios y atender consultas.
+- ¿Qué características son importantes? <br>
+  Filtros avanzados, reseñas verificadas, chat en tiempo real, herramientas de gestión para agencias y opción de reservas móviles.
+- ¿Cómo debe verse nuestro producto y cómo debe comportarse? <br>
+  Debe ser visualmente atractivo, fácil de usar, seguro para transacciones e intuitivo para agencias con poca experiencia digital. <br>
+
+**Business Assumptions**
+- Creo que nuestros clientes necesitan una manera sencilla y confiable de encontrar y reservar experiencias turísticas auténticas y personalizadas, gestionadas por agencias locales, sin tener que navegar entre múltiples plataformas ni arriesgarse a servicios poco verificados.  
+- Estas necesidades se pueden cubrir con una aplicación que ofrezca filtros avanzados, reseñas verificadas, herramientas de comparación, comunicación directa en tiempo real y un sistema de reservas seguro y eficiente.  
+- Mis clientes iniciales serán viajeros independientes, tanto nacionales como internacionales, que buscan experiencias locales auténticas, y agencias de turismo local que necesitan digitalizar sus servicios para ampliar su alcance.  
+- El valor principal que mis clientes esperan es contar con herramientas digitales que les permitan planificar, comparar y reservar experiencias de manera ágil, segura y adaptada a sus intereses y presupuesto.  
+- Los clientes también pueden obtener beneficios adicionales como: ahorro de tiempo en la búsqueda de actividades, conexión directa con proveedores confiables, acceso a descuentos exclusivos, reseñas verificadas, contenido visual auténtico y recomendaciones personalizadas.  
+- Captaré la mayoría de mis clientes mediante marketing digital, alianzas estratégicas con comunidades de viajeros y programas de recomendación con beneficios para quienes compartan la aplicación.  
+- Generaré ingresos a través de comisiones por reservas, alianzas estratégicas y colaboraciones con influencers de viajes.  
+- Mi competencia principal está representada por plataformas como *Withlocals*, *ToursByLocals* y *Showaround*, que también ofrecen experiencias personalizadas mediante guías o agencias locales.  
+- Superaremos a la competencia gracias a nuestro enfoque en el turismo local auténtico, brindando soporte directo a pequeñas agencias que normalmente no tienen acceso a herramientas tecnológicas avanzadas. Además, nuestra propuesta prioriza la confianza, la personalización y la conexión directa con proveedores locales.  
+- El mayor riesgo de producto es que las agencias locales no adopten la aplicación por falta de habilidades digitales o que no mantengan actualizado su catálogo, afectando la calidad del servicio.  
+- Resolveremos este riesgo mediante capacitación inicial, soporte técnico continuo, una interfaz intuitiva diseñada para usuarios con poca experiencia digital.  
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+- **Creemos que** ofrecer filtros avanzados aumentará la adopción de la plataforma por parte de viajeros que buscan personalización. <br>
+  **Sabremos que hemos tenido éxito** <br>
+  **Cuando veamos** un aumento del 35% en las reservas realizadas con filtros personalizados durante los primeros 4 meses.
+
+- **Creemos que** permitir a las agencias locales gestionar su catálogo digital y responder consultas en tiempo real incrementará su participación en la plataforma. <br>
+  **Sabremos que hemos tenido éxito** <br>
+  **Cuando veamos** que el 70% de las agencias registradas actualizan su catálogo semanalmente y responden a consultas en menos de 2 horas durante los primeros 3 meses.
+
+- **Creemos que** eliminar intermediarios y ofrecer precios directos mejorará la rentabilidad de las agencias locales. <br>
+  **Sabremos que hemos tenido éxito** <br>
+  **Cuando veamos** un aumento del 25% en la renovación de contratos anuales con agencias locales y una reducción del 15% en quejas por precios elevados en el primer año.
+
+- **Creemos que** la integración de reseñas verificadas y fotos reales de experiencias aumentará la confianza de los viajeros en las agencias locales. <br>
+  **Sabremos que hemos tenido éxito** <br>
+  **Cuando veamos** un aumento del 30% en las reservas de agencias con al menos 10 reseñas positivas durante el primer trimestre de uso.
+
+#### 1.2.2.4. Lean UX Canvas
+
+
+
+## 1.3. Segmentos Objetivos
+**Segmento #1: Turistas** <br>
+Este segmento está conformado por viajeros que buscan experiencias únicas y adaptadas a sus intereses y presupuestos. Se dirigen tanto a jóvenes aventureros como a familias y profesionales que desean descubrir destinos novedosos y actividades locales.
+- Aspectos demográficos:
+  - Sexo: Masculino y femenino
+  - Edades: Entre 18 y 65 años
+- Aspectos psicográficos:
+  - Motivaciones: Vivir experiencias auténticas, apoyar el turismo local, evitar intermediarios innecesarios y optimizar su tiempo en la planificación.
+  - Intereses: Turismo responsable, culturas locales, aventura, gastronomía típica y actividades fuera de lo convencional.
+  - Comportamiento: Investigan opciones antes de reservar, comparan precios y valoran reseñas reales. Prefieren plataformas intuitivas que les permitan filtrar por preferencias específicas como duración, presupuesto, tipo de viaje, etc.
+
+**Segmento #2: Agencias de Turismo** <br>
+Este segmento agrupa a aquellas agencias y operadores turísticos que buscan ampliar su alcance y optimizar la gestión de sus servicios a través de canales digitales. Incluyen tanto pequeñas empresas emergentes como agencias consolidadas que desean modernizar sus procesos y alcanzar a un público más amplio mediante la reserva en tiempo real.
+- Aspectos demográficos:
+  - Tipo de negocio: Pequeñas y medianas agencias de turismo, y guías independientes.
+  - Ubicación: Destinos turísticos con enfoque en experiencias culturales, ecológicas o de aventura.
+- Aspectos psicográficos:
+  - Motivaciones: Digitalizar su negocio, aumentar reservas directas, reducir costos de intermediación y fidelizar clientes mediante experiencias memorables.
+  - Intereses: Innovación en turismo, marketing digital, sostenibilidad y herramientas que simplifiquen la gestión de reservas y consultas.
+  - Comportamiento: Activos en redes sociales, dispuestos a adoptar tecnología accesible y con interés en destacar su propuesta de valor.
