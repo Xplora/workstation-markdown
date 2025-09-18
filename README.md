@@ -383,7 +383,7 @@ Hemos identificado un factor crítico que afecta tanto a viajeros como a agencia
 
 #### 1.2.2.4. Lean UX Canvas
 
-
+![Flujo de Viajes por Turismo Interno](./img/Flujo-de-Viajes-por-Turismo-Interno.png)
 
 ## 1.3. Segmentos Objetivos
 **Segmento #1: Turistas** <br>
@@ -405,3 +405,282 @@ Este segmento agrupa a aquellas agencias y operadores turísticos que buscan amp
   - Motivaciones: Digitalizar su negocio, aumentar reservas directas, reducir costos de intermediación y fidelizar clientes mediante experiencias memorables.
   - Intereses: Innovación en turismo, marketing digital, sostenibilidad y herramientas que simplifiquen la gestión de reservas y consultas.
   - Comportamiento: Activos en redes sociales, dispuestos a adoptar tecnología accesible y con interés en destacar su propuesta de valor.
+
+
+# Capítulo 2: Requirements Eliciation & Analysis
+## 2.1. Competidores
+### 2.1.1. Análisis competitivo
+**¿Por qué llevar a cabo este análisis?**  
+    Este análisis permite entender el entorno competitivo en el que TripMatch operará, identificar las fortalezas y debilidades de plataformas similares a nivel local e internacional, y delinear estrategias efectivas para posicionar a Turisnap como una solución confiable y diferenciada para el turismo personalizado y responsable.
+
+| **Categoría** | **TripMatch**<br>![TripMatch Logo](./img/logo-TripMatch.png) | **Withlocals**<br>![Withlocals Logo](./img/withlocals-logo.png) | **ToursByLocals**<br>![ToursByLocals Logo](./img/toursbylocals-logo.png) | **Showaround**<br>![Showaround Logo](./img/showaround-logo.png) |
+|---------------|------------------|-------------------|----------------------|----------------------|
+| **Overview** | Plataforma digital que conecta turistas con agencias locales para experiencias personalizadas. | Conecta viajeros con anfitriones locales para tours privados. | Tours privados guiados por expertos locales. | Recorridos personalizados con locales en su ciudad. |
+| **Ventaja competitiva** | Filtros por tipo de viaje, presupuesto, duración; reservas instantáneas; soporte a agencias locales. | Experiencias privadas y auténticas en ciudades populares. | Personalización de itinerarios con guías especializados. | Perspectiva local auténtica para conocer la ciudad como residente. |
+| **Mercado objetivo** | Viajeros que buscan autenticidad y agencias que desean digitalizarse. | Viajeros interesados en cultura local y experiencias no masificadas. | Turistas con alto presupuesto que buscan experiencias exclusivas. | Millennials y Gen Z viajeros espontáneos. |
+| **Estrategias de marketing** | Alianzas con blogs de viaje, redes sociales, posicionamiento SEO en turismo peruano. | Marketing de influencers, presencia en redes, contenido en video. | Posicionamiento premium, campañas dirigidas a mercados maduros. | Promoción directa en Instagram y TikTok. |
+| **Productos & Servicios** | Buscador por intereses, chat con agencias, reseñas, pagos online. | Tours guiados 1:1, personalizables. | Itinerarios custom, filtros por estilo de viaje. | Recorridos casuales, flexibles y sociales. |
+| **Precios & Costos** | Comisión por transacción (microtransacciones), acceso freemium para agencias. | Precio por experiencia, sin comisiones intermedias. | Tarifa fija por guía, orientado a turismo premium. | Precios negociados directamente con los locales. |
+| **Canales de distribución** | Aplicación móvil y plataforma web | Web y app móvil. | Web y app. | App y sitio móvil social. |
+| **Fortalezas** | Enfoque local, flexibilidad, apoyo a pymes, interfaz intuitiva. | Autenticidad, enfoque humano. | Alta calidad y seguridad en el servicio. | Espontaneidad, enfoque juvenil. |
+| **Debilidades** | Plataforma nueva, sin marca reconocida aún. | Limitado a ciertas ciudades. | Costos altos | **Oportunidades** | Crecimiento del turismo interno y de experiencias locales. | Tendencia al turismo responsable. | Viajeros de lujo que buscan experiencias únicas. | Mayor uso de apps sociales de viaje. |
+| **Amenazas** | Alta competencia y presencia de marcas globales. | Escalabilidad limitada por modelo 1:1. | Barrera de acceso por costos. | Riesgos de seguridad para el usuario. |
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+ TripMatch debe posicionarse como una alternativa local, accesible, confiable y especializada en conectar a viajeros con agencias peruanas. A continuación, se detallan estrategias para competir frente a las fortalezas de plataformas globales, aprovechar debilidades del mercado y mitigar amenazas.
+
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+ TripMatch debe posicionarse como una alternativa local, accesible, confiable y especializada en conectar a viajeros con agencias peruanas. A continuación, se detallan estrategias para competir frente a las fortalezas de plataformas globales, aprovechar debilidades del mercado y mitigar amenazas.
+
+#### Frente a las fortalezas de los competidores
+
+| **Fortalezas de los competidores** | **Estrategias de TripMatch** |
+|-----------------------------------|-------------------------------|
+| Withlocals ofrece tours íntimos y personalizados. | Reforzar alianzas con agencias locales para experiencias culturales en zonas menos exploradas. |
+| ToursByLocals tiene alta reputación y seguridad. | Incorporar validación de identidad, garantías y sistema de soporte proactivo. |
+| Showaround apela al contacto informal entre viajeros y locales. | Crear perfiles verificados para guías y filtros por estilo de viaje para personalización real. |
+
+#### Frente a las debilidades de los competidores
+
+| **Debilidades de los competidores** | **Tácticas de TripMatch** |
+|------------------------------------|-------------------------------|
+| Withlocals está limitado a ciudades grandes. | Enfocarse en destinos emergentes y rurales dentro del Perú. |
+| ToursByLocals tiene precios elevados. | Ofrecer experiencias de calidad a precios accesibles gracias a la eliminación de intermediarios. |
+| Showaround carece de control de calidad. | Sistema de reputación, verificación de agencias y reseñas verificadas. |
+
+#### Aprovechamiento de oportunidades del entorno
+
+| **Oportunidades del entorno** | **Estrategias para capitalizarlas** |
+|-------------------------------|------------------------------------|
+| Creciente interés en el turismo responsable. | Promover experiencias sostenibles y apoyar económicamente a comunidades locales. |
+| Mayor uso de herramientas digitales para planificar viajes. | Optimizar UX de TripMatch para dispositivos móviles y ofrecer recomendaciones inteligentes. |
+
+#### Mitigación de amenazas del entorno
+
+| **Amenazas externas** | **Tácticas de mitigación** |
+|------------------------|----------------------------|
+| Presencia de plataformas consolidadas. | Posicionar TripMatch como una solución peruana con valor local y enfoque en experiencias genuinas. |
+| Baja confianza en plataformas nuevas. | Transparencia total en tarifas, reseñas verificadas, y garantías de reserva. |
+
+#### Estrategia general
+
+TripMatch se posicionará como una aplicación peruana de turismo responsable y digitalizado, enfocada en conectar viajeros con experiencias auténticas de forma directa y accesible. Su modelo flexible y su enfoque en la experiencia del usuario permitirá escalar en destinos clave del Perú y luego expandirse regionalmente, diferenciándose de competidores globales por su cercanía, confiabilidad y valor cultural.
+
+
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas  
+
+**Preguntas Generales:**  
++ ¿Cuál es tu nombre y a qué te dedicas actualmente?
++ ¿Cuántos años tienes?
+
+**Preguntas Especificas:**   
+  
+Segmento 1: Turistas    
+1. Cuando estás organizando un viaje, ¿qué tan fácil te resulta encontrar actividades o experiencias que realmente se alineen a tus intereses y presupuesto?
+2. ¿Qué problemas sueles encontrar cuando buscas y reservas actividades turísticas online?
+3. ¿Alguna vez has querido contratar un tour o actividad local y no supiste cómo contactarte con alguien confiable? ¿Qué hiciste en ese caso?
+4. ¿Qué tan dispuesto estás a descubrir actividades nuevas durante tu viaje, que no estaban en tu plan original?
+5. ¿Te gustaría poder encontrar experiencias personalizadas en una sola app, según tus intereses y reservar directamente con agencias locales? ¿Por qué?
+6. ¿Qué haría que confíes en una app que te conecta con operadores locales directamente?
+7. ¿Sientes que las plataformas actuales te dan opciones hechas a medida o más bien paquetes estándar para el turismo masivo? ¿Qué te gustaría que cambie?
+   
+Segmento 2: Agencias de Turismo  
+1. ¿Cómo te das a conocer actualmente ante nuevos clientes?
+2. ¿Qué tan fácil o difícil es para ti atraer turistas independientes sin intermediarios?
+3. ¿Qué herramientas digitales utilizas actualmente para gestionar reservas o promocionar tus servicios?
+4. ¿Has tenido problemas para digitalizar algunos aspectos de tu operación? ¿Cuáles?
+5. ¿Qué desafíos enfrentas al competir con grandes agencias o plataformas conocidas?
+6. ¿Te interesaría una plataforma que permita mostrar tus tours a turistas según sus intereses específicos y que puedan reservar directamente contigo? ¿Por qué?
+7. ¿Qué características serían imprescindibles para ti en una plataforma como TripMatch?
+8. ¿Cómo manejas actualmente las consultas y reservas de último minuto? ¿Sientes que necesitas automatizar eso?
+9. ¿Qué beneficios esperarías obtener al usar una plataforma que conecte directamente agencias locales con viajeros sin tantos intermediarios?
+
+### 2.2.2. Registro de entrevistas
+
+> Segmento 1: Turistas
+<div align="center">
+
+| Nº Entrevista | Datos del entrevistado                                                                                                                                                                | Resumen de la entrevista                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Evidencia de entrevista                          |
+|---------------|---------------|-------------------|--------------|
+| 1             | - **Nombre:**  <br> - **Edad:**  <br> - **Distrito:**  <br> - **Link:** [Entrevista 1: Karla Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EacDNvV_oulFoz4vMVU_BT8BSuGGmomw0ULMWN7Nf8dMKg?e=LBQ57A) |                  | ![Entrevista 1](./assets/img/Entrevista%201%20-%20Turistas%20(Karla%20Rojas).png) |
+| 2             | - **Nombre:** Leslie Vanessa Quispe <br> - **Edad:** 22 años <br> - **Distrito:** Pachacútec – Ica <br> - **Link:** [Entrevista 2: Leslie Vanessa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219481_upc_edu_pe/ER9uSjjYeUpAlCGDYI6ikEUBMF_SZ3xek6ePFchu92xoNg?e=KnUET1) | Leslie, joven viajera, enfrenta dificultades por precios altos y reseñas dudosas. Desea una app como TripMatch con precios claros, reseñas reales y conexión directa con operadores locales. Valora la autenticidad y personalización de las experiencias. Está motivada a apoyar el turismo local mediante plataformas confiables.                                                                                                                   | ![Entrevista 2](./assets/img/entrevista-turista-leslie.png) |
+| 3             | - **Nombre:** Kevin Vargas <br> - **Edad:** 24 años <br> - **Distrito:** La Molina <br> - **Link:** [Entrevista 3: Kevin Vargas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g671_upc_edu_pe/EZejm6seAVdMvwuToOcx1xgB1scDFPDb0jd3zL9AoQ1BkA?e=upGl44) | Kevin, ingeniero mecatrónico, considera complicado encontrar actividades turísticas personalizadas y confiables. Le interesa una app como TripMatch con recomendaciones reales, multimedia y validaciones. Critica que las plataformas actuales promueven turismo masivo y sugiere integrar pequeños operadores que ofrezcan experiencias auténticas adaptadas a cada viajero.                                                              | ![Entrevista 3](./assets/img/Entrevista%203%20-%20Turistas%20(Kevin%20Vargas).png) |
+
+</div>
+
+  #### Resumen de entrevistas  segmento #1
+
+
+
+>Segmento 2: Agencias de Turismo
+
+<div align="center">
+
+| Nº Entrevista | Datos del entrevistado  | Resumen de la entrevista     | Evidencia de entrevista                      |
+|---------------|-----------------------------------|-------------------------------|----------------|
+| 1             | - **Nombre:** Hector Rios<br> - **Edad:** 21 años <br> - **Distrito:** Callao <br> - **Link:** [Entrevista 1: Hector Rios](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c505_upc_edu_pe/ESihRhLiTBVLq0ad9GJZNLIBJlhryUpCkoy-bTxl4qobxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RDjmxY) | Héctor Ríos, representante de agencia de turismo, indica que se promocionan sobre todo por redes sociales y recomendaciones, aunque atraer turistas independientes sin intermediarios es difícil. Menciona desorden en la gestión de información y clientes como reto para digitalizarse. Valora una app como TripMatch por la posibilidad de recibir reservas directas, organizar mejor sus servicios y generar confianza con reseñas verificadas.| ![Entrevista 1: Evidencia](./img/Entrevista%20Hector%20Rios.png) |
+| 2             | - **Nombre:** Jose Sosa <br> - **Edad:** 22 años <br> - **Distrito:** Los Olivos <br> - **Agencia:** Travel Perú <br> - **Link:** [Entrevista 2: Jose Sosa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316057_upc_edu_pe/EYVl_NJV4VNGtS-3XhPGVhIBLR2bjWAxQK1Iz8K4b-xVyQ?e=RlInAd) | José es dueño de una pequeña agencia que depende de redes sociales, posicionamiento en Google y alianzas con hoteles. Los principales problemas son la falta de reservas directas, el manejo disperso de herramientas y limitaciones en pagos en línea. Ve en TripMatch una solución útil para mostrar sus tours, automatizar reservas y mejorar la conexión directa con turistas sin intermediarios, lo que aumentaría sus ingresos y visibilidad. | ![Entrevista 2: Evidencia](./assets/img/entrevista-agencias-jose.png) |
+| 3             | - **Nombre:** Carlos Puma <br> - **Edad:** 23 años <br> - **Departamento:** Cusco <br> - **Agencia:** Local Trekkers Perú <br> - **Link:** [Entrevista 3: Carlos Puma](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/Efa3TJjWZ0tOqBBYaxlHYjoBWM9G087BxQmRgo7UQcteBw?e=iYPsIk) | Carlos, asistente en Local Trekkers Perú, señala que usan Instagram, su web y TripAdvisor para captar clientes, aunque les cuesta atraer turistas independientes. Enfrentan problemas operativos como desorganización en canales de contacto y escasa visibilidad frente a plataformas grandes. Desea una app como TripMatch que centralice reservas, tenga diseño visual atractivo, mensajería básica, filtros por intereses y permita destacar experiencias auténticas de operadores locales. | ![Entrevista 3: Evidencia](./assets/img/entrevista-carlos.png) |
+
+</div>
+
+#### Resumen de entrevistas  segmento #2
+
+
+### 2.2.3. Análisis de entrevistas
+#### SEGMENTO 1: Turistas
+
+Este segmento está compuesto por tres jóvenes entre 19 y 24 años que viajan en grupo, tienen un perfil digital activo y buscan experiencias auténticas y accesibles. Todos han expresado frustraciones con plataformas tradicionales y un fuerte deseo por soluciones más personalizadas y seguras.
+
+**Principales características comunes:**
+
+- 100% tiene entre 19 y 24 años.
+- 100% suele viajar acompañado (grupo o amigos).
+- 100% ha tenido dificultades para encontrar experiencias alineadas a sus intereses y presupuesto.
+- 66.7% ha tenido problemas para contactar operadores confiables sin intermediarios.
+- 100% utiliza medios digitales para informarse y reservar (reseñas, apps, plataformas web).
+- 100% expresa desconfianza hacia plataformas turísticas tradicionales (reseñas falsas, fotos engañosas, poca transparencia).
+- 100% muestra disposición a descubrir actividades no planificadas durante sus viajes.
+- 100% valora una app como TripMatch, que permita personalización, contacto directo y reseñas verificadas.
+- 66.7% critica que las plataformas actuales ofrecen paquetes estandarizados que no responden a sus intereses reales.
+
+**Gráfico de resultados:**
+
+![Características Segmento 1 - Turistas](./assets/img/grafico-estadistico-segmento1.png)
+
+**Análisis del gráfico:**
+
+El gráfico refleja una marcada homogeneidad en las necesidades de los turistas jóvenes: prefieren experiencias personalizadas, tienen altos niveles de autonomía digital y desconfían de las plataformas tradicionales. La falta de contacto directo con agencias locales y la estandarización de los paquetes turísticos son frustraciones claves. Este segmento representa una oportunidad clara para TripMatch de posicionarse como una app auténtica, transparente y centrada en el usuario.
+
+---
+
+#### SEGMENTO 2: Agencias de Turismo
+
+Este segmento agrupa a tres representantes de agencias turísticas peruanas que enfrentan barreras en el entorno digital dominado por grandes plataformas. Todos buscan herramientas que les permitan automatizar procesos, conectarse directamente con turistas y visibilizar su propuesta auténtica.
+
+**Principales características comunes:**
+
+- 100% usa redes sociales como canal principal de promoción (Instagram, Facebook, TikTok).
+- 100% encuentra difícil captar turistas sin intermediarios.
+- 100% emplea herramientas digitales dispersas (WhatsApp, Google Forms, Mailchimp).
+- 100% menciona problemas para gestionar pagos online y disponibilidad en tiempo real.
+- 100% atiende consultas por WhatsApp manualmente (sin automatización).
+- 100% destaca la atención personalizada como su mayor diferencial competitivo.
+- 100% considera valiosa una app como TripMatch para reservas directas, filtros por intereses, contenido visual y reseñas reales.
+- 100% desea automatizar procesos básicos como confirmaciones, disponibilidad y consultas.
+- 100% indica que las plataformas actuales reducen su visibilidad y no permiten mostrar el verdadero valor de sus servicios.
+
+**Gráfico de resultados:**
+
+![Características Segmento 2 - Agencias](./assets/img/grafico-estadistico-segmento2.png)
+
+**Análisis del gráfico:**
+
+Las agencias entrevistadas comparten limitaciones tecnológicas similares: falta de integración, baja visibilidad y dependencia de canales manuales. La atención personalizada es su ventaja competitiva, pero requiere herramientas que potencien su alcance sin intermediarios. La propuesta de TripMatch les permitiría automatizar tareas repetitivas, centralizar operaciones y fortalecer su relación directa con los turistas, resaltando su autenticidad en un entorno más justo.
+
+
+## 2.3. Needfinding
+### 2.3.1. User Personas
+>Segmento 1: Turistas
+
+![user persona 1 - segmento 1](./assets/img/User%20Persona-%20Segmento%201.png)
+
+>Segmento 2: Agencias de Turismo
+
+![user persona 1 - segmento 1](./assets/img/User%20Persona-%20Segmento%202.png)
+
+### 2.3.2. User Task Matrix  
+
+>Segmento 1: Turistas
+
+|Tarea| Frecuencia| Importancia|
+|-----|-----------|-------------|
+|Buscar experiencias de viaje alineadas a sus intereses y presupuesto| Often|	High|
+|Comparar actividades entre distintas agencias antes de tomar una decisión|	Often|	High|
+Leer reseñas de otros viajeros sobre paquetes turísticos|	Often|	High|
+Reservar paquetes directamente desde la plataforma|	Occasionally	|High|
+Contactar a la agencia para resolver dudas antes de reservar	|Sometimes	|Medium|
+Compartir su experiencia dejando una reseña	|Occasionally	|Medium|
+
+>Segmento 2: Agencias de Turismo
+
+|Tarea| Frecuencia| Importancia|
+|-----|-----------|-------------|
+Publicar nuevos paquetes turísticos y actualizarlos	|Often	|High|
+Gestionar reservas en tiempo real |	Often	|High|
+Responder dudas y mensajes de potenciales clientes	|Often	|High|
+Revisar estadísticas sobre visualización y reservas de sus servicios	|Sometimes|	Medium|
+Gestionar promociones y descuentos especiales	|Occasionally	|Medium|
+Leer y responder reseñas de usuarios sobre sus servicios	|Occasionally	|Medium|
+Explorar tendencias en tipos de experiencias populares	|Rarely	|Medium|  
+
+### 2.3.3. User Journey Mapping  
+
+>Segmento 1: Turistas
+
+![user journey map - segmento 1](./img/User%20journey%20map-%20Segmento%201.png)
+
+>Segmento 2: Agencias de Turismo
+
+![user journey map - segmento 2](./img/User%20journey%20map-%20Segmento%202.png)
+
+
+### 2.3.4. Empathy Mapping    
+
+>Segmento 1: Turistas  
+
+![Empathy map- segmento 1](./img/Empathy%20map-%20Segmento%201.png)
+
+>Segmento 2: Agencias de Turismo  
+
+![Empathy map - segmento 2](./img/Empathy%20map%20-%20Segmento%202.png)
+
+
+
+### 2.3.5. As-Is Scenario Mapping  
+
+>Segmento 1: Turistas
+
+![AS-IS - segmento 1](./img/AS-IS%20-%20Segmento%201.jpg)
+
+>Segmento 2: Agencias de Turismo
+
+![AS-IS - segmento 2](./img/AS-IS-%20Segmento%202.jpg)
+
+
+
+## 2.4. Ubiquitous Language  
+Este glosario representa los conceptos clave que definen nuestro dominio turístico. Su propósito es establecer un lenguaje común entre todos los miembros del equipo y partes interesadas, eliminando ambigüedades y asegurando que todos hablemos el mismo idioma al momento de diseñar, construir y validar nuestra solución.   
+
+
+| Término | Definición |
+| ------- | ------- |
+| Traveler (Viajero) | Persona que utiliza la plataforma para descubrir, filtrar y reservar experiencias turísticas de acuerdo a sus intereses, presupuesto y tiempo disponible. | 
+| Experience (Experiencia Turística) | Actividad organizada por una agencia, ofrecida en la plataforma, que puede incluir desde recorridos culturales hasta aventuras al aire libre. | 
+| Agency (Agencia) | Empresa turística que publica y gestiona sus experiencias a través de la plataforma, ofreciendo disponibilidad, precios y descripciones. | 
+| Booking | Proceso mediante el cual el viajero contrata una experiencia directamente con la agencia, sin pasar por intermediarios externos. | 
+| Tourist Profile | Proceso mediante el cual el viajero contrata una experiencia directamente con la agencia, sin pasar por intermediarios externos. | 
+| Review (Reseña) | Opinión publicada por un viajero después de realizar una experiencia. Las reseñas ayudan a otros viajeros a tomar decisiones basadas en experiencias reales. |  
+
+# Capítulo 3: Requirements Specifications
+
+### 3.1 To-Be Scenario Mapping  
+
+>Segmento 1: Turistas
+
+![TO-BE - segmento 1](./img/TO-BE%20-%20Segmento%201.jpg)
+
+>Segmento 2: Agencias de Turismo
+
+![TO-BE - segmento 2](./img/TO-BE%20-%20Segmento%202.jpg)
+
+
+## 3.2. User Stories
+
+
+
+
+
+
