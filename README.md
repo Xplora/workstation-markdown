@@ -2017,14 +2017,14 @@ El bounded context **Inquiry** gestiona el ciclo de vida de **preguntas** realiz
 ---
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams 
 
-![Componet - inquiry](./img/cOMPONENT-Inquiry.png) 
+<img src="img/inquiryDg.png">
+
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams  
 #### 2.6.5.6.1 Bounded Context Domain Layer Class Diagrams  
 
 El diagrama presenta el agregado Inquiry con sus atributos y métodos de validación y desactivación y su relación uno a cero o uno con Response con validación de respuesta. Incluye los puertos IInquiryRepository y IResponseRepository para persistencia. Muestra el servicio IExperienceOwnershipService para verificar que quien responde sea dueño de la experiencia.
 
 ![Diagrama de clases - inquiry](./img/diagrama-de-clases_inquiry.png) 
-
 
 #### 2.6.5.6.2 Bounded Context Database Design Diagram   
 
@@ -2191,6 +2191,9 @@ La tabla principal Review almacena la calificación, comentario y fecha, relacio
 
 
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams 
+
+<img src="img/reviewDg.png">
+
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams  
 #### 2.6.6.6.1 Bounded Context Domain Layer Class Diagrams  
 El diagrama modela el agregado Review con campos de usuario turista, agencia, calificación, comentario, fecha y auditoría. Muestra asociaciones donde muchas reseñas pertenecen a un User y a una Agency. Incluye el puerto IReviewRepository para crear y consultar reseñas y refleja la unicidad por par turista agencia y manejo de tiempos en UTC.
