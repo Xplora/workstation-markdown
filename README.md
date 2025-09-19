@@ -982,6 +982,7 @@ String generateAccessToke(...): Crea y firma un JWT para autenticación
 
 
 #### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams  
+El diagrama modela la autenticación y seguridad con IAuthService que orquesta SignUpCommand y SignInCommand y retorna un User creado o un AuthResult. ITokenService genera el token a partir de User. Los tipos User, Tourist y Agency se tratan como externos del contexto Users y las dependencias reflejan el flujo de credenciales y emisión de token.
 
 <img src="img/iamclssdrm.webp">
 
@@ -1158,6 +1159,10 @@ En la capa de Infrastructure Layer, se encuentran los repositorios que permiten 
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams  
 #### 2.6.2.6.1 Bounded Context Domain Layer Class Diagrams  
+El diagrama presenta al agregado User con sus atributos y la composición de los perfiles Agency y Tourist en relación uno a uno por usuario. Incluye el puerto IUserRepository para persistencia y consulta y la enumeración Role. Las multiplicidades indican que cada usuario puede tener perfil de agencia y/o de turista con campos de auditoría.
+
+![Diagrama clases - profile ](./img/diagrama-de-clases_profile.png)
+
 #### 2.6.2.6.2 Bounded Context Database Design Diagram 
 
 
@@ -1262,7 +1267,9 @@ Este bounded context centraliza la gestión de los pagos en distintos viajes que
 
 #### 2.2.3.6. Bounded Context Software Architecture Code Level Diagrams  
 #### 2.2.3.6.1 Bounded Context Domain Layer Class Diagrams  
-#### 2.2.3.6.2 Bounded Context Database Design Diagram 
+El diagrama muestra el agregado Arm con sus atributos y reglas para confirmar, completar y cancelar. Incluye el puerto IBookingRepository, el enum BookingStatus y las dependencias hacia Users y Experiences como tipos externos. Las asociaciones indican que múltiples reservas pertenecen a un User turista, a una Agency y a una Experience, con estados y auditoría.
+
+![Diagrama de clases - ARM ](./img/diagrama-de-clases_arm.png) 
 
 #### 2.2.3.6.2 Bounded Context Database Design Diagram   
 
@@ -1488,9 +1495,9 @@ Hereda los métodos de BaseRepository<Category> para operaciones CRUD estándar.
 
 
 #### 2.6.4.6.1 Bounded Context Domain Layer Class Diagrams  
+El diagrama describe el agregado Dap con operaciones para añadir imágenes, incluidos y horarios y para actualizar datos principales. Compone las entidades ExperienceImage, Include y Schedule en relación uno a muchos, pertenece a una Category y está publicada por una Agency como tipo externo. Incluye los puertos IExperienceRepository e ICategoryRepository para consulta y persistencia.
 
-
-#### 2.6.4.6.2 Bounded Context Database Design Diagram 
+![Diagrama de clases - dap](./img/diagrama-de-clases_dap.png) 
 
 #### 2.6.4.6.2 Bounded Context Database Design Diagram  
 
@@ -1715,6 +1722,11 @@ El bounded context **Inquiry** gestiona el ciclo de vida de **preguntas** realiz
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams  
 #### 2.6.5.6.1 Bounded Context Domain Layer Class Diagrams  
+
+El diagrama presenta el agregado Inquiry con sus atributos y métodos de validación y desactivación y su relación uno a cero o uno con Response con validación de respuesta. Incluye los puertos IInquiryRepository y IResponseRepository para persistencia. Muestra el servicio IExperienceOwnershipService para verificar que quien responde sea dueño de la experiencia.
+
+![Diagrama de clases - inquiry](./img/diagrama-de-clases_inquiry.png) 
+
 #### 2.6.5.6.2 Bounded Context Database Design Diagram 
 #### 2.6.5.6.2 Bounded Context Database Design Diagram   
 
@@ -1883,6 +1895,10 @@ La tabla principal Review almacena la calificación, comentario y fecha, relacio
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams 
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams  
 #### 2.6.6.6.1 Bounded Context Domain Layer Class Diagrams  
+El diagrama modela el agregado Review con campos de usuario turista, agencia, calificación, comentario, fecha y auditoría. Muestra asociaciones donde muchas reseñas pertenecen a un User y a una Agency. Incluye el puerto IReviewRepository para crear y consultar reseñas y refleja la unicidad por par turista agencia y manejo de tiempos en UTC.
+
+![Diagrama de clases - Review ](./img/diagrama-de-clases_reviews.png) 
+
 #### 2.6.6.6.2 Bounded Context Database Design Diagram   
 Este diagrama de base de datos corresponde al bounded context Review, cuya finalidad es gestionar las reseñas realizadas por los turistas hacia las agencias.
 La tabla principal Review almacena la calificación, comentario y fecha, relacionando al Tourist (quien emite la reseña) con la Agency (quien la recibe).
