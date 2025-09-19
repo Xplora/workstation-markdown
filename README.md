@@ -1387,4 +1387,215 @@ Hereda los métodos de BaseRepository<Category> para operaciones CRUD estándar.
 
 
 #### 2.6.4.6.2 Bounded Context Database Design Diagram 
+# 2.6.5. Bounded Context: **Inquiry**
 
+El bounded context **Inquiry** gestiona el ciclo de vida de **preguntas** realizadas por usuarios sobre experiencias turísticas y sus **respuestas** oficiales por parte del prestador/agencia dueña de la experiencia. Su foco es: registro de preguntas, **unicidad** de respuesta por pregunta, **validación de actores** y **auditoría** (fechas/estado).
+
+---
+
+## 2.6.5.1. Domain Layer
+
+### 1) Visión general
+
+| Objetivo del dominio | Reglas clave |
+| :-- | :-- |
+| Permitir que un usuario consulte detalles de una experiencia y que el **dueño** de la experiencia responda de forma oficial. | (1) Una **Inquiry** tiene **máximo una** `Response`. (2) Solo el **dueño/agencia** de la experiencia puede responder. (3) Validar existencia de `Experience`/usuarios (en otros BC). (4) Saneamiento de texto y límites de longitud. (5) Tiempos en **UTC** y campos auditables. |
+
+---
+
+### 2) Clases del dominio (diccionario)
+
+> **Aggregate: Inquiry**
+
+| Nombre | Categoría | Descripción |
+| :-- | :-- | :-- |
+| Inquiry | **Aggregate Root** | Pregunta realizada por un usuario sobre una experiencia. Controla la integridad del agregado: 0..1 Response. |
+
+**Atributos – `Inquiry`**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| :-- | :-- | :-- | :-- |
+| Id | int | Public | Identificador único (PK). |
+| ExperienceId | int` | Public | Id lógico de la experiencia (FK hacia BC Experience). |
+| UserId | Guid | Public | Usuario que pregunta. |
+| Question | string (<=500) | Public | Texto de la pregunta (saneado). |
+| AskedAt | DateTime (UTC) | Public | Fecha/hora en UTC. |
+| IsActive | bool | Public | Soft-delete. |
+| CreatedDate | DateTime (UTC) | Public | Auditoría de creación. |
+| Response | Response? | Public | Navegación 0..1 hacia la respuesta. |
+
+**Métodos / Reglas – Inquir`**
+
+| Nombre | Retorno | Visibilidad | Descripción |
+| :-- | :-- | :-- | :-- |
+| ValidateQuestion() | void | Public | Verifica longitud, vacíos y contenido prohibido (tags/URLs). |
+| Deactivate() | void | Public | Desactiva (soft delete) preservando historial. |
+
+> **Entity: Response**
+
+| Nombre | Categoría | Descripción |
+| :-- | :-- | :-- |
+| Response | **Entity (del agregado)** | Respuesta oficial a una Inquiry. Unicidad por InquiryId. |
+
+**Atributos – Response**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| :-- | :-- | :-- | :-- |
+| Id` | int | Public | Identificador único (PK). |
+| InquiryId` | int | Public | FK hacia Inquiry (**UK** para unicidad 1:1). |
+| ResponderId` | Guid | Public | Usuario de la agencia que responde. |
+| Answer` | string (<=500) | Public | Contenido de la respuesta (saneado). |
+| AnsweredAt` | DateTime (UTC) | Public | Fecha/hora en UTC. |
+| IsActive` | bool | Public | Soft-delete. |
+| CreatedDate` | DateTime (UTC) | Public | Auditoría de creación. |
+| Inquiry` | Inquiry | Public | Navegación inversa 1:1. |
+
+**Métodos / Reglas – `Response`**
+
+| Nombre | Retorno | Visibilidad | Descripción |
+| :-- | :-- | :-- | :-- |
+| ValidateAnswer() | void | Public | Verifica longitud, vacíos y contenido prohibido (tags/URLs). |
+
+> **Aggregate & Invariante**
+
+| Root | Miembros | Invariante |
+| :-- | :-- | :-- |
+| Inquiry | Inquiry (root) + Response (0..1) | **Una sola** Response por Inquiry (enforced por **UK** en Responses.InquiryId). |
+
+> **Value Objects (opcional futuro)**
+
+| Nombre | Motivo |
+| :-- | :-- |
+| QuestionText, AnswerText | Encapsular saneamiento/longitud y reglas de formato. |
+
+> **Domain Services (abstracciones)**
+
+| Interfaz | Responsabilidad | Notas |
+| :-- | :-- | :-- |
+| IExperienceOwnershipService | Verificar si ResponderId **es dueño** de ExperienceId. | Llama a BC/servicio externo (IAM/Experiences). |
+
+> **Repositorios (interfaces / puertos)**
+
+| Interfaz | Métodos clave |
+| :-- | :-- |
+| IInquiryRepository | FindByIdAsync(int), ListAsync(int? experienceId, int page=1, int pageSize=20), AddAsync(Inquiry), SaveChangesAsync() |
+| IResponseRepository| FindByInquiryIdAsync(int), AddAsync(Response), SaveChangesAsync() |
+
+---
+
+## 2.6.5.2. Interface Layer
+
+> **Controllers (REST)**
+
+| Controller | Endpoints | Descripción |
+| :-- | :-- | :-- |
+| InquiryController | POST /api/v1/inquiries | Crea pregunta. |
+|  | GET /api/v1/inquiries | Lista paginada de preguntas. |
+|  | GET /api/v1/experiences/{experienceId}/inquiries | Lista preguntas por experiencia (paginada). |
+| ResponseController | POST /api/v1/inquiries/{inquiryId}/response | Crea respuesta para una Inquiry. |
+|  | GET /api/v1/inquiries/{inquiryId}/response | Obtiene la respuesta de una Inquiry. |
+
+> **Contracts (DTOs)**
+
+**Requests**
+
+| DTO | Campos |
+| :-- | :-- |
+| CreateInquiryRequest | { ExperienceId:int, UserId:Guid, Question:string, AskedAt?:DateTime } |
+| CreateResponseRequest |{ ResponderId:Guid, Answer:string, AnsweredAt?:DateTime } |
+
+**Resources (Responses DTO)**
+
+| DTO | Campos |
+| :-- | :-- |
+| InquiryResource | { Id, ExperienceId, UserId, Question, AskedAt } |
+| ResponseResource | { Id, InquiryId, ResponderId, Answer, AnsweredAt } |
+
+**Policies**
+
+| Política | Detalle |
+| :-- | :-- |
+| Autenticación | Requerida para crear preguntas y responder. |
+| Autorización | En POST response: ResponderId **debe ser dueño** de ExperienceId (vía IExperienceOwnershipService). |
+
+---
+
+## 2.6.5.3. Application Layer
+
+> **Capabilities (casos de uso)**
+
+| # | Capability | Handler |
+| :--: | :-- | :-- |
+| 1 | Registrar pregunta | CreateInquiryHandler |
+| 2 | Listar preguntas | ListInquiriesHandler |
+| 3 | Listar preguntas por experiencia | ListInquiriesByExperienceHandler |
+| 4 | Responder pregunta | CreateResponseHandler |
+| 5 | Obtener respuesta por pregunta | GetResponseByInquiryIdHandler |
+
+> **Commands / Command Handlers**
+
+| Command | Validaciones/Reglas en Handler |
+| :-- | :-- |
+| CreateInquiryCommand { ExperienceId, UserId, Question, AskedAt } | Sanea/valida Question; si AskedAt == null → UtcNow; puede validar existencia de Experience; persiste Inquiry. |
+| CreateResponseCommand { InquiryId, ResponderId, Answer, AnsweredAt } | Verifica Inquiry activa; **si ya existe Response → 409**; valida **propiedad** vía IExperienceOwnershipService; normaliza AnsweredAt; persiste Response. |
+
+> **Queries / Query Handlers**
+
+| Query | Resultado |
+| :-- | :-- |
+| GetAllInquiriesQuery { page, pageSize } | Lista paginada de Inquiry. |
+| GetAllInquiriesByExperienceQuery { ExperienceId, page, pageSize } | Lista paginada por experiencia. |
+| GetResponseByInquiryIdQuery { InquiryId } | Response? de la Inquiry. |
+
+> **Validaciones (Application)**
+
+| Campo | Regla |
+| :-- | :-- |
+| Question, Answer | Requeridos, <= 500, sin HTML/script, Trim(). |
+| Fechas | <= UtcNow. |
+| Ids | ExperienceId > 0, UserId/ResponderId GUID válidos. |
+
+> **Eventos (opcional)**
+
+| Evento | Uso |
+| :-- | :-- |
+| InquiryCreated, ResponseCreated | Notificaciones, métricas, integración con otros BC. |
+
+---
+
+## 2.6.5.4. Infrastructure Layer
+
+> **Persistencia (ORM/SQL – EF Core)**
+
+**Mapeos de tablas**
+
+| Tabla | Columnas principales | Claves / Constraints | Relación |
+| :-- | :-- | :-- | :-- |
+| Inquiries | Id (PK), ExperienceId, UserId, Question(500), AskedAt, IsActive, CreatedDate | Índices: (ExperienceId, AskedAt DESC) | 1 ↔ 0..1 con Responses |
+| Responses | Id (PK), InquiryId (FK, UK), ResponderId, Answer(500), AnsweredAt, IsActive, CreatedDate | **UK** en InquiryId (unicidad 1:1), **FK** → Inquiries.Id con **ON DELETE CASCADE** | 0..1 ↔ 1 con Inquiries |
+
+**Repositorios (Adapters)**
+
+| Implementación | Interfaz | Funcionalidad clave |
+| :-- | :-- | :-- |
+| InquiryRepository | IInquiryRepository | ListAsync con filtros/paginación, FindByIdAsync, AddAsync, SaveChangesAsync (uso de AsNoTracking() en lecturas). |
+| ResponseRepository | IResponseRepository | FindByInquiryIdAsync, AddAsync, SaveChangesAsync (garantiza unicidad por UK). |
+
+**Servicios externos**
+
+| Adapter | Interfaz | Propósito |
+| :-- | :-- | :-- |
+| ExperienceOwnershipService | IExperienceOwnershipService | Verifica propiedad de experiencia (HTTP/GRPC a BC externo). |
+
+**Cross-cutting**
+
+| Aspecto | Detalle |
+| :-- | :-- |
+| Filtro global | Consultas de lectura con IsActive = true (si se configura). |
+| Rendimiento | Paginación, AsNoTracking() en queries, índices por ExperienceId y AskedAt. |
+
+---
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams 
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams  
+#### 2.6.5.6.1 Bounded Context Domain Layer Class Diagrams  
+#### 2.6.5.6.2 Bounded Context Database Design Diagram 
