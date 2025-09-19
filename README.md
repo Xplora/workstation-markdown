@@ -957,7 +957,49 @@ Esta capa es resonsable de la recepción y formato de peticiones(API REST), vali
 |api/profile/user/tourist/{id}|PUT|Actualiza la información de un perfil de la agenia existente|
 
 #### 2.6.2.3. Application Layer 
+
+En la capa de Application Layer se ubican los servicios que contienen la lógica de de perfil para el usurio. 
+
+>**Service 1: UserService**
+
+|Nombre|Categoría|Descripción|
+|-|-|-|
+|UserService|Service|Servicio que coordina la lógica relacionada con la gestión de perfiles de usuario|
+
+**Dependencies**
+
+|Nombre|Tipo de Objeto|Visibilidad|Descripción|
+|-|-|-|-|
+|userRepository|UserRepository|Private|Repositories para la persistencia de información de usuarios 
+
+**Methods**
+
+|Nombre|Tipo de retorno|Visibilidad|Descripción|
+|-|-|-|-|
+|CreateUser|void|Public|Crea un nuevo perfil de usuario|
+|UpdateAgency|void|Public|Actualiza el perfil de usuario con rol de agencia|
+|UpdateTourist|void|Public|Actualiza el perfil de usuario con rol de turista|
+|GetUserById|User|Public|Obtiene un perfil de usuario por su Id|
+
+
 #### 2.6.2.4. Infrastracture Layer 
+
+
+En la capa de Infrastructure Layer, se encuentran los repositorios que permiten la persistencia de las entidades de usuarios y roles en la base de datos.
+
+**UserRepositoryImpl**
+
+|Nombre|Categría|Implementa|Descripción|
+|-|-|-|-|
+|UserRepositoryImpl|Repositorio|UserRepository|Verificar contraseñas de forma segura|
+
+**Funcionalidades clave**
+
+- Busca y carga perfiles de usuario por Id, userId
+- Guarda perfiles 
+- Elimina perfiles de usuario
+- Verifica la existencia de perfiles de usuario
+
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams  
 #### 2.6.2.6.1 Bounded Context Domain Layer Class Diagrams  
