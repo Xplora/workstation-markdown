@@ -639,19 +639,8 @@ Explorar tendencias en tipos de experiencias populares	|Rarely	|Medium|
 
 
 
-### 2.3.5. As-Is Scenario Mapping  
+### 2.3.5. Ubiquitous Language  
 
->Segmento 1: Turistas
-
-![AS-IS - segmento 1](./img/AS-IS%20-%20Segmento%201.jpg)
-
->Segmento 2: Agencias de Turismo
-
-![AS-IS - segmento 2](./img/AS-IS-%20Segmento%202.jpg)
-
-
-
-## 2.4. Ubiquitous Language  
 Este glosario representa los conceptos clave que definen nuestro dominio turístico. Su propósito es establecer un lenguaje común entre todos los miembros del equipo y partes interesadas, eliminando ambigüedades y asegurando que todos hablemos el mismo idioma al momento de diseñar, construir y validar nuestra solución.   
 
 
@@ -664,33 +653,47 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 | Tourist Profile | Proceso mediante el cual el viajero contrata una experiencia directamente con la agencia, sin pasar por intermediarios externos. | 
 | Review (Reseña) | Opinión publicada por un viajero después de realizar una experiencia. Las reseñas ayudan a otros viajeros a tomar decisiones basadas en experiencias reales. |  
 
-# Capítulo 3: Requirements Specifications
 
-### 3.1 To-Be Scenario Mapping  
-
->Segmento 1: Turistas
-
-![TO-BE - segmento 1](./img/TO-BE%20-%20Segmento%201.jpg)
-
->Segmento 2: Agencias de Turismo
-
-![TO-BE - segmento 2](./img/TO-BE%20-%20Segmento%202.jpg)
+## 2.4. Requirements specification  
 
 
-## 3.2. User Stories
-## 3.3. Impact Mapping
-## 3.4. Product Backlog
 
-### Capítulo 4: Solution Software Design 
+### 2.4.1 User Stories 
 
-## 4.1.
 
-## 4.2. Tactical-Level Domain-Driven Desing
-## 4.2.1 Bounded Context : IAM 
+
+### 2.4.2. Impact Mapping  
+
+
+
+
+### 2.4.3. Product Backlog
+
+
+## 2.5. Strategic-Level Domain-Driven Design
+
+
+### 2.5.1. EventStorming
+
+#### 2.5.1.1. Candidate Context Discovery
+#### 2.5.1.2. Domain Message Flows Modeling
+#### 2.5.1.3. Bounded Context Canvases
+
+### 2.5.2. Context Mapping
+
+### 2.5.3. Software Architecture
+
+#### 2.5.3.2. Software Architecture Container Level Diagrams
+#### 2.5.3.1. Software Architecture Context Level Diagrams
+#### 2.5.3.3. Software Architecture Deployment Diagrams
+
+
+## 2.6. Tactical-Level Domain-Driven Desing
+### 2.6.1 Bounded Context : IAM 
 
 Se encarga de gestionar la identidad del usuario, además, controla los permisos de acceso a diversos recusos del sistema. Proporciona servicios de autenticación y autorización de una forma segura 
 
-## 4.2.1.1. Domain Layer 
+#### 2.6.1.1. Domain Layer 
 
 Contiene la lógica de negocio y las entidades principales relacionadas a la identidad. 
 
@@ -759,7 +762,7 @@ Contiene la lógica de negocio y las entidades principales relacionadas a la ide
 |getProfile()|User|Public| Obtiene el perfil del Usuario |
 |getId()|UUID|Public|Obtiene el identificador con el cuál está registrado el usuario|
 
-## 4.2.1.2. Interface Layer 
+#### 2.6.1.2. Interface Layer 
 
 Esta capa es resonsable de la recepción y formato de peticiones(API REST), validación básica del formato y los datos de entrada, manejo de errores a nivel de api.
 
@@ -782,7 +785,7 @@ Esta capa es resonsable de la recepción y formato de peticiones(API REST), vali
 |/api/iam/authentication/sign-in|POST|Registra un nuevo usuario en el sistema|
 |/api/iam/authentication/sign-up|POST|Autentica un usuario con email y contraseña|
 
-## 4.2.1.3. Application Layer 
+#### 2.6.1.3. Application Layer 
 
 En la capa de Application Layer se ubican los servicios que contienen la lógica de negocio relacionada con usuarios y roles.
 
@@ -797,7 +800,7 @@ En la capa de Application Layer se ubican los servicios que contienen la lógica
 - SignInCommand
 - SignUpCommand
 
-## 4.2.1.4. Infrastructure Layer 
+#### 2.6.1.4. Infrastructure Layer 
 
 En la capa de Infrastructure Layer, se encuentran los repositorios que permiten la persistencia de las entidades de usuarios y roles en la
 base de datos.
@@ -822,17 +825,23 @@ base de datos.
 
 String generateAccessToke(...): Crea y firma un JWT para autenticación
 
-## 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams 
-## 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams  
-## 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams  
-## 4.2.1.6.2 Bounded Context Database Design Diagram 
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams 
 
 
-## 4.2.2 Bounded Context : Profile Management
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams  
+
+
+#### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams  
+
+
+#### 2.6.1.6.2. Bounded Context Database Design Diagram 
+
+
+### 2.6.2. Bounded Context : Profile Management
 
 Se encarga de la administración de perfiles de usuario, incluyendo la información personal. Este contexto interactúa con el contexto IAM para autenticar al usuario.
 
-## 4.2.2.1. Domain Layer 
+#### 2.6.2.1. Domain Layer 
 
 Se definen las entidades y agregados que componen el perfil de usuario, incluyendo información personal, direcciones, datos de contacto.
 
@@ -897,7 +906,7 @@ Se definen las entidades y agregados que componen el perfil de usuario, incluyen
 |-|-|-|-|
 |preferences|String|Private|Preferiencias que tiene el usuario d las experiencias
 
-## 4.2.2.2. Interface Layer 
+#### 2.6.2.2. Interface Layer 
 
 Esta capa es resonsable de la recepción y formato de peticiones(API REST), validación básica del formato y los datos de entrada, manejo de errores a nivel de api.
 
@@ -947,12 +956,12 @@ Esta capa es resonsable de la recepción y formato de peticiones(API REST), vali
 |api/profile/user/tourist/{id}|GET|Recupera la información de una agencia por el userid|
 |api/profile/user/tourist/{id}|PUT|Actualiza la información de un perfil de la agenia existente|
 
-## 4.2.2.3. Application Layer 
-## 4.2.2.4. Infrastracture Layer 
-## 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams 
-## 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams  
-## 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams  
-## 4.2.2.6.2 Bounded Context Database Design Diagram 
+#### 2.6.2.3. Application Layer 
+#### 2.6.2.4. Infrastracture Layer 
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams  
+#### 2.6.2.6.1 Bounded Context Domain Layer Class Diagrams  
+#### 2.6.2.6.2 Bounded Context Database Design Diagram 
 
 
 
