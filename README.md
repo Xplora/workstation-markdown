@@ -758,14 +758,6 @@ El Impact Mapping es una metodología visual y ágil que permite a las organizac
 
 ### 2.5.3. Software Architecture
 
-#### 2.5.3.2. Software Architecture Container Level Diagrams
-
-El diagrama de contenedores de TripMatch muestra una aplicación monolítica modular compuesta por una aplicación móvil Flutter que permite a turistas, agencias y administradores interactuar con el sistema, la cual consume la API REST del Backend Spring Boot que centraliza toda la lógica de negocio a través de cinco bounded contexts especializados (Gestión de Perfiles, Experiencias, Reservas, Consultas y Reseñas), orquesta las comunicaciones con sistemas externos como el Sistema de Pago, Sistema de Autenticación y Google Maps API, y persiste todos los datos en una base de datos MySQL compartida.
-
-
-![Diagrama de Contenedores](./img/container-diagram.png)
-
-
 #### 2.5.3.1. Software Architecture Context Level Diagrams
 Este diagrama muestra a los principales actores y sistemas externos que interactúan con TripMatch, la plataforma para planificar y vivir experiencias de viaje.
 
@@ -776,6 +768,16 @@ TripMatch se integra con sistemas externos clave como pasarelas de pago (Visa, M
 Este contexto permite entender las principales dependencias y actores involucrados en la plataforma móvil, facilitando su desarrollo y gestión.
 
 ![Diagrama de Contexto](./img/context-diagram.png)
+
+
+#### 2.5.3.2. Software Architecture Container Level Diagrams
+
+El diagrama de contenedores de TripMatch muestra una aplicación monolítica modular compuesta por una aplicación móvil Flutter que permite a turistas, agencias y administradores interactuar con el sistema, la cual consume la API REST del Backend Spring Boot que centraliza toda la lógica de negocio a través de cinco bounded contexts especializados (Gestión de Perfiles, Experiencias, Reservas, Consultas y Reseñas), orquesta las comunicaciones con sistemas externos como el Sistema de Pago, Sistema de Autenticación y Google Maps API, y persiste todos los datos en una base de datos MySQL compartida.
+
+
+![Diagrama de Contenedores](./img/container-diagram.png)
+
+
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
