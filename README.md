@@ -756,6 +756,51 @@ El Impact Mapping es una metodología visual y ágil que permite a las organizac
 
 ### 2.5.2. Context Mapping
 
+En esta sección, se analizan las relaciones entre los bounded contexts identificados y se asignan patrones de context mapping adecuados para cada uno:
+
+**IAM ➔ Profile Management / Experience / ARM / Inquiry / Review**
+- **Descripción**: IAM actúa como Proveedor de identidad y permisos centralizado. Todos los contextos consumen esta información para garantizar autenticación y autorización antes de realizar acciones operativas.
+
+**Profile Management ➔ Experience / ARM / Inquiry / Review** 
+- **Descripción**: Los contextos operativos necesitan información básica de perfiles de usuarios (turistas y agencias) para validar actores y mostrar datos contextuales en sus operaciones.
+
+**Experience ➔ ARM**
+- **Descripción**: ARM (reservas) necesita información detallada de las experiencias para procesar bookings, incluyendo precios, disponibilidad y datos de la agencia propietaria.
+
+**Experience ➔ Inquiry**
+- **Descripción**: Inquiry requiere validar la existencia de experiencias antes de permitir preguntas, y necesita identificar al propietario de la experiencia para autorizar respuestas.
+
+**ARM ➔ Review**
+- **Descripción**: Review necesita validar que existe una reserva completada entre el turista y la agencia antes de permitir una reseña, garantizando que solo usuarios que experimentaron el servicio puedan calificar.
+
+**Profile Management, Experience, ARM, Inquiry y Review ➔ Analytics (futuro)**
+- **Descripción**: Todos los contextos publican eventos relevantes (registros, reservas, preguntas, reseñas) que Analytics recolectará para construir reportes operativos y dashboards de rendimiento.
+
+### Preguntas estratégicas de reflexión:
+
+**¿Qué pasaría si movemos la gestión de agencias fuera de Profile Management?** Se evaluó crear un contexto "Agency Management" independiente. Sin embargo, se descartó porque las agencias son un tipo especializado de usuario y separar su gestión complicaría el flujo de autenticación y la consistencia de perfiles.
+
+**¿Qué pasaría si combinamos ARM con Experience en un solo contexto "Tourism Management"?** Se consideró esta opción, pero las reservas y las experiencias tienen ciclos de vida y reglas de negocio distintas. ARM se enfoca en transacciones y estados de pago, mientras Experience se centra en contenido y disponibilidad.
+
+**¿Qué pasaría si fusionamos Inquiry y Review en un contexto "Feedback"?** Se analizó, pero las preguntas son pre-compra (información) mientras las reseñas son post-experiencia (evaluación). Sus actores, momentos y propósitos son diferentes, justificando contextos separados.
+
+**¿Qué pasaría si creamos un contexto separado para "Notifications" entre Inquiry y Review?** Se descartó por la escala actual del sistema. Las notificaciones se manejarán como un cross-cutting concern o servicio técnico, no como dominio de negocio.
+
+**¿Qué pasaría si partimos IAM en "Authentication" y "Authorization"?** Se mantuvo unificado porque la gestión de identidad y permisos está intrínsecamente relacionada, y separarlos introduciría complejidad de sincronización innecesaria para el alcance actual.
+
+### Conclusión del análisis:
+- No se crean nuevos bounded contexts adicionales.
+- Se mantienen 6 bounded contexts.
+- Se refuerza que IAM actúa como Supplier centralizado.
+- Profile Management actúa como Supplier de información de usuarios.
+- Experience actúa como Supplier para ARM e Inquiry.
+- ARM actúa como prerequisito para Review (validación de experiencia completada).
+
+El diagrama creado nos permite visualizar las relaciones y dependencias entre los contextos delimitados del sistema. Los bloques representan los Bounded Contexts y las flechas indican la dirección y el tipo de relación Supplier-Consumer entre ellos.
+
+![Diagrama de Contexto](./img/context-mapping.png)
+
+
 ### 2.5.3. Software Architecture
 
 #### 2.5.3.1. Software Architecture Context Level Diagrams
