@@ -1171,3 +1171,220 @@ Este bounded context centraliza la gestión de los pagos en distintos viajes que
 #### 2.2.3.6. Bounded Context Software Architecture Code Level Diagrams  
 #### 2.2.3.6.1 Bounded Context Domain Layer Class Diagrams  
 #### 2.2.3.6.2 Bounded Context Database Design Diagram 
+
+### 2.6.4 Bounded Context : Experience 
+
+Este contexto está centrado en la gestión de experiencias turísticas. Su propósito es manejar la creación, consulta, actualización y eliminación de experiencias, así como sus componentes relacionados como categorías, imágenes, horarios y lo que incluye cada experiencia.
+
+#### 2.6.4.1. Domain Layer 
+
+Contiene las entidades y reglas de negocio principales relacionadas con la gestión de experiencias turísticas.
+
+>Aggregate: Experience
+
+| Nombre | Categoría | Descripción |
+| :--- | :--- | :--- |
+| Experience | Aggregate Root | Representa una experiencia turística completa. Actúa como el punto de entrada para todas las operaciones que involucran a sus entidades secundarias: ExperienceImage, Include y Schedule. La integridad de estas entidades es controlada por Experience. |
+
+Atributos
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| :--- | :--- | :--- | :--- |
+| Id | int | Public | Identificador único de la experiencia. |
+| Title | string | Public | Título de la experiencia. |
+| Description | string | Public | Descripción detallada. |
+| Location | string | Public | Ubicación donde se realiza la experiencia. |
+| Duration | int | Public | Duración en horas. |
+| Price | decimal | Public | Costo de la experiencia. |
+| Frequencies | string | Public | Días o frecuencias de la experiencia. |
+| CategoryId | int | Public | ID de la categoría a la que pertenece. |
+| Category | Category | Public | Objeto de la categoría, relación de navegación. |
+| AgencyUserId | Guid | Public | ID del usuario de la agencia que publica la experiencia. |
+| Agency | Users | Public | Objeto de la agencia, relación de navegación. |
+| Schedules | List<Schedule> | Public | Lista de horarios disponibles (entidades internas). |
+| ExperienceImages | List<ExperienceImage> | Public | Lista de imágenes de la experiencia (entidades internas). |
+| Includes | List<Include> | Public | Lista de elementos incluidos (entidades internas). |  
+  
+
+Métodos    
+
+| Nombre  | Tipo de retorno     | Visibilidad | Descripción    |
+| -------------------------- | ---------------- | ----------- | ------------------------ |
+| Handle(GetAllExperiencesQuery)        | Task\<IEnumerable\<Experience>> | Public      | Devuelve todas las experiencias.                                                      |
+| Handle(GetExperiencesByCategoryQuery) | Task\<IEnumerable\<Experience>> | Public      | Devuelve experiencias filtradas por categoría.                                        |
+| Handle(GetExperienceByIdQuery)        | Task\<Experience?>              | Public      | Devuelve una experiencia por su Id.                                                   |
+| Handle(GetExperiencesByAgencyQuery)   | Task\<IEnumerable\<Experience>> | Public      | Devuelve experiencias asociadas a una agencia (valida primero que exista la agencia). |
+
+
+>Entity: Schedule (dentro del Aggregate)    
+
+Son entidades con su propia identidad, pero su ciclo de vida y la integridad son gestionados por el agregado Experience
+
+| Nombre   | Categoría                    | Descripción                                   |
+| -------- | ---------------------------- | --------------------------------------------- |
+| Schedule | Entity (parte de Experience) | Horario de inicio asociado a una experiencia. |
+
+
+| Nombre       | Tipo de dato | Visibilidad | Descripción                               |
+| ------------ | ------------ | ----------- | ----------------------------------------- |
+| Id           | int          | Public      | Identificador único del horario.          |
+| Time         | string       | Public      | Hora en formato texto (ej. "09:00").      |
+| ExperienceId | int          | Public      | Identificador de la experiencia asociada. |
+| Experience   | Experience   | Public      | Relación de navegación a Experience.      |
+
+>Entity: Include  
+
+| Nombre  | Categoría  | Descripción       |
+| ------- | ------------ | ---------- |
+| Include | Entity (parte de Experience) | Elemento o servicio incluido en la experiencia. |
+  
+| Nombre       | Tipo de dato | Visibilidad | Descripción                               |
+| ------------ | ------------ | ----------- | --------- |
+| Id           | int          | Public      | Identificador único del include.          |
+| Description  | string       | Public      | Texto descriptivo del elemento incluido.  |
+| ExperienceId | int          | Public      | Identificador de la experiencia asociada. |
+| Experience   | Experience   | Public      | Relación de navegación a Experience.      |  
+
+>Entity: ExperienceImage  
+
+| Nombre          | Categoría   | Descripción     |
+| --------------- | ------------- | ------- |
+| ExperienceImage | Entity (parte de Experience) | Imagen asociada a una experiencia. |
+
+| Nombre       | Tipo de dato | Visibilidad | Descripción                               |
+| ------------ | ------------ | ----------- | ----------------------------------------- |
+| Id           | int          | Public      | Identificador único de la imagen.         |
+| Url          | string       | Public      | Dirección URL de la imagen.               |
+| ExperienceId | int          | Public      | Identificador de la experiencia asociada. |
+| Experience   | Experience   | Public      | Relación de navegación a Experience.      |
+
+>Entity: Category
+
+| Nombre   | Categoría | Descripción       |
+| -------- | --------- | ----------- |
+| Category | Entity    | Clasificación de las experiencias (ej. Aventura, Cultural). Puede considerarse un catálogo independiente. |
+
+Attributes
+
+| Nombre      | Tipo de dato      | Visibilidad | Descripción                          |
+| ----------- | ----------------- | ----------- | ------------------------------------ |
+| Id          | int               | Public      | Identificador único de la categoría. |
+| Name        | string            | Public      | Nombre de la categoría.              |
+| Experiences | List\<Experience> | Public      | Colección de experiencias asociadas. |
+
+
+#### 2.6.4.2. Interface Layer
+
+Esta capa se encarga de exponer la lógica de negocio hacia el exterior mediante API REST Controllers.
+
+Sus responsabilidades incluyen:
+- Recepción y formato de peticiones HTTP.
+- Validación básica de los datos de entrada.
+- Comunicación con la capa de Aplicación (Application Services, Commands, Queries).
+- Manejo de respuestas y errores a nivel de API.
+
+>Controller: ExperienceController
+
+| Nombre               | Categoría  | Descripción                                                                                                                    |
+| -------------------- | ---------- | -------------------- |
+| ExperienceController | Controller | Controlador de endpoints relacionados con experiencias turísticas: listar, crear, actualizar, eliminar y filtrar experiencias. |
+
+Attributes
+| Nombre                     | Tipo de dato              | Visibilidad | Descripción                                                                |
+| -------------------------- | ------------------------- | ----------- | -------------------------------------------------------------------------- |
+| \_experienceQueryService   | IExperienceQueryService   | Private     | Servicio encargado de consultas de experiencias.                           |
+| \_experienceCommandService | IExperienceCommandService | Private     | Servicio encargado de comandos (crear, actualizar, eliminar experiencias). |
+| \_categoryRepository       | ICategoryRepository       | Private     | Repositorio de categorías utilizado para validaciones y filtros.           |
+
+Endpoints
+
+| Ruta                                     | Método | Descripción                                                                                                |
+| ---------------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------- |
+| /api/v1/Experience                       | GET    | Obtiene todas las experiencias, con filtros opcionales (`destination`, `day`, `experienceType`, `budget`). |
+| /api/v1/Experience                       | POST   | Crea una nueva experiencia turística a partir de un `CreateExperienceCommand`.                             |
+| /api/v1/Experience/{id}                  | PUT    | Actualiza una experiencia existente según su ID.                                                           |
+| /api/v1/Experience/{id}                  | DELETE | Elimina una experiencia por su ID.                                                                         |
+| /api/v1/Experience/category/{categoryId} | GET    | Obtiene todas las experiencias asociadas a una categoría específica.                                       |
+| /api/v1/Experience/{id}                  | GET    | Obtiene una experiencia por su ID.                                                                         |
+| /api/v1/Experience/agency/{agencyUserId} | GET    | Obtiene todas las experiencias asociadas a una agencia determinada (por `agencyUserId`).                   |
+
+>Controller: CategoryController
+
+| Nombre             | Categoría  | Descripción                                                                                 |
+| ------------------ | ---------- | ------------------------------- |
+| CategoryController | Controller | Controlador encargado de exponer los endpoints relacionados con categorías de experiencias. |
+
+Endpoints  
+| Ruta             | Método | Descripción                                                       |
+| ---------------- | ------ | ----------------------------------------------------------------- |
+| /api/v1/Category | GET    | Obtiene todas las categorías disponibles.                         |
+| /api/v1/Category | POST   | Crea una nueva categoría a partir de un `CreateCategoryResource`. |
+
+
+#### 2.6.4.3. Application Layer  
+
+En la Application Layer se ubican los servicios que actúan como Command Handlers y Query Handlers, encargados de coordinar el flujo de procesos de negocio relacionados con experiencias turísticas. Estos servicios utilizan los repositorios definidos en la capa de dominio a través de interfaces.
+
+| Nombre                    | Categoría                 | Descripción                                                                         |
+| ------------------------- | ------------------------- | ----------------------------------------------------------------------------------- |
+| IExperienceCommandService | Command Handler Interface | Expone métodos para manejar comandos que crean, actualizan o eliminan experiencias. |
+
+
+Commands manejados
+- CreateExperienceCommand
+- UpdateExperienceCommand
+- DeleteExperienceCommand
+
+| Nombre                  | Categoría               | Descripción                                                                                |
+| ----------------------- | ----------------------- | ------------------------------------------------------------------------------------------ |
+| IExperienceQueryService | Query Handler Interface | Expone métodos para manejar queries que consultan experiencias según diferentes criterios. |
+
+Queries manejados
+- GetAllExperiencesQuery
+- GetExperiencesByCategoryQuery
+- GetExperienceByIdQuery
+- GetExperiencesByAgencyQuery
+
+#### 2.6.4.4. Infrastructure Layer
+
+En la Infrastructure Layer se encuentran las implementaciones concretas de los repositorios definidos en el dominio. Estas clases utilizan Entity Framework Core para acceder y persistir información en la base de datos relacional a través del TripMatchContext.
+
+| Nombre               | Categoría                 | Implementa            | Descripción                                                                                                                                |
+| -------------------- | ------------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ExperienceRepository | Repository Implementation | IExperienceRepository | Permite acceder a las entidades `Experience` en la base de datos, incluyendo sus relaciones con categorías, agencias, imágenes y horarios. |
+
+
+Funcionalidad clave
+
+- Task<IEnumerable<Experience>> ListAsync() → Obtiene todas las experiencias con sus relaciones.
+
+- Task<IEnumerable<Experience>> ListByCategoryIdAsync(int categoryId) → Obtiene experiencias activas según categoría.
+
+- Task<Experience?> FindByIdAsync(int id) → Busca una experiencia específica con sus datos relacionados.
+
+- Task<IEnumerable<Experience>> FindByAgencyUserIdAsync(Guid agencyUserId) → Filtra experiencias activas según el usuario de agencia.
+
+| Nombre             | Categoría                 | Implementa          | Descripción                                                 |
+| ------------------ | ------------------------- | ------------------- | ----------------------------------------------------------- |
+| CategoryRepository | Repository Implementation | ICategoryRepository | Gestiona la persistencia de las categorías de experiencias. |
+
+
+Funcionalidad clave:
+
+Hereda los métodos de BaseRepository<Category> para operaciones CRUD estándar. Tales como: 
+- Task AddAsync(Category entity) → Agrega una nueva categoría.
+- Task<Category?> FindByIdAsync(int id) → Busca una categoría por ID.
+- void Update(Category entity) → Actualiza una categoría existente.
+- void Remove(Category entity) → Elimina una categoría.
+- Task<IEnumerable<Category>> ListAsync() → Devuelve todas las categorías.
+
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams 
+
+
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams  
+
+
+#### 2.6.4.6.1 Bounded Context Domain Layer Class Diagrams  
+
+
+#### 2.6.4.6.2 Bounded Context Database Design Diagram 
+
