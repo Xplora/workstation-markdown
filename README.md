@@ -29,7 +29,8 @@
 | U20221E229  | Gordon Salas Gabriel Fernando  |
 | U20231C505  | Melgarejo Gomez Marcia Victoria   |
 | U20191E414  | Antayhua Castillo Oscar Josué   |
-|   |      |
+| U202224602 | Sulca Silva Melisa Geraldine     |
+
 
 **Setiembre - 2025**
 
@@ -271,6 +272,8 @@ Valores: Defendemos la integridad, la innovación y el turismo sostenible. Asegu
 |  |    |  |    |
 | Rodrigo Alaya Cabrera |  U202219481  | Soy una persona responsable, comprometida con mis objetivos y con gran disposición para aprender continuamente. Me adapto con facilidad al trabajo en equipo, aportando ideas y soluciones. Valoro mucho la eficiencia, la ética profesional y la mejora constante. Me esfuerzo por entregar siempre resultados de calidad, gestionando mis tareas con orden y enfoque. |  ![Foto Alaya](./img/fotoAlaya.JPG)  |
 |  Oscar Josué Antayhua Castillo |  U20191E414  | Soy una persona responsable, enfocado, con habilidades en automatización y desarrollo web. Manejo distintas herramientas RPA como Make, Power Automate, n8n y zapier, y para desarrollo web tengo conocimiento en HTML, CSS, Python, C++, NoSQL, SQL, Vue, Angular, Nextjs, Typescript. | ![Foto Oscar](./img//oscar.jpg)  |
+|  Melisa Geraldine Sulca Silva |  U202224602  | Mi nombre es Melisa Sulca y estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Mis principales habilidades son el trabajo en equipo, soy responsable, mantengo mi compromiso en dar todo mi esfuerzo y práctico perseverancia. | ![Foto Melisa](./img//fotoMelisa.png)  |
+
 
 ## 1.2. Solution Profile
 
@@ -746,15 +749,267 @@ El Impact Mapping es una metodología visual y ágil que permite a las organizac
 
 
 ## 2.5. Strategic-Level Domain-Driven Design
-
-
 ### 2.5.1. EventStorming
 
+Event Storming es una técnica que se realiza en equipo para poder comprender y explorar todos los posibles eventos que posee un sistema. Los integrantes del grupo realizan una lluvia de ideas para mapear las acciones que un usuario posiblemente realice durante el uso de la aplicación. También, con esta técnica podemos definir en grupo los procesos, el diseño y las reglas de negocio de la plataforma a desarrollar. 
+
+A continuación se mostrará los 9 pasos del Event Storming realizado en Miro:
+
+**Paso 1: Unstructured Exploration**
+
+En este paso se realiza una lluvia de ideas relacionado a los eventos que posiblemente posea el sistema.
+
+![Paso 1 Unstructured Exploration](./img/EventStormingPaso1.png)
+
+**Paso 2: Timelines**
+
+En esta fase, los eventos identificados se ordenan de manera secuencial y se agrupan entre los tipos de usuario.
+
+![Paso 2 Timelines](./img/EventStormingPaso2.png)
+
+**Paso 3: Paint Points**
+
+Durante este paso, se identifican los puntos donde es posible que haya mucho tráfico  o también, llamado cuellos de botella para poseer un plan para poder mejorar y actualizar aquellos puntos y así ofrecer una mejor experiencia a nuestros usuarios.
+
+![Paso 3 Paint Points](./img/EventStormingPaso3.png)
+
+**Paso 4: Pivotal Points**
+
+En este paso, identificamos los eventos comerciales importantes que nos indica que hay un cambio de contexto o sección en la aplicación móvil.
+
+![Paso 4 Paint Points](./img/EventStormingPaso4.png)
+
+**Paso 5: Commands**
+
+Los comandos son representaciones de la consecuencia que generó un evento o varios eventos.
+
+![Paso 5 Paint Points](./img/EventStormingPaso5.png)
+
+**Paso 6: Policies**
+
+En este escenario, se muestra que un evento puede provocar la ejecución de un comando manejado por una política. 
+
+![Paso 6 Paint Points](./img/EventStormingPaso6.png)
+
+**Paso 7: Read Models**
+
+En este escenario, los read models sirven para generar una interfaz de lectura de un evento para que el usuario pueda decidir si ejecutar un comando o no.
+
+![Paso 7 Paint Points](./img/EventStormingPaso7.png)
+
+**Paso 8: External Systems**
+
+En esta fase, se identifican los sistemas externos que usará la plataforma móvil para su ejecución eficaz.
+
+![Paso 8 Paint Points](./img/EventStormingPaso8.png)
+
+**Paso 9: Aggregates**
+
+En este paso, con los eventos y comandos realizados, entonces ya se puede comenzar a juntar conceptos  relacionados en un grupo, o mejor dicho en un bounded context.
+
+![Paso 9 Paint Points P1](./img/EventStormingPaso9Parte1.png)
+
+![Paso 9 Paint Points P2](./img/EventStormingPaso9Parte2.png)
+
+![Paso 9 Paint Points P3](./img/EventStormingPaso9Parte3.png)
+
+![Paso 9 Paint Points P4](./img/EventStormingPaso9Parte4.png)
+
+
 #### 2.5.1.1. Candidate Context Discovery
+
+Nuestro equipo adoptó un enfoque que se centra en buscar partes del sistema que deben estar agrupados, desde un punto funcional, del usuario y de infraestructura. 
+
+Se identificaron 7 Bounded Context: 
+
+- Gestión de Destino: 
+  Maneja la administración de las experiencias turísticas que están disponibles en la aplicación móvil. En esta parte, se muestra un campo de búsqueda para el destino y una  lista de las experiencias turísticas relacionadas al destino buscado.
+
+![Gestion de Destino](./img/GUBC.png)
+
+- Gestión de Usuarios (IAM):
+  En este escenario, se crea, auténtica, autoriza y gestiona los usuarios que están registrados en el sistema. Se introduce el manejo de permisos y roles, y el control de acceso a diferentes tipos de usuarios que contiene la plataforma móvil.
+
+![Gestion de Usuarios](./img/GUBC2.png)
+
+- Gestión de Perfil:
+  Se encarga de administrar las cuentas de usuarios creadas, tanto del tipo de usuario turista y agencia de viaje. Aquí, se configura la información personal, foto de perfil y ajustes relacionados a la experiencia del usuario.
+
+![Gestion de Perfil](./img/GUBC3.png)
+
+- Gestión de Reserva:
+  Es responsable de manejar los procesos de reservas de las experiencias turísticas. Incluye la cancelación y seguimiento de las reservas realizadas. 
+
+![Gestion de Reserva](./img/GUBC4.png)
+
+- Gestión de Favoritos:
+  Se ocupa de la funcionalidad de permitir a los usuarios guardar destinos como favoritos para una referencia futura.
+
+![Gestion de Favoritos](./img/GUBC5.png)
+
+- Gestión de Consultas:
+  Se encarga de registrar y gestionar las consultas hechas por los turistas y a responderlas. Se muestra también un listado de las consultas que posee cada agencia de viaje.
+
+![Gestion de Consultas](./img/GUBC6.png)
+
+- Gestión de Reseñas:
+  Este escenario, se encarga de recolectar, mostrar y gestionar las publicaciones de reseñas de los usuarios sobre distintos lugares turísticos. Incluye la posibilidad de dejar calificaciones de estrellas y comentarios máx de 160 caracteres. 
+
+![Gestion de Reseñas](./img/GUBC7.png)
+
+
 #### 2.5.1.2. Domain Message Flows Modeling
+
+En esta sección, se describe el proceso que se usó para reflejar cómo sería la interacción de los diferentes bounded contexts dentro del sistema XploreTour. Es esencial entender cómo es el flujo de trabajo de los diferentes bounded context para representar la regla de negocio y brindar a los usuarios una experiencia que satisfaga sus necesidades. Además, se usó la técnica de Domain Storytelling para presentar los flujos secuenciales de los actores, eventos y los sistemas involucrados.
+
+**Gestion destino -> Gestión de reserva -> Gestión de favoritos**
+
+Cuando uno quiere buscar un destino turístico para viajar, primero debe ir a la sección de Home y buscar el destino en la barra de búsqueda, y cuando aparece una lista de destinos coincidentes, se escoge uno para reservar, este contexto informa a la gestión de reserva para poder completar el proceso de la reserva. Como adicional, también el usuario podría guardar el destino reservado como favoritos, en el cual se informa al contexto de gestión de favoritos, para que este se pueda guardar correctamente. 
+
+![DESTINO - RESERVA - FAVORITOS ](./img/DomainMFModelling1.png)
+
+**Gestión de reserva -> Gestión de destino**
+
+Cuando una agencia de viaje quiere agregar un nuevo destino, se le informa a la gestión de destino para que se agregue un destino turístico más disponible para reservar.  
+
+![RESERVA - DESTINO](./img/DomainMFModelling2.png)
+
+**Gestión de destino  -> Gestión de reseñas**
+
+Cuando se requiere realizar una publicación de reseña sobre una experiencia turística, debes estar en la sección Home y cuando busques algún destino, podrás visualizar una opción extra donde puedes ver el perfil de la agencia. Desde aquella sección, se le informará a la gestión de reseñas y podrás publicar una opinion mediante el botón de Enviar reseña.
+
+![DESTINO - RESEÑAS](./img/DomainMFModelling3.png)
+
+**Gestión de destino -> Gestión de Consultas** 
+
+Cuando se requiere consultar sobre un destino turístico, debes ingresar en la sección Home, y buscando un destino, encontrarás un botón de Ver más, que sirve para realizar consultas sobre aquel destino Ingresarás a la gestión de consultas y en aquella sección se logrará enviar tu consulta hecha tras haber presionado el botón de Consultar. 
+
+![DESTINO - CONSULTAS](./img/DomainMFModelling4.png)
+
+**Gestión de usuarios -> Gestión de perfil**
+Cuando se crea una nueva cuenta, ya sea de modo turista o de agencia de viaje, luego de que inicie sesión, se le informará a la gestión perfil sobre la creación y sincronización  de los datos ingresados previamente en el registro de cuenta. 
+
+![USUARIOS - PERFIL](./img/DomainMFModelling5.png)
+
+
 #### 2.5.1.3. Bounded Context Canvases
 
+En esta sección se demuestra el proceso que ejecutó el equipo para agrupar los bounded context que posee nuestro sistema. El desarrollo de aquellos se realizó minuciosamente para comprobar de qué son los bounded context que reflejan el dominio del negocio. De esta manera, se logró formar 7 bounded context, enfocándonos en que cada uno de ellos resuelva la necesidad del usuario.
+
+- Bounded Context Canvases Usuarios (IAM): 
+
+![BCC Usuarios](./img/BoundedContextCanvas1.png)
+
+- Bounded Context Canvases Perfil: 
+
+![BCC Perfil](./img/BoundedContextCanvas2.png)
+
+- Bounded Context Canvases Favoritos: 
+
+![BCC Favoritos](./img/BoundedContextCanvas3.png)
+
+- Bounded Context Canvases Destino: 
+
+![BCC Destino](./img/BoundedContextCanvas4.png)
+
+- Bounded Context Canvases Reserva: 
+
+![BCC Reserva](./img/BoundedContextCanvas5.png)
+
+- Bounded Context Canvases Consultas: 
+
+![BCC Consultas](./img/BoundedContextCanvas6.png)
+
+- Bounded Context Canvases Reseñas: 
+
+![BCC Reseñas](./img/BoundedContextCanvas7.png)
+
+
 ### 2.5.2. Context Mapping
+
+En esta parte, se explican las relaciones entre los 7 bounded contexts identificados de nuestro sistema.
+
+**Gestión de Usuarios ➔ Gestión de Perfil**
+
+**Descripción:**
+
+ La Gestión de Usuarios gestiona la identidad y la autorización de los usuarios. Luego la gestión de perfil analiza la información de aquel usuario para autenticar y asignar los permisos y roles adecuados antes de permitir el acceso y modificación del perfil de la cuenta.
+
+
+
+**Gestión de Perfil ➔ Gestión de Destino**
+
+**Descripción:**
+
+La Gestión de Perfil muestra información personal sobre las preferencias  y configuraciones que es importante para la gestión de destino, la cual usa la información para recomendar destinos turísticos y opciones relevantes.
+
+
+
+**Gestión de Destino ➔ Gestión de Reserva**
+
+**Descripción:**
+
+Cuando un usuario selecciona un destino y realiza los pasos para reservar la experiencia turística, entonces la gestión de Destino envía esta información a Gestión de Reserva. Esta última, utiliza aquellos datos para permitir al usuario hacer la reserva del destino y garantizar que la reserva se procese eficazmente.
+
+
+
+**Gestión de Destino ➔ Gestión de Favoritos**
+
+**Descripción:**
+
+Gestión de Destino proporciona al contexto de gestión de Favoritos los destinos que un usuario ha seleccionado y agregado como favoritos. Aquella información se usa para que los usuarios guarden sus destinos preferidos, los cuales pueden ser consultados luego para realizar un seguimiento del destino o una posible reserva futura. El contexto, gestión de Favoritos guarda esta información de manera que los usuarios puedan acceder a ella rápido y eficaz. 
+
+
+
+**Gestión de Reserva ➔ Gestión de Destino**
+
+**Descripción:**
+
+Envía la información de la reserva para publicar, editar o eliminar una experiencia turística, y aquellos datos se reflejan en el contexto de gestión de destino en la sección de Home con nuevos destinos disponibles para reservar.
+
+
+
+**Gestión de Destino ➔ Gestión de Reseñas**
+
+**Descripción:**
+
+Gestión de destino permite a los turistas publicar sus experiencias con otros usuarios sobre los destinos que han visitado con dicha agencia de viaje. Esta información se realiza en la gestión de reseñas y se refleja en la interfaz de reseñas, donde estas se recopilan y se almacenan.
+
+
+**Gestión de Destino ➔ Gestión de Consultas**
+
+**Descripción:**
+
+Cuando un usuario tiene preguntas o dudas sobre un destino turístico que ofrece dicha agencia de viaje, entonces el contexto de gestión de destino consume esta información y  proporciona las respuestas detalladas mediante la gestión de consultas.
+
+
+**Preguntas estratégicas de reflexión:**
+
+**¿Qué pasaría si juntamos la Gestión de Favoritos con la Gestión de Destino?**
+
+Si se junta la gestión de Favoritos con la gestión de destino, se hará una sobrecarga de responsabilidades en un solo contexto. Por ello, es mejor dividirlo y realizar un enfoque separado de ambas gestiones. 
+
+
+**¿Qué pasaría si juntamos la Gestión de Usuarios (IAM) y Gestión de Perfil?**
+
+No sería lo ideal juntarlos ya que cada bounded context tiene una responsabilidad diferente. La gestión de IAM se encarga de la autorización, autenticación y permisos de los usuarios, mientras que la gestión de perfil maneja la información personal de cada tipo de cuenta.
+
+**¿Qué pasaría si juntamos Gestión de Consultas con Gestión de Destinos?**
+
+No sería lo mejor, ya que se generaría una sobrecarga en el dominio del negocio y, aparte, poseen diferentes funciones, por lo que no sería lo ideal fusionarlos.
+
+ **¿Qué pasaría si eliminamos la Gestión de Reseñas y la incluimos en la Gestión de Destino?**
+
+Si se realiza aquello podríamos obtener un bounded context difícil de manejar, ya que la gestión de reseñas hace su propia recopilación y presentación de los datos de las opiniones sobre los destinos turísticos. Mientras que la gestión de destinos se dedica a almacenar la información de los lugares turísticos, por lo que ambos se dedican a guardar distintas informaciones. Lo mejor sería separarlas y así no poder afectar el tiempo de respuesta de las reseñas y evitar errores que se generarían al manejar una gran cantidad de información.
+
+
+**Conclusion del analisis:**
+
+- No se crean nuevos bounded contexts adicionales. 
+- Se mantienen los 7 bounded contexts. 
+- Se refleja la importancia de mantener las responsabilidades específicas iniciales de cada bounded context.
+- Se analiza que se mejora la flexibilidad de respuesta al mantener algunos bounded context separados. 
+
 
 ### 2.5.3. Software Architecture
 
