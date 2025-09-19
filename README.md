@@ -966,15 +966,18 @@ String generateAccessToke(...): Crea y firma un JWT para autenticación
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams 
 
+<img src="img/authDg.png">
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams  
 
 
 #### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams  
 
+<img src="img/iamclssdrm.webp">
 
 #### 2.6.1.6.2. Bounded Context Database Design Diagram 
 
+<img src="#">
 
 ### 2.6.2. Bounded Context : Profile Management
 
@@ -1140,9 +1143,17 @@ En la capa de Infrastructure Layer, se encuentran los repositorios que permiten 
 - Verifica la existencia de perfiles de usuario
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
+
+<img src="img/profileStrComDg.png">
+
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams  
 #### 2.6.2.6.1 Bounded Context Domain Layer Class Diagrams  
+
+<img src="#">
+
 #### 2.6.2.6.2 Bounded Context Database Design Diagram 
+
+<img src="img/userBckd.png">
 
 Este diagrama de base de datos corresponde al bounded context Profile, encargado de la gestión de identidades y perfiles dentro de la aplicación.
 La tabla principal User centraliza los datos básicos de autenticación y contacto, extendiéndose en dos perfiles especializados: Tourist y Agency.
@@ -1238,9 +1249,15 @@ Este bounded context centraliza la gestión de los pagos en distintos viajes que
 
 
 #### 2.2.3.5. Bounded Context Software Architecture Component Level Diagrams 
+
+<img src="img/bookingDg.png">
+
 #### 2.2.3.6. Bounded Context Software Architecture Code Level Diagrams  
 #### 2.2.3.6.1 Bounded Context Domain Layer Class Diagrams  
-#### 2.2.3.6.2 Bounded Context Database Design Diagram   
+
+<img src="#">
+
+#### 2.2.3.6.2 Bounded Context Database Design Diagram 
 
 Este diagrama de base de datos representa la estructura del bounded context ARM – Assets and Resource Management, específicamente orientado al proceso de Booking.
 La tabla central es Booking, que gestiona las reservas realizadas por los usuarios. Esta tabla almacena información clave como la fecha de reserva, número de personas, precio, estado y horario seleccionado.
