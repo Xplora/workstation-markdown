@@ -900,7 +900,7 @@ En esta sección se demuestra el proceso que ejecutó el equipo para agrupar los
 
 - Bounded Context Canvases Design and Planning: 
 
-![BCC Destino](./img/CDesign.png)
+![BCC Destino](./img/CDESIGN.png)
 
 - Bounded Context Canvases ARM:
 
