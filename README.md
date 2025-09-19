@@ -29,7 +29,8 @@
 | U20221E229  | Gordon Salas Gabriel Fernando  |
 | U20231C505  | Melgarejo Gomez Marcia Victoria   |
 | U20191E414  | Antayhua Castillo Oscar Josué   |
-|   |      |
+| U202224602 | Sulca Silva Melisa Geraldine     |
+
 
 **Setiembre - 2025**
 
@@ -123,21 +124,150 @@
 
 | URL de la organización del proyecto | URL del repositorio del reporte   |
 | :------------------: | :---------------------------: | 
-| https://github.com/Xplora |  |
+| https://github.com/Xplora | https://github.com/Xplora/workstation-markdown/tree/main |
 
 
 
 Commits del Report TB1:
 
 # **Student Outcomes**
-
-| <div style="width:100px">Criterio específico</div> | <div align="center" style="width:250px">Acciones Realizadas</div> | <div align="center" style="width:250px">Conclusiones</div> |
-|:-------------------:|-------------------|------------|
-|Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.| **- Rodrigo Alaya** <br> **TB1:** .<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Gabriel Gordon** <br> **TB1:** .<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Marcia Melgarejo** <br> **TB1:** .<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Melisa Sulca** <br> **TB1:** .<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Oscar Antayhua** <br> **TB1:** .<br> **TP:** <br> **TB2:** . <br> **TF:**. | **TB1:** |
-|Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.| **- Rodrigo Alaya** <br> **TB1:** .<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Gabriel Gordon** <br> **TB1:** .<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Marcia Melgarejo** <br> **TB1:** .<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Melisa Sulca** <br> **TB1:** .<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Oscar Antayhua** <br> **TB1:** .<br> **TP:** <br> **TB2:** . <br> **TF:**. | **TB1:** |
+| Criterio específico | Acciones Realizadas | Conclusiones |
+|:---:|:---|:---|
+|**Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.**| **- Rodrigo Alaya** <br> **TB1:** Participé en la realización de entrevistas para dos segmentos de mercado, identificando requisitos clave. Además, elaboré los diagramas de clases por bounded context, aplicando los conceptos de Domain-Driven Design.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Gabriel Gordon** <br> **TB1:** Colaboré en la elaboración del Strategic-Level Domain-Driven Design y en la creación de los diagramas de componentes para los bounded contexts, lo que fortaleció mi comprensión de la arquitectura de software a nivel de componentes.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Marcia Melgarejo** <br> **TB1:** Lideré el desarrollo de la entrevista para el segmento de empresas, obteniendo información valiosa. También me encargué del Strategic-Level Domain-Driven Design para el bounded context de Experience y de los diagramas de base de datos asociados.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Melisa Sulca** <br> **TB1:** Participé en la sesión de Event Storming para identificar los eventos clave del negocio y las relaciones entre ellos. Adicionalmente, elaboré el Context Mapping para definir las interacciones entre los diferentes bounded contexts del sistema.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Oscar Antayhua** <br> **TB1:** Elaboré los diagramas de Context, Container y Deployment Mapping, lo que permitió visualizar la arquitectura del sistema en diferentes niveles y planificar el despliegue de nuestra solución.<br> **TP:** <br> **TB2:** . <br> **TF:**. | **TB1:** A lo largo de TB1, el equipo demostró una sólida comprensión de los principios de **Domain-Driven Design (DDD)** y del **Modelo C4**. Se aplicaron estos conceptos para diseñar una arquitectura de software robusta y escalable, lo que proporcionó una base técnica clara para el proyecto. El trabajo realizado refleja un dominio de los conocimientos teóricos y una habilidad para plasmarlos en un plan de arquitectura coherente.|
+|**Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**| **- Rodrigo Alaya** <br> **TB1:** Participé activamente en el análisis del dominio y en la elaboración de diagramas de diseño, lo que me permitió aplicar y consolidar los conceptos de arquitectura de software en un contexto práctico.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Gabriel Gordon** <br> **TB1:** En esta primera entrega fomenté la participación equitativa dentro el equipo. Establecimos cronogramas de trabajo para poder cumplir con los objetivos sobre el trabajo.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Marcia Melgarejo** <br> **TB1:** A través de la investigación y la aplicación práctica de nuevas metodologías de diseño y modelado de datos, pude fortalecer mi capacidad de aprendizaje autónomo y resolver desafíos complejos de arquitectura.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Melisa Sulca** <br> **TB1:** La colaboración en las sesiones de Event Storming y Context Mapping fomentó una comprensión compartida del problema y la solución, reconociendo la importancia de trabajar en equipo para superar retos técnicos.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Oscar Antayhua** <br> **TB1:** Reconocí la necesidad del aprendizaje continuo al profundizar en metodologías como Domain-Driven Design y herramientas especializadas como Structurizr DSL, complementando mis conocimientos previos en desarrollo web y automatización.<br> **TP:** <br> **TB2:** . <br> **TF:**. | **TB1:** El trabajo en equipo fue fundamental en esta etapa. Las interacciones en las sesiones de análisis y diseño fomentaron la **colaboración**, el **liderazgo compartido** y la **comunicación efectiva**. Esto demostró la capacidad del equipo para adaptarse a nuevas metodologías y organizar un flujo de trabajo dinámico, un aspecto crucial para el desarrollo de proyectos de software complejos.|
 
 
 # **Objetivos SMART**
+
+
+## U202219481 — Alaya Cabrera Rodrigo
+
+Objetivo 1  
+conseguir un puesto junior como desarrollador backend .NET en una empresa de tecnología en un plazo máximo de 6 meses después de la graduación.
+
+- específico: rol backend con .NET y C# trabajando en APIs REST
+- medible: enviar 40 postulaciones de calidad, 6 entrevistas, 1 oferta firmada
+- alcanzable: experiencia del proyecto TripMatch y dos microservicios en el portafolio
+- relevante: alinea carrera técnica en desarrollo de servicios
+- tiempo: 6 meses post-graduación
+- acciones clave: completar certificación AZ-204; publicar dos repos con clean architecture y pruebas; actualizar CV y LinkedIn; practicar entrevistas técnicas 2 veces por semana
+- evidencia de logro: carta oferta firmada o contrato; enlaces a repos; badge de certificación
+
+Objetivo 2  
+elevar el nivel de inglés de B1 a B2 para mejorar empleabilidad internacional en 9 meses.
+
+- específico: alcanzar B2 según MCER
+- medible: obtener 6.5 en IELTS Academic o certificado equivalente B2
+- alcanzable: plan de estudio 6 horas/semana y tutoría conversacional
+- relevante: requisito frecuente en vacantes backend
+- tiempo: 9 meses
+- acciones clave: curso B1→B2; simulacros mensuales; clubes de conversación; ver y resumir 1 charla técnica semanal
+- evidencia de logro: certificado IELTS o equivalente
+
+---
+
+## U20221E229 — Gordon Salas Gabriel Fernando
+
+Objetivo 1  
+incorporarse como desarrollador frontend con React y TypeScript en 6 meses tras la graduación.
+
+- específico: rol frontend con React, Vite, Testing Library
+- medible: 3 proyectos productivos en portafolio; 30 postulaciones; 5 entrevistas; 1 oferta
+- alcanzable: experiencia UI de TripMatch y refactor a componentes reutilizables
+- relevante: foco profesional en interfaces web
+- tiempo: 6 meses
+- acciones clave: construir un pequeño design system; cobertura de tests ≥ 70% en un proyecto; Lighthouse ≥ 90; certificación Meta Front-End o equivalente
+- evidencia de logro: oferta firmada; repos públicos; reporte Lighthouse y cobertura de tests
+
+Objetivo 2  
+dominar pruebas end-to-end con Cypress para elevar la calidad de entrega en 4 meses.
+
+- específico: automatizar flujos críticos de front
+- medible: 15 pruebas E2E estables en un proyecto demo y en TripMatch
+- alcanzable: guía oficial y práctica semanal
+- relevante: calidad y empleabilidad
+- tiempo: 4 meses
+- acciones clave: configurar pipeline CI; reportes de fallos; patrón Page Object
+- evidencia de logro: dashboard de CI con ejecuciones verdes; suite documentada
+
+---
+
+## U20231C505 — Melgarejo Gomez Marcia Victoria
+
+Objetivo 1  
+trabajar como desarrolladora full-stack JavaScript en 8 meses.
+
+- específico: stack React + Node.js con Prisma/PostgreSQL
+- medible: 2 proyectos full-stack en producción y 1 práctica profesional o freelance
+- alcanzable: experiencia de TripMatch y cursos complementarios
+- relevante: versatilidad en frontend y backend
+- tiempo: 8 meses
+- acciones clave: construir API con autenticación JWT y roles; pruebas unitarias y de integración; certificación PSM I de Scrum
+- evidencia de logro: despliegues en la nube; certificación PSM I; bitácora de sprints
+
+Objetivo 2  
+mejorar habilidades de diseño funcional y accesibilidad web en 5 meses.
+
+- específico: aplicar WCAG 2.2 nivel AA
+- medible: Lighthouse Accessibility ≥ 95 en dos proyectos
+- alcanzable: guía WCAG y herramientas axe
+- relevante: impacto en usuarios y compliance
+- tiempo: 5 meses
+- acciones clave: auditorías mensuales; corrección de contrastes; foco y navegación por teclado
+- evidencia de logro: reportes Lighthouse y axe con mejoras
+
+---
+
+## U20191E414 — Antayhua Castillo Oscar Josué
+
+Objetivo 1  
+obtener un rol jr de DevOps o Cloud en 7 meses.
+
+- específico: automatizar CI/CD y despliegues en AWS o Azure
+- medible: certificación AWS SAA-C03 o AZ-104 y 2 pipelines productivos
+- alcanzable: base en proyectos y práctica guiada
+- relevante: carrera en plataformas y confiabilidad
+- tiempo: 7 meses
+- acciones clave: infraestructura como código con Terraform; observabilidad básica con logs y métricas; hardening de contenedores
+- evidencia de logro: badge de certificación; repos de IaC; pipelines activos
+
+Objetivo 2  
+elevar confiabilidad de servicios personales a SLOs básicos en 4 meses.
+
+- específico: definir SLOs de disponibilidad y latencia para dos servicios demo
+- medible: monitoreo con alertas y tableros; tiempo de recuperación < 30 min en simulacros
+- alcanzable: uso de uptime checks y tracing ligero
+- relevante: buenas prácticas DevOps
+- tiempo: 4 meses
+- acciones clave: definir SLOs; configurar alertas; ejecutar game days mensuales
+- evidencia de logro: tableros y postmortems documentados
+
+---
+
+## U202224602 — Melisa Sulca
+
+Objetivo 1  
+insertarse como data analyst junior en 6 meses.
+
+- específico: análisis con SQL, Python y Power BI
+- medible: 3 dashboards publicados; 2 estudios de caso reproducibles; certificación Power BI Data Analyst Associate o Google Data Analytics
+- alcanzable: plan de estudio y datasets abiertos
+- relevante: trayectoria en datos aplicada a turismo
+- tiempo: 6 meses
+- acciones clave: portafolio con casos de reservas y demanda; storytelling de datos; validación con stakeholders
+- evidencia de logro: certificación; portafolio público; feedback de revisión
+
+Objetivo 2  
+mejorar dominio de SQL para analítica en 3 meses.
+
+- específico: consultas complejas con window functions y CTEs
+- medible: 100 ejercicios nivel intermedio-avanzado y optimización de 3 consultas en un proyecto real
+- alcanzable: práctica diaria y repos de ejercicios
+- relevante: base para análisis y reporting
+- tiempo: 3 meses
+- acciones clave: rutina de 45 minutos diarios; revisión por pares semanal; documentación de patrones
+- evidencia de logro: bitácora de ejercicios; antes/después de planes de ejecución
+
 
 # **Project Report Online**
 
@@ -271,6 +401,8 @@ Valores: Defendemos la integridad, la innovación y el turismo sostenible. Asegu
 |  |    |  |    |
 | Rodrigo Alaya Cabrera |  U202219481  | Soy una persona responsable, comprometida con mis objetivos y con gran disposición para aprender continuamente. Me adapto con facilidad al trabajo en equipo, aportando ideas y soluciones. Valoro mucho la eficiencia, la ética profesional y la mejora constante. Me esfuerzo por entregar siempre resultados de calidad, gestionando mis tareas con orden y enfoque. |  ![Foto Alaya](./img/fotoAlaya.JPG)  |
 |  Oscar Josué Antayhua Castillo |  U20191E414  | Soy una persona responsable, enfocado, con habilidades en automatización y desarrollo web. Manejo distintas herramientas RPA como Make, Power Automate, n8n y zapier, y para desarrollo web tengo conocimiento en HTML, CSS, Python, C++, NoSQL, SQL, Vue, Angular, Nextjs, Typescript. | ![Foto Oscar](./img//oscar.jpg)  |
+|  Melisa Geraldine Sulca Silva |  U202224602  | Mi nombre es Melisa Sulca y estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Mis principales habilidades son el trabajo en equipo, soy responsable, mantengo mi compromiso en dar todo mi esfuerzo y práctico perseverancia. | ![Foto Melisa](./img//fotoMelisa.png)  |
+
 
 ## 1.2. Solution Profile
 
@@ -698,8 +830,167 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 | US37 | Registro para agencias | **Como** visitante del segmento de agencias de turismo, **quiero** registrarme desde la landing **para** empezar a formar parte de la plataforma. | <p>**Escenario:** Registro desde botón</p><p>**Dado que** el botón “Sign Up” está visible</p><p>**Cuando** el visitante hace clic en él</p><p>**Entonces** es redirigido a la interfaz de registro correspondiente</p> | EP09 |
 
 
+
+## Spike 1: Integración de pasarela de pagos para reservas
+Contexto  
+TripMatch debe procesar pagos de reservas en web y móvil con seguridad y cumplimiento.
+
+Historia  
+Como equipo de desarrollo, quiero investigar y prototipar la integración de una pasarela de pagos adecuada para entender implicaciones, riesgos y esfuerzo end to end.
+
+Criterios de aceptación  
+1. Dado que se requiere comparar opciones, cuando se evalúan Stripe, Culqi y Mercado Pago, entonces se documentan flujos soportados, fees, cobertura regional y reembolsos.  
+2. Dado que la app web consume APIs, cuando se revisan SDKs web y server de la pasarela seleccionada, entonces se documenta el flujo request/response y manejo de webhooks.  
+3. Dado que se debe validar viabilidad, cuando se construye un PoC con pago de prueba y webhook de confirmación, entonces queda registrado el flujo exitoso en sandbox y trazabilidad en logs.
+
+Definition of Done  
+- Informe comparativo y decisión recomendada  
+- PoC funcional en sandbox  
+- Endpoints y eventos mapeados  
+- Estimación de esfuerzo y riesgos  
+- Tiempo acotado a 8–16 horas
+
+---
+
+## Spike 2: Disponibilidad y concurrencia en Bookings
+Contexto  
+Prevenir sobreventa de cupos al confirmar reservas simultáneas.
+
+Historia  
+Como equipo de desarrollo, quiero evaluar estrategias de concurrencia y consistencia para confirmar reservas y evitar overbooking.
+
+Criterios de aceptación  
+1. Dado que pueden ocurrir colisiones, cuando se prueba bloqueo optimista con versión y transacciones, entonces se documenta el manejo de conflictos y reintentos.  
+2. Dado que se requiere confirmar cupos, cuando el PoC simula 50 confirmaciones concurrentes para el mismo horario, entonces se registran tasas de conflicto y la estrategia elegida.  
+3. Dado que hay picos de demanda, cuando se prueba degradación controlada con cola o rechazo, entonces se documenta la política seleccionada.
+
+Definition of Done  
+- PoC con pruebas concurrentes  
+- Métricas de conflicto y latencia  
+- Recomendación de patrón y pasos de implementación  
+- Riesgos identificados
+
+---
+
+## Spike 3: Búsqueda y filtros de experiencias
+Contexto  
+Soportar búsqueda por texto y filtros por categoría, ubicación, precio y frecuencia.
+
+Historia  
+Como equipo de desarrollo, quiero comparar full-text en base de datos vs motor dedicado para definir la solución de búsqueda y filtros.
+
+Criterios de aceptación  
+1. Dado que se busca por título y descripción, cuando se prueba full-text nativo y un motor externo, entonces se documentan relevancia, tiempos de respuesta y costo.  
+2. Dado que hay filtros combinados, cuando se evalúan índices y paginación, entonces se documenta el plan de índices y su impacto.  
+3. Dado que debe escalar, cuando se simulan 10k experiencias y consultas concurrentes, entonces se registran percentiles de latencia.
+
+Definition of Done  
+- Benchmark comparativo  
+- Recomendación de arquitectura  
+- Esquema de índices o pipeline de indexación  
+- Estimación de esfuerzo
+
+---
+
+## Spike 4: Recomendaciones personalizadas
+Contexto  
+Recomendaciones basadas en preferencias y comportamiento.
+
+Historia  
+Como equipo de desarrollo, quiero validar un enfoque de recomendaciones viable para un MVP y priorizar entre reglas, contenido-based o colaborativo ligero.
+
+Criterios de aceptación  
+1. Dado que hay atributos de experiencia y favoritos, cuando se implementa un PoC de reglas y contenido-based, entonces se mide cobertura y precisión con datos de muestra.  
+2. Dado que el costo importa, cuando se compara complejidad y mantenimiento, entonces se documenta el trade-off frente a colaborativo.  
+3. Dado que la API debe responder rápido, cuando se prueba precálculo vs on-demand, entonces se registra la opción recomendada y su latencia.
+
+Definition of Done  
+- PoC con dataset sintético  
+- Métricas básicas de cobertura/precisión/latencia  
+- Diagrama de flujo de datos  
+- Decisión para MVP y próximos pasos
+
+---
+
+## Spike 5: Almacenamiento y entrega de imágenes de experiencias
+Contexto  
+Subida segura, optimización y entrega rápida de imágenes.
+
+Historia  
+Como equipo de desarrollo, quiero evaluar almacenamiento de objetos y CDN para definir subida segura, versiones optimizadas y entrega global.
+
+Criterios de aceptación  
+1. Dado que el cliente sube imágenes, cuando se prueba carga directa con URL firmada, entonces se documenta el flujo seguro y límites.  
+2. Dado que se requieren miniaturas, cuando se valida redimensionamiento serverless o en backend, entonces se documentan costo y tiempos.  
+3. Dado que se busca performance, cuando se integra un CDN y se configura cache-control, entonces se registran mejoras en tiempo de carga.
+
+Definition of Done  
+- Diagrama de subida y entrega  
+- PoC de subida con URL firmada y variante optimizada  
+- Lineamientos de caché y seguridad
+
+---
+
+## Spike 6: Moderación y saneamiento de contenido en Reviews e Inquiry
+Contexto  
+Asegurar que comentarios y respuestas sean seguros y adecuados.
+
+Historia  
+Como equipo de desarrollo, quiero evaluar bibliotecas de saneamiento y filtros de lenguaje para prevenir contenido malicioso u ofensivo.
+
+Criterios de aceptación  
+1. Dado que los textos pueden contener HTML, cuando se prueba saneamiento en servidor, entonces se garantiza la remoción de scripts y etiquetas peligrosas.  
+2. Dado que puede haber lenguaje inapropiado, cuando se integra un filtro de términos y se mide falso positivo/negativo, entonces se documenta el umbral recomendado.  
+3. Dado que se requiere auditabilidad, cuando se registran eventos de bloqueo, entonces se definen campos y retención en logs.
+
+Definition of Done  
+- PoC de sanitización y filtro básico  
+- Lista de reglas aceptadas  
+- Recomendaciones de configuración y logging
+
+---
+
+## Spike 7: Autenticación y autorización entre bounded contexts
+Contexto  
+Emisión y validación de JWT y traspaso de identidad entre servicios.
+
+Historia  
+Como equipo de desarrollo, quiero validar emisión y validación de tokens y autorización por rol para acceso a Experience, Bookings, Review e Inquiry.
+
+Criterios de aceptación  
+1. Dado que se emiten tokens, cuando se define contenido y expiración, entonces se documentan claims mínimos y rotación de claves.  
+2. Dado que los servicios consumen el token, cuando se valida autorización por rol y scope, entonces se registran respuestas para permitido y denegado.  
+3. Dado que hay múltiples servicios, cuando se prueba firma y validación en cada uno, entonces se documenta la configuración de middleware común.
+
+Definition of Done  
+- Esquema de claims  
+- PoC de emisión y validación en al menos dos servicios  
+- Matriz de permisos por rol  
+- Pasos de implementación
+
+---
+
+## Spike 8: Observabilidad y trazabilidad
+Contexto  
+Diagnóstico en producción con trazas, métricas y logs.
+
+Historia  
+Como equipo de desarrollo, quiero definir logging estructurado, métricas e instrumentación de trazas distribuidas para observar APIs y detectar cuellos de botella.
+
+Criterios de aceptación  
+1. Dado que existen múltiples servicios, cuando se instrumentan trazas con correlativo, entonces se visualiza el recorrido de una reserva end to end.  
+2. Dado que se requieren métricas, cuando se publican latencias y tasas de error, entonces se definen umbrales de alerta.  
+3. Dado que los logs deben ser útiles, cuando se estructuran con campos clave, entonces se valida su consulta en el agregador elegido.
+
+Definition of Done  
+- PoC con trazas, métricas y logs en un tablero  
+- Umbrales iniciales definidos  
+- Guía de instrumentación para el equipo
+
 ### 2.4.2. Impact Mapping  
-El Impact Mapping es una metodología visual y ágil que permite a las organizaciones enfocar el desarrollo de productos y servicios en función de sus metas estratégicas. Esta técnica facilita la identificación de una relación directa entre los objetivos del negocio, las acciones esperadas de los usuarios clave y las soluciones o funcionalidades que deben implementarse para lograr dichos objetivos.![Impact Mapping](./img/Impact-map-TripMatch.png)
+El Impact Mapping es una metodología visual y ágil que permite a las organizaciones enfocar el desarrollo de productos y servicios en función de sus metas estratégicas. Esta técnica facilita la identificación de una relación directa entre los objetivos del negocio, las acciones esperadas de los usuarios clave y las soluciones o funcionalidades que deben implementarse para lograr dichos objetivos.  
+
+![Impact Mapping](./img/Impact-map-TripMatch.png)
 
 
 
@@ -746,21 +1037,279 @@ El Impact Mapping es una metodología visual y ágil que permite a las organizac
 
 
 ## 2.5. Strategic-Level Domain-Driven Design
-
-
 ### 2.5.1. EventStorming
 
+Event Storming es una técnica que se realiza en equipo para poder comprender y explorar todos los posibles eventos que posee un sistema. Los integrantes del grupo realizan una lluvia de ideas para mapear las acciones que un usuario posiblemente realice durante el uso de la aplicación. También, con esta técnica podemos definir en grupo los procesos, el diseño y las reglas de negocio de la plataforma a desarrollar. 
+
+A continuación se mostrará los 9 pasos del Event Storming realizado en Miro:
+
+**Paso 1: Unstructured Exploration**
+
+En este paso se realiza una lluvia de ideas relacionado a los eventos que posiblemente posea el sistema.
+
+![Paso 1 Unstructured Exploration](./img/EventStormingPaso1.png)
+
+**Paso 2: Timelines**
+
+En esta fase, los eventos identificados se ordenan de manera secuencial y se agrupan entre los tipos de usuario.
+
+![Paso 2 Timelines](./img/EventStormingPaso2.png)
+
+**Paso 3: Paint Points**
+
+Durante este paso, se identifican los puntos donde es posible que haya mucho tráfico  o también, llamado cuellos de botella para poseer un plan para poder mejorar y actualizar aquellos puntos y así ofrecer una mejor experiencia a nuestros usuarios.
+
+![Paso 3 Paint Points](./img/EventStormingPaso3.png)
+
+**Paso 4: Pivotal Points**
+
+En este paso, identificamos los eventos comerciales importantes que nos indica que hay un cambio de contexto o sección en la aplicación móvil.
+
+![Paso 4 Paint Points](./img/EventStormingPaso4.png)
+
+**Paso 5: Commands**
+
+Los comandos son representaciones de la consecuencia que generó un evento o varios eventos.
+
+![Paso 5 Paint Points](./img/EventStormingPaso5.png)
+
+**Paso 6: Policies**
+
+En este escenario, se muestra que un evento puede provocar la ejecución de un comando manejado por una política. 
+
+![Paso 6 Paint Points](./img/EventStormingPaso6.png)
+
+**Paso 7: Read Models**
+
+En este escenario, los read models sirven para generar una interfaz de lectura de un evento para que el usuario pueda decidir si ejecutar un comando o no.
+
+![Paso 7 Paint Points](./img/EventStormingPaso7.png)
+
+**Paso 8: External Systems**
+
+En esta fase, se identifican los sistemas externos que usará la plataforma móvil para su ejecución eficaz.
+
+![Paso 8 Paint Points](./img/EventStormingPaso8.png)
+
+**Paso 9: Aggregates**
+
+En este paso, con los eventos y comandos realizados, entonces ya se puede comenzar a juntar conceptos  relacionados en un grupo, o mejor dicho en un bounded context.
+
+![Paso 9 Paint Points P1](./img/Paso9P1.png)
+
+![Paso 9 Paint Points P2](./img/Paso9P2.png)
+
+![Paso 9 Paint Points P3](./img/Paso9P3.png)
+
+
+
 #### 2.5.1.1. Candidate Context Discovery
+
+Nuestro equipo adoptó un enfoque que se centra en buscar partes del sistema que deben estar agrupados, desde un punto funcional, del usuario y de infraestructura. 
+
+Se identificaron 6 Bounded Context: 
+
+- Design and Planning:
+  Maneja la administración de las experiencias turísticas que están disponibles en la aplicación móvil. En esta parte, se muestra un campo de búsqueda para el destino y una  lista de las experiencias turísticas relacionadas al destino buscado.
+
+![Gestion de Destino](./img/DesignPaso9.png)
+
+- Users (IAM):
+  En este escenario, se crea, auténtica, autoriza y gestiona los usuarios que están registrados en el sistema. Se introduce el manejo de permisos y roles, y el control de acceso a diferentes tipos de usuarios que contiene la plataforma móvil.
+
+![Gestion de Usuarios](./img/UserPaso9.png)
+
+- Profile Management:
+  Se encarga de administrar las cuentas de usuarios creadas, tanto del tipo de usuario turista y agencia de viaje. Aquí, se configura la información personal, foto de perfil y ajustes relacionados a la experiencia del usuario.
+
+![Gestion de Perfil](./img/ProfilePaso9.png)
+
+- ARM (Assets and Resource Management):
+  Es responsable de manejar los procesos de reservas de las experiencias turísticas. Incluye la cancelación y seguimiento de las reservas realizadas. 
+
+![Gestion de Reserva](./img/ARMPaso9.png)
+
+- Inquiry:
+  Se encarga de registrar y gestionar las consultas hechas por los turistas y a responderlas. Se muestra también un listado de las consultas que posee cada agencia de viaje.
+
+![Gestion de Consultas](./img/InquiryPaso9.png)
+
+- Reviews:
+  Este escenario, se encarga de recolectar, mostrar y gestionar las publicaciones de reseñas de los usuarios sobre distintos lugares turísticos. Incluye la posibilidad de dejar calificaciones de estrellas y comentarios máx de 160 caracteres. 
+
+![Gestion de Reseñas](./img/ReviewsPaso9.png)
+
+
 #### 2.5.1.2. Domain Message Flows Modeling
+
+En esta sección, se describe el proceso que se usó para reflejar cómo sería la interacción de los diferentes bounded contexts dentro del sistema Xplore. Es esencial entender cómo es el flujo de trabajo de los diferentes bounded context para representar la regla de negocio y brindar a los usuarios una experiencia que satisfaga sus necesidades. Además, se usó la técnica de Domain Storytelling para presentar los flujos secuenciales de los actores, eventos y los sistemas involucrados.
+
+**Design and Planning ->ARM**
+
+Cuando uno quiere buscar un destino turístico para viajar, primero debe ir a la sección de Home y buscar el destino en la barra de búsqueda, y cuando aparece una lista de destinos coincidentes, se escoge uno para reservar, este contexto informa a la gestión de reserva para poder completar el proceso de la reserva. Como adicional, también el usuario podría guardar el destino reservado como favoritos.
+
+![DESTINO - RESERVA ](./img/Modelling1.png)
+
+**ARM -> Design and Planning**
+
+Cuando una agencia de viaje quiere agregar un nuevo destino, se le informa a la gestión de destino para que se agregue un destino turístico más disponible para reservar.  
+
+![RESERVA - DESTINO](./img/Modelling2.png)
+
+**Design and Planning  -> Reviews**
+
+Cuando se requiere realizar una publicación de reseña sobre una experiencia turística, debes estar en la sección Home y cuando busques algún destino, podrás visualizar una opción extra donde puedes ver el perfil de la agencia. Desde aquella sección, se le informará a la gestión de reseñas y podrás publicar una opinion mediante el botón de Enviar reseña.
+
+![DESTINO - RESEÑAS](./img/Modelling3.png)
+
+**Design and Planning -> Inquiry** 
+
+Cuando se requiere consultar sobre un destino turístico, debes ingresar en la sección Home, y buscando un destino, encontrarás un botón de Ver más, que sirve para realizar consultas sobre aquel destino Ingresarás a la gestión de consultas y en aquella sección se logrará enviar tu consulta hecha tras haber presionado el botón de Consultar. 
+
+![DESTINO - CONSULTAS](./img/Modelling4.png)
+
+**User (IAM) -> Profile Management**
+Cuando se crea una nueva cuenta, ya sea de modo turista o de agencia de viaje, luego de que inicie sesión, se le informará a la gestión perfil sobre la creación y sincronización  de los datos ingresados previamente en el registro de cuenta. 
+
+![USUARIOS - PERFIL](./img/Modelling5.png)
+
+
 #### 2.5.1.3. Bounded Context Canvases
+
+En esta sección se demuestra el proceso que ejecutó el equipo para agrupar los bounded context que posee nuestro sistema. El desarrollo de aquellos se realizó minuciosamente para comprobar de qué son los bounded context que reflejan el dominio del negocio. De esta manera, se logró formar 6 bounded context, enfocándonos en que cada uno de ellos resuelva la necesidad del usuario.
+
+- Bounded Context Canvases Users (IAM): 
+
+![BCC Usuarios](./img/CUsers.png)
+
+- Bounded Context Canvases Profile Management:
+
+![BCC Perfil](./img/CProfile.png)
+
+- Bounded Context Canvases Design and Planning: 
+
+![BCC Destino](./img/CDESIGN.png)
+
+- Bounded Context Canvases ARM:
+
+![BCC Reserva](./img/CARM.png)
+
+- Bounded Context Canvases Inquiry: 
+
+![BCC Consultas](./img/CInquiry.png)
+
+- Bounded Context Canvases Reviews: 
+
+![BCC Reseñas](./img/CReviews.png)
+
 
 ### 2.5.2. Context Mapping
 
+En esta parte, se explican las relaciones entre los 6 bounded contexts identificados de nuestro sistema.
+
+**Users (IAM) ➔ Profile Management**
+
+**Descripción:**
+
+ La Gestión de Usuarios gestiona la identidad y la autorización de los usuarios. Luego la gestión de perfil analiza la información de aquel usuario para autenticar y asignar los permisos y roles adecuados antes de permitir el acceso y modificación del perfil de la cuenta.
+
+
+
+**Profile Management➔ Design and planning**
+
+**Descripción:**
+
+La Gestión de Perfil muestra información personal sobre las preferencias  y configuraciones que es importante para la gestión de destino, la cual usa la información para recomendar destinos turísticos y opciones relevantes.
+
+
+
+**Design and planning ➔ ARM**
+
+**Descripción:**
+
+Cuando un usuario selecciona un destino y realiza los pasos para reservar la experiencia turística, entonces la gestión de Destino envía esta información a Gestión de Reserva. Esta última, utiliza aquellos datos para permitir al usuario hacer la reserva del destino y garantizar que la reserva se procese eficazmente.
+
+
+
+**ARM ➔ Design and planning**
+
+**Descripción:**
+
+Envía la información de la reserva para publicar, editar o eliminar una experiencia turística, y aquellos datos se reflejan en el contexto de gestión de destino en la sección de Home con nuevos destinos disponibles para reservar.
+
+
+
+**Design and planning ➔ Reviews**
+
+**Descripción:**
+
+Gestión de destino permite a los turistas publicar sus experiencias con otros usuarios sobre los destinos que han visitado con dicha agencia de viaje. Esta información se realiza en la gestión de reseñas y se refleja en la interfaz de reseñas, donde estas se recopilan y se almacenan.
+
+**Design and planning ➔ Inquiry**
+
+**Descripción:**
+
+Cuando un usuario tiene preguntas o dudas sobre un destino turístico que ofrece dicha agencia de viaje, entonces el contexto de gestión de destino consume esta información y  proporciona las respuestas detalladas mediante la gestión de consultas.
+
+
+**Preguntas estratégicas de reflexión:**
+
+**¿Qué pasaría si juntamos Users (IAM) y Profile Management?**
+
+No sería lo ideal juntarlos ya que cada bounded context tiene una responsabilidad diferente. La gestión de IAM se encarga de la autorización, autenticación y permisos de los usuarios, mientras que la gestión de perfil maneja la información personal de cada tipo de cuenta.
+
+**¿Qué pasaría si juntamos Inquiry con Design and Planning?**
+
+No sería lo mejor, ya que se generaría una sobrecarga en el dominio del negocio y, aparte, poseen diferentes funciones, por lo que no sería lo ideal fusionarlos.
+
+ **¿Qué pasaría si eliminamos Reviews y la incluimos en Design and Planning?**
+
+Si se realiza aquello podríamos obtener un bounded context difícil de manejar, ya que la gestión de reseñas hace su propia recopilación y presentación de los datos de las opiniones sobre los destinos turísticos. Mientras que la gestión de destinos se dedica a almacenar la información de los lugares turísticos, por lo que ambos se dedican a guardar distintas informaciones. Lo mejor sería separarlas y así no poder afectar el tiempo de respuesta de las reseñas y evitar errores que se generarían al manejar una gran cantidad de información.
+
+
+**Conclusion del analisis:**
+
+- No se crean nuevos bounded contexts adicionales. 
+- Se mantienen los 6 bounded contexts. 
+- Se refleja la importancia de mantener las responsabilidades específicas iniciales de cada bounded context.
+- Se analiza que se mejora la flexibilidad de respuesta al mantener algunos bounded context separados. 
+
+
 ### 2.5.3. Software Architecture
 
-#### 2.5.3.2. Software Architecture Container Level Diagrams
 #### 2.5.3.1. Software Architecture Context Level Diagrams
+Este diagrama muestra a los principales actores y sistemas externos que interactúan con TripMatch, la plataforma para planificar y vivir experiencias de viaje.
+
+Los usuarios son turistas, agencias de turismo y administradores, cada uno con roles claros en la gestión y uso del sistema.
+
+TripMatch se integra con sistemas externos clave como pasarelas de pago (Visa, MasterCard, PayPal), servicios de autenticación (Auth0 o Firebase Auth) y servicios de mapas y geolocalización (Google Maps API) para ofrecer funcionalidades seguras y completas.
+
+Este contexto permite entender las principales dependencias y actores involucrados en la plataforma móvil, facilitando su desarrollo y gestión.
+
+![Diagrama de Contexto](./img/context-diagram.png)
+
+
+#### 2.5.3.2. Software Architecture Container Level Diagrams
+
+El diagrama de contenedores de TripMatch muestra una aplicación monolítica modular compuesta por una aplicación móvil Flutter que permite a turistas, agencias y administradores interactuar con el sistema, la cual consume la API REST del Backend Spring Boot que centraliza toda la lógica de negocio a través de cinco bounded contexts especializados (Gestión de Perfiles, Experiencias, Reservas, Consultas y Reseñas), orquesta las comunicaciones con sistemas externos como el Sistema de Pago, Sistema de Autenticación y Google Maps API, y persiste todos los datos en una base de datos MySQL compartida.
+
+
+![Diagrama de Contenedores](./img/container-diagram.png)
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+
+El diagrama de despliegue muestra cómo el sistema TripMatch opera en producción: los turistas, agencias y administradores acceden desde la aplicación móvil Flutter (Android/iOS) desplegada en sus dispositivos móviles, la cual consume los servicios REST de la API Backend (Java/Spring Boot) desplegada en un servidor de aplicaciones en la nube, que centraliza toda la lógica de negocio a través de los bounded contexts especializados (Gestión de Perfiles, Experiencias, Reservas, Consultas y Reseñas) y se conecta con la base de datos MySQL compartida para persistir información de usuarios, experiencias turísticas, reservas y reseñas, mientras que el backend procesa las integraciones HTTPS/JSON con sistemas externos como el Sistema de Pagos (Visa/Mastercard/PayPal), Sistema de Autenticación (Auth0/Firebase) y Google Maps API para servicios de geolocalización y mapas.
+
+**Componentes del despliegue:**
+- **Dispositivos móviles**: Aplicación Flutter nativa para Android/iOS
+- **Servidor de aplicaciones**: API Backend Spring Boot desplegado en infraestructura cloud
+- **Base de datos**: MySQL Database para persistencia centralizada  
+- **Sistemas externos**: Integración con proveedores de pago, autenticación y mapas
+- **Protocolos**: REST API (HTTPS/JSON) para comunicación entre capas
+
+Esta arquitectura de despliegue garantiza escalabilidad, disponibilidad y seguridad para la plataforma de turismo TripMatch, permitiendo que múltiples usuarios accedan simultáneamente desde diferentes ubicaciones geográficas mientras mantiene la integridad de los datos y las transacciones.
+
+![Diagrama de Deployment](./img/deployment-diagram.png)
 
 
 ## 2.6. Tactical-Level Domain-Driven Desing
@@ -902,15 +1451,24 @@ String generateAccessToke(...): Crea y firma un JWT para autenticación
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams 
 
+<img src="img/authDg.png">
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams  
 
+Este diagrama de base de datos representa el bounded context IAM (Identity and Access Management), encargado de la autenticación y autorización de los usuarios dentro del sistema.
+Las tablas principales son User y Role, vinculadas mediante una relación muchos a uno, donde cada usuario posee un único rol asignado, pero un rol puede estar asociado a múltiples usuarios.
+Este diseño permite administrar de manera flexible los permisos y accesos, garantizando seguridad y control centralizado en la gestión de identidades.
+
+![IAM-Database](./img/TripchMatch-2025-09-19_15-27.png)
 
 #### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams  
+El diagrama modela la autenticación y seguridad con IAuthService que orquesta SignUpCommand y SignInCommand y retorna un User creado o un AuthResult. ITokenService genera el token a partir de User. Los tipos User, Tourist y Agency se tratan como externos del contexto Users y las dependencias reflejan el flujo de credenciales y emisión de token.
 
+<img src="img/iamclssdrm.webp">
 
 #### 2.6.1.6.2. Bounded Context Database Design Diagram 
 
+<img src="#">
 
 ### 2.6.2. Bounded Context : Profile Management
 
@@ -1076,9 +1634,25 @@ En la capa de Infrastructure Layer, se encuentran los repositorios que permiten 
 - Verifica la existencia de perfiles de usuario
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
+
+<img src="img/profileStrComDg.png">
+
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams  
 #### 2.6.2.6.1 Bounded Context Domain Layer Class Diagrams  
+El diagrama presenta al agregado User con sus atributos y la composición de los perfiles Agency y Tourist en relación uno a uno por usuario. Incluye el puerto IUserRepository para persistencia y consulta y la enumeración Role. Las multiplicidades indican que cada usuario puede tener perfil de agencia y/o de turista con campos de auditoría.
+
+![Diagrama clases - profile ](./img/diagrama-de-clases_profile.png)
+
 #### 2.6.2.6.2 Bounded Context Database Design Diagram 
+
+
+Este diagrama de base de datos corresponde al bounded context Profile, encargado de la gestión de identidades y perfiles dentro de la aplicación.
+La tabla principal User centraliza los datos básicos de autenticación y contacto, extendiéndose en dos perfiles especializados: Tourist y Agency.
+Un User puede estar asociado a un Tourist o a un Agency, lo que permite diferenciar entre clientes que consumen experiencias y organizaciones que las ofrecen.
+
+![Porfile-Database](./img/Profile-Database.png) 
+
+
 
 ## 2.2.3 Bounded Context : ARM (Assets Resource Managment)
 
@@ -1168,11 +1742,28 @@ Este bounded context centraliza la gestión de los pagos en distintos viajes que
 
 
 #### 2.2.3.5. Bounded Context Software Architecture Component Level Diagrams 
+
+<img src="img/bookingDg.png">
+
 #### 2.2.3.6. Bounded Context Software Architecture Code Level Diagrams  
 #### 2.2.3.6.1 Bounded Context Domain Layer Class Diagrams  
-#### 2.2.3.6.2 Bounded Context Database Design Diagram 
+El diagrama muestra el agregado Arm con sus atributos y reglas para confirmar, completar y cancelar. Incluye el puerto IBookingRepository, el enum BookingStatus y las dependencias hacia Users y Experiences como tipos externos. Las asociaciones indican que múltiples reservas pertenecen a un User turista, a una Agency y a una Experience, con estados y auditoría.
 
-### 2.6.4 Bounded Context : Experience 
+![Diagrama de clases - ARM ](./img/diagrama-de-clases_arm.png) 
+
+#### 2.2.3.6.2 Bounded Context Database Design Diagram   
+
+Este diagrama de base de datos representa la estructura del bounded context ARM – Assets and Resource Management, específicamente orientado al proceso de Booking.
+La tabla central es Booking, que gestiona las reservas realizadas por los usuarios. Esta tabla almacena información clave como la fecha de reserva, número de personas, precio, estado y horario seleccionado.
+
+Las relaciones principales conectan a Booking con Experience, permitiendo identificar la experiencia reservada, y con User (en el rol de Tourist), para vincular la reserva al cliente que la realiza.
+
+De esta manera, la base de datos facilita la administración de recursos y la trazabilidad de cada reserva, asegurando una correcta asociación entre los usuarios, las experiencias y la gestión operativa de las reservas
+
+![ARM-Database](./img/ARM-Database.png) 
+
+
+### 2.6.4 Bounded Context : DAP - Desing And Planing 
 
 Este contexto está centrado en la gestión de experiencias turísticas. Su propósito es manejar la creación, consulta, actualización y eliminación de experiencias, así como sus componentes relacionados como categorías, imágenes, horarios y lo que incluye cada experiencia.
 
@@ -1378,12 +1969,445 @@ Hereda los métodos de BaseRepository<Category> para operaciones CRUD estándar.
 - Task<IEnumerable<Category>> ListAsync() → Devuelve todas las categorías.
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams 
+Esta sección se enfoca en la arquitectura interna de los Bounded Contexts de Experience. El diagrama a continuación ilustra nuestra estrategia de diseño a nivel de componente, detallando cómo los elementos  interactúan entre sí y con la base de datos para la gestión de las funcionalidades de cada dominio.
 
+![Diagrama de componentes - dap](./img/Componente-DAP.png) 
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams  
 
 
 #### 2.6.4.6.1 Bounded Context Domain Layer Class Diagrams  
+El diagrama describe el agregado Dap con operaciones para añadir imágenes, incluidos y horarios y para actualizar datos principales. Compone las entidades ExperienceImage, Include y Schedule en relación uno a muchos, pertenece a una Category y está publicada por una Agency como tipo externo. Incluye los puertos IExperienceRepository e ICategoryRepository para consulta y persistencia.
+
+![Diagrama de clases - dap](./img/diagrama-de-clases_dap.png) 
+
+#### 2.6.4.6.2 Bounded Context Database Design Diagram  
+
+Este diagrama de base de datos detalla las tablas y relaciones para la gestión de experiencias dentro del bounded context DAP – Design And Planning, enfocándose en los módulos de Favorite y Experience.
+La tabla principal es Experience, que almacena la información central de cada experiencia turística (descripción, precio, ubicación, horarios, etc.).
+A partir de esta, se relacionan otras tablas como Schedule (para manejar los diferentes horarios disponibles de cada experiencia) y Favorite, que permite a los usuarios marcar experiencias de su preferencia, estableciendo la conexión entre User y Experience.
+
+Con esta estructura, se logra gestionar de manera integral tanto la definición y planificación de experiencias como la personalización del usuario a través de sus experiencias favoritas.
+
+![DAP-Database](./img/DAP%20-%20Bounded%20Context%20Database.png) 
 
 
-#### 2.6.4.6.2 Bounded Context Database Design Diagram 
+
+# 2.6.5. Bounded Context: **Inquiry**
+
+El bounded context **Inquiry** gestiona el ciclo de vida de **preguntas** realizadas por usuarios sobre experiencias turísticas y sus **respuestas** oficiales por parte del prestador/agencia dueña de la experiencia. Su foco es: registro de preguntas, **unicidad** de respuesta por pregunta, **validación de actores** y **auditoría** (fechas/estado).
+
+---
+
+## 2.6.5.1. Domain Layer
+
+### 1) Visión general
+
+| Objetivo del dominio | Reglas clave |
+| :-- | :-- |
+| Permitir que un usuario consulte detalles de una experiencia y que el **dueño** de la experiencia responda de forma oficial. | (1) Una **Inquiry** tiene **máximo una** `Response`. (2) Solo el **dueño/agencia** de la experiencia puede responder. (3) Validar existencia de `Experience`/usuarios (en otros BC). (4) Saneamiento de texto y límites de longitud. (5) Tiempos en **UTC** y campos auditables. |
+
+---
+
+### 2) Clases del dominio (diccionario)
+
+> **Aggregate: Inquiry**
+
+| Nombre | Categoría | Descripción |
+| :-- | :-- | :-- |
+| Inquiry | **Aggregate Root** | Pregunta realizada por un usuario sobre una experiencia. Controla la integridad del agregado: 0..1 Response. |
+
+**Atributos – `Inquiry`**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| :-- | :-- | :-- | :-- |
+| Id | int | Public | Identificador único (PK). |
+| ExperienceId | int` | Public | Id lógico de la experiencia (FK hacia BC Experience). |
+| UserId | Guid | Public | Usuario que pregunta. |
+| Question | string (<=500) | Public | Texto de la pregunta (saneado). |
+| AskedAt | DateTime (UTC) | Public | Fecha/hora en UTC. |
+| IsActive | bool | Public | Soft-delete. |
+| CreatedDate | DateTime (UTC) | Public | Auditoría de creación. |
+| Response | Response? | Public | Navegación 0..1 hacia la respuesta. |
+
+**Métodos / Reglas – Inquir`**
+
+| Nombre | Retorno | Visibilidad | Descripción |
+| :-- | :-- | :-- | :-- |
+| ValidateQuestion() | void | Public | Verifica longitud, vacíos y contenido prohibido (tags/URLs). |
+| Deactivate() | void | Public | Desactiva (soft delete) preservando historial. |
+
+> **Entity: Response**
+
+| Nombre | Categoría | Descripción |
+| :-- | :-- | :-- |
+| Response | **Entity (del agregado)** | Respuesta oficial a una Inquiry. Unicidad por InquiryId. |
+
+**Atributos – Response**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| :-- | :-- | :-- | :-- |
+| Id` | int | Public | Identificador único (PK). |
+| InquiryId` | int | Public | FK hacia Inquiry (**UK** para unicidad 1:1). |
+| ResponderId` | Guid | Public | Usuario de la agencia que responde. |
+| Answer` | string (<=500) | Public | Contenido de la respuesta (saneado). |
+| AnsweredAt` | DateTime (UTC) | Public | Fecha/hora en UTC. |
+| IsActive` | bool | Public | Soft-delete. |
+| CreatedDate` | DateTime (UTC) | Public | Auditoría de creación. |
+| Inquiry` | Inquiry | Public | Navegación inversa 1:1. |
+
+**Métodos / Reglas – Response**
+
+| Nombre | Retorno | Visibilidad | Descripción |
+| :-- | :-- | :-- | :-- |
+| ValidateAnswer() | void | Public | Verifica longitud, vacíos y contenido prohibido (tags/URLs). |
+
+> **Aggregate & Invariante**
+
+| Root | Miembros | Invariante |
+| :-- | :-- | :-- |
+| Inquiry | Inquiry (root) + Response (0..1) | **Una sola** Response por Inquiry (enforced por **UK** en Responses.InquiryId). |
+
+> **Value Objects (opcional futuro)**
+
+| Nombre | Motivo |
+| :-- | :-- |
+| QuestionText, AnswerText | Encapsular saneamiento/longitud y reglas de formato. |
+
+> **Domain Services (abstracciones)**
+
+| Interfaz | Responsabilidad | Notas |
+| :-- | :-- | :-- |
+| IExperienceOwnershipService | Verificar si ResponderId **es dueño** de ExperienceId. | Llama a BC/servicio externo (IAM/Experiences). |
+
+> **Repositorios (interfaces / puertos)**
+
+| Interfaz | Métodos clave |
+| :-- | :-- |
+| IInquiryRepository | FindByIdAsync(int), ListAsync(int? experienceId, int page=1, int pageSize=20), AddAsync(Inquiry), SaveChangesAsync() |
+| IResponseRepository| FindByInquiryIdAsync(int), AddAsync(Response), SaveChangesAsync() |
+
+---
+
+## 2.6.5.2. Interface Layer
+
+> **Controllers (REST)**
+
+| Controller | Endpoints | Descripción |
+| :-- | :-- | :-- |
+| InquiryController | POST /api/v1/inquiries | Crea pregunta. |
+|  | GET /api/v1/inquiries | Lista paginada de preguntas. |
+|  | GET /api/v1/experiences/{experienceId}/inquiries | Lista preguntas por experiencia (paginada). |
+| ResponseController | POST /api/v1/inquiries/{inquiryId}/response | Crea respuesta para una Inquiry. |
+|  | GET /api/v1/inquiries/{inquiryId}/response | Obtiene la respuesta de una Inquiry. |
+
+> **Contracts (DTOs)**
+
+**Requests**
+
+| DTO | Campos |
+| :-- | :-- |
+| CreateInquiryRequest | { ExperienceId:int, UserId:Guid, Question:string, AskedAt?:DateTime } |
+| CreateResponseRequest |{ ResponderId:Guid, Answer:string, AnsweredAt?:DateTime } |
+
+**Resources (Responses DTO)**
+
+| DTO | Campos |
+| :-- | :-- |
+| InquiryResource | { Id, ExperienceId, UserId, Question, AskedAt } |
+| ResponseResource | { Id, InquiryId, ResponderId, Answer, AnsweredAt } |
+
+**Policies**
+
+| Política | Detalle |
+| :-- | :-- |
+| Autenticación | Requerida para crear preguntas y responder. |
+| Autorización | En POST response: ResponderId **debe ser dueño** de ExperienceId (vía IExperienceOwnershipService). |
+
+---
+
+## 2.6.5.3. Application Layer
+
+> **Capabilities (casos de uso)**
+
+| # | Capability | Handler |
+| :--: | :-- | :-- |
+| 1 | Registrar pregunta | CreateInquiryHandler |
+| 2 | Listar preguntas | ListInquiriesHandler |
+| 3 | Listar preguntas por experiencia | ListInquiriesByExperienceHandler |
+| 4 | Responder pregunta | CreateResponseHandler |
+| 5 | Obtener respuesta por pregunta | GetResponseByInquiryIdHandler |
+
+> **Commands / Command Handlers**
+
+| Command | Validaciones/Reglas en Handler |
+| :-- | :-- |
+| CreateInquiryCommand { ExperienceId, UserId, Question, AskedAt } | Sanea/valida Question; si AskedAt == null → UtcNow; puede validar existencia de Experience; persiste Inquiry. |
+| CreateResponseCommand { InquiryId, ResponderId, Answer, AnsweredAt } | Verifica Inquiry activa; **si ya existe Response → 409**; valida **propiedad** vía IExperienceOwnershipService; normaliza AnsweredAt; persiste Response. |
+
+> **Queries / Query Handlers**
+
+| Query | Resultado |
+| :-- | :-- |
+| GetAllInquiriesQuery { page, pageSize } | Lista paginada de Inquiry. |
+| GetAllInquiriesByExperienceQuery { ExperienceId, page, pageSize } | Lista paginada por experiencia. |
+| GetResponseByInquiryIdQuery { InquiryId } | Response? de la Inquiry. |
+
+> **Validaciones (Application)**
+
+| Campo | Regla |
+| :-- | :-- |
+| Question, Answer | Requeridos, <= 500, sin HTML/script, Trim(). |
+| Fechas | <= UtcNow. |
+| Ids | ExperienceId > 0, UserId/ResponderId GUID válidos. |
+
+> **Eventos (opcional)**
+
+| Evento | Uso |
+| :-- | :-- |
+| InquiryCreated, ResponseCreated | Notificaciones, métricas, integración con otros BC. |
+
+---
+
+## 2.6.5.4. Infrastructure Layer
+
+> **Persistencia (ORM/SQL – EF Core)**
+
+**Mapeos de tablas**
+
+| Tabla | Columnas principales | Claves / Constraints | Relación |
+| :-- | :-- | :-- | :-- |
+| Inquiries | Id (PK), ExperienceId, UserId, Question(500), AskedAt, IsActive, CreatedDate | Índices: (ExperienceId, AskedAt DESC) | 1 ↔ 0..1 con Responses |
+| Responses | Id (PK), InquiryId (FK, UK), ResponderId, Answer(500), AnsweredAt, IsActive, CreatedDate | **UK** en InquiryId (unicidad 1:1), **FK** → Inquiries.Id con **ON DELETE CASCADE** | 0..1 ↔ 1 con Inquiries |
+
+**Repositorios (Adapters)**
+
+| Implementación | Interfaz | Funcionalidad clave |
+| :-- | :-- | :-- |
+| InquiryRepository | IInquiryRepository | ListAsync con filtros/paginación, FindByIdAsync, AddAsync, SaveChangesAsync (uso de AsNoTracking() en lecturas). |
+| ResponseRepository | IResponseRepository | FindByInquiryIdAsync, AddAsync, SaveChangesAsync (garantiza unicidad por UK). |
+
+**Servicios externos**
+
+| Adapter | Interfaz | Propósito |
+| :-- | :-- | :-- |
+| ExperienceOwnershipService | IExperienceOwnershipService | Verifica propiedad de experiencia (HTTP/GRPC a BC externo). |
+
+**Cross-cutting**
+
+| Aspecto | Detalle |
+| :-- | :-- |
+| Filtro global | Consultas de lectura con IsActive = true (si se configura). |
+| Rendimiento | Paginación, AsNoTracking() en queries, índices por ExperienceId y AskedAt. |
+
+---
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams 
+
+<img src="img/inquiryDg.png">
+
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams  
+#### 2.6.5.6.1 Bounded Context Domain Layer Class Diagrams  
+
+El diagrama presenta el agregado Inquiry con sus atributos y métodos de validación y desactivación y su relación uno a cero o uno con Response con validación de respuesta. Incluye los puertos IInquiryRepository y IResponseRepository para persistencia. Muestra el servicio IExperienceOwnershipService para verificar que quien responde sea dueño de la experiencia.
+
+![Diagrama de clases - inquiry](./img/diagrama-de-clases_inquiry.png) 
+
+#### 2.6.5.6.2 Bounded Context Database Design Diagram   
+
+Este diagrama de base de datos corresponde al bounded context Inquiry, encargado de gestionar las consultas de los usuarios sobre experiencias. La tabla principal Inquiry registra la pregunta realizada, asociándola tanto a un User como a una Experience.
+Cada consulta puede recibir una Response, vinculada al usuario que responde. De esta forma se asegura la trazabilidad entre preguntas, respuestas y los participantes involucrados.
+
+![Inquiry-Database](./img/Inquiry-%20Database.png) 
+
+
+
+# 2.6.6. Bounded Context: **Review**
+
+El bounded context **Review** gestiona el ciclo de vida de reseñas que realizan **turistas** a **agencias** (dueños de experiencias) después de participar en una experiencia. Enfatiza: **unicidad** de reseña por turista–agencia, **rating** normalizado (1–5), **saneamiento** y **auditoría**.
+
+---
+
+## 2.6.6.1. Domain Layer
+
+### 1) Visión general
+
+| Objetivo del dominio | Reglas clave |
+| --- | --- |
+| Permitir que un turista califique y comente su experiencia con una agencia. | Rating en [1..5]. Una reseña por par turista–agencia. Comentario requerido y ≤ 200 caracteres (saneado). Fechas en UTC y campos de auditoría. |
+
+### 2) Clases del dominio (diccionario)
+
+> Aggregate: Review
+
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| Review | Aggregate Root | Reseña hecha por un turista hacia una agencia. Controla su integridad (unicidad y validaciones). |
+
+**Atributos – Review**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| Id | int | Public | Identificador único (PK). |
+| TouristUserId | Guid | Public | Usuario turista que reseña. |
+| AgencyUserId | Guid | Public | Usuario/Agencia reseñada. |
+| Rating | int (1..5) | Public | Puntuación entera normalizada. |
+| Comment | string (≤ 200) | Public | Comentario (saneado; requerido). |
+| ReviewDate | DateTime (UTC) | Public | Fecha/hora de la reseña (UTC). |
+| IsActive | bool | Public | Soft-delete. |
+| CreatedDate | DateTime (UTC) | Public | Auditoría de creación. |
+| TouristUser | User | Public | Navegación al usuario turista. |
+| Agency | Agency | Public | Navegación a la agencia. |
+
+**Métodos / Reglas – Review**
+
+| Nombre | Retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| ValidateRating() | void | Public | Garantiza 1 ≤ Rating ≤ 5. |
+| ValidateComment() | void | Public | Garantiza comentario requerido, ≤ 200 y saneado. |
+
+> Repositorios (interfaces / puertos)
+
+| Interfaz | Métodos clave |
+| --- | --- |
+| IReviewRepository | FindByIdAsync(int), FindByAgencyUserIdAsync(Guid), FindByAgencyAndTouristUserAsync(Guid agencyId, Guid touristId), FindAllReviewsForAgency(Guid), AddAsync(Review), SaveChangesAsync() |
+
+---
+
+## 2.6.6.2. Interface Layer
+
+> Controllers (REST)
+
+| Controller | Endpoint | Método | Descripción |
+| --- | --- | --- | --- |
+| ReviewController | /api/v1/Review | POST | Crea una reseña. |
+| ReviewController | /api/v1/Review/{id} | GET | Obtiene una reseña por Id. |
+| ReviewController | /api/v1/Review/agency/{agencyUserId} | GET | Lista reseñas por agencia. |
+
+> Contracts (DTOs expuestos)
+
+| Tipo | Nombre | Campos principales |
+| --- | --- | --- |
+| Request | CreateReviewCommand | TouristUserId, AgencyUserId, Rating, Comment |
+| Resource | ReviewResource | Id, TouristUserId, AgencyUserId, Rating, Comment, ReviewDate |
+
+*(También se usa ReviewAssembler para transformar a Resource.)*
+
+**Políticas en la interfaz**
+
+| Política | Detalle |
+| --- | --- |
+| Autenticación | Requerida para crear reseñas. |
+| Validación | Delegada a CreateReviewCommandValidator y a la capa de aplicación. |
+
+---
+
+## 2.6.6.3. Application Layer
+
+> Servicios (Command/Query Services)
+
+| Servicio | Responsabilidad | Operaciones |
+| --- | --- | --- |
+| ReviewCommandService | Manejar comandos de creación de reseñas. | Handle(CreateReviewCommand) |
+| ReviewQueryService | Consultar reseñas. | Handle(GetReviewsByAgencyIdQuery), Handle(GetReviewByIdQuery) |
+
+> Commands / Queries
+
+| Tipo | Nombre | Propósito |
+| --- | --- | --- |
+| Command | CreateReviewCommand | Registrar una nueva reseña. |
+| Query | GetReviewsByAgencyIdQuery | Listar reseñas por AgencyUserId. |
+| Query | GetReviewByIdQuery | Obtener una reseña por Id. |
+
+> Validaciones (Application)
+
+| Componente | Reglas principales |
+| --- | --- |
+| CreateReviewCommandValidator | TouristUserId y AgencyUserId requeridos; Rating en [1..5]; Comment requerido, ≤ 200, sin HTML/URLs. |
+
+> Reglas de orquestación en Command Service
+
+| Regla | Descripción |
+| --- | --- |
+| Unicidad | Verifica que no exista una reseña previa para el par (AgencyUserId, TouristUserId) usando IReviewRepository.FindByAgencyAndTouristUserAsync. |
+| Existencia y roles | Verifica con repositorios de Users/Agencies que el turista y la agencia existan con el rol correcto. |
+| Agregación de métricas | Tras crear la reseña, actualiza en Agency el promedio y conteo de reseñas. |
+
+---
+
+## 2.6.6.4. Infrastructure Layer
+
+> Persistencia (ORM/SQL – EF Core)
+
+**Tabla Reviews**
+
+| Columna | Tipo | Constraint |
+| --- | --- | --- |
+| Id | int | PK |
+| TouristUserId | uuid | Index |
+| AgencyUserId | uuid | Index (y combinación para consultas por agencia) |
+| Rating | int | Check 1..5 (validado en app) |
+| Comment | varchar(200) | Not null |
+| ReviewDate | datetime | Not null (UTC) |
+| IsActive | bit | Default true |
+| CreatedDate | datetime | Not null (UTC) |
+
+**Repositorios (adapters)**
+
+| Implementación | Interfaz | Detalles |
+| --- | --- | --- |
+| ReviewRepository | IReviewRepository | Usa Include para relaciones (TouristUser, Agency); expone búsquedas por Id, por agencia, y por par agencia–turista; AddAsync/SaveChangesAsync. |
+
+**Integraciones**
+
+| Dependencia | Uso |
+| --- | --- |
+| Repos de Users/Agencies | Validación de existencia/rol de TouristUser y Agency antes de crear la reseña. |
+
+**Prácticas transversales**
+
+| Aspecto | Detalle |
+| --- | --- |
+| Lecturas | AsNoTracking() en consultas; paginación en listados por agencia. |
+| Índices | AgencyUserId y (AgencyUserId, ReviewDate DESC) para ordenar y filtrar. |
+| Auditoría | Fechas en UTC; soft-delete con IsActive. |
+
+
+Este diagrama de base de datos corresponde al bounded context Review, cuya finalidad es gestionar las reseñas realizadas por los turistas hacia las agencias.
+La tabla principal Review almacena la calificación, comentario y fecha, relacionando al Tourist (quien emite la reseña) con la Agency (quien la recibe).
+
+
+#### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams 
+
+<img src="img/reviewDg.png">
+
+#### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams  
+#### 2.6.6.6.1 Bounded Context Domain Layer Class Diagrams  
+El diagrama modela el agregado Review con campos de usuario turista, agencia, calificación, comentario, fecha y auditoría. Muestra asociaciones donde muchas reseñas pertenecen a un User y a una Agency. Incluye el puerto IReviewRepository para crear y consultar reseñas y refleja la unicidad por par turista agencia y manejo de tiempos en UTC.
+
+![Diagrama de clases - Review ](./img/diagrama-de-clases_reviews.png) 
+
+#### 2.6.6.6.2 Bounded Context Database Design Diagram   
+Este diagrama de base de datos corresponde al bounded context Review, cuya finalidad es gestionar las reseñas realizadas por los turistas hacia las agencias.
+La tabla principal Review almacena la calificación, comentario y fecha, relacionando al Tourist (quien emite la reseña) con la Agency (quien la recibe).
+
+![Review-Database](./img/Review-Database.png) 
+
+
+# Conclusiones y recomendaciones
+
+- TripMatch resuelve con claridad la brecha entre viajeros que buscan experiencias auténticas y agencias locales que necesitan digitalizar su oferta. La propuesta integra en un solo flujo la búsqueda con filtros relevantes, la ficha completa de cada experiencia, la reserva directa, un módulo de consultas ágil y un sistema de reseñas verificadas. Este enfoque reduce la fricción en la decisión de compra, eleva la confianza y mejora la visibilidad de los proveedores locales sin intermediación innecesaria, generando valor inmediato para ambos lados del mercado.
+
+- El diseño del producto se apoya en una arquitectura por dominios que separa con rigor identidad y acceso, perfiles, experiencias, reservas, consultas, reseñas y favoritos. Esta organización disminuye el acoplamiento, facilita la escalabilidad por módulos y hace más predecible la evolución del sistema. Los diagramas y flujos de mensajes capturan reglas e invariantes críticas del negocio, lo que se traduce en mantenibilidad a largo plazo y en una base técnica preparada para crecer sin comprometer la estabilidad.
+
+- La estrategia prioriza un lanzamiento móvil enfocado en descubrir, evaluar y reservar, acompañado por métricas accionables que permitan aprender y ajustar con rapidez. La activación de usuarios, la conversión desde la búsqueda hasta la reserva, el tiempo de respuesta a consultas, la retención de agencias activas y la calidad percibida medida con encuestas y calificaciones orientarán las iteraciones del equipo. Con estas bases, el producto es viable como un primer lanzamiento y cuenta con una ruta de crecimiento que incluye pagos en producción, recomendaciones más precisas y automatización operativa para agencias, todo reforzado por iniciativas de verificación de proveedores y transparencia de precios que mitigan riesgos de adopción y calidad de la oferta.
+
+
+# Bibliografia 
+
+KPMG Tendencias. (2024, 8 de julio). *El futuro del sector turístico: hacia la máxima digitalización y personalización de los servicios al cliente*. KPMG Tendencias. Recuperado el día 10 de abril de 2025, de <https://www.tendencias.kpmg.es/2024/07/futuro-sector-turistico-digitalizacion-personalizacion/>
+
+Ministerio de Comercio Exterior y Turismo. (2024). *Turismo Interno*. Mincetur. Recuperado el 10 de abril de 2025, de <https://www.mincetur.gob.pe/centro_de_Informacion/mapa_interactivo/turismoInterno.html>
+
+Nissa, M. (2021, 07 de abril). *7 Estadísticas Esenciales de Reservas de Viajes Online*. Mize. Recuperado el 10 de abril de 2025, de <https://mize.tech/es/blog/reservas-de-viajes-online-las-7-estadisticas-mas-importantes/>
+
+TravelPerk. (2022, 29 de diciembre). *Más de 60 estadísticas y tendencias de reservas de viajes en línea*. TravelPerk. Recuperado el día 10 de abril de 2025, de <https://www.travelperk.com/es/blog/estadisticas-reservas-de-viajes-en-linea/>
