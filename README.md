@@ -504,9 +504,9 @@ Segmento 2: Agencias de Turismo
 
 | Nº Entrevista | Datos del entrevistado                                                                                                                                                                | Resumen de la entrevista                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Evidencia de entrevista                          |
 |---------------|---------------|-------------------|--------------|
-| 1             | - **Nombre:**  <br> - **Edad:**  <br> - **Distrito:**  <br> - **Link:** [Entrevista 1: Karla Rojas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311258_upc_edu_pe/EacDNvV_oulFoz4vMVU_BT8BSuGGmomw0ULMWN7Nf8dMKg?e=LBQ57A) |                  | ![Entrevista 1](./assets/img/Entrevista%201%20-%20Turistas%20(Karla%20Rojas).png) |
-| 2             | - **Nombre:** Leslie Vanessa Quispe <br> - **Edad:** 22 años <br> - **Distrito:** Pachacútec – Ica <br> - **Link:** [Entrevista 2: Leslie Vanessa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219481_upc_edu_pe/ER9uSjjYeUpAlCGDYI6ikEUBMF_SZ3xek6ePFchu92xoNg?e=KnUET1) | Leslie, joven viajera, enfrenta dificultades por precios altos y reseñas dudosas. Desea una app como TripMatch con precios claros, reseñas reales y conexión directa con operadores locales. Valora la autenticidad y personalización de las experiencias. Está motivada a apoyar el turismo local mediante plataformas confiables.                                                                                                                   | ![Entrevista 2](./assets/img/entrevista-turista-leslie.png) |
-| 3             | - **Nombre:** Kevin Vargas <br> - **Edad:** 24 años <br> - **Distrito:** La Molina <br> - **Link:** [Entrevista 3: Kevin Vargas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g671_upc_edu_pe/EZejm6seAVdMvwuToOcx1xgB1scDFPDb0jd3zL9AoQ1BkA?e=upGl44) | Kevin, ingeniero mecatrónico, considera complicado encontrar actividades turísticas personalizadas y confiables. Le interesa una app como TripMatch con recomendaciones reales, multimedia y validaciones. Critica que las plataformas actuales promueven turismo masivo y sugiere integrar pequeños operadores que ofrezcan experiencias auténticas adaptadas a cada viajero.                                                              | ![Entrevista 3](./assets/img/Entrevista%203%20-%20Turistas%20(Kevin%20Vargas).png) |
+| 1             | - **Nombre:**  Valentino Chavez <br> - **Edad:** 20 años  <br> - **Distrito:** San Miguel <br> - **Link:** [Entrevista 1: Valentino Chavez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219481_upc_edu_pe/Eds4jzCLBjRKlkWWBEC8nEcB59T0FRpe17OH2a6_5EzH-g?e=xRUHKu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | Valentino es un viajero que busca aventuras como canotaje le cuesta hallar actividades alineadas porque las webs no dan info suficiente y termina escribiendo por WhatsApp. Desconfía por falta de garantías y operadores confiables; recurre a recomendaciones. Está muy dispuesto a descubrir planes auténticos. Quiere una app con experiencias personalizadas por interés, reserva directa y alianza real entre la plataforma y operadores (no solo listado de contactos), con precios claros y reseñas verificadas. Rechaza paquetes estándar; busca flexibilidad para ajustar al horario propio.                 | ![Entrevista 1](./img/entrevista-turista-valentino.png) |
+| 2             | - **Nombre:** Leslie Vanessa Quispe <br> - **Edad:** 24 años <br> - **Distrito:** Pachacútec – Ica <br> - **Link:** [Entrevista 2: Leslie Vanessa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219481_upc_edu_pe/ER9uSjjYeUpAlCGDYI6ikEUBMF_SZ3xek6ePFchu92xoNg?e=KnUET1) | Leslie, joven viajera, enfrenta dificultades por precios altos y reseñas dudosas. Desea una app como TripMatch con precios claros, reseñas reales y conexión directa con operadores locales. Valora la autenticidad y personalización de las experiencias. Está motivada a apoyar el turismo local mediante plataformas confiables.                                                                                                                   | ![Entrevista 2](./img/entrevista-turista-leslie.png) |
+| 3             | - **Nombre:** Alejandra Gamboa <br> - **Edad:** 19 años <br> - **Distrito:** Barranco <br> - **Link:** [Entrevista 3: Alejandra Gamboa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219481_upc_edu_pe/EXm4HovlZY1PrmmdXs-fT9YBHs3fND1u5-Fia79sK1HtEw?e=zSYzcU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | Alejandra viajera flexible y consciente del presupuesto, le cuesta hallar actividades alineadas a sus intereses y presupuesto; desconfía de reservas online por precios poco claros y costos ocultos. Ha querido tours locales pero falta un canal directo y termina pagando más o perdiendo cupos. Está muy dispuesta a descubrir experiencias auténticas. Quiere una app con precios transparentes, reseñas reales, operadores verificados y reserva directa con agencias locales. Crítica que las plataformas actuales ofrecen paquetes masivos; busca personalización y flexibilidad mientras apoya lo local.                                                             | ![Entrevista 3 - Turistas](./img/entrevista-turista-alejandra.png) |
 
 </div>
 
@@ -521,7 +521,7 @@ Segmento 2: Agencias de Turismo
 | Nº Entrevista | Datos del entrevistado  | Resumen de la entrevista     | Evidencia de entrevista                      |
 |---------------|-----------------------------------|-------------------------------|----------------|
 | 1             | - **Nombre:** Hector Rios<br> - **Edad:** 21 años <br> - **Distrito:** Callao <br> - **Link:** [Entrevista 1: Hector Rios](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c505_upc_edu_pe/ESihRhLiTBVLq0ad9GJZNLIBJlhryUpCkoy-bTxl4qobxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RDjmxY) | Héctor Ríos, representante de agencia de turismo, indica que se promocionan sobre todo por redes sociales y recomendaciones, aunque atraer turistas independientes sin intermediarios es difícil. Menciona desorden en la gestión de información y clientes como reto para digitalizarse. Valora una app como TripMatch por la posibilidad de recibir reservas directas, organizar mejor sus servicios y generar confianza con reseñas verificadas.| ![Entrevista 1: Evidencia](./img/Entrevista%20Hector%20Rios.png) |
-| 2             | - **Nombre:** Jose Sosa <br> - **Edad:** 22 años <br> - **Distrito:** Los Olivos <br> - **Agencia:** Travel Perú <br> - **Link:** [Entrevista 2: Jose Sosa](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316057_upc_edu_pe/EYVl_NJV4VNGtS-3XhPGVhIBLR2bjWAxQK1Iz8K4b-xVyQ?e=RlInAd) | José es dueño de una pequeña agencia que depende de redes sociales, posicionamiento en Google y alianzas con hoteles. Los principales problemas son la falta de reservas directas, el manejo disperso de herramientas y limitaciones en pagos en línea. Ve en TripMatch una solución útil para mostrar sus tours, automatizar reservas y mejorar la conexión directa con turistas sin intermediarios, lo que aumentaría sus ingresos y visibilidad. | ![Entrevista 2: Evidencia](./assets/img/entrevista-agencias-jose.png) |
+| 2             | - **Nombre:** Frank Mosqueiraa <br> - **Edad:** 23 años <br> - **Ciudad:** Cajamarca <br> - **Link:** [Entrevista 2: Frank Mosqueira](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219481_upc_edu_pe/EfKrwQSBA9RMqNWaMEsnJ68BEl10ehYjcu-9-AGaIYGkqg?e=dOYtGe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | Frank que tiene una agencia familiar en Cajamarca hoy depende de boca a boca, redes y convenios; carece de sistema centralizado y sufre con pagos online y reservas manuales. Le cuesta captar turistas directos por la visibilidad de grandes plataformas. Quiere TripMatch para segmentar por intereses, reservas/pagos seguros y reseñas verificadas. Beneficios esperados: más visibilidad, menos intermediarios y mejores márgenes con automatización de consultas de último minuto. | ![Entrevista 2: Frank](./img/entrevista-agencias-frank.png) |
 | 3             | - **Nombre:** Carlos Puma <br> - **Edad:** 23 años <br> - **Departamento:** Cusco <br> - **Agencia:** Local Trekkers Perú <br> - **Link:** [Entrevista 3: Carlos Puma](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/Efa3TJjWZ0tOqBBYaxlHYjoBWM9G087BxQmRgo7UQcteBw?e=iYPsIk) | Carlos, asistente en Local Trekkers Perú, señala que usan Instagram, su web y TripAdvisor para captar clientes, aunque les cuesta atraer turistas independientes. Enfrentan problemas operativos como desorganización en canales de contacto y escasa visibilidad frente a plataformas grandes. Desea una app como TripMatch que centralice reservas, tenga diseño visual atractivo, mensajería básica, filtros por intereses y permita destacar experiencias auténticas de operadores locales. | ![Entrevista 3: Evidencia](./assets/img/entrevista-carlos.png) |
 
 </div>
@@ -656,18 +656,93 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 
 ## 2.4. Requirements specification  
 
-
-
 ### 2.4.1 User Stories 
-
+|**User story ID**|**Título**|**Descripción** |**Criterio de aceptación**|**Relación (EPIC ID)**|
+| - | - | - | - | - |
+|US01|Registro de usuario|**Como** usuario, **quiero** registrarme en la aplicación **para** poder acceder a sus funcionalidades y planificar mis viajes.|<p>Escenario : Validación de registro de usuario</p><p></p><p>**Dado que** el sistema verifica que el correo electrónico no esté registrado</p><p>**Y** el usuario selecciona "Crear cuenta"</p><p>**Cuando** el usuario ingresa todos los campos requeridos y hace clic en "Registrar"</p><p>**Entonces** el sistema valida los datos y crea la cuenta del usuario</p><p>**Y** muestra un mensaje de éxito en el registro</p>|EP01|
+|US02|Validación de datos de registro|**Como** usuario, **quiero** que el sistema valide mis datos correctamente al registrarme **para** evitar errores.|<p>Escenario : Validación de campos obligatorios</p><p>**Dado que** el usuario intenta registrarse<br>` `**Y** el sistema detecta campos vacíos o mal ingresados<br>` `**Cuando** el usuario hace clic en "Registrar"<br>` `**Entonces** el sistema muestra mensajes de error junto a los campos incorrectos<br>` `**Y** evita que se complete el registro hasta que todos los campos sean válidos</p>|EP01|
+|US03|Confirmación de contraseña|**Como** usuario, **quiero** confirmar mi contraseña durante el registro **para** asegurarme de que la escribí correctamente.|<p>Escenario: Comparación de contraseña y confirmación</p><p></p><p>**Dado que** el usuario ingresa su contraseña en dos campos distintos</p><p>**Y** el sistema debe comparar ambas</p><p>**Cuando** el usuario hace clic en "Registrar"</p><p>**Entonces** el sistema valida que ambas contraseñas coincidan</p><p>**Y** muestra un mensaje de error si son diferente</p>|EP01|
+|US04|Mensaje de bienvenida|**Como** usuario, **quiero** recibir un mensaje de bienvenida después de registrarme **para** sentirme valorado.|<p>Escenario: Registro exitoso con saludo inicial</p><p></p><p>**Dado que** el usuario ha completado exitosamente el proceso de registro</p><p>**Y** el sistema crea su cuenta</p><p>**Cuando** se redirige al usuario a la pantalla principal</p><p>**Entonces** el sistema muestra un mensaje de bienvenida con su nombre</p>|EP01|
+|US05|Registro con redes sociales|**Como** usuario, **quiero** poder registrarme con mi cuenta de Google o Facebook **para** ahorrar tiempo.|<p>Escenario: Registro mediante cuenta social</p><p></p><p>**Dado que** el usuario selecciona "Registrarse con Google/Facebook"</p><p>**Y** concede los permisos necesarios</p><p>**Cuando** se completa la autenticación externa</p><p>**Entonces** el sistema crea una cuenta en Turisfera con los datos recibidos</p><p>**Y** redirige al usuario a la pantalla principal</p>|EP01|
+|US06|Confirmación por correo electrónico|**Como** usuario, **quiero** recibir un correo de confirmación después de registrarme **para** validar mi cuenta.|<p>Escenario: Envío de correo de confirmación</p><p></p><p>**Dado que** el usuario ha completado el formulario de registro</p><p>**Y** ha ingresado un correo electrónico válido</p><p>**Cuando** el sistema crea la cuenta</p><p>**Entonces** se envía un correo con un enlace de verificación</p><p>**Y** el usuario debe hacer clic en el enlace para activar su cuenta</p>|EP01|
+|US07|Búsqueda de destinos turísticos|**Como** usuario, **quiero** buscar destinos turísticos dentro de la aplicación **para** explorar opciones de viaje que se ajusten a mis intereses.|<p>Escenario: Búsqueda por nombre del destino</p><p></p><p>**Dado que** el usuario se encuentra en la sección de búsqueda</p><p>**Y** desea encontrar un destino específico</p><p>**Cuando** el usuario escribe el nombre del destino en la barra de búsqueda</p><p>**Entonces** el sistema muestra resultados relacionados con el nombre ingresado</p><p>**Y** permite al usuario seleccionar uno para ver más detalles</p>|EP02|
+|US08|Filtros de búsqueda|**Como** usuario, **quiero** usar filtros al buscar destinos **para** encontrar los que se ajusten a mis preferencias.|<p>Escenario: Aplicación de filtros de búsqueda</p><p></p><p>**Dado que** el usuario está explorando destinos turísticos</p><p>**Y** desea ajustar los resultados</p><p>**Cuando** selecciona filtros como tipo de destino, clima o presupuesto</p><p>**Entonces** el sistema actualiza los resultados según los filtros seleccionados</p>|EP02|
+|US09|Resultados relevantes de búsqueda|**Como** usuario, **quiero** que los resultados de búsqueda sean relevantes **para** no perder tiempo revisando opciones irrelevantes|<p>Escenario: Resultados personalizados por preferencia</p><p></p><p>**Dado que** el usuario ha ingresado un término de búsqueda</p><p>**Y** ha configurado previamente sus intereses</p><p>**Cuando** se realiza la búsqueda</p><p>**Entonces** el sistema ordena los resultados según relevancia y preferencias del usuario</p>|EP02|
+|US10|Vista previa de destinos|**Como** usuario, **quiero** ver una vista previa de cada destino **para** decidir rápidamente cuál me interesa explorar.|<p>Escenario: Mostrar resumen de destinos en resultados</p><p></p><p>**Dado que** el usuario visualiza la lista de resultados</p><p>**Y** está explorando varias opciones</p><p>**Cuando** se muestra cada destino</p><p>**Entonces** el sistema incluye nombre, imagen, calificación y breve descripción en la vista previa</p>|EP02|
+|US11|Acceso rápido a destino favorito|**Como** usuario, **quiero** poder marcar destinos como favoritos **para** acceder a ellos rápidamente más adelante.|<p>Escenario: Agregar destino a favoritos</p><p>**<br>` `**Dado que** el usuario ha encontrado un destino interesante<br>` `**Y** desea guardarlo<br>` `**Cuando** hace clic en el ícono de favorito<br>` `**Entonces** el sistema lo agrega a la lista de favoritos del usuario<br>` `**Y** permite consultarlo fácilmente desde su perfil</p><p></p>|EP02|
+|US12|Búsqueda por región o país|**Como** usuario, **quiero** buscar destinos por país o región **para** explorar zonas específicas que me interesen.|<p>Escenario: Filtro de región geográfica</p><p></p><p>**Dado que** el usuario quiere ver destinos dentro de una región específica</p><p>**Y** selecciona la región desde un menú desplegable</p><p>**Cuando** aplica el filtro</p><p>**Entonces** el sistema muestra únicamente los destinos que pertenecen a esa región o país seleccionado</p>|EP02|
+|US13|Eliminar itinerario|**Como** usuario, **quiero** eliminar un itinerario que ya no necesito **para** mantener mi cuenta organizada.|<p>Escenario: Eliminación de itinerario</p><p>**<br>` `**Dado que** el usuario ha accedido a su lista de itinerarios<br>` `**Y** desea eliminar uno<br>` `**Cuando** selecciona "Eliminar"<br>` `**Entonces** el sistema solicita confirmación<br>` `**Y** elimina el itinerario seleccionado si el usuario acepta</p>|EP03|
+|US14|Visualizar itinerario completo|<p>**Como** usuario, **quiero** visualizar todos los detalles de mi itinerario **para** revisarlo antes y durante el viaje.</p><p></p>|<p>Escenario: Visualización de detalles del itinerario</p><p>**<br>` `**Dado que** el usuario tiene itinerarios guardados<br>` `**Y** desea consultarlos<br>` `**Cuando** selecciona un itinerario<br>` `**Entonces** el sistema muestra toda la información detallada por día, hora y actividad</p>|EP03|
+|US15|Buscar destinos turísticos por nombre|**Como** usuario, **quiero** buscar destinos turísticos por nombre **para** encontrar rápidamente el lugar que deseo visitar.|<p>Escenario: Búsqueda por nombre de destino</p><p>**<br>` `**Dado que** el usuario está en la sección de búsqueda<br>` `**Cuando** ingresa el nombre de un destino en el buscador<br>` `**Entonces** el sistema muestra una lista de coincidencias relacionadas con el término ingresado</p>|EP04|
+|US16|Filtrar destinos por tipo de experiencia|**Como** usuario, **quiero** filtrar los destinos por tipo de experiencia (aventura, relax, cultura, etc.) **para** encontrar opciones que se alineen con mis intereses.|<p>Escenario: Filtrar destinos</p><p></p><p>**Dado que** el usuario accede a la búsqueda avanzada</p><p>**Cuando** selecciona una o varias categorías de experiencia</p><p>**Entonces** el sistema muestra solo aquellos destinos que coincidan con los filtros seleccionados</p>|EP04|
+|US17|Ver detalles de un destino turístico|**Como** usuario, **quiero** ver la información completa de un destino (fotos, descripción, actividades disponibles) **para** decidir si me interesa visitarlo.|<p>Escenario: Visualización del destino</p><p></p><p>**Dado que** el usuario ha seleccionado un destino de la lista</p><p>**Cuando** hace clic en su nombre o imagen</p><p>**Entonces** el sistema muestra una página con todos los detalles del destino y opciones relacionadas</p>|EP04|
+|US18|Guardar destinos favoritos|**Como** usuario, **quiero** guardar destinos como favoritos **para** poder acceder rápidamente a ellos en el futuro.|<p>Escenario: Agregar a favoritos</p><p></p><p>**Dado que** el usuario ve un destino interesante</p><p>**Cuando** presiona el botón "Guardar como favorito"</p><p>**Entonces** el sistema añade ese destino a su lista personal de favoritos y lo confirma con un mensaje</p>|EP04|
+|US19|Ver recomendaciones de destinos según preferencias|**Como** usuario, **quiero** recibir recomendaciones de destinos según mis búsquedas y preferencias **para** descubrir nuevas opciones personalizadas.|<p>Escenario: Sugerencias personalizadas</p><p></p><p>**Dado que** el usuario ha interactuado con el sistema (búsquedas, favoritos, filtros)</p><p>**Cuando** accede a la sección de recomendaciones</p><p>**Entonces** el sistema muestra una lista de destinos sugeridos que se alinean con sus intereses y comportamientos anteriores</p>|EP04|
+|US20|Publicación de paquetes turísticos|**Como** agencia de turismo, **quiero** poder publicar mis paquetes turísticos en la plataforma **para** llegar a más usuarios interesados en viajar.|<p>**Escenario:** Registro de paquetes turísticos</p><p>**Dado que** la agencia tiene una cuenta verificada en TripMatch</p><p>**Cuando** accede a la sección de gestión de experiencias</p><p>**Y** le da click en el boton "Añadir nueva"<p><p>**Entonces** puede ingresar los detalles del viaje y publicarlos para los usuarios</p>|EP05|
+|US21|Edición de paquetes turísticos publicados|**Como** agencia de turismo, **quiero** editar la información de los paquetes turísticos que ya publiqué **para** mantenerlos actualizados.|<p>**Escenario:** Actualización de contenido</p><p>Dado que la agencia ya tiene paquetes publicados</p><p>Cuando necesita cambiar información (fechas, precios, destinos)</p><p>Entonces el sistema le permite hacer modificaciones y actualizar los datos</p>|EP05|
+|US22|Edición de perfil de agencia|**Como** agencia de turismo, **quiero** editar los datos de mi perfil, **para** mantener mi información actualizada.|<p>**Escenario:** Ingreso al formulario de edición</p><p>**Dado que** la agencia se encuentra en la sección “Perfil de Agencia”</p><p>**Y** visualiza sus datos</p><p>**Cuando** hace clic en el botón “Editar perfil”</p><p>**Entonces** el sistema muestra un formulario editable con los campos: nombre, RUC, descripción, y contacto</p><br><p>**Escenario:** Actualización exitosa del perfil</p><p>**Dado que** la agencia ha ingresado nuevos datos válidos en el formulario de edición</p><p>**Cuando** hace clic en “Guardar cambios”</p><p>**Entonces** el sistema actualiza los datos del perfil</p><p>**Y** muestra un mensaje confirmando que la información se actualizó correctamente</p><br><p>**Escenario:** Redirección a edición tras registro nuevo</p><p>**Dado que** una agencia recién se ha registrado y no tiene datos de perfil</p><p>**Cuando** se completa el proceso de creación de cuenta</p><p>**Entonces** el sistema redirige automáticamente a la pantalla de edición de perfil</p><p>**Y** la agencia puede llenar los datos iniciales</p>|EP06|
+|US23|Gestión de reservas de paquetes turísticos|**Como** agencia de turismo, **quiero** gestionar las reservas realizadas por los usuarios **para** tener un control claro de los cupos y atención al cliente.|<p>**Escenario:** Visualización de reservas</p><p>**Dado que** los usuarios realizan reservas a través de la plataforma</p><p>**Cuando** la agencia accede a su panel de control</p><p>**Entonces** puede ver el listado de reservas con sus detalles (usuario, fecha, paquete)</p>|EP06|
+|US24|Ver perfil de agencia|**Como** agencia de turismo, **quiero** visualizar mi perfil de agencia, **para** consultar mis datos y el resumen de mi actividad.|<p>**Escenario:** Visualización del perfil de agencia</p><p>**Dado que** la agencia tiene una cuenta activa</p><p>**Y** ha iniciado sesión en la plataforma</p><p>**Cuando** accede a la sección “Perfil de Agencia” desde el menú principal</p><p>**Entonces** el sistema muestra la información registrada: nombre de agencia, RUC, descripción, datos de contacto</p><p>**Y** el sistema muestra el resumen con número de reseñas, promedio de calificación y cantidad de reservaciones</p><br><p>**Escenario:** Visualización de resumen de reseñas</p><p>**Dado que** la agencia se encuentra en la sección “Perfil de Agencia”</p><p>**Cuando** el sistema carga el componente de reseñas</p><p>**Entonces** se muestran las 2 reseñas más recientes</p><p>**Y** se muestra el promedio de calificaciones y número total de reseñas</p>|EP06|
+|US25|Comunicación directa con el cliente|**Como** agencia de turismo, **quiero** comunicarme directamente con los usuarios que reservaron **para** brindar información adicional o resolver dudas.|<p>**Escenario:** Contacto post-reserva</p><p>**Dado que** un usuario ha realizado una reserva</p><p>**Cuando** la agencia necesite enviar información adicional</p><p>**Entonces** se comunicara directamente con el cliente</p>|EP06|
+|US26|Gestión y edición de paquetes turísticos|**Como** agencia de turismo, **quiero** crear y editar paquetes turísticos en la plataforma **para** ofrecer experiencias personalizadas a los usuarios.|<p>**Escenario:** Creación de paquetes</p><p>**Dado que** la agencia desea agregar un nuevo paquete turístico</p><p>**Cuando** accede a la sección de administración de paquetes</p><p>**Entonces** puede ingresar información como destino, fechas, precios y servicios incluidos</p>|EP07|
+|US27|Ver reseñas de la agencia|**Como** agencia de turismo, **quiero** ver todas las reseñas que han dejado los usuarios, **para** conocer su experiencia y mejorar mis servicios.|<p>**Escenario:** Acceso a pantalla flotante con todas las reseñas</p><p>**Dado que** la agencia visualiza el resumen de reseñas en su perfil</p><p>**Cuando** hace clic en el botón “Ver más” en la sección de reseñas</p><p>**Entonces** el sistema abre una pantalla flotante</p><p>**Y** muestra el listado completo de reseñas realizadas por los usuarios</p><br><p>**Escenario:** Visualización de detalle de cada reseña</p><p>**Dado que** el sistema muestra el listado completo de reseñas en la pantalla flotante</p><p>**Cuando** la agencia explora la lista</p><p>**Entonces** puede ver en cada reseña: el nombre del usuario, fecha, calificación y comentario detallado</p>|EP06|
+| US28 | Descubrimiento de beneficios para turistas | **Como** visitante del segmento de turistas, **quiero** ver claramente los beneficios que ofrece la plataforma **para** entender cómo puede mejorar mi experiencia de viaje. | <p>**Escenario:** Visualización de beneficios</p><p>**Dado que** el visitante se encuentra en la sección “Benefits”</p><p>**Cuando** hace scroll hasta esa sección</p><p>**Entonces** puede visualizar una lista de beneficios relevantes para turistas</p><p>Y entender cómo estos se relacionan con sus necesidades</p> | EP08 |
+| US29 | Conocer el propósito de la plataforma | **Como** visitante del segmento de turistas, **quiero** saber de qué se trata Turisfera **para** decidir si me interesa seguir explorando. | <p>**Escenario:** Lectura de “About us”</p><p>**Dado que** el visitante accede a la sección “About us”</p><p>**Cuando** lee la descripción disponible</p><p>**Entonces** puede comprender el propósito de la plataforma</p> | EP08  |
+| US30 | Navegación simple desde el header | **Como** visitante del segmento de turistas, **quiero** usar el menú superior **para** moverme fácilmente por la página. | <p>**Escenario:** Uso del menú</p><p>**Dado que** el visitante visualiza el menú superior</p><p>**Cuando** hace clic en un ítem (Home, About us, etc.)</p><p>**Entonces** la página hace scroll automáticamente a esa sección</p> | EP08  |
+| US31 | Acceder al formulario de contacto | **Como** visitante del segmento de turistas, **quiero** llegar fácilmente al formulario de contacto **para** comunicarme con el equipo. | <p>**Escenario:** Acceso al formulario</p><p>**Dado que** el visitante está en la landing</p><p>**Cuando** hace clic en “Contact”</p><p>**Entonces** es dirigido al formulario en la parte inferior</p> | EP08  |
+| US32 | Registro desde la landing | **Como** visitante del segmento de turistas, **quiero** encontrar fácilmente el botón de registro **para** crear una cuenta. | <p>**Escenario:** Clic en "Sign Up"</p><p>**Dado que** el visitante está en la landing</p><p>**Cuando** ve y hace clic en el botón “Sign Up”</p><p>**Entonces** es redirigido a la interfaz de registro</p> | EP08  |
+| US33 | Identificación de beneficios para agencias | **Como** visitante del segmento de agencias de turismo, **quiero** conocer los beneficios que se me ofrecen **para** evaluar si vale la pena registrarme. | <p>**Escenario:** Revisión de beneficios</p><p>**Dado que** la sección "Benefits" incluye beneficios generales</p><p>**Cuando** una agencia revisa esta sección</p><p>**Entonces** puede identificar beneficios aplicables</p> | EP09  |
+| US34 | Conocer cómo funciona la plataforma | **Como** visitante del segmento de agencias de turismo, **quiero** entender cómo funciona la plataforma **para** saber si es compatible con mis servicios. | <p>**Escenario:** Lectura de “How does it work?”</p><p>**Dado que** el visitante accede a esa sección</p><p>**Cuando** lee los pasos indicados</p><p>**Entonces** comprende el flujo de uso general</p> | EP09 |
+| US35 | Contacto para consultas comerciales | **Como** visitante del segmento de agencias de turismo, **quiero** usar el formulario de contacto **para** hacer consultas o proponer colaboración. | <p>**Escenario:** Envío de mensaje</p><p>**Dado que** el visitante llega a la sección de contacto</p><p>**Cuando** completa los campos requeridos</p><p>**Entonces** puede enviar una consulta al equipo</p> | EP09 |
+| US36 | Acceder a secciones informativas | **Como** visitante del segmento de agencias de turismo, **quiero** acceder desde el menú a secciones como FAQs y About us **para** informarme. | <p>**Escenario:** Navegación por menú</p><p>**Dado que** el menú incluye accesos</p><p>**Cuando** hace clic en “FAQs” o “About us”</p><p>**Entonces** es dirigido a esas secciones</p> | EP09 |
+| US37 | Registro para agencias | **Como** visitante del segmento de agencias de turismo, **quiero** registrarme desde la landing **para** empezar a formar parte de la plataforma. | <p>**Escenario:** Registro desde botón</p><p>**Dado que** el botón “Sign Up” está visible</p><p>**Cuando** el visitante hace clic en él</p><p>**Entonces** es redirigido a la interfaz de registro correspondiente</p> | EP09 |
 
 
 ### 2.4.2. Impact Mapping  
-
+El Impact Mapping es una metodología visual y ágil que permite a las organizaciones enfocar el desarrollo de productos y servicios en función de sus metas estratégicas. Esta técnica facilita la identificación de una relación directa entre los objetivos del negocio, las acciones esperadas de los usuarios clave y las soluciones o funcionalidades que deben implementarse para lograr dichos objetivos.![Impact Mapping](./img/Impact-map-TripMatch.png)
 
 
 
 ### 2.4.3. Product Backlog
+|# Orden|User Story Id|Description|Story Points (1 /3 /5 /8)|
+| :-: | :-: | - | :-: |
+|1|US01|**Como** usuario, **quiero** registrarme en la aplicación **para** poder acceder a sus funcionalidades y planificar mis viajes.|8|
+|2|US02|**Como** usuario, **quiero** que el sistema valide mis datos correctamente al registrarme **para** evitar errores.|5|
+|3|US03|**Como** usuario, **quiero** confirmar mi contraseña durante el registro **para** asegurarme de que la escribí correctamente.|3|
+|4|US04|**Como** usuario, **quiero** recibir un mensaje de bienvenida después de registrarme **para** sentirme valorado.|8|
+|5|US05|**Como** usuario, **quiero** poder registrarme con mi cuenta de Google o Facebook **para** ahorrar tiempo.|8|
+|6|US06|**Como** usuario, **quiero** recibir un correo de confirmación después de registrarme **para** validar mi cuenta.|8|
+|7|US07|**Como** usuario, **quiero** buscar destinos turísticos dentro de la aplicación **para** explorar opciones de viaje que se ajusten a mis intereses.|5|
+|8|US08|**Como** usuario, **quiero** usar filtros al buscar destinos **para** encontrar los que se ajusten a mis preferencias.|5|
+|9|US09|**Como** usuario, **quiero** que los resultados de búsqueda sean relevantes **para** no perder tiempo revisando opciones irrelevantes|3|
+|10|US10|**Como** usuario, **quiero** ver una vista previa de cada destino **para** decidir rápidamente cuál me interesa explorar.|5|
+|11|US11|**Como** usuario, **quiero** poder marcar destinos como favoritos **para** acceder a ellos rápidamente más adelante.|8|
+|12|US12|**Como** usuario, **quiero** buscar destinos por país o región **para** explorar zonas específicas que me interesen.|8|
+|13|US13|**Como** usuario, **quiero** eliminar un itinerario que ya no necesito **para** mantener mi cuenta organizada.|5|
+|14|US14|<p>**Como** usuario, **quiero** visualizar todos los detalles de mi itinerario **para** revisarlo antes y durante el viaje.</p><p></p>|5|
+|15|US15|**Como** usuario, **quiero** buscar destinos turísticos por nombre **para** encontrar rápidamente el lugar que deseo visitar.|3|
+|16|US16|**Como** usuario, **quiero** filtrar los destinos por tipo de experiencia (aventura, relax, cultura, etc.) **para** encontrar opciones que se alineen con mis intereses.|5|
+|17|US17|**Como** usuario, **quiero** ver la información completa de un destino (fotos, descripción, actividades disponibles) **para** decidir si me interesa visitarlo.|5|
+|18|US18|**Como** usuario, **quiero** guardar destinos como favoritos **para** poder acceder rápidamente a ellos en el futuro.|8|
+|19|US19|**Como** usuario, **quiero** recibir recomendaciones de destinos según mis búsquedas y preferencias **para** descubrir nuevas opciones personalizadas.|3|
+|20|US20|**Como** agencia de turismo, **quiero** poder publicar mis paquetes turísticos en la plataforma **para** llegar a más usuarios interesados en viajar.|3|
+|21|US21|**Como** agencia de turismo, **quiero** editar la información de los paquetes turísticos que ya publiqué **para** mantenerlos actualizados.|3|
+|22|US22|**Como** agencia de turismo, **quiero** poder activar o desactivar la disponibilidad de mis paquetes **para** ajustarlos según la temporada o los cupos disponibles.|5|
+|23|US23|**Como** agencia de turismo, **quiero** gestionar las reservas realizadas por los usuarios **para** tener un control claro de los cupos y atención al cliente.|5|
+|24|US24|**Como** agencia de turismo, **quiero** confirmar o rechazar reservas pendientes **para** asegurar que se respeten los cupos y condiciones del servicio.|5|
+|25|US25|**Como** agencia de turismo, **quiero** comunicarme directamente con los usuarios que reservaron **para** brindar información adicional o resolver dudas.|3|
+|26|US26|**Como** agencia de turismo, **quiero** crear y editar paquetes turísticos en la plataforma **para** ofrecer experiencias personalizadas a los usuarios.|3|
+|27|US27|**Como** agencia de turismo, **quiero** modificar precios y aplicar promociones en mis paquetes **para** atraer más clientes según temporadas.|8|
+|28| US28 |  **Como** visitante del segmento de turistas, **quiero** ver claramente los beneficios que ofrece la plataforma **para** entender cómo puede mejorar mi experiencia de viaje. | 3 |
+|29| US29 | **Como** visitante del segmento de turistas, **quiero** saber de qué se trata Turisfera **para** decidir si me interesa seguir explorando.| 5  |
+|30| US30 | **Como** visitante del segmento de turistas, **quiero** usar el menú superior **para** moverme fácilmente por la página. | 3  |
+|31| US31  | **Como** visitante del segmento de turistas, **quiero** llegar fácilmente al formulario de contacto **para** comunicarme con el equipo. | 8  |
+|32| US32  | **Como** visitante del segmento de turistas, **quiero** encontrar fácilmente el botón de registro **para** crear una cuenta.  | 3  |
+|33| US33  | **Como** visitante del segmento de agencias de turismo, **quiero** conocer los beneficios que se me ofrecen **para** evaluar si vale la pena registrarme.  | 3  |
+|34| US34  | **Como** visitante del segmento de agencias de turismo, **quiero** entender cómo funciona la plataforma **para** saber si es compatible con mis servicios.  | 5 |
+|35| US35  | **Como** visitante del segmento de agencias de turismo, **quiero** usar el formulario de contacto **para** hacer consultas o proponer colaboración. | 8 |
+|36| US36  | **Como** visitante del segmento de agencias de turismo, **quiero** acceder desde el menú a secciones como FAQs y About us **para** informarme. | 5 |
+|37| US37  | **Como** visitante del segmento de agencias de turismo, **quiero** registrarme desde la landing **para** empezar a formar parte de la plataforma.  | 5 |
 
 
 ## 2.5. Strategic-Level Domain-Driven Design
@@ -1005,6 +1080,97 @@ En la capa de Infrastructure Layer, se encuentran los repositorios que permiten 
 #### 2.6.2.6.1 Bounded Context Domain Layer Class Diagrams  
 #### 2.6.2.6.2 Bounded Context Database Design Diagram 
 
+## 2.2.3 Bounded Context : ARM (Assets Resource Managment)
+
+Este bounded context centraliza la gestión de los pagos en distintos viajes que solicitan los turistas.
+
+#### 2.2.3.1. Domain Layer 
+
+> **Agregate: Booking**
+
+|Nombre|Categría|Descripción|
+|-|-|-|
+|Booking|Entity|Respresenta las reservas de los turistas hacía un viaje|
+
+**Attributes**
+
+|Nombre|Tipo de dato|Visibilidad|Descripción|
+|-|-|-|-|
+|id|Int|Private|Identificador único del vehículo en el sistema|
+|bookingDate|DateTime|Private|Fecha en la que se realiza la reserva|
+|numberOfPeople|Int|Private|Número de personas que se registran en la reserva|
+|price|Decimal|Private|Precio de la reserva|
+|status|String|Private|Estado de la reserva|
+|Time|String|Private|Tiempo en el que se realiza la reserva|
+
+**Methods**
+
+|Nombre|Tipo de retorno|Visibilidad|Descripción|
+|-|-|-|-|
+|getDetail()|String|Public|Retorna el detalle de la reserva|
+|calculateTotalPrice()|Void|Public|Retorna el precio total de la reserva|
+
+#### 2.2.3.2. Interface Layer 
+
+>**Controller 1: BookingController**
+
+|Nombre|Categría|Descripción|
+|-|-|-|
+|BookingController|Controller|Controlador para los endpoints con la gestión de reservas de los usuarios|
+
+**Endpoints**
+
+|Ruta|Método|Descripción|
+|-|-|-|
+|api/user/booking|POST|Crea una mueva reserva|
+|api/user/booking/{id}|Delete|Crea una mueva reserva|
+|api/user/booking|GET|Recupera todas las reservas|
+|api/user/booking/{id}|GET|Busca las reservas por su id|
+
+#### 2.2.3.3. Application Layer 
+
+**Service 1: BookingService** 
+
+|Nombre|Categoría|Descripción|
+|-|-|-|
+|BookingService|Service|Servicio que coordina la lógica relacionada con la gestión de reservas del usuario|
+
+**Dependencies**
+
+|Nombre|Tipo de Objeto|Visibilidad|Descripción|
+|-|-|-|-|
+|bookingRepository|BookingRepository|Private|Repositories para la persistencia de reservas del usuarios 
+
+**Methods**
+
+|Nombre|Tipo de retorno|Visibilidad|Descripción|
+|-|-|-|-|
+|CreateBooking|void|Public|Crea una nueva reserva del usuario|
+|UpdateBooking|void|Public|Actualiza la reserva del usuario|
+|DeleteBooking|void|Public|Borra la reserva del usuario|
+|GetBookingById|Booking|Public|Obtiene la reserva del usuario por su Id|
+|GetAllBookings|Booking|Public|Obtiene todas las reservas de los usuarios|
+
+
+#### 2.2.3.4. Infrastracture Layer 
+
+>**BookingRepository**
+
+|Nombre|Categría|Implementa|Descripción|
+|-|-|-|-|
+|BookingRepositoryImpl|Repositorio|BookingRepository|Implementación del Repositorio para acceder a la base de datos de las reservar|
+
+**Funcionalidad Clave**
+
+- Encontrar Reserva por agencia y turista 
+- Encontrar Reserva por experiencia
+- Encontrar todas las reservas por experiencia
+
+
+#### 2.2.3.5. Bounded Context Software Architecture Component Level Diagrams 
+#### 2.2.3.6. Bounded Context Software Architecture Code Level Diagrams  
+#### 2.2.3.6.1 Bounded Context Domain Layer Class Diagrams  
+#### 2.2.3.6.2 Bounded Context Database Design Diagram 
 
 ### 2.6.4 Bounded Context : Experience 
 
