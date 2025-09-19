@@ -123,20 +123,150 @@
 
 | URL de la organización del proyecto | URL del repositorio del reporte   |
 | :------------------: | :---------------------------: | 
-| https://github.com/Xplora |  |
+| https://github.com/Xplora | https://github.com/Xplora/workstation-markdown/tree/main |
 
 
 
 Commits del Report TB1:
 
 # **Student Outcomes**
+| Criterio específico | Acciones Realizadas | Conclusiones |
+|:---:|:---|:---|
+|**Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.**| **- Rodrigo Alaya** <br> **TB1:** Participé en la realización de entrevistas para dos segmentos de mercado, identificando requisitos clave. Además, elaboré los diagramas de clases por bounded context, aplicando los conceptos de Domain-Driven Design.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Gabriel Gordon** <br> **TB1:** Colaboré en la elaboración del Strategic-Level Domain-Driven Design y en la creación de los diagramas de componentes para los bounded contexts, lo que fortaleció mi comprensión de la arquitectura de software a nivel de componentes.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Marcia Melgarejo** <br> **TB1:** Lideré el desarrollo de la entrevista para el segmento de empresas, obteniendo información valiosa. También me encargué del Strategic-Level Domain-Driven Design para el bounded context de Experience y de los diagramas de base de datos asociados.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Melisa Sulca** <br> **TB1:** Participé en la sesión de Event Storming para identificar los eventos clave del negocio y las relaciones entre ellos. Adicionalmente, elaboré el Context Mapping para definir las interacciones entre los diferentes bounded contexts del sistema.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Oscar Antayhua** <br> **TB1:** Elaboré los diagramas de Context, Container y Deployment Mapping, lo que permitió visualizar la arquitectura del sistema en diferentes niveles y planificar el despliegue de nuestra solución.<br> **TP:** <br> **TB2:** . <br> **TF:**. | **TB1:** A lo largo de TB1, el equipo demostró una sólida comprensión de los principios de **Domain-Driven Design (DDD)** y del **Modelo C4**. Se aplicaron estos conceptos para diseñar una arquitectura de software robusta y escalable, lo que proporcionó una base técnica clara para el proyecto. El trabajo realizado refleja un dominio de los conocimientos teóricos y una habilidad para plasmarlos en un plan de arquitectura coherente.|
+|**Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**| **- Rodrigo Alaya** <br> **TB1:** Participé activamente en el análisis del dominio y en la elaboración de diagramas de diseño, lo que me permitió aplicar y consolidar los conceptos de arquitectura de software en un contexto práctico.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Gabriel Gordon** <br> **TB1:** En esta primera entrega fomenté la participación equitativa dentro el equipo. Establecimos cronogramas de trabajo para poder cumplir con los objetivos sobre el trabajo.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Marcia Melgarejo** <br> **TB1:** A través de la investigación y la aplicación práctica de nuevas metodologías de diseño y modelado de datos, pude fortalecer mi capacidad de aprendizaje autónomo y resolver desafíos complejos de arquitectura.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Melisa Sulca** <br> **TB1:** La colaboración en las sesiones de Event Storming y Context Mapping fomentó una comprensión compartida del problema y la solución, reconociendo la importancia de trabajar en equipo para superar retos técnicos.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Oscar Antayhua** <br> **TB1:** Reconocí la necesidad del aprendizaje continuo al profundizar en metodologías como Domain-Driven Design y herramientas especializadas como Structurizr DSL, complementando mis conocimientos previos en desarrollo web y automatización.<br> **TP:** <br> **TB2:** . <br> **TF:**. | **TB1:** El trabajo en equipo fue fundamental en esta etapa. Las interacciones en las sesiones de análisis y diseño fomentaron la **colaboración**, el **liderazgo compartido** y la **comunicación efectiva**. Esto demostró la capacidad del equipo para adaptarse a nuevas metodologías y organizar un flujo de trabajo dinámico, un aspecto crucial para el desarrollo de proyectos de software complejos.|
 
-| <div style="width:100px">Criterio específico</div> | <div align="center" style="width:250px">Acciones Realizadas</div> | <div align="center" style="width:250px">Conclusiones</div> |
-|:-------------------:|-------------------|------------|
-|Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.| **- Rodrigo Alaya** <br> **TB1:** .<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Gabriel Gordon** <br> **TB1:** En esta etapa inicial del proyecto participé en la elaboración de los tactical levels sobre la ddd<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Marcia Melgarejo** <br> **TB1:** .<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Melisa Sulca** <br> **TB1:** .<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Oscar Antayhua** <br> **TB1:** Desarrollé diagramas de deployment y context mapping aplicando Domain-Driven Design y arquitectura C4 con Structurizr DSL para TripMatch, integrando bounded contexts y tecnologías como Vue.js, Flutter y Spring Boot.<br> **TP:** <br> **TB2:** . <br> **TF:**. | **TB1:** A lo largo de TB1 el equipo ha fortalecido su capacidad de liderazgo compartido, consolidando un proceso de toma de decisiones coordinado y dinámico. |
-|Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.| **- Rodrigo Alaya** <br> **TB1:** .<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Gabriel Gordon** <br> **TB1:** En esta primera entrea fomenté la participación equitativa dentro el equipo. Establecimos cronogramas de trabajo para poder cumplir con los objetivos sobre el trabajo.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Marcia Melgarejo** <br> **TB1:** .<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Melisa Sulca** <br> **TB1:** .<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Oscar Antayhua** <br> **TB1:** Reconocí la necesidad del aprendizaje continuo al profundizar en metodologías como Domain-Driven Design y herramientas especializadas como Structurizr DSL, complementando mis conocimientos previos en desarrollo web y automatización.<br> **TP:** <br> **TB2:** . <br> **TF:**. | **TB1:** Durante TB1 se cimentó un entorno inclusivo y organizado, en el que se definieron metas claras, se planificaron las tareas principales y se estableció un cronograma de trabajo compartido.|
 
 # **Objetivos SMART**
+
+
+## U202219481 — Alaya Cabrera Rodrigo
+
+Objetivo 1  
+conseguir un puesto junior como desarrollador backend .NET en una empresa de tecnología en un plazo máximo de 6 meses después de la graduación.
+
+- específico: rol backend con .NET y C# trabajando en APIs REST
+- medible: enviar 40 postulaciones de calidad, 6 entrevistas, 1 oferta firmada
+- alcanzable: experiencia del proyecto TripMatch y dos microservicios en el portafolio
+- relevante: alinea carrera técnica en desarrollo de servicios
+- tiempo: 6 meses post-graduación
+- acciones clave: completar certificación AZ-204; publicar dos repos con clean architecture y pruebas; actualizar CV y LinkedIn; practicar entrevistas técnicas 2 veces por semana
+- evidencia de logro: carta oferta firmada o contrato; enlaces a repos; badge de certificación
+
+Objetivo 2  
+elevar el nivel de inglés de B1 a B2 para mejorar empleabilidad internacional en 9 meses.
+
+- específico: alcanzar B2 según MCER
+- medible: obtener 6.5 en IELTS Academic o certificado equivalente B2
+- alcanzable: plan de estudio 6 horas/semana y tutoría conversacional
+- relevante: requisito frecuente en vacantes backend
+- tiempo: 9 meses
+- acciones clave: curso B1→B2; simulacros mensuales; clubes de conversación; ver y resumir 1 charla técnica semanal
+- evidencia de logro: certificado IELTS o equivalente
+
+---
+
+## U20221E229 — Gordon Salas Gabriel Fernando
+
+Objetivo 1  
+incorporarse como desarrollador frontend con React y TypeScript en 6 meses tras la graduación.
+
+- específico: rol frontend con React, Vite, Testing Library
+- medible: 3 proyectos productivos en portafolio; 30 postulaciones; 5 entrevistas; 1 oferta
+- alcanzable: experiencia UI de TripMatch y refactor a componentes reutilizables
+- relevante: foco profesional en interfaces web
+- tiempo: 6 meses
+- acciones clave: construir un pequeño design system; cobertura de tests ≥ 70% en un proyecto; Lighthouse ≥ 90; certificación Meta Front-End o equivalente
+- evidencia de logro: oferta firmada; repos públicos; reporte Lighthouse y cobertura de tests
+
+Objetivo 2  
+dominar pruebas end-to-end con Cypress para elevar la calidad de entrega en 4 meses.
+
+- específico: automatizar flujos críticos de front
+- medible: 15 pruebas E2E estables en un proyecto demo y en TripMatch
+- alcanzable: guía oficial y práctica semanal
+- relevante: calidad y empleabilidad
+- tiempo: 4 meses
+- acciones clave: configurar pipeline CI; reportes de fallos; patrón Page Object
+- evidencia de logro: dashboard de CI con ejecuciones verdes; suite documentada
+
+---
+
+## U20231C505 — Melgarejo Gomez Marcia Victoria
+
+Objetivo 1  
+trabajar como desarrolladora full-stack JavaScript en 8 meses.
+
+- específico: stack React + Node.js con Prisma/PostgreSQL
+- medible: 2 proyectos full-stack en producción y 1 práctica profesional o freelance
+- alcanzable: experiencia de TripMatch y cursos complementarios
+- relevante: versatilidad en frontend y backend
+- tiempo: 8 meses
+- acciones clave: construir API con autenticación JWT y roles; pruebas unitarias y de integración; certificación PSM I de Scrum
+- evidencia de logro: despliegues en la nube; certificación PSM I; bitácora de sprints
+
+Objetivo 2  
+mejorar habilidades de diseño funcional y accesibilidad web en 5 meses.
+
+- específico: aplicar WCAG 2.2 nivel AA
+- medible: Lighthouse Accessibility ≥ 95 en dos proyectos
+- alcanzable: guía WCAG y herramientas axe
+- relevante: impacto en usuarios y compliance
+- tiempo: 5 meses
+- acciones clave: auditorías mensuales; corrección de contrastes; foco y navegación por teclado
+- evidencia de logro: reportes Lighthouse y axe con mejoras
+
+---
+
+## U20191E414 — Antayhua Castillo Oscar Josué
+
+Objetivo 1  
+obtener un rol jr de DevOps o Cloud en 7 meses.
+
+- específico: automatizar CI/CD y despliegues en AWS o Azure
+- medible: certificación AWS SAA-C03 o AZ-104 y 2 pipelines productivos
+- alcanzable: base en proyectos y práctica guiada
+- relevante: carrera en plataformas y confiabilidad
+- tiempo: 7 meses
+- acciones clave: infraestructura como código con Terraform; observabilidad básica con logs y métricas; hardening de contenedores
+- evidencia de logro: badge de certificación; repos de IaC; pipelines activos
+
+Objetivo 2  
+elevar confiabilidad de servicios personales a SLOs básicos en 4 meses.
+
+- específico: definir SLOs de disponibilidad y latencia para dos servicios demo
+- medible: monitoreo con alertas y tableros; tiempo de recuperación < 30 min en simulacros
+- alcanzable: uso de uptime checks y tracing ligero
+- relevante: buenas prácticas DevOps
+- tiempo: 4 meses
+- acciones clave: definir SLOs; configurar alertas; ejecutar game days mensuales
+- evidencia de logro: tableros y postmortems documentados
+
+---
+
+## U202224602 — Melisa Sulca
+
+Objetivo 1  
+insertarse como data analyst junior en 6 meses.
+
+- específico: análisis con SQL, Python y Power BI
+- medible: 3 dashboards publicados; 2 estudios de caso reproducibles; certificación Power BI Data Analyst Associate o Google Data Analytics
+- alcanzable: plan de estudio y datasets abiertos
+- relevante: trayectoria en datos aplicada a turismo
+- tiempo: 6 meses
+- acciones clave: portafolio con casos de reservas y demanda; storytelling de datos; validación con stakeholders
+- evidencia de logro: certificación; portafolio público; feedback de revisión
+
+Objetivo 2  
+mejorar dominio de SQL para analítica en 3 meses.
+
+- específico: consultas complejas con window functions y CTEs
+- medible: 100 ejercicios nivel intermedio-avanzado y optimización de 3 consultas en un proyecto real
+- alcanzable: práctica diaria y repos de ejercicios
+- relevante: base para análisis y reporting
+- tiempo: 3 meses
+- acciones clave: rutina de 45 minutos diarios; revisión por pares semanal; documentación de patrones
+- evidencia de logro: bitácora de ejercicios; antes/después de planes de ejecución
+
 
 # **Project Report Online**
 
@@ -697,8 +827,167 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 | US37 | Registro para agencias | **Como** visitante del segmento de agencias de turismo, **quiero** registrarme desde la landing **para** empezar a formar parte de la plataforma. | <p>**Escenario:** Registro desde botón</p><p>**Dado que** el botón “Sign Up” está visible</p><p>**Cuando** el visitante hace clic en él</p><p>**Entonces** es redirigido a la interfaz de registro correspondiente</p> | EP09 |
 
 
+
+## Spike 1: Integración de pasarela de pagos para reservas
+Contexto  
+TripMatch debe procesar pagos de reservas en web y móvil con seguridad y cumplimiento.
+
+Historia  
+Como equipo de desarrollo, quiero investigar y prototipar la integración de una pasarela de pagos adecuada para entender implicaciones, riesgos y esfuerzo end to end.
+
+Criterios de aceptación  
+1. Dado que se requiere comparar opciones, cuando se evalúan Stripe, Culqi y Mercado Pago, entonces se documentan flujos soportados, fees, cobertura regional y reembolsos.  
+2. Dado que la app web consume APIs, cuando se revisan SDKs web y server de la pasarela seleccionada, entonces se documenta el flujo request/response y manejo de webhooks.  
+3. Dado que se debe validar viabilidad, cuando se construye un PoC con pago de prueba y webhook de confirmación, entonces queda registrado el flujo exitoso en sandbox y trazabilidad en logs.
+
+Definition of Done  
+- Informe comparativo y decisión recomendada  
+- PoC funcional en sandbox  
+- Endpoints y eventos mapeados  
+- Estimación de esfuerzo y riesgos  
+- Tiempo acotado a 8–16 horas
+
+---
+
+## Spike 2: Disponibilidad y concurrencia en Bookings
+Contexto  
+Prevenir sobreventa de cupos al confirmar reservas simultáneas.
+
+Historia  
+Como equipo de desarrollo, quiero evaluar estrategias de concurrencia y consistencia para confirmar reservas y evitar overbooking.
+
+Criterios de aceptación  
+1. Dado que pueden ocurrir colisiones, cuando se prueba bloqueo optimista con versión y transacciones, entonces se documenta el manejo de conflictos y reintentos.  
+2. Dado que se requiere confirmar cupos, cuando el PoC simula 50 confirmaciones concurrentes para el mismo horario, entonces se registran tasas de conflicto y la estrategia elegida.  
+3. Dado que hay picos de demanda, cuando se prueba degradación controlada con cola o rechazo, entonces se documenta la política seleccionada.
+
+Definition of Done  
+- PoC con pruebas concurrentes  
+- Métricas de conflicto y latencia  
+- Recomendación de patrón y pasos de implementación  
+- Riesgos identificados
+
+---
+
+## Spike 3: Búsqueda y filtros de experiencias
+Contexto  
+Soportar búsqueda por texto y filtros por categoría, ubicación, precio y frecuencia.
+
+Historia  
+Como equipo de desarrollo, quiero comparar full-text en base de datos vs motor dedicado para definir la solución de búsqueda y filtros.
+
+Criterios de aceptación  
+1. Dado que se busca por título y descripción, cuando se prueba full-text nativo y un motor externo, entonces se documentan relevancia, tiempos de respuesta y costo.  
+2. Dado que hay filtros combinados, cuando se evalúan índices y paginación, entonces se documenta el plan de índices y su impacto.  
+3. Dado que debe escalar, cuando se simulan 10k experiencias y consultas concurrentes, entonces se registran percentiles de latencia.
+
+Definition of Done  
+- Benchmark comparativo  
+- Recomendación de arquitectura  
+- Esquema de índices o pipeline de indexación  
+- Estimación de esfuerzo
+
+---
+
+## Spike 4: Recomendaciones personalizadas
+Contexto  
+Recomendaciones basadas en preferencias y comportamiento.
+
+Historia  
+Como equipo de desarrollo, quiero validar un enfoque de recomendaciones viable para un MVP y priorizar entre reglas, contenido-based o colaborativo ligero.
+
+Criterios de aceptación  
+1. Dado que hay atributos de experiencia y favoritos, cuando se implementa un PoC de reglas y contenido-based, entonces se mide cobertura y precisión con datos de muestra.  
+2. Dado que el costo importa, cuando se compara complejidad y mantenimiento, entonces se documenta el trade-off frente a colaborativo.  
+3. Dado que la API debe responder rápido, cuando se prueba precálculo vs on-demand, entonces se registra la opción recomendada y su latencia.
+
+Definition of Done  
+- PoC con dataset sintético  
+- Métricas básicas de cobertura/precisión/latencia  
+- Diagrama de flujo de datos  
+- Decisión para MVP y próximos pasos
+
+---
+
+## Spike 5: Almacenamiento y entrega de imágenes de experiencias
+Contexto  
+Subida segura, optimización y entrega rápida de imágenes.
+
+Historia  
+Como equipo de desarrollo, quiero evaluar almacenamiento de objetos y CDN para definir subida segura, versiones optimizadas y entrega global.
+
+Criterios de aceptación  
+1. Dado que el cliente sube imágenes, cuando se prueba carga directa con URL firmada, entonces se documenta el flujo seguro y límites.  
+2. Dado que se requieren miniaturas, cuando se valida redimensionamiento serverless o en backend, entonces se documentan costo y tiempos.  
+3. Dado que se busca performance, cuando se integra un CDN y se configura cache-control, entonces se registran mejoras en tiempo de carga.
+
+Definition of Done  
+- Diagrama de subida y entrega  
+- PoC de subida con URL firmada y variante optimizada  
+- Lineamientos de caché y seguridad
+
+---
+
+## Spike 6: Moderación y saneamiento de contenido en Reviews e Inquiry
+Contexto  
+Asegurar que comentarios y respuestas sean seguros y adecuados.
+
+Historia  
+Como equipo de desarrollo, quiero evaluar bibliotecas de saneamiento y filtros de lenguaje para prevenir contenido malicioso u ofensivo.
+
+Criterios de aceptación  
+1. Dado que los textos pueden contener HTML, cuando se prueba saneamiento en servidor, entonces se garantiza la remoción de scripts y etiquetas peligrosas.  
+2. Dado que puede haber lenguaje inapropiado, cuando se integra un filtro de términos y se mide falso positivo/negativo, entonces se documenta el umbral recomendado.  
+3. Dado que se requiere auditabilidad, cuando se registran eventos de bloqueo, entonces se definen campos y retención en logs.
+
+Definition of Done  
+- PoC de sanitización y filtro básico  
+- Lista de reglas aceptadas  
+- Recomendaciones de configuración y logging
+
+---
+
+## Spike 7: Autenticación y autorización entre bounded contexts
+Contexto  
+Emisión y validación de JWT y traspaso de identidad entre servicios.
+
+Historia  
+Como equipo de desarrollo, quiero validar emisión y validación de tokens y autorización por rol para acceso a Experience, Bookings, Review e Inquiry.
+
+Criterios de aceptación  
+1. Dado que se emiten tokens, cuando se define contenido y expiración, entonces se documentan claims mínimos y rotación de claves.  
+2. Dado que los servicios consumen el token, cuando se valida autorización por rol y scope, entonces se registran respuestas para permitido y denegado.  
+3. Dado que hay múltiples servicios, cuando se prueba firma y validación en cada uno, entonces se documenta la configuración de middleware común.
+
+Definition of Done  
+- Esquema de claims  
+- PoC de emisión y validación en al menos dos servicios  
+- Matriz de permisos por rol  
+- Pasos de implementación
+
+---
+
+## Spike 8: Observabilidad y trazabilidad
+Contexto  
+Diagnóstico en producción con trazas, métricas y logs.
+
+Historia  
+Como equipo de desarrollo, quiero definir logging estructurado, métricas e instrumentación de trazas distribuidas para observar APIs y detectar cuellos de botella.
+
+Criterios de aceptación  
+1. Dado que existen múltiples servicios, cuando se instrumentan trazas con correlativo, entonces se visualiza el recorrido de una reserva end to end.  
+2. Dado que se requieren métricas, cuando se publican latencias y tasas de error, entonces se definen umbrales de alerta.  
+3. Dado que los logs deben ser útiles, cuando se estructuran con campos clave, entonces se valida su consulta en el agregador elegido.
+
+Definition of Done  
+- PoC con trazas, métricas y logs en un tablero  
+- Umbrales iniciales definidos  
+- Guía de instrumentación para el equipo
+
 ### 2.4.2. Impact Mapping  
-El Impact Mapping es una metodología visual y ágil que permite a las organizaciones enfocar el desarrollo de productos y servicios en función de sus metas estratégicas. Esta técnica facilita la identificación de una relación directa entre los objetivos del negocio, las acciones esperadas de los usuarios clave y las soluciones o funcionalidades que deben implementarse para lograr dichos objetivos.![Impact Mapping](./img/Impact-map-TripMatch.png)
+El Impact Mapping es una metodología visual y ágil que permite a las organizaciones enfocar el desarrollo de productos y servicios en función de sus metas estratégicas. Esta técnica facilita la identificación de una relación directa entre los objetivos del negocio, las acciones esperadas de los usuarios clave y las soluciones o funcionalidades que deben implementarse para lograr dichos objetivos.  
+
+![Impact Mapping](./img/Impact-map-TripMatch.png)
 
 
 
@@ -980,6 +1269,11 @@ String generateAccessToke(...): Crea y firma un JWT para autenticación
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams  
 
+Este diagrama de base de datos representa el bounded context IAM (Identity and Access Management), encargado de la autenticación y autorización de los usuarios dentro del sistema.
+Las tablas principales son User y Role, vinculadas mediante una relación muchos a uno, donde cada usuario posee un único rol asignado, pero un rol puede estar asociado a múltiples usuarios.
+Este diseño permite administrar de manera flexible los permisos y accesos, garantizando seguridad y control centralizado en la gestión de identidades.
+
+![IAM-Database](./img/TripchMatch-2025-09-19_15-27.png)
 
 #### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams  
 El diagrama modela la autenticación y seguridad con IAuthService que orquesta SignUpCommand y SignInCommand y retorna un User creado o un AuthResult. ITokenService genera el token a partir de User. Los tipos User, Tourist y Agency se tratan como externos del contexto Users y las dependencias reflejan el flujo de credenciales y emisión de token.
@@ -1283,7 +1577,7 @@ De esta manera, la base de datos facilita la administración de recursos y la tr
 ![ARM-Database](./img/ARM-Database.png) 
 
 
-### 2.6.4 Bounded Context : Experience 
+### 2.6.4 Bounded Context : DAP - Desing And Planing 
 
 Este contexto está centrado en la gestión de experiencias turísticas. Su propósito es manejar la creación, consulta, actualización y eliminación de experiencias, así como sus componentes relacionados como categorías, imágenes, horarios y lo que incluye cada experiencia.
 
@@ -1489,7 +1783,9 @@ Hereda los métodos de BaseRepository<Category> para operaciones CRUD estándar.
 - Task<IEnumerable<Category>> ListAsync() → Devuelve todas las categorías.
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams 
+Esta sección se enfoca en la arquitectura interna de los Bounded Contexts de Experience. El diagrama a continuación ilustra nuestra estrategia de diseño a nivel de componente, detallando cómo los elementos  interactúan entre sí y con la base de datos para la gestión de las funcionalidades de cada dominio.
 
+![Diagrama de componentes - dap](./img/Componente-DAP.png) 
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams  
 
@@ -1720,6 +2016,8 @@ El bounded context **Inquiry** gestiona el ciclo de vida de **preguntas** realiz
 
 ---
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams 
+
+![Componet - inquiry](./img/cOMPONENT-Inquiry.png) 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams  
 #### 2.6.5.6.1 Bounded Context Domain Layer Class Diagrams  
 
@@ -1727,7 +2025,7 @@ El diagrama presenta el agregado Inquiry con sus atributos y métodos de validac
 
 ![Diagrama de clases - inquiry](./img/diagrama-de-clases_inquiry.png) 
 
-#### 2.6.5.6.2 Bounded Context Database Design Diagram 
+
 #### 2.6.5.6.2 Bounded Context Database Design Diagram   
 
 Este diagrama de base de datos corresponde al bounded context Inquiry, encargado de gestionar las consultas de los usuarios sobre experiencias. La tabla principal Inquiry registra la pregunta realizada, asociándola tanto a un User como a una Experience.
@@ -1904,3 +2202,23 @@ Este diagrama de base de datos corresponde al bounded context Review, cuya final
 La tabla principal Review almacena la calificación, comentario y fecha, relacionando al Tourist (quien emite la reseña) con la Agency (quien la recibe).
 
 ![Review-Database](./img/Review-Database.png) 
+
+
+# Conclusiones y recomendaciones
+
+- TripMatch resuelve con claridad la brecha entre viajeros que buscan experiencias auténticas y agencias locales que necesitan digitalizar su oferta. La propuesta integra en un solo flujo la búsqueda con filtros relevantes, la ficha completa de cada experiencia, la reserva directa, un módulo de consultas ágil y un sistema de reseñas verificadas. Este enfoque reduce la fricción en la decisión de compra, eleva la confianza y mejora la visibilidad de los proveedores locales sin intermediación innecesaria, generando valor inmediato para ambos lados del mercado.
+
+- El diseño del producto se apoya en una arquitectura por dominios que separa con rigor identidad y acceso, perfiles, experiencias, reservas, consultas, reseñas y favoritos. Esta organización disminuye el acoplamiento, facilita la escalabilidad por módulos y hace más predecible la evolución del sistema. Los diagramas y flujos de mensajes capturan reglas e invariantes críticas del negocio, lo que se traduce en mantenibilidad a largo plazo y en una base técnica preparada para crecer sin comprometer la estabilidad.
+
+- La estrategia prioriza un lanzamiento móvil enfocado en descubrir, evaluar y reservar, acompañado por métricas accionables que permitan aprender y ajustar con rapidez. La activación de usuarios, la conversión desde la búsqueda hasta la reserva, el tiempo de respuesta a consultas, la retención de agencias activas y la calidad percibida medida con encuestas y calificaciones orientarán las iteraciones del equipo. Con estas bases, el producto es viable como un primer lanzamiento y cuenta con una ruta de crecimiento que incluye pagos en producción, recomendaciones más precisas y automatización operativa para agencias, todo reforzado por iniciativas de verificación de proveedores y transparencia de precios que mitigan riesgos de adopción y calidad de la oferta.
+
+
+# Bibliografia 
+
+KPMG Tendencias. (2024, 8 de julio). *El futuro del sector turístico: hacia la máxima digitalización y personalización de los servicios al cliente*. KPMG Tendencias. Recuperado el día 10 de abril de 2025, de <https://www.tendencias.kpmg.es/2024/07/futuro-sector-turistico-digitalizacion-personalizacion/>
+
+Ministerio de Comercio Exterior y Turismo. (2024). *Turismo Interno*. Mincetur. Recuperado el 10 de abril de 2025, de <https://www.mincetur.gob.pe/centro_de_Informacion/mapa_interactivo/turismoInterno.html>
+
+Nissa, M. (2021, 07 de abril). *7 Estadísticas Esenciales de Reservas de Viajes Online*. Mize. Recuperado el 10 de abril de 2025, de <https://mize.tech/es/blog/reservas-de-viajes-online-las-7-estadisticas-mas-importantes/>
+
+TravelPerk. (2022, 29 de diciembre). *Más de 60 estadísticas y tendencias de reservas de viajes en línea*. TravelPerk. Recuperado el día 10 de abril de 2025, de <https://www.travelperk.com/es/blog/estadisticas-reservas-de-viajes-en-linea/>
