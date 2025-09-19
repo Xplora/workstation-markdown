@@ -1005,6 +1005,94 @@ En la capa de Infrastructure Layer, se encuentran los repositorios que permiten 
 #### 2.6.2.6.1 Bounded Context Domain Layer Class Diagrams  
 #### 2.6.2.6.2 Bounded Context Database Design Diagram 
 
+## 2.2.3 Bounded Context : ARM (Assets Resource Managment)
+
+Este bounded context centraliza la gestión de los pagos en distintos viajes que solicitan los turistas.
+
+#### 2.2.3.1. Domain Layer 
+
+> **Agregate: Booking**
+
+|Nombre|Categría|Descripción|
+|-|-|-|
+|Booking|Entity|Respresenta las reservas de los turistas hacía un viaje|
+
+**Attributes**
+
+|Nombre|Tipo de dato|Visibilidad|Descripción|
+|-|-|-|-|
+|id|Int|Private|Identificador único del vehículo en el sistema|
+|bookingDate|DateTime|Private|Fecha en la que se realiza la reserva|
+|numberOfPeople|Int|Private|Número de personas que se registran en la reserva|
+|price|Decimal|Private|Precio de la reserva|
+|status|String|Private|Estado de la reserva|
+|Time|String|Private|Tiempo en el que se realiza la reserva|
+
+**Methods**
+
+|Nombre|Tipo de retorno|Visibilidad|Descripción|
+|-|-|-|-|
+|getDetail()|String|Public|Retorna el detalle de la reserva|
+|calculateTotalPrice()|Void|Public|Retorna el precio total de la reserva|
+
+#### 2.2.3.2. Interface Layer 
+
+>**Controller 1: BookingController**
+
+|Nombre|Categría|Descripción|
+|-|-|-|
+|BookingController|Controller|Controlador para los endpoints con la gestión de reservas de los usuarios|
+
+**Endpoints**
+
+|Ruta|Método|Descripción|
+|-|-|-|
+|api/user/booking|POST|Crea una mueva reserva|
+|api/user/booking/{id}|Delete|Crea una mueva reserva|
+|api/user/booking|GET|Recupera todas las reservas|
+|api/user/booking/{id}|GET|Busca las reservas por su id|
+
+#### 2.2.3.3. Application Layer 
+
+**Service 1: BookingService** 
+
+|Nombre|Categoría|Descripción|
+|-|-|-|
+|BookingService|Service|Servicio que coordina la lógica relacionada con la gestión de reservas del usuario|
+
+**Dependencies**
+
+|Nombre|Tipo de Objeto|Visibilidad|Descripción|
+|-|-|-|-|
+|bookingRepository|BookingRepository|Private|Repositories para la persistencia de reservas del usuarios 
+
+**Methods**
+
+|Nombre|Tipo de retorno|Visibilidad|Descripción|
+|-|-|-|-|
+|CreateBooking|void|Public|Crea una nueva reserva del usuario|
+|UpdateBooking|void|Public|Actualiza la reserva del usuario|
+|DeleteBooking|void|Public|Borra la reserva del usuario|
+|GetBookingById|Booking|Public|Obtiene la reserva del usuario por su Id|
+|GetAllBookings|Booking|Public|Obtiene todas las reservas de los usuarios|
 
 
+#### 2.2.3.4. Infrastracture Layer 
 
+>**BookingRepository**
+
+|Nombre|Categría|Implementa|Descripción|
+|-|-|-|-|
+|BookingRepositoryImpl|Repositorio|BookingRepository|Implementación del Repositorio para acceder a la base de datos de las reservar|
+
+**Funcionalidad Clave**
+
+- Encontrar Reserva por agencia y turista 
+- Encontrar Reserva por experiencia
+- Encontrar todas las reservas por experiencia
+
+
+#### 2.2.3.5. Bounded Context Software Architecture Component Level Diagrams 
+#### 2.2.3.6. Bounded Context Software Architecture Code Level Diagrams  
+#### 2.2.3.6.1 Bounded Context Domain Layer Class Diagrams  
+#### 2.2.3.6.2 Bounded Context Database Design Diagram 
