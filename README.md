@@ -26,7 +26,7 @@
 | Código      | Nombre                           |
 |-------------|----------------------------------|
 | U202219481  | Alaya Cabrera Rodrigo             |
-|   | Gordon Salas Gabriel Fernando  |
+| U20221E229  | Gordon Salas Gabriel Fernando  |
 | U20231C505  | Melgarejo Gomez Marcia Victoria   |
 | U20191E414  | Antayhua Castillo Oscar Josué   |
 |   |      |
@@ -266,7 +266,7 @@ Valores: Defendemos la integridad, la innovación y el turismo sostenible. Asegu
 
 |  Nombres y Apellidos |    Codigo   | Descripción | Foto | 
 |----------------------|-------------|-------------|------|
-| Gabriel Fernando Gordon Salas  |   |  |    |
+| Gabriel Fernando Gordon Salas  | U20221E229  | Me considero una persona responsable, me gusta ayudar a mis compañeros en los trabajos y sé organizarme bien al momento de realizar mis cosas. Con esto mi objetivo es poder dar lo mejor en un ambiente de cooperación entre todos para que el proyecto dé una muy buena presentación |  ![Foto Gordon](./img/foto-gabriel.png)  |
 | Marcia Victoria Melgarejo Gomez |  U20231C505  | Actualmente estoy cursando el quinto ciclo de la carrera de Ingeniería de Software en la UPC. Opté por esta carrera debido a mi interés en el mundo de la tecnología y todo lo que este campo puede ofrecer a la sociedad. <br> Me caracterizo por ser una persona curiosa, persistente y colaborativa. <br> Tengo conocimientos en C++, HTML, CSS, JS, Pyhton | ![Foto Melgarejo](./img/FotoMelgarejo.png)|
 |  |    |  |    |
 | Rodrigo Alaya Cabrera |  U202219481  | Soy una persona responsable, comprometida con mis objetivos y con gran disposición para aprender continuamente. Me adapto con facilidad al trabajo en equipo, aportando ideas y soluciones. Valoro mucho la eficiencia, la ética profesional y la mejora constante. Me esfuerzo por entregar siempre resultados de calidad, gestionando mis tareas con orden y enfoque. |  ![Foto Alaya](./img/fotoAlaya.JPG)  |
@@ -678,8 +678,281 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 
 
 ## 3.2. User Stories
+## 3.3. Impact Mapping
+## 3.4. Product Backlog
+
+### Capítulo 4: Solution Software Design 
+
+## 4.1.
+
+## 4.2. Tactical-Level Domain-Driven Desing
+## 4.2.1 Bounded Context : IAM 
+
+Se encarga de gestionar la identidad del usuario, además, controla los permisos de acceso a diversos recusos del sistema. Proporciona servicios de autenticación y autorización de una forma segura 
+
+## 4.2.1.1. Domain Layer 
+
+Contiene la lógica de negocio y las entidades principales relacionadas a la identidad. 
+
+>**Agregate 1: Role**
+
+|Nombre|Categoría|Descripción|
+|-|-|-|
+|Role|Entity|Degine un tipo de usuario con un conjunto específico de permisos 
+
+**Attrinutes**
 
 
+|Nombre|Tipo de dato|Visibilidad|Descripción|
+|-|-|-|-|
+|id| UUID  | Private  |Identificador único del usuario
+|name|String|Private|Nombre único del rol asignado
+|description|String|Private|Descripcióndel rol|
+
+**Methods**
+
+|Nombre|Tipo de retorno|Visibilidad|Descripción|
+|-|-|-|-|
+|addPermission(permission:Permission)|Void|Public|Añade un permiso al rol
+|removePermission(permission:Permission)|Void|Public|Elimina un permiso al rol
+|canAssign(user: User)|Boolean|Public|Añade un permiso al rol
+
+>**Aggregate 2: JwtToken**
+
+|Nombre|Categoría|Descripción|
+|-|-|-|
+|JwtToken|Entity|Representa un token JWT emitido como parte de una sesión
+
+**Attributes**
+
+|Nombre|Tipo de dato|Visibilidad|Descripción|
+|-|-|-|-|
+|id| UUID  | Private  |Identificador único del usuario
+
+**Methods**
+
+|Nombre|Tipo de retorno|Visibilidad|Descripción|
+|-|-|-|-|
+|isExpired()|Boolean|Public|Verifica si el token ha expirado|
+
+
+>**Agregate 3: User**
+
+|Nombre|Categoría|Descripción|
+|-|-|-|
+|User|Entity|Representa un usuario en IAM, este posee credenciales seguras, estado de verificación de email y el único rol asignado. 
+
+**Attributes**
+
+|Nombre|Tipo de dato|Visibilidad|Descripción|
+|-|-|-|-|
+|id| UUID  | Private  |Identificador único del usuario.
+|firstName| String| Private  | Nombre registrado del usuario
+|lastNumber| String| Private  | Apellido registrado del usuario
+|number| String| Private  | Número de telefono del usuario
+|email| String| Private  |Objeto de valor encapsulando la dirección de correo electónico y su validación.
+|password| String| Private  |Contraseña hasheada del usuario
+
+**Methods**
+|Nombre|Tipo de retorno|Visibilidad|Descripción|
+|-|-|-|-|
+|getProfile()|User|Public| Obtiene el perfil del Usuario |
+|getId()|UUID|Public|Obtiene el identificador con el cuál está registrado el usuario|
+
+## 4.2.1.2. Interface Layer 
+
+Esta capa es resonsable de la recepción y formato de peticiones(API REST), validación básica del formato y los datos de entrada, manejo de errores a nivel de api.
+
+>**Controller: AuthController**
+
+|Nombre|Categoría|Descripción|
+|-|-|-|
+|AuthController|Controller|Controlador de endpoints relacionados con la autenticación de usuarios y la gestión del ciclo de vida de las sesiones (sing-in,sign-up)
+
+**Attributes**
+
+|Nombre|Tipo de dato|Visibilidad|Descripción|
+|-|-|-|-|
+|authService|AuthService|Private|Servicio de la capa de Aplicación
+
+**Endpoints**
+
+|Ruta|Método|Descripción|
+|-|-|-|
+|/api/iam/authentication/sign-in|POST|Registra un nuevo usuario en el sistema|
+|/api/iam/authentication/sign-up|POST|Autentica un usuario con email y contraseña|
+
+## 4.2.1.3. Application Layer 
+
+En la capa de Application Layer se ubican los servicios que contienen la lógica de negocio relacionada con usuarios y roles.
+
+>**AuthService**
+
+|Nombre|Categoría|Descripción|
+|-|-|-|
+|AuthService|Servicce|Servicio de aplicación responsable de la gestión de sesiones y tokens|
+
+**Commands y Queries**
+
+- SignInCommand
+- SignUpCommand
+
+## 4.2.1.4. Infrastructure Layer 
+
+En la capa de Infrastructure Layer, se encuentran los repositorios que permiten la persistencia de las entidades de usuarios y roles en la
+base de datos.
+
+>**BCryptPasswordEncoderImpl**
+
+|Nombre|Categría|Implementa|Descripción|
+|-|-|-|-|
+|BCryptPasswordEncoderImpl|Security Service Implementation|UserRepository| Maneja el mapeo entre la entidad de dominio User|
+
+**Funcionalidad Clave**
+
+-String encode(CharSequence rawPassword): Genera el hash de una contraseña plana
+
+>**JwtProviderImpl**
+
+|Nombre|Categría|Implementa|Descripción|
+|-|-|-|-|
+|JwtProviderImpl|Repository Implementation|Password Encoder|Verificar contraseñas de forma segura|
+
+**Funcionalidad Clave**
+
+String generateAccessToke(...): Crea y firma un JWT para autenticación
+
+## 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams 
+## 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams  
+## 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams  
+## 4.2.1.6.2 Bounded Context Database Design Diagram 
+
+
+## 4.2.2 Bounded Context : Profile Management
+
+Se encarga de la administración de perfiles de usuario, incluyendo la información personal. Este contexto interactúa con el contexto IAM para autenticar al usuario.
+
+## 4.2.2.1. Domain Layer 
+
+Se definen las entidades y agregados que componen el perfil de usuario, incluyendo información personal, direcciones, datos de contacto.
+
+
+>**Agregate 1: User**
+
+|Nombre|Categoría|Descripción|
+|-|-|-|
+|User|Entity|Representa un usuario en IAM, este posee credenciales seguras, estado de verificación de email y el único rol asignado. 
+
+**Attributes**
+
+|Nombre|Tipo de dato|Visibilidad|Descripción|
+|-|-|-|-|
+|id| UUID  | Private  |Identificador único del usuario.
+|firstName| String| Private  | Nombre registrado del usuario
+|lastNumber| String| Private  | Apellido registrado del usuario
+|number| String| Private  | Número de telefono del usuario
+|email| String| Private  |Objeto de valor encapsulando la dirección de correo electónico y su validación.
+|password| String| Private  |Contraseña hasheada del usuario
+
+**Methods**
+|Nombre|Tipo de retorno|Visibilidad|Descripción|
+|-|-|-|-|
+|getProfile()|User|Public| Obtiene el perfil del Usuario |
+|getId()|UUID|Public|Obtiene el identificador con el cuál está registrado el usuario|
+
+>**Agregate 2: Agency**
+
+|Nombre|Categoría|Descripción|
+|-|-|-|
+|Agency|Entity|Representa una agencia en la que el usuario se encuentra registrado
+
+
+**Attributes**
+
+|Nombre|Tipo de dato|Visibilidad|Descripción|
+|-|-|-|-|
+|agencyName|String|Private|Nombre de la agencia en la que se encuentra el usuario
+|ruc|	String|	Private|	Número de RUC de la agencia o empresa
+|description|	String|	Private|	Descripción general de la agencia o empresa
+|rating|	Float	|Private|	Calificación promedio otorgada por los usuarios
+|reviewCount|	Int|	Private|	Cantidad total de reseñas realizadas
+|reservationCount|	Int |	Private|	Cantidad total de reservas registradas
+|avatarUrl|	String|	Private|	URL del avatar o imagen representativa
+|contactEmail|	String|	Private|	Correo electrónico de contacto
+|contactPhone|	String|	Private |	Número de teléfono de contacto
+|socialLinkFacebook|	String|	Private|	Enlace al perfil o página de Facebook
+|socialLinkInstagram|	String|	Private|	Enlace al perfil de Instagram
+|socialLinkWhatsapp|String|	Private|	Enlace directo a WhatsApp (API o link)
+|user|User|	Private|	Objeto de tipo User asociado a esta entidad
+
+>**Agregate 3: Tourist**
+
+|Nombre|Categoría|Descripción|
+|-|-|-|
+|Tourits|Entity|Representa al usuario con el rol de turista|
+
+**Attributes**
+
+|Nombre|Tipo de dato|Visibilidad|Descripción|
+|-|-|-|-|
+|preferences|String|Private|Preferiencias que tiene el usuario d las experiencias
+
+## 4.2.2.2. Interface Layer 
+
+Esta capa es resonsable de la recepción y formato de peticiones(API REST), validación básica del formato y los datos de entrada, manejo de errores a nivel de api.
+
+>**Controller 1: UserController**
+
+|Nombre|Categoría|Descripción|
+|-|-|-|
+|UserController|Controller|Controlador para los endpoints relacionados con la gestión de usuario|
+
+**Attributes**
+
+|Nombre|Tipo de dato|Visibilidad|Descripción|
+|-|-|-|-|
+|userService|UserService|Private|Servicio de la capa de Aplicación
+
+**Endpoints**
+
+|Ruta|Método|Descripción|
+|-|-|-|
+|api/profile/user/{id}|GET|Recupera la información de un perfil de usuario por su ID|
+|api/profile/user/{id}|PUT|Actualiza la información de un perfil de usuario existente|
+|api/profile/user/{id}|Delete|Elimina un perfil de usuario|
+
+>**Controller 2: AgencyController**
+
+|Nombre|Categoría|Descripción|
+|-|-|-|
+|AgencyController|Controller|Controlador para los endpoints de la agencia en la cual pertenece el usuario|
+
+**Endpoints**
+
+|Ruta|Método|Descripción|
+|-|-|-|
+|api/profile/user/agency/{id}|GET|Recupera la información de una agencia por el userid|
+|api/profile/user/agency/{id}|PUT|Actualiza la información de un perfil de la agenia existente|
+
+>**Controller 2: TouristController**
+
+|Nombre|Categoría|Descripción|
+|-|-|-|
+|TouristController|Controller|Controlador para los endpoints del rol turista|
+
+**Endpoints**
+
+|Ruta|Método|Descripción|
+|-|-|-|
+|api/profile/user/tourist/{id}|GET|Recupera la información de una agencia por el userid|
+|api/profile/user/tourist/{id}|PUT|Actualiza la información de un perfil de la agenia existente|
+
+## 4.2.2.3. Application Layer 
+## 4.2.2.4. Infrastracture Layer 
+## 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams 
+## 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams  
+## 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams  
+## 4.2.2.6.2 Bounded Context Database Design Diagram 
 
 
 
