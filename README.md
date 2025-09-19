@@ -28,7 +28,7 @@
 | U202219481  | Alaya Cabrera Rodrigo             |
 |   | Gordon Salas Gabriel Fernando  |
 | U20231C505  | Melgarejo Gomez Marcia Victoria   |
-|   |    |
+| U20191E414  | Antayhua Castillo Oscar Josué   |
 |   |      |
 
 **Setiembre - 2025**
@@ -270,7 +270,7 @@ Valores: Defendemos la integridad, la innovación y el turismo sostenible. Asegu
 | Marcia Victoria Melgarejo Gomez |  U20231C505  | Actualmente estoy cursando el quinto ciclo de la carrera de Ingeniería de Software en la UPC. Opté por esta carrera debido a mi interés en el mundo de la tecnología y todo lo que este campo puede ofrecer a la sociedad. <br> Me caracterizo por ser una persona curiosa, persistente y colaborativa. <br> Tengo conocimientos en C++, HTML, CSS, JS, Pyhton | ![Foto Melgarejo](./img/FotoMelgarejo.png)|
 |  |    |  |    |
 | Rodrigo Alaya Cabrera |  U202219481  | Soy una persona responsable, comprometida con mis objetivos y con gran disposición para aprender continuamente. Me adapto con facilidad al trabajo en equipo, aportando ideas y soluciones. Valoro mucho la eficiencia, la ética profesional y la mejora constante. Me esfuerzo por entregar siempre resultados de calidad, gestionando mis tareas con orden y enfoque. |  ![Foto Alaya](./img/fotoAlaya.JPG)  |
-|   |    |  |   |
+|  Oscar Josué Antayhua Castillo |  U20191E414  | Soy una persona responsable, enfocado, con habilidades en automatización y desarrollo web. Manejo distintas herramientas RPA como Make, Power Automate, n8n y zapier, y para desarrollo web tengo conocimiento en HTML, CSS, Python, C++, NoSQL, SQL, Vue, Angular, Nextjs, Typescript. | ![Foto Oscar](./img//oscar.jpg)  |
 
 ## 1.2. Solution Profile
 
@@ -548,7 +548,7 @@ Este segmento está compuesto por tres jóvenes entre 19 y 24 años que viajan e
 
 **Gráfico de resultados:**
 
-![Características Segmento 1 - Turistas](./assets/img/grafico-estadistico-segmento1.png)
+![Características Segmento 1 - Turistas](./img/grafico-estadistico-segmento1.png)
 
 **Análisis del gráfico:**
 
@@ -574,7 +574,7 @@ Este segmento agrupa a tres representantes de agencias turísticas peruanas que 
 
 **Gráfico de resultados:**
 
-![Características Segmento 2 - Agencias](./assets/img/grafico-estadistico-segmento2.png)
+![Características Segmento 2 - Agencias](./img/grafico-estadistico-segmento2.png)
 
 **Análisis del gráfico:**
 
@@ -585,11 +585,11 @@ Las agencias entrevistadas comparten limitaciones tecnológicas similares: falta
 ### 2.3.1. User Personas
 >Segmento 1: Turistas
 
-![user persona 1 - segmento 1](./assets/img/User%20Persona-%20Segmento%201.png)
+![user persona 1 - segmento 1](./img/User%20Persona-%20Segmento%201.png)
 
 >Segmento 2: Agencias de Turismo
 
-![user persona 1 - segmento 1](./assets/img/User%20Persona-%20Segmento%202.png)
+![user persona 1 - segmento 1](./img/User%20Persona-%20Segmento%202.png)
 
 ### 2.3.2. User Task Matrix  
 
