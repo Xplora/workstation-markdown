@@ -822,9 +822,20 @@ El diagrama de contenedores de TripMatch muestra una aplicación monolítica mod
 
 ![Diagrama de Contenedores](./img/container-diagram.png)
 
-
-
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+
+El diagrama de despliegue muestra cómo el sistema TripMatch opera en producción: los turistas, agencias y administradores acceden desde la aplicación móvil Flutter (Android/iOS) desplegada en sus dispositivos móviles, la cual consume los servicios REST de la API Backend (Java/Spring Boot) desplegada en un servidor de aplicaciones en la nube, que centraliza toda la lógica de negocio a través de los bounded contexts especializados (Gestión de Perfiles, Experiencias, Reservas, Consultas y Reseñas) y se conecta con la base de datos MySQL compartida para persistir información de usuarios, experiencias turísticas, reservas y reseñas, mientras que el backend procesa las integraciones HTTPS/JSON con sistemas externos como el Sistema de Pagos (Visa/Mastercard/PayPal), Sistema de Autenticación (Auth0/Firebase) y Google Maps API para servicios de geolocalización y mapas.
+
+**Componentes del despliegue:**
+- **Dispositivos móviles**: Aplicación Flutter nativa para Android/iOS
+- **Servidor de aplicaciones**: API Backend Spring Boot desplegado en infraestructura cloud
+- **Base de datos**: MySQL Database para persistencia centralizada  
+- **Sistemas externos**: Integración con proveedores de pago, autenticación y mapas
+- **Protocolos**: REST API (HTTPS/JSON) para comunicación entre capas
+
+Esta arquitectura de despliegue garantiza escalabilidad, disponibilidad y seguridad para la plataforma de turismo TripMatch, permitiendo que múltiples usuarios accedan simultáneamente desde diferentes ubicaciones geográficas mientras mantiene la integridad de los datos y las transacciones.
+
+![Diagrama de Deployment](./img/deployment-diagram.png)
 
 
 ## 2.6. Tactical-Level Domain-Driven Desing
@@ -966,18 +977,15 @@ String generateAccessToke(...): Crea y firma un JWT para autenticación
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams 
 
-<img src="img/authDg.png">
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams  
 
 
 #### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams  
 
-<img src="img/iamclssdrm.webp">
 
 #### 2.6.1.6.2. Bounded Context Database Design Diagram 
 
-<img src="#">
 
 ### 2.6.2. Bounded Context : Profile Management
 
@@ -1143,23 +1151,9 @@ En la capa de Infrastructure Layer, se encuentran los repositorios que permiten 
 - Verifica la existencia de perfiles de usuario
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
-
-<img src="img/profileStrComDg.png">
-
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams  
 #### 2.6.2.6.1 Bounded Context Domain Layer Class Diagrams  
-
-<img src="#">
-
 #### 2.6.2.6.2 Bounded Context Database Design Diagram 
-
-<img src="img/userBckd.png">
-
-Este diagrama de base de datos corresponde al bounded context Profile, encargado de la gestión de identidades y perfiles dentro de la aplicación.
-La tabla principal User centraliza los datos básicos de autenticación y contacto, extendiéndose en dos perfiles especializados: Tourist y Agency.
-Un User puede estar asociado a un Tourist o a un Agency, lo que permite diferenciar entre clientes que consumen experiencias y organizaciones que las ofrecen.
-
-![Porfile-Database](./img/Profile-Database.png) 
 
 ## 2.2.3 Bounded Context : ARM (Assets Resource Managment)
 
@@ -1249,24 +1243,9 @@ Este bounded context centraliza la gestión de los pagos en distintos viajes que
 
 
 #### 2.2.3.5. Bounded Context Software Architecture Component Level Diagrams 
-
-<img src="img/bookingDg.png">
-
 #### 2.2.3.6. Bounded Context Software Architecture Code Level Diagrams  
 #### 2.2.3.6.1 Bounded Context Domain Layer Class Diagrams  
-
-<img src="#">
-
 #### 2.2.3.6.2 Bounded Context Database Design Diagram 
-
-Este diagrama de base de datos representa la estructura del bounded context ARM – Assets and Resource Management, específicamente orientado al proceso de Booking.
-La tabla central es Booking, que gestiona las reservas realizadas por los usuarios. Esta tabla almacena información clave como la fecha de reserva, número de personas, precio, estado y horario seleccionado.
-
-Las relaciones principales conectan a Booking con Experience, permitiendo identificar la experiencia reservada, y con User (en el rol de Tourist), para vincular la reserva al cliente que la realiza.
-
-De esta manera, la base de datos facilita la administración de recursos y la trazabilidad de cada reserva, asegurando una correcta asociación entre los usuarios, las experiencias y la gestión operativa de las reservas
-
-![ARM-Database](./img/ARM-Database.png) 
 
 ### 2.6.4 Bounded Context : Experience 
 
@@ -1482,16 +1461,7 @@ Hereda los métodos de BaseRepository<Category> para operaciones CRUD estándar.
 #### 2.6.4.6.1 Bounded Context Domain Layer Class Diagrams  
 
 
-#### 2.6.4.6.2 Bounded Context Database Design Diagram  
-
-Este diagrama de base de datos detalla las tablas y relaciones para la gestión de experiencias dentro del bounded context DAP – Design And Planning, enfocándose en los módulos de Favorite y Experience.
-La tabla principal es Experience, que almacena la información central de cada experiencia turística (descripción, precio, ubicación, horarios, etc.).
-A partir de esta, se relacionan otras tablas como Schedule (para manejar los diferentes horarios disponibles de cada experiencia) y Favorite, que permite a los usuarios marcar experiencias de su preferencia, estableciendo la conexión entre User y Experience.
-
-Con esta estructura, se logra gestionar de manera integral tanto la definición y planificación de experiencias como la personalización del usuario a través de sus experiencias favoritas.
-
-![DAP-Database](./img/DAP%20-%20Bounded%20Context%20Database.png) 
-
+#### 2.6.4.6.2 Bounded Context Database Design Diagram 
 # 2.6.5. Bounded Context: **Inquiry**
 
 El bounded context **Inquiry** gestiona el ciclo de vida de **preguntas** realizadas por usuarios sobre experiencias turísticas y sus **respuestas** oficiales por parte del prestador/agencia dueña de la experiencia. Su foco es: registro de preguntas, **unicidad** de respuesta por pregunta, **validación de actores** y **auditoría** (fechas/estado).
@@ -1703,13 +1673,7 @@ El bounded context **Inquiry** gestiona el ciclo de vida de **preguntas** realiz
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams  
 #### 2.6.5.6.1 Bounded Context Domain Layer Class Diagrams  
-#### 2.6.5.6.2 Bounded Context Database Design Diagram   
-
-Este diagrama de base de datos corresponde al bounded context Inquiry, encargado de gestionar las consultas de los usuarios sobre experiencias. La tabla principal Inquiry registra la pregunta realizada, asociándola tanto a un User como a una Experience.
-Cada consulta puede recibir una Response, vinculada al usuario que responde. De esta forma se asegura la trazabilidad entre preguntas, respuestas y los participantes involucrados.
-
-![Inquiry-Database](./img/Inquiry-%20Database.png) 
-
+#### 2.6.5.6.2 Bounded Context Database Design Diagram 
 # 2.6.6. Bounded Context: **Review**
 
 El bounded context **Review** gestiona el ciclo de vida de reseñas que realizan **turistas** a **agencias** (dueños de experiencias) después de participar en una experiencia. Enfatiza: **unicidad** de reseña por turista–agencia, **rating** normalizado (1–5), **saneamiento** y **auditoría**.
@@ -1860,16 +1824,3 @@ El bounded context **Review** gestiona el ciclo de vida de reseñas que realizan
 | Índices | AgencyUserId y (AgencyUserId, ReviewDate DESC) para ordenar y filtrar. |
 | Auditoría | Fechas en UTC; soft-delete con IsActive. |
 
-
-Este diagrama de base de datos corresponde al bounded context Review, cuya finalidad es gestionar las reseñas realizadas por los turistas hacia las agencias.
-La tabla principal Review almacena la calificación, comentario y fecha, relacionando al Tourist (quien emite la reseña) con la Agency (quien la recibe).
-
-
-#### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams 
-#### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams  
-#### 2.6.6.6.1 Bounded Context Domain Layer Class Diagrams  
-#### 2.6.6.6.2 Bounded Context Database Design Diagram   
-Este diagrama de base de datos corresponde al bounded context Review, cuya finalidad es gestionar las reseñas realizadas por los turistas hacia las agencias.
-La tabla principal Review almacena la calificación, comentario y fecha, relacionando al Tourist (quien emite la reseña) con la Agency (quien la recibe).
-
-![Review-Database](./img/Review-Database.png) 
