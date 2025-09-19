@@ -1450,7 +1450,7 @@ El bounded context **Inquiry** gestiona el ciclo de vida de **preguntas** realiz
 | CreatedDate` | DateTime (UTC) | Public | Auditoría de creación. |
 | Inquiry` | Inquiry | Public | Navegación inversa 1:1. |
 
-**Métodos / Reglas – `Response`**
+**Métodos / Reglas – Response**
 
 | Nombre | Retorno | Visibilidad | Descripción |
 | :-- | :-- | :-- | :-- |
@@ -1599,3 +1599,153 @@ El bounded context **Inquiry** gestiona el ciclo de vida de **preguntas** realiz
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams  
 #### 2.6.5.6.1 Bounded Context Domain Layer Class Diagrams  
 #### 2.6.5.6.2 Bounded Context Database Design Diagram 
+# 2.6.6. Bounded Context: **Review**
+
+El bounded context **Review** gestiona el ciclo de vida de reseñas que realizan **turistas** a **agencias** (dueños de experiencias) después de participar en una experiencia. Enfatiza: **unicidad** de reseña por turista–agencia, **rating** normalizado (1–5), **saneamiento** y **auditoría**.
+
+---
+
+## 2.6.6.1. Domain Layer
+
+### 1) Visión general
+
+| Objetivo del dominio | Reglas clave |
+| --- | --- |
+| Permitir que un turista califique y comente su experiencia con una agencia. | Rating en [1..5]. Una reseña por par turista–agencia. Comentario requerido y ≤ 200 caracteres (saneado). Fechas en UTC y campos de auditoría. |
+
+### 2) Clases del dominio (diccionario)
+
+> Aggregate: Review
+
+| Nombre | Categoría | Descripción |
+| --- | --- | --- |
+| Review | Aggregate Root | Reseña hecha por un turista hacia una agencia. Controla su integridad (unicidad y validaciones). |
+
+**Atributos – Review**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| Id | int | Public | Identificador único (PK). |
+| TouristUserId | Guid | Public | Usuario turista que reseña. |
+| AgencyUserId | Guid | Public | Usuario/Agencia reseñada. |
+| Rating | int (1..5) | Public | Puntuación entera normalizada. |
+| Comment | string (≤ 200) | Public | Comentario (saneado; requerido). |
+| ReviewDate | DateTime (UTC) | Public | Fecha/hora de la reseña (UTC). |
+| IsActive | bool | Public | Soft-delete. |
+| CreatedDate | DateTime (UTC) | Public | Auditoría de creación. |
+| TouristUser | User | Public | Navegación al usuario turista. |
+| Agency | Agency | Public | Navegación a la agencia. |
+
+**Métodos / Reglas – Review**
+
+| Nombre | Retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| ValidateRating() | void | Public | Garantiza 1 ≤ Rating ≤ 5. |
+| ValidateComment() | void | Public | Garantiza comentario requerido, ≤ 200 y saneado. |
+
+> Repositorios (interfaces / puertos)
+
+| Interfaz | Métodos clave |
+| --- | --- |
+| IReviewRepository | FindByIdAsync(int), FindByAgencyUserIdAsync(Guid), FindByAgencyAndTouristUserAsync(Guid agencyId, Guid touristId), FindAllReviewsForAgency(Guid), AddAsync(Review), SaveChangesAsync() |
+
+---
+
+## 2.6.6.2. Interface Layer
+
+> Controllers (REST)
+
+| Controller | Endpoint | Método | Descripción |
+| --- | --- | --- | --- |
+| ReviewController | /api/v1/Review | POST | Crea una reseña. |
+| ReviewController | /api/v1/Review/{id} | GET | Obtiene una reseña por Id. |
+| ReviewController | /api/v1/Review/agency/{agencyUserId} | GET | Lista reseñas por agencia. |
+
+> Contracts (DTOs expuestos)
+
+| Tipo | Nombre | Campos principales |
+| --- | --- | --- |
+| Request | CreateReviewCommand | TouristUserId, AgencyUserId, Rating, Comment |
+| Resource | ReviewResource | Id, TouristUserId, AgencyUserId, Rating, Comment, ReviewDate |
+
+*(También se usa ReviewAssembler para transformar a Resource.)*
+
+**Políticas en la interfaz**
+
+| Política | Detalle |
+| --- | --- |
+| Autenticación | Requerida para crear reseñas. |
+| Validación | Delegada a CreateReviewCommandValidator y a la capa de aplicación. |
+
+---
+
+## 2.6.6.3. Application Layer
+
+> Servicios (Command/Query Services)
+
+| Servicio | Responsabilidad | Operaciones |
+| --- | --- | --- |
+| ReviewCommandService | Manejar comandos de creación de reseñas. | Handle(CreateReviewCommand) |
+| ReviewQueryService | Consultar reseñas. | Handle(GetReviewsByAgencyIdQuery), Handle(GetReviewByIdQuery) |
+
+> Commands / Queries
+
+| Tipo | Nombre | Propósito |
+| --- | --- | --- |
+| Command | CreateReviewCommand | Registrar una nueva reseña. |
+| Query | GetReviewsByAgencyIdQuery | Listar reseñas por AgencyUserId. |
+| Query | GetReviewByIdQuery | Obtener una reseña por Id. |
+
+> Validaciones (Application)
+
+| Componente | Reglas principales |
+| --- | --- |
+| CreateReviewCommandValidator | TouristUserId y AgencyUserId requeridos; Rating en [1..5]; Comment requerido, ≤ 200, sin HTML/URLs. |
+
+> Reglas de orquestación en Command Service
+
+| Regla | Descripción |
+| --- | --- |
+| Unicidad | Verifica que no exista una reseña previa para el par (AgencyUserId, TouristUserId) usando IReviewRepository.FindByAgencyAndTouristUserAsync. |
+| Existencia y roles | Verifica con repositorios de Users/Agencies que el turista y la agencia existan con el rol correcto. |
+| Agregación de métricas | Tras crear la reseña, actualiza en Agency el promedio y conteo de reseñas. |
+
+---
+
+## 2.6.6.4. Infrastructure Layer
+
+> Persistencia (ORM/SQL – EF Core)
+
+**Tabla Reviews**
+
+| Columna | Tipo | Constraint |
+| --- | --- | --- |
+| Id | int | PK |
+| TouristUserId | uuid | Index |
+| AgencyUserId | uuid | Index (y combinación para consultas por agencia) |
+| Rating | int | Check 1..5 (validado en app) |
+| Comment | varchar(200) | Not null |
+| ReviewDate | datetime | Not null (UTC) |
+| IsActive | bit | Default true |
+| CreatedDate | datetime | Not null (UTC) |
+
+**Repositorios (adapters)**
+
+| Implementación | Interfaz | Detalles |
+| --- | --- | --- |
+| ReviewRepository | IReviewRepository | Usa Include para relaciones (TouristUser, Agency); expone búsquedas por Id, por agencia, y por par agencia–turista; AddAsync/SaveChangesAsync. |
+
+**Integraciones**
+
+| Dependencia | Uso |
+| --- | --- |
+| Repos de Users/Agencies | Validación de existencia/rol de TouristUser y Agency antes de crear la reseña. |
+
+**Prácticas transversales**
+
+| Aspecto | Detalle |
+| --- | --- |
+| Lecturas | AsNoTracking() en consultas; paginación en listados por agencia. |
+| Índices | AgencyUserId y (AgencyUserId, ReviewDate DESC) para ordenar y filtrar. |
+| Auditoría | Fechas en UTC; soft-delete con IsActive. |
+
