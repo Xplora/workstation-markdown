@@ -130,6 +130,8 @@
 
 Commits del Report TB1:
 
+![Foto Alaya](./img/commits.png)
+
 # **Student Outcomes**
 | Criterio específico | Acciones Realizadas | Conclusiones |
 |:---:|:---|:---|
@@ -398,7 +400,6 @@ Valores: Defendemos la integridad, la innovación y el turismo sostenible. Asegu
 |----------------------|-------------|-------------|------|
 | Gabriel Fernando Gordon Salas  | U20221E229  | Me considero una persona responsable, me gusta ayudar a mis compañeros en los trabajos y sé organizarme bien al momento de realizar mis cosas. Con esto mi objetivo es poder dar lo mejor en un ambiente de cooperación entre todos para que el proyecto dé una muy buena presentación |  ![Foto Gordon](./img/foto-gabriel.png)  |
 | Marcia Victoria Melgarejo Gomez |  U20231C505  | Actualmente estoy cursando el quinto ciclo de la carrera de Ingeniería de Software en la UPC. Opté por esta carrera debido a mi interés en el mundo de la tecnología y todo lo que este campo puede ofrecer a la sociedad. <br> Me caracterizo por ser una persona curiosa, persistente y colaborativa. <br> Tengo conocimientos en C++, HTML, CSS, JS, Pyhton | ![Foto Melgarejo](./img/FotoMelgarejo.png)|
-|  |    |  |    |
 | Rodrigo Alaya Cabrera |  U202219481  | Soy una persona responsable, comprometida con mis objetivos y con gran disposición para aprender continuamente. Me adapto con facilidad al trabajo en equipo, aportando ideas y soluciones. Valoro mucho la eficiencia, la ética profesional y la mejora constante. Me esfuerzo por entregar siempre resultados de calidad, gestionando mis tareas con orden y enfoque. |  ![Foto Alaya](./img/fotoAlaya.JPG)  |
 |  Oscar Josué Antayhua Castillo |  U20191E414  | Soy una persona responsable, enfocado, con habilidades en automatización y desarrollo web. Manejo distintas herramientas RPA como Make, Power Automate, n8n y zapier, y para desarrollo web tengo conocimiento en HTML, CSS, Python, C++, NoSQL, SQL, Vue, Angular, Nextjs, Typescript. | ![Foto Oscar](./img//oscar.jpg)  |
 |  Melisa Geraldine Sulca Silva |  U202224602  | Mi nombre es Melisa Sulca y estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Mis principales habilidades son el trabajo en equipo, soy responsable, mantengo mi compromiso en dar todo mi esfuerzo y práctico perseverancia. | ![Foto Melisa](./img//fotoMelisa.png)  |
@@ -2391,6 +2392,282 @@ Este diagrama de base de datos corresponde al bounded context Review, cuya final
 La tabla principal Review almacena la calificación, comentario y fecha, relacionando al Tourist (quien emite la reseña) con la Agency (quien la recibe).
 
 ![Review-Database](./img/Review-Database.png) 
+
+
+# Capítulo III: Solution UI/UX Design  
+
+## 3.1. Product Design   
+
+### 3.1.1. Style Guidelines  
+Una Style Guidelines es un conjunto de lineamientos y criterios que establecen la forma en que deben redactarse, diseñarse o presentar documentos, contenido web, software u otros tipos de trabajos creativos. A continuación, se describen las especificaciones de los parámetros aplicados en la estructura del proyecto.
+
+#### 3.1.1.1. General Style Guidelines  
+
+**Branding:**
+
+Para la creación del logo de nuestro producto TripMatch, se ha optado por un diseño representativo y amigable que transmite los valores de aventura, autenticidad y conexión con la naturaleza. El logotipo está compuesto por una tipografía redondeada y moderna, acompañada de un ícono que representa una montaña nevada dentro de un círculo, evocando destinos naturales, seguridad y dirección. Los colores utilizados son armónicos y cálidos, lo que refuerza la idea de un turismo responsable y accesible.
+
+![Logo-Tripmatch](./img/logo-TripMatch.png) 
+
+**Typography:**  
+
+La tipografía principal seleccionada es Poppins, una fuente moderna, clara y versátil que funciona adecuadamente tanto en web como en dispositivos móviles. Para títulos y encabezados se emplean versiones más pesadas (Bold, SemiBold), mientras que para párrafos y descripciones se utilizan versiones regulares o light. Esta elección mantiene una jerarquía visual consistente y legible en pantallas de distintos tamaños.
+
+![Logo-Tripmatch](./img/tipografia-poppins.png) 
+
+**Colors:**  
+
+La paleta de colores de TripMatch se compone de tonos vibrantes pero equilibrados que evocan calma, naturaleza y aventura. Se utiliza principalemente el color turquesa con sus derivados, lo que genera identidad. Tambien se usa colores secundarios para resaltar acciones clave y una gama de neutros como el blanco que aportan equilibrio y contraste. Esto asegura una experiencia visual atractiva y accesible.  
+
+![Colors-Tripmatch](./img/colors-TripMatch.png) 
+
+**Spacing:**  
+
+El espaciado es un elemento clave para mantener una interfaz ordenada, limpia y fácil de navegar. El uso generoso de espacio en blanco permite mejorar la legibilidad, reduce la sobrecarga visual y facilita la interacción tanto en pantallas grandes como en móviles.  
+
+![Spacing-Tripmatch](./img/spacing-TripMatch.png) 
+
+**Tone of Communication:**  
+
+El tono de comunicación es amistoso, cercano y confiable, con un lenguaje sencillo y motivador. Se evita lo excesivamente formal para conectar con un público joven y aventurero, pero manteniendo siempre el respeto y la claridad.  
+
+
+> Web Style Guidelines
+
+La interfaz web de TripMatch está diseñada con un estilo moderno, limpio y adaptable a distintos dispositivos. Se emplean paletas de colores inspiradas en la naturaleza, tipografías claras como Poppins, y componentes visuales amigables como botones redondeados, íconos intuitivos y tarjetas informativas.
+
+Se prioriza la experiencia del usuario mediante:
+* Interacciones suaves que aportan dinamismo sin distracciones.
+* Menús simplificados con jerarquía clara.
+* Diseño responsivo, optimizado para pantallas de escritorio y tablets.
+* Accesibilidad, con contrastes adecuados y facil entendimiento de la web.  
+
+
+
+> Mobile Style Guidelines
+
+La aplicación móvil de TripMatch sigue un diseño optimizado para pantallas pequeñas y orientado a la usabilidad en movimiento, garantizando una experiencia fluida e intuitiva.
+
+Principios de diseño mobile:
+
+* Simplicidad: solo se muestran los elementos esenciales en cada vista.
+* Jerarquía visual clara: títulos grandes, botones prominentes y suficiente espacio táctil.
+* Gestos nativos: navegación mediante scroll, swipe y taps naturales en móviles.
+* Consistencia: se siguen las guías de Material Design de Android.
+
+
+### 3.1.2. Information Architecture  
+
+La arquitectura de información de TripMatch está pensada para una experiencia optimizada en dispositivos móviles, adaptándose a las necesidades de dos tipos principales de usuarios:
+
+* Turistas: buscan explorar experiencias, planificar itinerarios y guardar favoritos.
+* Agencias: gestionan actividades, reservas y consultas de clientes.
+
+La organización prioriza la simplicidad, la rapidez de acceso y la consistencia visual en pantallas reducidas. Se aplica un diseño con jerarquía clara, navegación simplificada y sistemas de búsqueda optimizados para interacción táctil.
+
+#### 3.1.2.1. Organization Systems  
+
+Turistas
+
+* Inicio (Jerárquico visual): vista principal con experiencias destacadas Y búsqueda guiada paso a paso con filtros dinámicos (destino, presupuesto, tipo de experiencia). Los resultados se muestran en tarjetas adaptadas al formato móvil.
+* Itinerarios (Secuencial): Se muestra las experiencias previamente reservadas con su fecha.
+* Favoritos (Jerárquico): lista visual de experiencias guardadas, organizada por categorías de interés.
+* Perfil (Jerárquico): configuración de datos personales, historial de viajes y ajustes de la app.
+
+Agencias
+
+* Inicio (Jerárquico visual): panel con resumen de próximas actividades, métricas rápidas y notificaciones.
+* Gestión de experiencias (Secuencial): creación/edición en flujo paso a paso: detalles → ubicación → horarios → publicación.
+* Reservas (Cronológica): listado de reservas en orden de fecha, con filtros rápidos por estado (pendiente, confirmada, finalizada).
+* Consultas (Jerárquico): mensajes organizados por usuario interesado.
+* Perfil de agencia (Jerárquico): datos de la organización, verificaciones y fotos.
+
+
+#### 3.1.2.2. Labelling Systems  
+
+Aquí se definen las etiquetas a utilizar en la aplicación TripMatch, buscando simplicidad, consistencia y claridad para los usuarios. Se presentan organizadas según el tipo de usuario: turistas y agencias.  
+
+---
+
+App Móvil – Turistas  
+
+| **Etiqueta**   | **Descripción** |
+|----------------|-----------------|
+| Inicio         | Pantalla principal con recomendaciones y experiencias destacadas |
+| Buscar         | Acceso al buscador con filtros dinámicos (destino, precio, categoría) |
+| Itinerarios    | Creación y gestión de itinerarios personalizados |
+| Favoritos      | Listado de experiencias guardadas por el usuario |
+| Perfil         | Edición de datos personales, historial y configuración |
+| Reservar       | Botón de acción rápida para confirmar experiencia |
+| Editar         | Permite modificar itinerarios o experiencias guardadas |
+| Eliminar       | Elimina un itinerario o experiencia de favoritos |
+| Cerrar Sesión  | Salida segura de la aplicación |
+
+---  
+
+
+
+App Móvil – Agencias  
+
+| **Etiqueta**        | **Descripción** |
+|----------------------|-----------------|
+| Inicio               | Panel principal con próximas actividades y métricas rápidas |
+| Gestión de Experiencias       | Creación y edición de experiencias publicadas |
+| Reservas             | Listado de reservas ordenadas cronológicamente |
+| Consultas            | Bandeja de mensajes de usuarios interesados |
+| Agencia              | Edición de información de perfil institucional |
+| Añadir    | Permite registrar una nueva experiencia en la plataforma |
+| Editar               | Modificar la información de una experiencia publicada |
+| Eliminar             | Dar de baja una experiencia |
+| Sin responder        | Consultas de turistas que aún no han sido atendidas |
+| Respondidas          | Consultas ya contestadas a los usuarios |
+| Cerrar Sesión        | Salida segura de la aplicación |
+
+#### 3.1.2.3. SEO Tags and Meta Tags  
+
+Aplicación Móvil (ASO):
+
+* App Title: TripMatch – Tu guía de experiencias turísticas
+* Subtitle: Descubre, planea y vive aventuras únicas.
+* Keywords: viajes, experiencias, itinerarios, turismo local, tours, guías, aventuras.
+* Description: TripMatch te conecta con experiencias auténticas y agencias locales. Descubre actividades, organiza itinerarios personalizados y guarda tus favoritas desde una app rápida y sencilla.
+* Author: Xplora
+
+Web App (SEO):
+
+* Title: TripMatch | Descubre experiencias únicas en tus destinos
+* Meta Description: Plataforma para turistas y agencias que permite crear itinerarios personalizados, gestionar reservas y descubrir nuevas actividades.
+* Keywords: turismo, experiencias, itinerarios, agencias, viajes.
+* Author: Xplora
+
+
+#### 3.1.2.4. Searching Systems  
+
+El sistema de búsqueda de TripMatch está diseñado para ser simple, táctil e intuitivo en dispositivos móviles, permitiendo al usuario encontrar experiencias o gestionar información con facilidad.  
+
+- **Búsqueda global:** disponible en la parte superior de la aplicación para acceder rápidamente a destinos y experiencias.  
+- **Filtros dinámicos:** opciones desplegables tipo acordeón para refinar resultados según:  
+  - Presupuesto (con campo para definir el monto máximo).  
+  - Categoría (aventura, cultural, gastronómica, etc.).  
+  - Calendario (selección de fechas para ajustar disponibilidad).  
+  - Ubicación (ciudades o regiones específicas).  
+- **Resultados en formato tarjeta móvil:** cada experiencia se muestra con imagen destacada, título breve, precio y botones de acción rápida.  
+- **Favoritos:** accesibles desde la pantalla de búsqueda, mostrando experiencias vistas recientemente y las guardadas por el usuario.  
+- **Búsqueda en panel de reservas (Agencias):** permite localizar usuarios o reservas específicas mediante nombre, código de reserva o fecha.  
+
+#### 3.1.2.5. Navigation Systems  
+
+La navegación móvil de TripMatch se basa en una tab bar inferior que agrupa las secciones principales según el tipo de usuario (turistas o agencias). El diseño prioriza recorridos lineales y accesos rápidos, reduciendo al mínimo los clics necesarios y la carga cognitiva del usuario.  
+
+---
+
+Turistas  
+
+| **Sección**   | **Descripción** |
+|---------------|-----------------|
+| **Inicio**    | Pantalla principal con recomendaciones personalizadas y acceso directo a la búsqueda de experiencias. |
+| **Itinerarios** | Creación, edición y seguimiento de itinerarios paso a paso. |
+| **Favoritos** | Lista visual de experiencias guardadas por el usuario. |
+| **Perfil**    | Edición de datos personales, historial de reservas, preferencias y ajustes de la cuenta. |
+
+---
+
+Agencias  
+
+| **Sección**   | **Descripción** |
+|---------------|-----------------|
+| **Inicio**    | Resumen general de actividades, métricas rápidas y próximas reservas. Incluye acceso directo a búsqueda de usuarios o experiencias. |
+| **Gestion de Experiencias** | Gestión simplificada de experiencias (añadir, editar, eliminar). |
+| **Reservas**  | Listado cronológico con detalles de cada reserva, con filtros por fecha o usuario. |
+| **Consultas** | Bandeja de mensajería directa con usuarios interesados. |
+| **Perfil**    | Gestión de datos institucionales, información de la agencia, reseñas y ajustes de cuenta. |
+
+
+### 3.1.3. Landing Page UI Design  
+
+#### 3.1.3.1. Landing Page Wireframe  
+
+#### 3.1.3.2. Landing Page Mock-up   
+
+### 3.1.4. Mobile Applications UX/UI Design  
+ 
+#### 3.1.4.1. Mobile Applications Wireframes  
+
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams  
+
+#### 3.1.4.3. Mobile Applications Mock-ups  
+
+#### 3.1.4.4. Mobile Applications User Flow Diagrams  
+
+#### 3.1.4.5. Mobile Applications Prototyping
+
+
+
+
+# Capítulo IV: Product Implementation & Validation
+
+## 4.1. Software Configuration Management
+
+
+
+### 4.1.1. Software Development Environment Configuration
+
+
+
+### 4.1.2. Source Code Management
+
+
+
+### 4.1.3. Source Code Style Guide & Conventions
+
+
+
+### 4.1.4. Software Deployment Configuration
+
+
+
+## 4.2. Landing Page & Mobile Application Implementation
+
+
+
+### 4.2.1. Sprint 1
+
+
+
+#### 4.2.1.1. Sprint Planning 1
+
+
+#### 4.2.1.2. Sprint Backlog 1
+
+
+#### 4.2.1.3. Development Evidence for Sprint Review
+
+
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+
+#### 4.2.1.5. Execution Evidence for Sprint Review
+
+
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+
+#### 4.2.1.8. Team Collaboration Insights during Sprint
+
+
+## 4.3. Validation Interviews
+
+
+### 4.3.1. Diseño de Entrevistas
+
+
+### 4.3.2. Registro de Entrevistas
+
+
+### 4.3.3. Evaluaciones según heurísticas
 
 
 # Conclusiones y recomendaciones
