@@ -790,35 +790,1156 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 ## 2.4. Requirements specification  
 
 ### 2.4.1 User Stories 
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Usuario / Agencia</td>
+    <td>Alta</td>
+    <td>EP01</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Registro de nuevo usuario con validación</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> un usuario (particular o agencia) nuevo, <b>quiero</b> registrarme con validación de datos <b>para</b> crear una cuenta confiable, acceder a la aplicación inmediatamente y recibir una bienvenida.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Registro exitoso y bienvenida</b><br>
+      <b>Dado que</b> el usuario completa el formulario con todos los datos requeridos (incluyendo la selección de rol "Usuario" o "Agencia")<br>
+      <b>Cuando</b> hace clic en Crear cuenta<br>
+      <b>Entonces</b> el sistema valida los datos, crea la cuenta, e inicia sesión automáticamente<br>
+      <b>Y</b> redirige al usuario a la pantalla de inicio mostrando un mensaje de bienvenida personalizado<br>
+      <br>
+      <b>Escenario B: Validación de campos obligatorios / formato</b><br>
+      <b>Dado que</b> el usuario intenta registrarse dejando campos esenciales vacíos o con formato incorrecto (ej. correo inválido)<br>
+      <b>Cuando</b> hace clic en  Crear cuenta <br>
+      <b>Entonces</b> el sistema no crea la cuenta<br>
+      <b>Y</b> resalta visualmente los campos erróneos con mensajes de error específicos
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Usuario / Agencia</td>
+    <td>Alta</td>
+    <td>EP01</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Inicio de sesión con credenciales y manejo de errores</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">Como un usuario existente, quiero poder iniciar sesión con mi correo y contraseña para acceder a mi cuenta de TripMatch y continuar planificando mis viajes.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Inicio de sesión exitoso</b><br>
+      <b>Dado que</b> el usuario está en la página de inicio de sesión<br>
+      <b>Y</b> ingresa un correo y contraseña válidos y registrados<br>
+      <b>Cuando</b> hace clic en “Ingresar”<br>
+      <b>Entonces</b> el sistema autentica al usuario<br>
+      <b>Y</b> lo redirige a la página principal de la aplicación<br>
+      <br>
+      <b>Escenario B: Credenciales incorrectas</b><br>
+      <b>Dado que</b> el usuario ingresa un correo o una contraseña incorrecta<br>
+      <b>Cuando</b> hace clic en “Ingresar”<br>
+      <b>Entonces</b> el sistema no inicia sesión<br>
+      <b>Y</b> muestra un único mensaje de error genérico: “Correo o contraseña incorrectos” (por seguridad<br>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Usuario / Agencia</td>
+    <td>Alta</td>
+    <td>EP01</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Garantía de seguridad y confirmación de la contraseña</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> un usuario preocupado por la seguridad,  
+ 
+ <b>quiero</b> que el sistema me fuerce a crear una contraseña robusta (con reglas específicas) y me pida confirmarla   
+ <b>para</b> proteger mi cuenta y evitar errores de tipeo.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+<b>Escenario A: Requisitos de robustez no cumplidos</b><br>
+<b>Dado que</b> el usuario intenta registrar una contraseña que no cumple con todos los requisitos de seguridad (ej. no contiene un carácter especial o es muy corta)<br>
+<b>Cuando</b> hace clic en “Crear cuenta”<br>
+<b>Entonces</b> el sistema detiene el registro<br>
+<b>Y</b> muestra un *feedback* en tiempo real (mientras se escribe) y un mensaje claro indicando qué requisito falta.<br>
+<br>
+<b>Escenario B: Contraseñas de confirmación no coinciden</b><br>
+<b>Dado que</b> el usuario ingresa una contraseña válida, pero la ingresa de forma diferente en el campo "Confirmar Contraseña"<br>
+<b>Cuando</b> hace clic en “Crear cuenta”<br>
+<b>Entonces</b> el sistema detiene el registro<br>
+<b>Y</b> muestra un error de validación claro: "Las contraseñas no coinciden".
+    </td>
+  </tr>
+</table>
+
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP02 – Exploración y Búsqueda de Destinos (Mobile)</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Recomendaciones basadas en Popularidad y Categorías en la Home</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> usuario, <b>quiero</b> que la pantalla de inicio me muestre secciones de experiencias basadas en su popularidad y mis intereses <b>para</b> encontrar fácilmente viajes atractivos sin necesidad de buscarlos.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Recomendación por categoría recurrente</b><br>
+      <b>Dado que</b> el usuario ha agregado a favoritos o visualizado varias experiencias de la categoría "Aventura"<br>
+      <b>Cuando</b> se carga la pantalla de inicio<br>
+      <b>Entonces</b> se muestra una sección destacada con el título: "Recomendado para ti: Aventuras".<br>
+      <br>
+      <b>Escenario B: Contenido por defecto (Experiencias Populares)</b><br>
+      <b>Dado que</b> el usuario es nuevo y no tiene historial de interacciones ni favoritos<br>
+      <b>Cuando</b> se carga la pantalla de inicio<br>
+      <b>Entonces</b> se muestra una sección con las experiencias **más populares** de la plataforma (basadas en número de favoritos o cantidad de reservas).
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US05</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP02 – Exploración y Búsqueda de Destinos (Mobile)</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Acciones rápidas en la tarjeta de experiencia (Favoritos y Navegación)</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> usuario, <b>quiero</b> poder ver los datos esenciales y guardar una experiencia como favorita directamente desde su tarjeta en la lista <b>para</b> optimizar el tiempo de navegación.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Contenido obligatorio de la tarjeta</b><br>
+      <b>Dado que</b> el usuario está visualizando una lista de resultados o recomendaciones<br>
+      <b>Cuando</b> se muestra cada experiencia en formato de tarjeta<br>
+      <b>Entonces</b> la tarjeta incluye la <b>Imagen principal</b>, <b>Título</b>, <b>Precio</b>, <b>Duración</b> y <b>Categoría</b> de la experiencia.<br>
+      <br>
+      <b>Escenario B: Toggle de Favorito sin navegación</b><br>
+      <b>Dado que</b> el usuario toca el ícono de corazón para guardar una experiencia<br>
+      <b>Cuando</b> se produce la interacción<br>
+      <b>Entonces</b> la experiencia se añade/elimina de su lista de favoritos.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US06</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP02 – Exploración y Búsqueda de Destinos (Mobile)</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Búsqueda inicial, mapa centrado y refinamiento dinámico de filtros</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Como</b> usuario, <b>quiero</b> que los valores de mi búsqueda inicial se transfieran y que el mapa se centre automáticamente, además de poder modificar <b>cualquiera de los cuatro filtros (Destino, Día, Presupuesto, Tipo de Experiencia)</b> de manera dinámica en la página de resultados, <b>para</b> ajustar y ampliar mi exploración sin tener que reiniciar la búsqueda.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Transferencia de búsqueda y mapa centrado</b><br>
+      <b>Dado que</b> el usuario ingresa valores para <b>Destino</b> y <b>Día</b> en el formulario de la página de inicio<br>
+      <b>Cuando</b> el usuario presiona el botón de <b>Buscar</b><br>
+      <b>Entonces</b> el sistema navega a la página de resultados, los cuatro filtros se muestran precargados con los valores seleccionados (si los hubiera), y el mapa se carga centrado en el Destino elegido.<br>
+      <br>
+      <b>Escenario B: Refinamiento dinámico de filtros</b><br>
+      <b>Dado que</b> el usuario se encuentra en la página de resultados<br>
+      <b>Cuando</b> el usuario edita o cambia el valor de cualquiera de los filtros (<b>Destino, Día, Presupuesto, Tipo de Experiencia</b>)<br>
+      <b>Entonces</b> la lista de experiencias y el mapa se actualizan de forma inmediata para reflejar los nuevos criterios.<br>
+      <br>
+      <b>Escenario C: Anulación de un filtro</b><br>
+      <b>Dado que</b> el usuario tiene valores seleccionados en uno o varios filtros (<b>Destino, Día, Presupuesto, Tipo de Experiencia</b>)<br>
+      <b>Cuando</b> el usuario vuelve a seleccionar la opción inicial (placeholder o valor sin filtro) en cualquiera de estos campos<br>
+      <b>Entonces</b> el sistema anula ese criterio, ampliando los resultados, mientras mantiene activos los demás filtros que sigan aplicados.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US07</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP02 – Exploración y Búsqueda de Destinos (Mobile)</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Visualización de resultados con carga incremental</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Como</b> usuario,  
+      <b>quiero</b> que los resultados de experiencias se carguen de manera progresiva (scroll infinito o botón "Ver más"),  
+      <b>para</b> poder explorar sin que la página tarde demasiado en mostrar todos los resultados de golpe.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Carga inicial</b><br>
+      <b>Dado que</b> el usuario realiza una búsqueda<br>
+      <b>Cuando</b> se muestran los resultados<br>
+      <b>Entonces</b> el sistema presenta solo un bloque inicial (ej. 10 resultados) en la lista y en el mapa.<br>
+      <br>
+      <b>Escenario B: Carga adicional</b><br>
+      <b>Dado que</b> el usuario llegó al final de la lista de resultados<br>
+      <b>Cuando</b> activa el scroll infinito o presiona el botón <b>Ver más</b><br>
+      <b>Entonces</b> el sistema carga los siguientes resultados, manteniendo los filtros aplicados.<br>
+      <br>
+    </td>
+  </tr>
+</table>
+
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US08</td>
+    <td>Turista</td>
+    <td>Alta</td>
+    <td>EP03 – Planificación y Gestión de Itinerarios</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Visualizar mis reservas en un calendario móvil</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> turista, <b>quiero</b> ver mis reservas destacadas en un calendario móvil, <b>para</b> identificar rápidamente qué días tengo experiencias programadas.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Visualización inicial</b><br>
+      <b>Dado que</b> el turista está autenticado en la app<br>
+      <b>Cuando</b> abre la sección "Mi itinerario"<br>
+      <b>Entonces</b> el sistema muestra dos pestañas: "Lista" y "Calendario".<br><br>
+      <b>Escenario B: Fechas resaltadas</b><br>
+      <b>Dado que</b> el turista entra a la pestaña "Calendario"<br>
+      <b>Cuando</b> se carga la vista<br>
+      <b>Entonces</b> las fechas con reservas aparecen resaltadas con un color distintivo.<br><br>
+      <b>Escenario C: Día sin reservas</b><br>
+      <b>Dado que</b> el turista selecciona una fecha sin reservas<br>
+      <b>Cuando</b> toca sobre el día<br>
+      <b>Entonces</b> el sistema muestra un mensaje indicando que no hay experiencias programadas.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US09</td>
+    <td>Turista</td>
+    <td>Alta</td>
+    <td>EP03 – Planificación y Gestión de Itinerarios</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Visualizar mis reservas en formato lista</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> turista, <b>quiero</b> ver mis reservas en formato lista con tarjetas (cards), <b>para</b> acceder a los detalles de cada experiencia de manera clara en mi dispositivo móvil.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Vista lista</b><br>
+      <b>Dado que</b> el turista está en "Mi itinerario"<br>
+      <b>Cuando</b> selecciona la pestaña "Lista"<br>
+      <b>Entonces</b> el sistema muestra cada reserva en una tarjeta con información de la experiencia, fecha y monto pagado.<br><br>
+      <b>Escenario B: Interacción con una reserva</b><br>
+      <b>Dado que</b> el turista revisa una tarjeta de reserva<br>
+      <b>Cuando</b> toca sobre ella<br>
+      <b>Entonces</b> accede a la vista de detalle con información completa de la experiencia.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US10</td>
+    <td>Turista</td>
+    <td>Media</td>
+    <td>EP03 – Planificación y Gestión de Itinerarios</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Buscar experiencias dentro de mi itinerario</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> turista, <b>quiero</b> tener un buscador en la sección "Mi itinerario", <b>para</b> localizar rápidamente una experiencia reservada específica.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Búsqueda por nombre</b><br>
+      <b>Dado que</b> el turista entra a "Mi itinerario"<br>
+      <b>Cuando</b> escribe el nombre de una experiencia en el buscador<br>
+      <b>Entonces</b> el sistema filtra y muestra solo las reservas que coinciden con el término buscado.<br><br>      
+      <b>Escenario B: Sin resultados</b><br>
+      <b>Dado que</b> el turista ingresa un término que no coincide<br>
+      <b>Cuando</b> confirma la búsqueda<br>
+      <b>Entonces</b> el sistema muestra un mensaje: "No se encontraron resultados".
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US11</td>
+    <td>Turista</td>
+    <td>Alta</td>
+    <td>EP03 – Planificación y Gestión de Itinerarios</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Cancelar una reserva desde el itinerario</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> turista, <b>quiero</b> poder cancelar una reserva directamente desde mi itinerario, <b>para</b> tener control sobre mis planes de viaje desde el móvil.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Cancelación de reserva</b><br>
+      <b>Dado que</b> el turista abre los detalles de una reserva<br>
+      <b>Cuando</b> selecciona la opción "Cancelar"<br>
+      <b>Entonces</b> el sistema muestra un cuadro de confirmación con las opciones "Aceptar" o "Rechazar".<br><br>      
+      <b>Escenario B: Confirmar cancelación</b><br>
+      <b>Dado que</b> el turista confirma la cancelación<br>
+      <b>Cuando</b> pulsa "Aceptar"<br>
+      <b>Entonces</b> el sistema elimina la reserva y muestra un mensaje de éxito.<br><br>      
+      <b>Escenario C: Abortar cancelación</b><br>
+      <b>Dado que</b> el turista inicia el proceso de cancelación<br>
+      <b>Cuando</b> pulsa "Rechazar"<br>
+      <b>Entonces</b> el sistema mantiene la reserva activa.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US12</td>
+    <td>Empresa turística</td>
+    <td>Alta</td>
+    <td>EP03 – Planificación y Gestión de Itinerarios</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Visualizar reservas confirmadas en formato lista</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> empresa turística, <b>quiero</b> visualizar en formato lista las reservas confirmadas de mis clientes, <b>para</b> organizar mis itinerarios y preparar los servicios.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Visualización general</b><br>
+      <b>Dado que</b> la empresa inicia sesión en la app<br>
+      <b>Cuando</b> entra a la sección "Reservas"<br>
+      <b>Entonces</b> el sistema muestra una lista con tarjetas de reservas, incluyendo datos del cliente, fecha, personas y monto total.<br><br>      
+      <b>Escenario B: Búsqueda en reservas</b><br>
+      <b>Dado que</b> la empresa tiene varias reservas<br>
+      <b>Cuando</b> utiliza el buscador<br>
+      <b>Entonces</b> puede filtrar reservas por nombre de turista o experiencia.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US13</td>
+    <td>Empresa turística</td>
+    <td>Alta</td>
+    <td>EP04 – Gestión de Experiencias (Agency)</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Acceder a la creación de experiencias desde Gestión de Experiencias</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> empresa turística, <b>quiero</b> crear nuevas experiencias desde el botón en la sección "Gestión de Experiencias", <b>para</b> centralizar la administración en un único lugar.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Botón visible</b><br>
+      <b>Dado que</b> la empresa está en "Gestión de Experiencias"<br>
+      <b>Cuando</b> entra a la vista<br>
+      <b>Entonces</b> el sistema muestra un botón "Agregar experiencia".<br><br>
+      <b>Escenario B: Redirección</b><br>
+      <b>Dado que</b> la empresa pulsa el botón "Agregar experiencia"<br>
+      <b>Cuando</b> lo selecciona<br>
+      <b>Entonces</b> el sistema redirige al formulario de creación de experiencias.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US14</td>
+    <td>Empresa turística</td>
+    <td>Alta</td>
+    <td>EP04 – Gestión de Experiencias (Agency)</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Registrar detalles de una experiencia en el formulario</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> empresa turística, <b>quiero</b> ingresar los detalles de una experiencia (nombre, descripción, precio, horario, categoría, imágenes, etc.), <b>para</b> publicarla correctamente en la app.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Campos obligatorios</b><br>
+      <b>Dado que</b> la empresa está en el formulario<br>
+      <b>Cuando</b> intenta guardar sin completar los campos requeridos<br>
+      <b>Entonces</b> el sistema muestra un mensaje de alerta.<br><br>
+      <b>Escenario B: Experiencia guardada</b><br>
+      <b>Dado que</b> la empresa llenó todos los campos<br>
+      <b>Cuando</b> pulsa "Guardar"<br>
+      <b>Entonces</b> el sistema crea la experiencia y muestra un mensaje de confirmación.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US15</td>
+    <td>Empresa turística</td>
+    <td>Alta</td>
+    <td>EP04 – Gestión de Experiencias (Agency)</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Editar experiencias existentes</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> empresa turística, <b>quiero</b> editar los datos de una experiencia publicada, <b>para</b> corregir información o actualizar precios y horarios.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Acceso a edición</b><br>
+      <b>Dado que</b> la empresa visualiza la lista de experiencias<br>
+      <b>Cuando</b> selecciona "Editar"<br>
+      <b>Entonces</b> el sistema abre el formulario con los datos precargados.<br><br>
+      <b>Escenario B: Guardado de cambios</b><br>
+      <b>Dado que</b> la empresa modifica la información<br>
+      <b>Cuando</b> pulsa "Guardar"<br>
+      <b>Entonces</b> el sistema actualiza la experiencia y muestra un mensaje de éxito.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Empresa turística</td>
+    <td>Alta</td>
+    <td>EP04 – Gestión de Experiencias (Agency)</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Eliminar experiencias publicadas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> empresa turística, <b>quiero</b> eliminar experiencias publicadas, <b>para</b> retirar aquellas que ya no ofrezco.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Confirmación de eliminación</b><br>
+      <b>Dado que</b> la empresa selecciona "Eliminar" en una experiencia<br>
+      <b>Cuando</b> confirma la acción<br>
+      <b>Entonces</b> el sistema elimina la experiencia y muestra un mensaje de éxito.<br><br>
+      <b>Escenario B: Cancelación</b><br>
+      <b>Dado que</b> la empresa selecciona "Eliminar"<br>
+      <b>Cuando</b> cancela la acción<br>
+      <b>Entonces</b> el sistema no borra la experiencia.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US17</td>
+    <td>Empresa turística</td>
+    <td>Media</td>
+    <td>EP04 – Gestión de Experiencias (Agency)</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Visualizar listado de experiencias creadas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> empresa turística, <b>quiero</b> visualizar un listado de mis experiencias creadas, <b>para</b> revisar rápidamente lo que tengo publicado.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Lista cargada</b><br>
+      <b>Dado que</b> la empresa entra a "Gestión de Experiencias"<br>
+      <b>Cuando</b> se carga la vista<br>
+      <b>Entonces</b> el sistema muestra las experiencias en formato tarjetas con título, precio, duración y categoría.<br><br>
+      <b>Escenario B: Lista vacía</b><br>
+      <b>Dado que</b> la empresa no tiene experiencias creadas<br>
+      <b>Cuando</b> entra a la vista<br>
+      <b>Entonces</b> el sistema muestra un mensaje indicando "No tienes experiencias publicadas".
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US18</td>
+    <td>Empresa turística</td>
+    <td>Media</td>
+    <td>EP04 – Gestión de Experiencias (Agency)</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Buscar experiencias por nombre o categoría</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> empresa turística, <b>quiero</b> buscar mis experiencias por nombre o categoría, <b>para</b> encontrar rápidamente la que necesito administrar.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Búsqueda por nombre</b><br>
+      <b>Dado que</b> la empresa tiene varias experiencias<br>
+      <b>Cuando</b> escribe un título en el buscador<br>
+      <b>Entonces</b> el sistema filtra y muestra solo las coincidencias.<br><br>
+      <b>Escenario B: Búsqueda por categoría</b><br>
+      <b>Dado que</b> la empresa selecciona una categoría en el filtro<br>
+      <b>Cuando</b> aplica el filtro<br>
+      <b>Entonces</b> el sistema muestra solo las experiencias asociadas a esa categoría.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US19</td>
+    <td>Turista</td>
+    <td>Alta</td>
+    <td>EP05 – Gestión de Reservas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Realizar una reserva desde la vista de detalle de experiencia</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> turista, <b>quiero</b> reservar una experiencia desde su pantalla de detalle, <b>para</b> confirmar mi participación en la fecha y horario seleccionados desde mi móvil.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Reserva exitosa</b><br>
+      <b>Dado que</b> el turista ha ingresado a la vista de detalle<br>
+      <b>Cuando</b> selecciona fecha, horario y número de personas y pulsa "Reservar ahora"<br>
+      <b>Entonces</b> el sistema confirma la reserva y muestra un mensaje de éxito.<br><br>   
+      <b>Escenario B: Validación faltante</b><br>
+      <b>Dado que</b> el turista no selecciona fecha u horario<br>
+      <b>Cuando</b> intenta reservar<br>
+      <b>Entonces</b> el sistema muestra un mensaje indicando que debe completar los campos obligatorios.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6"> 
+  <tr> 
+    <th>Story ID</th> 
+    <th>User</th> 
+    <th>Priority</th> 
+    <th>Epic</th> 
+  </tr> 
+  <tr> 
+    <td>US20</td> 
+    <td>Turista</td> 
+    <td>Alta</td> 
+    <td>EP05 – Gestión de Reservas</td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Title</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4">Recibir notificación de confirmación de reserva</td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Description</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4"><b>Como</b> turista, <b>quiero</b> recibir una notificación en mi dispositivo móvil al confirmar una reserva, <b>para</b> estar seguro de que quedó registrada correctamente.</td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Acceptance Criteria</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4"> 
+      <b>Escenario A: Confirmación exitosa</b><br> 
+      <b>Dado que</b> el turista completa la reserva<br> 
+      <b>Cuando</b> el sistema la confirma<br> 
+      <b>Entonces</b> se envía una notificación push con los datos principales de la experiencia reservada.<br><br>      
+      <b>Escenario B: Error en confirmación</b><br> 
+      <b>Dado que</b> ocurre un problema de servidor<br> 
+      <b>Cuando</b> el turista intenta reservar<br> 
+      <b>Entonces</b> el sistema muestra un mensaje: "No se pudo confirmar la reserva, intente nuevamente". 
+    </td> 
+  </tr> 
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US21</td>
+    <td>Turista</td>
+    <td>Alta</td>
+    <td>EP05 – Gestión de Reservas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Recibir notificación recordatoria de experiencia próxima</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> turista, <b>quiero</b> recibir una notificación automática cuando falte una semana para mi experiencia, <b>para</b> estar preparado y no olvidar mi reserva.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Notificación programada</b><br>
+      <b>Dado que</b> el turista tiene una reserva confirmada<br>
+      <b>Cuando</b> falte exactamente 7 días para la fecha de la experiencia<br>
+      <b>Entonces</b> el sistema envía una notificación push con el nombre de la experiencia, la fecha y la hora.<br><br>
+
+      <b>Escenario B: Acceso desde la notificación</b><br>
+      <b>Dado que</b> el turista recibe una notificación de su próxima experiencia<br>
+      <b>Cuando</b> toca sobre la notificación<br>
+      <b>Entonces</b> el sistema abre directamente la sección "Mis itinerarios" mostrando la tarjeta de esa reserva.<br><br>
+
+      <b>Escenario C: Cancelación de experiencia</b><br>
+      <b>Dado que</b> el turista cancela una reserva<br>
+      <b>Cuando</b> la cancelación es confirmada<br>
+      <b>Entonces</b> el sistema ya no envía la notificación programada para esa experiencia.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US22</td>
+    <td>Turista</td>
+    <td>Alta</td>
+    <td>EP06 – Consultas y Soporte</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Enviar consulta desde los detalles de una experiencia</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> turista, <b>quiero</b> enviar una consulta directamente desde la ventana de detalles de una experiencia, <b>para</b> resolver dudas antes de reservar.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Consulta básica</b><br>
+      <b>Dado que</b> el turista está viendo los detalles de una experiencia<br>
+      <b>Cuando</b> selecciona la opción "Enviar consulta"<br>
+      <b>Entonces</b> el sistema muestra un campo de texto para escribir la pregunta y enviarla a la agencia.<br><br>
+      <b>Escenario B: Confirmación de envío</b><br>
+      <b>Dado que</b> el turista envía su consulta<br>
+      <b>Cuando</b> el sistema procesa la solicitud<br>
+      <b>Entonces</b> se muestra un mensaje de confirmación indicando que la consulta fue enviada exitosamente.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US23</td>
+    <td>Empresa turística</td>
+    <td>Alta</td>
+    <td>EP06 – Consultas y Soporte</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Visualizar consultas recibidas de turistas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> empresa turística, <b>quiero</b> visualizar en una lista las consultas enviadas por turistas, <b>para</b> responderlas oportunamente y mejorar la atención.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Visualización de consultas</b><br>
+      <b>Dado que</b> la empresa accede a la sección "Consultas"<br>
+      <b>Cuando</b> abre la lista<br>
+      <b>Entonces</b> el sistema muestra cada consulta con datos como: nombre del turista, experiencia relacionada, fecha y contenido de la consulta.<br><br>
+      <b>Escenario B: Orden de consultas</b><br>
+      <b>Dado que</b> hay varias consultas<br>
+      <b>Cuando</b> la empresa accede<br>
+      <b>Entonces</b> las consultas aparecen ordenadas de más recientes a más antiguas.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US24</td>
+    <td>Empresa turística</td>
+    <td>Alta</td>
+    <td>EP06 – Consultas y Soporte</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Responder consultas de turistas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> empresa turística, <b>quiero</b> responder consultas desde la app, <b>para</b> resolver dudas de los turistas de manera rápida.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Respuesta escrita</b><br>
+      <b>Dado que</b> la empresa visualiza una consulta<br>
+      <b>Cuando</b> selecciona "Responder"<br>
+      <b>Entonces</b> el sistema habilita un campo de texto para enviar una respuesta al turista.<br><br>
+      <b>Escenario B: Confirmación</b><br>
+      <b>Dado que</b> la empresa envía una respuesta<br>
+      <b>Cuando</b> la acción se procesa<br>
+      <b>Entonces</b> el turista recibe una notificación con la respuesta.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US25</td>
+    <td>Turista</td>
+    <td>Media</td>
+    <td>EP06 – Consultas y Soporte</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Recibir notificación de respuesta a consulta</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> turista, <b>quiero</b> recibir una notificación cuando la agencia responda a mi consulta, <b>para</b> estar informado sin necesidad de revisar manualmente.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Notificación en tiempo real</b><br>
+      <b>Dado que</b> la empresa responde a una consulta<br>
+      <b>Cuando</b> la respuesta se envía<br>
+      <b>Entonces</b> el turista recibe una notificación push en su dispositivo móvil.<br><br>
+      <b>Escenario B: Acceso directo</b><br>
+      <b>Dado que</b> el turista recibe la notificación<br>
+      <b>Cuando</b> la abre<br>
+      <b>Entonces</b> el sistema lo redirige al detalle de la consulta con la respuesta visible.
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US26</td>
+    <td>Turista</td>
+    <td>Media</td>
+    <td>EP06 – Consultas y Soporte</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Consultar historial de mis preguntas y respuestas</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> turista, <b>quiero</b> acceder al historial de mis consultas y respuestas, <b>para</b> revisar información anterior sin tener que preguntar de nuevo.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario A: Visualización</b><br>
+      <b>Dado que</b> el turista accede a la sección "Mis consultas"<br>
+      <b>Cuando</b> abre la lista<br>
+      <b>Entonces</b> el sistema muestra todas las preguntas enviadas y sus respuestas asociadas.<br><br>
+      <b>Escenario B: Detalle</b><br>
+      <b>Dado que</b> el turista selecciona una consulta<br>
+      <b>Cuando</b> abre el detalle<br>
+      <b>Entonces</b> el sistema muestra la pregunta enviada, la fecha y la respuesta de la agencia.
+    </td>
+  </tr>
+</table>
+
+|EP01 – Autenticación y Registro de Usuarios|1,2,3|
+|EP02 – Exploración y Búsqueda de Destinos |4,5,6,7|
+|EP03 – Planificación y Gestión de Itinerarios|8,9,10,11,12|
+|EP04 – Gestión de Experiencias|19,20,21,16,17,18|
+|EP05 – Gestión de Reservas|19-20-21|
+|EP06 – Consultas y Soporte|22-23-24-25-26|
+|-|-|
+
+
+
 |**User story ID**|**Título**|**Descripción** |**Criterio de aceptación**|**Relación (EPIC ID)**|
 | - | - | - | - | - |
-|US01|Registro de usuario|**Como** usuario, **quiero** registrarme en la aplicación **para** poder acceder a sus funcionalidades y planificar mis viajes.|<p>Escenario : Validación de registro de usuario</p><p></p><p>**Dado que** el sistema verifica que el correo electrónico no esté registrado</p><p>**Y** el usuario selecciona "Crear cuenta"</p><p>**Cuando** el usuario ingresa todos los campos requeridos y hace clic en "Registrar"</p><p>**Entonces** el sistema valida los datos y crea la cuenta del usuario</p><p>**Y** muestra un mensaje de éxito en el registro</p>|EP01|
-|US02|Validación de datos de registro|**Como** usuario, **quiero** que el sistema valide mis datos correctamente al registrarme **para** evitar errores.|<p>Escenario : Validación de campos obligatorios</p><p>**Dado que** el usuario intenta registrarse<br>` `**Y** el sistema detecta campos vacíos o mal ingresados<br>` `**Cuando** el usuario hace clic en "Registrar"<br>` `**Entonces** el sistema muestra mensajes de error junto a los campos incorrectos<br>` `**Y** evita que se complete el registro hasta que todos los campos sean válidos</p>|EP01|
-|US03|Confirmación de contraseña|**Como** usuario, **quiero** confirmar mi contraseña durante el registro **para** asegurarme de que la escribí correctamente.|<p>Escenario: Comparación de contraseña y confirmación</p><p></p><p>**Dado que** el usuario ingresa su contraseña en dos campos distintos</p><p>**Y** el sistema debe comparar ambas</p><p>**Cuando** el usuario hace clic en "Registrar"</p><p>**Entonces** el sistema valida que ambas contraseñas coincidan</p><p>**Y** muestra un mensaje de error si son diferente</p>|EP01|
-|US04|Mensaje de bienvenida|**Como** usuario, **quiero** recibir un mensaje de bienvenida después de registrarme **para** sentirme valorado.|<p>Escenario: Registro exitoso con saludo inicial</p><p></p><p>**Dado que** el usuario ha completado exitosamente el proceso de registro</p><p>**Y** el sistema crea su cuenta</p><p>**Cuando** se redirige al usuario a la pantalla principal</p><p>**Entonces** el sistema muestra un mensaje de bienvenida con su nombre</p>|EP01|
-|US05|Registro con redes sociales|**Como** usuario, **quiero** poder registrarme con mi cuenta de Google o Facebook **para** ahorrar tiempo.|<p>Escenario: Registro mediante cuenta social</p><p></p><p>**Dado que** el usuario selecciona "Registrarse con Google/Facebook"</p><p>**Y** concede los permisos necesarios</p><p>**Cuando** se completa la autenticación externa</p><p>**Entonces** el sistema crea una cuenta en Turisfera con los datos recibidos</p><p>**Y** redirige al usuario a la pantalla principal</p>|EP01|
-|US06|Confirmación por correo electrónico|**Como** usuario, **quiero** recibir un correo de confirmación después de registrarme **para** validar mi cuenta.|<p>Escenario: Envío de correo de confirmación</p><p></p><p>**Dado que** el usuario ha completado el formulario de registro</p><p>**Y** ha ingresado un correo electrónico válido</p><p>**Cuando** el sistema crea la cuenta</p><p>**Entonces** se envía un correo con un enlace de verificación</p><p>**Y** el usuario debe hacer clic en el enlace para activar su cuenta</p>|EP01|
-|US07|Búsqueda de destinos turísticos|**Como** usuario, **quiero** buscar destinos turísticos dentro de la aplicación **para** explorar opciones de viaje que se ajusten a mis intereses.|<p>Escenario: Búsqueda por nombre del destino</p><p></p><p>**Dado que** el usuario se encuentra en la sección de búsqueda</p><p>**Y** desea encontrar un destino específico</p><p>**Cuando** el usuario escribe el nombre del destino en la barra de búsqueda</p><p>**Entonces** el sistema muestra resultados relacionados con el nombre ingresado</p><p>**Y** permite al usuario seleccionar uno para ver más detalles</p>|EP02|
-|US08|Filtros de búsqueda|**Como** usuario, **quiero** usar filtros al buscar destinos **para** encontrar los que se ajusten a mis preferencias.|<p>Escenario: Aplicación de filtros de búsqueda</p><p></p><p>**Dado que** el usuario está explorando destinos turísticos</p><p>**Y** desea ajustar los resultados</p><p>**Cuando** selecciona filtros como tipo de destino, clima o presupuesto</p><p>**Entonces** el sistema actualiza los resultados según los filtros seleccionados</p>|EP02|
-|US09|Resultados relevantes de búsqueda|**Como** usuario, **quiero** que los resultados de búsqueda sean relevantes **para** no perder tiempo revisando opciones irrelevantes|<p>Escenario: Resultados personalizados por preferencia</p><p></p><p>**Dado que** el usuario ha ingresado un término de búsqueda</p><p>**Y** ha configurado previamente sus intereses</p><p>**Cuando** se realiza la búsqueda</p><p>**Entonces** el sistema ordena los resultados según relevancia y preferencias del usuario</p>|EP02|
-|US10|Vista previa de destinos|**Como** usuario, **quiero** ver una vista previa de cada destino **para** decidir rápidamente cuál me interesa explorar.|<p>Escenario: Mostrar resumen de destinos en resultados</p><p></p><p>**Dado que** el usuario visualiza la lista de resultados</p><p>**Y** está explorando varias opciones</p><p>**Cuando** se muestra cada destino</p><p>**Entonces** el sistema incluye nombre, imagen, calificación y breve descripción en la vista previa</p>|EP02|
-|US11|Acceso rápido a destino favorito|**Como** usuario, **quiero** poder marcar destinos como favoritos **para** acceder a ellos rápidamente más adelante.|<p>Escenario: Agregar destino a favoritos</p><p>**<br>` `**Dado que** el usuario ha encontrado un destino interesante<br>` `**Y** desea guardarlo<br>` `**Cuando** hace clic en el ícono de favorito<br>` `**Entonces** el sistema lo agrega a la lista de favoritos del usuario<br>` `**Y** permite consultarlo fácilmente desde su perfil</p><p></p>|EP02|
-|US12|Búsqueda por región o país|**Como** usuario, **quiero** buscar destinos por país o región **para** explorar zonas específicas que me interesen.|<p>Escenario: Filtro de región geográfica</p><p></p><p>**Dado que** el usuario quiere ver destinos dentro de una región específica</p><p>**Y** selecciona la región desde un menú desplegable</p><p>**Cuando** aplica el filtro</p><p>**Entonces** el sistema muestra únicamente los destinos que pertenecen a esa región o país seleccionado</p>|EP02|
-|US13|Eliminar itinerario|**Como** usuario, **quiero** eliminar un itinerario que ya no necesito **para** mantener mi cuenta organizada.|<p>Escenario: Eliminación de itinerario</p><p>**<br>` `**Dado que** el usuario ha accedido a su lista de itinerarios<br>` `**Y** desea eliminar uno<br>` `**Cuando** selecciona "Eliminar"<br>` `**Entonces** el sistema solicita confirmación<br>` `**Y** elimina el itinerario seleccionado si el usuario acepta</p>|EP03|
-|US14|Visualizar itinerario completo|<p>**Como** usuario, **quiero** visualizar todos los detalles de mi itinerario **para** revisarlo antes y durante el viaje.</p><p></p>|<p>Escenario: Visualización de detalles del itinerario</p><p>**<br>` `**Dado que** el usuario tiene itinerarios guardados<br>` `**Y** desea consultarlos<br>` `**Cuando** selecciona un itinerario<br>` `**Entonces** el sistema muestra toda la información detallada por día, hora y actividad</p>|EP03|
-|US15|Buscar destinos turísticos por nombre|**Como** usuario, **quiero** buscar destinos turísticos por nombre **para** encontrar rápidamente el lugar que deseo visitar.|<p>Escenario: Búsqueda por nombre de destino</p><p>**<br>` `**Dado que** el usuario está en la sección de búsqueda<br>` `**Cuando** ingresa el nombre de un destino en el buscador<br>` `**Entonces** el sistema muestra una lista de coincidencias relacionadas con el término ingresado</p>|EP04|
-|US16|Filtrar destinos por tipo de experiencia|**Como** usuario, **quiero** filtrar los destinos por tipo de experiencia (aventura, relax, cultura, etc.) **para** encontrar opciones que se alineen con mis intereses.|<p>Escenario: Filtrar destinos</p><p></p><p>**Dado que** el usuario accede a la búsqueda avanzada</p><p>**Cuando** selecciona una o varias categorías de experiencia</p><p>**Entonces** el sistema muestra solo aquellos destinos que coincidan con los filtros seleccionados</p>|EP04|
-|US17|Ver detalles de un destino turístico|**Como** usuario, **quiero** ver la información completa de un destino (fotos, descripción, actividades disponibles) **para** decidir si me interesa visitarlo.|<p>Escenario: Visualización del destino</p><p></p><p>**Dado que** el usuario ha seleccionado un destino de la lista</p><p>**Cuando** hace clic en su nombre o imagen</p><p>**Entonces** el sistema muestra una página con todos los detalles del destino y opciones relacionadas</p>|EP04|
-|US18|Guardar destinos favoritos|**Como** usuario, **quiero** guardar destinos como favoritos **para** poder acceder rápidamente a ellos en el futuro.|<p>Escenario: Agregar a favoritos</p><p></p><p>**Dado que** el usuario ve un destino interesante</p><p>**Cuando** presiona el botón "Guardar como favorito"</p><p>**Entonces** el sistema añade ese destino a su lista personal de favoritos y lo confirma con un mensaje</p>|EP04|
-|US19|Ver recomendaciones de destinos según preferencias|**Como** usuario, **quiero** recibir recomendaciones de destinos según mis búsquedas y preferencias **para** descubrir nuevas opciones personalizadas.|<p>Escenario: Sugerencias personalizadas</p><p></p><p>**Dado que** el usuario ha interactuado con el sistema (búsquedas, favoritos, filtros)</p><p>**Cuando** accede a la sección de recomendaciones</p><p>**Entonces** el sistema muestra una lista de destinos sugeridos que se alinean con sus intereses y comportamientos anteriores</p>|EP04|
-|US20|Publicación de paquetes turísticos|**Como** agencia de turismo, **quiero** poder publicar mis paquetes turísticos en la plataforma **para** llegar a más usuarios interesados en viajar.|<p>**Escenario:** Registro de paquetes turísticos</p><p>**Dado que** la agencia tiene una cuenta verificada en TripMatch</p><p>**Cuando** accede a la sección de gestión de experiencias</p><p>**Y** le da click en el boton "Añadir nueva"<p><p>**Entonces** puede ingresar los detalles del viaje y publicarlos para los usuarios</p>|EP05|
-|US21|Edición de paquetes turísticos publicados|**Como** agencia de turismo, **quiero** editar la información de los paquetes turísticos que ya publiqué **para** mantenerlos actualizados.|<p>**Escenario:** Actualización de contenido</p><p>Dado que la agencia ya tiene paquetes publicados</p><p>Cuando necesita cambiar información (fechas, precios, destinos)</p><p>Entonces el sistema le permite hacer modificaciones y actualizar los datos</p>|EP05|
-|US22|Edición de perfil de agencia|**Como** agencia de turismo, **quiero** editar los datos de mi perfil, **para** mantener mi información actualizada.|<p>**Escenario:** Ingreso al formulario de edición</p><p>**Dado que** la agencia se encuentra en la sección “Perfil de Agencia”</p><p>**Y** visualiza sus datos</p><p>**Cuando** hace clic en el botón “Editar perfil”</p><p>**Entonces** el sistema muestra un formulario editable con los campos: nombre, RUC, descripción, y contacto</p><br><p>**Escenario:** Actualización exitosa del perfil</p><p>**Dado que** la agencia ha ingresado nuevos datos válidos en el formulario de edición</p><p>**Cuando** hace clic en “Guardar cambios”</p><p>**Entonces** el sistema actualiza los datos del perfil</p><p>**Y** muestra un mensaje confirmando que la información se actualizó correctamente</p><br><p>**Escenario:** Redirección a edición tras registro nuevo</p><p>**Dado que** una agencia recién se ha registrado y no tiene datos de perfil</p><p>**Cuando** se completa el proceso de creación de cuenta</p><p>**Entonces** el sistema redirige automáticamente a la pantalla de edición de perfil</p><p>**Y** la agencia puede llenar los datos iniciales</p>|EP06|
-|US23|Gestión de reservas de paquetes turísticos|**Como** agencia de turismo, **quiero** gestionar las reservas realizadas por los usuarios **para** tener un control claro de los cupos y atención al cliente.|<p>**Escenario:** Visualización de reservas</p><p>**Dado que** los usuarios realizan reservas a través de la plataforma</p><p>**Cuando** la agencia accede a su panel de control</p><p>**Entonces** puede ver el listado de reservas con sus detalles (usuario, fecha, paquete)</p>|EP06|
-|US24|Ver perfil de agencia|**Como** agencia de turismo, **quiero** visualizar mi perfil de agencia, **para** consultar mis datos y el resumen de mi actividad.|<p>**Escenario:** Visualización del perfil de agencia</p><p>**Dado que** la agencia tiene una cuenta activa</p><p>**Y** ha iniciado sesión en la plataforma</p><p>**Cuando** accede a la sección “Perfil de Agencia” desde el menú principal</p><p>**Entonces** el sistema muestra la información registrada: nombre de agencia, RUC, descripción, datos de contacto</p><p>**Y** el sistema muestra el resumen con número de reseñas, promedio de calificación y cantidad de reservaciones</p><br><p>**Escenario:** Visualización de resumen de reseñas</p><p>**Dado que** la agencia se encuentra en la sección “Perfil de Agencia”</p><p>**Cuando** el sistema carga el componente de reseñas</p><p>**Entonces** se muestran las 2 reseñas más recientes</p><p>**Y** se muestra el promedio de calificaciones y número total de reseñas</p>|EP06|
-|US25|Comunicación directa con el cliente|**Como** agencia de turismo, **quiero** comunicarme directamente con los usuarios que reservaron **para** brindar información adicional o resolver dudas.|<p>**Escenario:** Contacto post-reserva</p><p>**Dado que** un usuario ha realizado una reserva</p><p>**Cuando** la agencia necesite enviar información adicional</p><p>**Entonces** se comunicara directamente con el cliente</p>|EP06|
-|US26|Gestión y edición de paquetes turísticos|**Como** agencia de turismo, **quiero** crear y editar paquetes turísticos en la plataforma **para** ofrecer experiencias personalizadas a los usuarios.|<p>**Escenario:** Creación de paquetes</p><p>**Dado que** la agencia desea agregar un nuevo paquete turístico</p><p>**Cuando** accede a la sección de administración de paquetes</p><p>**Entonces** puede ingresar información como destino, fechas, precios y servicios incluidos</p>|EP07|
-|US27|Ver reseñas de la agencia|**Como** agencia de turismo, **quiero** ver todas las reseñas que han dejado los usuarios, **para** conocer su experiencia y mejorar mis servicios.|<p>**Escenario:** Acceso a pantalla flotante con todas las reseñas</p><p>**Dado que** la agencia visualiza el resumen de reseñas en su perfil</p><p>**Cuando** hace clic en el botón “Ver más” en la sección de reseñas</p><p>**Entonces** el sistema abre una pantalla flotante</p><p>**Y** muestra el listado completo de reseñas realizadas por los usuarios</p><br><p>**Escenario:** Visualización de detalle de cada reseña</p><p>**Dado que** el sistema muestra el listado completo de reseñas en la pantalla flotante</p><p>**Cuando** la agencia explora la lista</p><p>**Entonces** puede ver en cada reseña: el nombre del usuario, fecha, calificación y comentario detallado</p>|EP06|
 | US28 | Descubrimiento de beneficios para turistas | **Como** visitante del segmento de turistas, **quiero** ver claramente los beneficios que ofrece la plataforma **para** entender cómo puede mejorar mi experiencia de viaje. | <p>**Escenario:** Visualización de beneficios</p><p>**Dado que** el visitante se encuentra en la sección “Benefits”</p><p>**Cuando** hace scroll hasta esa sección</p><p>**Entonces** puede visualizar una lista de beneficios relevantes para turistas</p><p>Y entender cómo estos se relacionan con sus necesidades</p> | EP08 |
 | US29 | Conocer el propósito de la plataforma | **Como** visitante del segmento de turistas, **quiero** saber de qué se trata Turisfera **para** decidir si me interesa seguir explorando. | <p>**Escenario:** Lectura de “About us”</p><p>**Dado que** el visitante accede a la sección “About us”</p><p>**Cuando** lee la descripción disponible</p><p>**Entonces** puede comprender el propósito de la plataforma</p> | EP08  |
 | US30 | Navegación simple desde el header | **Como** visitante del segmento de turistas, **quiero** usar el menú superior **para** moverme fácilmente por la página. | <p>**Escenario:** Uso del menú</p><p>**Dado que** el visitante visualiza el menú superior</p><p>**Cuando** hace clic en un ítem (Home, About us, etc.)</p><p>**Entonces** la página hace scroll automáticamente a esa sección</p> | EP08  |
