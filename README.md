@@ -1704,12 +1704,10 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
       <b>Dado que</b> el turista tiene una reserva confirmada<br>
       <b>Cuando</b> falte exactamente 7 días para la fecha de la experiencia<br>
       <b>Entonces</b> el sistema envía una notificación push con el nombre de la experiencia, la fecha y la hora.<br><br>
-
       <b>Escenario B: Acceso desde la notificación</b><br>
       <b>Dado que</b> el turista recibe una notificación de su próxima experiencia<br>
       <b>Cuando</b> toca sobre la notificación<br>
       <b>Entonces</b> el sistema abre directamente la sección "Mis itinerarios" mostrando la tarjeta de esa reserva.<br><br>
-
       <b>Escenario C: Cancelación de experiencia</b><br>
       <b>Dado que</b> el turista cancela una reserva<br>
       <b>Cuando</b> la cancelación es confirmada<br>
@@ -1928,28 +1926,530 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   </tr>
 </table>
 
+<table border="1" cellspacing="0" cellpadding="6"> 
+  <tr> 
+    <th>Story ID</th> 
+    <th>User</th> 
+    <th>Priority</th> 
+    <th>Epic</th> 
+  </tr> 
+  <tr> 
+    <td>US27</td> 
+    <td>Turista</td> 
+    <td>Alta</td> 
+    <td>EP07 – Reseñas y Valoraciones</td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Title</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4">Dejar una reseña con calificación en estrellas y comentario</td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Description</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4"><b>Como</b> turista, <b>quiero</b> dejar una reseña con estrellas y un comentario sobre la experiencia, <b>para</b> compartir mi opinión y ayudar a otros usuarios.</td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Acceptance Criteria</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4"> 
+      <b>Escenario A: Reseña exitosa</b><br> 
+      <b>Dado que</b> el turista ha completado una experiencia<br> 
+      <b>Cuando</b> entra al perfil de la agencia y presiona el botón “Dejar reseña” y envía estrellas y comentario<br> 
+      <b>Entonces</b> el sistema guarda la reseña y muestra un mensaje de confirmación.<br><br>             
+      <b>Escenario B: Validación incompleta</b><br> 
+      <b>Dado que</b> el turista intenta enviar sin calificación o comentario<br> 
+      <b>Cuando</b> presiona “Enviar reseña”<br> 
+      <b>Entonces</b> el sistema muestra un mensaje de error solicitando completar ambos campos.<br><br>       
+      <b>Escenario C: Intento sin reserva</b><br> 
+      <b>Dado que</b> el turista no ha realizado una reserva con la empresa<br> 
+      <b>Cuando</b> intenta dejar una reseña en el perfil de la empresa<br> 
+      <b>Entonces</b> el sistema muestra un mensaje de error: "Solo puedes dejar una reseña si has realizado una reserva con esta empresa". 
+    </td> 
+  </tr> 
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6"> 
+  <tr> 
+    <th>Story ID</th> 
+    <th>User</th> 
+    <th>Priority</th> 
+    <th>Epic</th> 
+  </tr> 
+  <tr> 
+    <td>US28</td> 
+    <td>Turista</td> 
+    <td>Media</td> 
+    <td>EP07 – Reseñas y Valoraciones</td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Title</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4">Editar o eliminar mi reseña publicada</td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Description</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4">
+      <b>Como</b> turista, <b>quiero</b> editar o eliminar una reseña que ya hice, 
+      <b>para</b> corregir información o retirar mi opinión si lo deseo.
+    </td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Acceptance Criteria</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4"> 
+      <b>Escenario A: Edición</b><br> 
+      <b>Dado que</b> el turista tiene una reseña publicada<br> 
+      <b>Cuando</b> selecciona “Editar” y modifica comentario o estrellas<br> 
+      <b>Entonces</b> el sistema actualiza la reseña correctamente.<br><br>       
+      <b>Escenario B: Eliminación</b><br> 
+      <b>Dado que</b> el turista desea retirar su opinión<br> 
+      <b>Cuando</b> selecciona “Eliminar reseña” y confirma<br> 
+      <b>Entonces</b> el sistema borra la reseña y deja de mostrarla en el perfil de la agencia. 
+    </td> 
+  </tr> 
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6"> 
+  <tr> 
+    <th>Story ID</th> 
+    <th>User</th> 
+    <th>Priority</th> 
+    <th>Epic</th> 
+  </tr> 
+  <tr> 
+    <td>US29</td> 
+    <td>Turista</td> 
+    <td>Alta</td> 
+    <td>EP07 – Reseñas y Valoraciones</td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Title</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4">Visualizar reseñas de otros turistas en la agencia</td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Description</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4">
+      <b>Como</b> turista, <b>quiero</b> ver las reseñas y calificaciones de otros usuarios en el perfil de la agencia, 
+      <b>para</b> evaluar la calidad del servicio antes de reservar.
+    </td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Acceptance Criteria</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4"> 
+      <b>Escenario A: Lista inicial</b><br> 
+      <b>Dado que</b> el turista accede al perfil de una agencia<br> 
+      <b>Cuando</b> se desplaza a la sección “Reseñas”<br> 
+      <b>Entonces</b> el sistema muestra las últimas reseñas con nombre, fecha, calificación y comentario.<br><br>       
+      <b>Escenario B: Ver más</b><br> 
+      <b>Dado que</b> existen más de dos reseñas<br> 
+      <b>Cuando</b> el turista selecciona “Ver más”<br> 
+      <b>Entonces</b> el sistema abre una ventana con todas las reseñas disponibles. 
+    </td> 
+  </tr> 
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6"> 
+  <tr> 
+    <th>Story ID</th> 
+    <th>User</th> 
+    <th>Priority</th> 
+    <th>Epic</th> 
+  </tr> 
+  <tr> 
+    <td>US30</td> 
+    <td>Agencia turística</td> 
+    <td>Media</td> 
+    <td>EP07 – Reseñas y Valoraciones</td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Title</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4">Visualizar reseñas y promedio de calificaciones en mi perfil</td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Description</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4">
+      <b>Como</b> agencia turística, <b>quiero</b> ver todas las reseñas de mis clientes junto con el promedio de calificación, 
+      <b>para</b> evaluar la satisfacción de mis turistas y mejorar mis servicios.
+    </td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Acceptance Criteria</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4"> 
+      <b>Escenario A: Promedio visible</b><br> 
+      <b>Dado que</b> la agencia accede a su perfil<br> 
+      <b>Cuando</b> se cargan los datos<br> 
+      <b>Entonces</b> el sistema muestra el promedio de estrellas con un número y gráfico visual.<br><br>       
+      <b>Escenario B: Listado de reseñas</b><br> 
+      <b>Dado que</b> la agencia tiene reseñas recibidas<br> 
+      <b>Cuando</b> revisa la sección de reseñas<br> 
+      <b>Entonces</b> puede leer cada comentario y la calificación de los turistas. 
+    </td> 
+  </tr> 
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6"> 
+  <tr> 
+    <th>Story ID</th> 
+    <th>User</th> 
+    <th>Priority</th> 
+    <th>Epic</th> 
+  </tr> 
+  <tr> 
+    <td>US31</td> 
+    <td>Turista</td> 
+    <td>Alta</td> 
+    <td>EP08 – Perfiles de Usuario y Agencia</td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Title</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4">Editar información personal en el perfil</td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Description</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4">
+      <b>Como</b> turista, <b>quiero</b> editar mi nombre, teléfono y foto de perfil desde la aplicación, 
+      <b>para</b> mantener mis datos actualizados en la plataforma.
+    </td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Acceptance Criteria</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4"> 
+      <b>Escenario A: Edición exitosa</b><br> 
+      <b>Dado que</b> el turista accede a su perfil<br> 
+      <b>Cuando</b> modifica sus datos y presiona "Guardar"<br> 
+      <b>Entonces</b> el sistema actualiza la información y muestra un mensaje: "Perfil actualizado exitosamente".<br><br>      
+      <b>Escenario B: Error en la conexión</b><br> 
+      <b>Dado que</b> el turista edita sus datos<br> 
+      <b>Cuando</b> ocurre un error en el guardado<br> 
+      <b>Entonces</b> se muestra un mensaje: "Error al actualizar perfil. Intente nuevamente". 
+    </td> 
+  </tr> 
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6"> 
+  <tr> 
+    <th>Story ID</th> 
+    <th>User</th> 
+    <th>Priority</th> 
+    <th>Epic</th> 
+  </tr> 
+  <tr> 
+    <td>US32</td> 
+    <td>Turista</td> 
+    <td>Media</td> 
+    <td>EP08 – Perfiles de Usuario y Agencia</td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Title</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4">Visualizar mi perfil con datos actualizados</td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Description</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4">
+      <b>Como</b> turista, <b>quiero</b> visualizar mi información de perfil actualizada 
+      (nombre, correo, teléfono y foto), <b>para</b> confirmar que mis datos se encuentran correctos.
+    </td> 
+  </tr> 
+  <tr> 
+    <th colspan="4">Acceptance Criteria</th> 
+  </tr> 
+  <tr> 
+    <td colspan="4"> 
+      <b>Escenario A: Visualización correcta</b><br> 
+      <b>Dado que</b> el turista tiene datos guardados<br> 
+      <b>Cuando</b> ingresa a su perfil<br> 
+      <b>Entonces</b> la aplicación muestra la información en los campos correspondientes.<br><br>       
+      <b>Escenario B: Datos faltantes</b><br> 
+      <b>Dado que</b> algún campo no ha sido completado<br> 
+      <b>Cuando</b> el turista accede al perfil<br> 
+      <b>Entonces</b> el sistema muestra un texto por defecto: “Dato no registrado”. 
+    </td> 
+  </tr> 
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse; width:100%; text-align:left;">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US33</td>
+    <td>Agencia</td>
+    <td>Alta</td>
+    <td>EP08 – Perfiles de Usuario y Agencia</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Editar información del perfil de agencia</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Como</b> agencia, <b>quiero</b> poder modificar los datos de contacto, descripción y redes sociales en mi perfil, 
+      <b>para</b> mantener mi información disponible y actualizada para los turistas.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><b>Escenario A: Actualización correcta</b><br>
+      <b>Dado que</b> la agencia edita los campos<br>
+      <b>Cuando</b> guarda los cambios<br>
+      <b>Entonces</b> el sistema actualiza los datos y muestra un mensaje: 
+      “Perfil de agencia actualizado exitosamente”.</p>
+      <p><b>Escenario B: Validación de campos</b><br>
+      <b>Dado que</b> la agencia deja un campo obligatorio vacío<br>
+      <b>Cuando</b> intenta guardar<br>
+      <b>Entonces</b> el sistema muestra un mensaje de error indicando el campo inválido.</p>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse; width:100%; text-align:left;">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US34</td>
+    <td>Agencia</td>
+    <td>Alta</td>
+    <td>EP08 – Perfiles de Usuario y Agencia</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Ver reseñas en el perfil de agencia</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Como</b> agencia, <b>quiero</b> visualizar un listado de reseñas con calificaciones en mi perfil, 
+      <b>para</b> conocer la opinión de los turistas sobre mis servicios.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><b>Escenario A: Visualización de reseñas</b><br>
+      <b>Dado que</b> existen reseñas registradas<br>
+      <b>Cuando</b> la agencia ingresa a su perfil<br>
+      <b>Entonces</b> se muestran las reseñas con nombre del turista, fecha, comentario y calificación.</p>
+      <p><b>Escenario B: Sin reseñas</b><br>
+      <b>Dado que</b> la agencia aún no tiene reseñas<br>
+      <b>Cuando</b> accede a su perfil<br>
+      <b>Entonces</b> se muestra un mensaje: “Aún no tienes reseñas”.</p>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse; width:100%; text-align:left;">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US35</td>
+    <td>Agencia</td>
+    <td>Alta</td>
+    <td>EP08 – Perfiles de Usuario y Agencia</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Mostrar estadísticas en el perfil de agencia</td>
+  </tr>
+  <tr >
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Como</b> agencia, <b>quiero</b> ver en mi perfil el promedio de calificación, número de reseñas y cantidad de reservas, 
+      <b>para</b> conocer el rendimiento de mis servicios.
+    </td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <p><b>Escenario A: Estadísticas disponibles</b><br>
+      <b>Dado que</b> la agencia tiene reseñas y reservas<br>
+      <b>Cuando</b> accede a su perfil<br>
+      <b>Entonces</b> se muestran: promedio de calificación, total de reseñas y total de reservas.</p>
+      <p><b>Escenario B: Sin datos</b><br>
+      <b>Dado que</b> la agencia aún no registra actividad<br>
+      <b>Cuando</b> entra al perfil<br>
+      <b>Entonces</b> se muestra un mensaje: “Todavía no tienes estadísticas disponibles”.</p>
+    </td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6"> 
+<tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> 
+<tr> <td>US36</td> <td>Turista</td> <td>Alta</td> <td>EP09 – Funcionalidades Landing Page</td> </tr> 
+<tr> <th colspan="4">Title</th> </tr> 
+<tr> <td colspan="4">Descubrimiento de beneficios para turistas</td> </tr> 
+<tr> <th colspan="4">Description</th> </tr> 
+<tr> <td colspan="4"><b>Como</b> visitante del segmento de turistas, <b>quiero</b> ver claramente los beneficios que ofrece la plataforma, <b>para</b> entender cómo puede mejorar mi experiencia de viaje.</td> </tr> 
+<tr> <th colspan="4">Acceptance Criteria</th> </tr> 
+<tr> <td colspan="4"> <b>Escenario: Visualización de beneficios</b><br> 
+<b>Dado que</b> el visitante se encuentra en la sección “Benefits”<br> 
+<b>Cuando</b> hace scroll hasta esa sección<br> 
+<b>Entonces</b> puede visualizar una lista de beneficios relevantes para turistas y entender cómo estos se relacionan con sus necesidades. </td> </tr> 
+</table>  
+
+
+<table border="1" cellspacing="0" cellpadding="6"> 
+<tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> 
+<tr> <td>US37</td> <td>Turista</td> <td>Alta</td> <td>EP09 – Funcionalidades Landing Page</td> </tr> 
+<tr> <th colspan="4">Title</th> </tr> 
+<tr> <td colspan="4">Conocer el propósito de la plataforma</td> </tr> 
+<tr> <th colspan="4">Description</th> </tr> 
+<tr> <td colspan="4"><b>Como</b> visitante del segmento de turistas, <b>quiero</b> saber de qué se trata Turisfera, <b>para</b> decidir si me interesa seguir explorando.</td> </tr> 
+<tr> <th colspan="4">Acceptance Criteria</th> </tr> 
+<tr> <td colspan="4"> <b>Escenario: Lectura de “About us”</b><br> 
+<b>Dado que</b> el visitante accede a la sección “About us”<br> 
+<b>Cuando</b> lee la descripción disponible<br> 
+<b>Entonces</b> puede comprender claramente el propósito y la misión de la plataforma. </td> </tr> 
+</table>  
+
+
+<table border="1" cellspacing="0" cellpadding="6"> 
+<tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> 
+<tr> <td>US38</td> <td>Turista</td> <td>Media</td> <td>EP09 – Funcionalidades Landing Page</td> </tr> 
+<tr> <th colspan="4">Title</th> </tr> 
+<tr> <td colspan="4">Navegación simple desde el header</td> </tr> 
+<tr> <th colspan="4">Description</th> </tr> 
+<tr> <td colspan="4"><b>Como</b> visitante del segmento de turistas, <b>quiero</b> usar el menú superior <b>para</b> moverme fácilmente por la página sin perder tiempo.</td> </tr> 
+<tr> <th colspan="4">Acceptance Criteria</th> </tr> 
+<tr> <td colspan="4"> <b>Escenario: Uso del menú</b><br> 
+<b>Dado que</b> el visitante visualiza el menú superior<br> 
+<b>Cuando</b> hace clic en un ítem (Home, About us, Benefits, Contact)<br> 
+<b>Entonces</b> la página hace scroll automáticamente a la sección correspondiente de forma fluida. </td> </tr> 
+</table>  
+
+
+<table border="1" cellspacing="0" cellpadding="6"> 
+<tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> 
+<tr> <td>US39</td> <td>Turista</td> <td>Alta</td> <td>EP09 – Funcionalidades Landing Page</td> </tr> 
+<tr> <th colspan="4">Title</th> </tr> 
+<tr> <td colspan="4">Acceder al formulario de contacto</td> </tr> 
+<tr> <th colspan="4">Description</th> </tr> 
+<tr> <td colspan="4"><b>Como</b> visitante del segmento de turistas, <b>quiero</b> llegar fácilmente al formulario de contacto <b>para</b> comunicarme con el equipo y resolver dudas.</td> </tr> 
+<tr> <th colspan="4">Acceptance Criteria</th> </tr> 
+<tr> <td colspan="4"> <b>Escenario: Acceso al formulario</b><br> 
+<b>Dado que</b> el visitante está en la landing<br> 
+<b>Cuando</b> hace clic en “Contact”<br> 
+<b>Entonces</b> es dirigido al formulario en la parte inferior de la página, listo para enviar un mensaje. </td> </tr> 
+</table>  
+
+
+<table border="1" cellspacing="0" cellpadding="6"> 
+<tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> 
+<tr> <td>US40</td> <td>Turista</td> <td>Media</td> <td>EP09 – Funcionalidades Landing Page</td> </tr> 
+<tr> <th colspan="4">Title</th> </tr> 
+<tr> <td colspan="4">Registro desde la landing</td> </tr> 
+<tr> <th colspan="4">Description</th> </tr> 
+<tr> <td colspan="4"><b>Como</b> visitante del segmento de turistas, <b>quiero</b> encontrar fácilmente el botón de registro <b>para</b> crear una cuenta en la plataforma sin complicaciones.</td> </tr> 
+<tr> <th colspan="4">Acceptance Criteria</th> </tr> 
+<tr> <td colspan="4"> <b>Escenario: Clic en "Sign Up"</b><br> 
+<b>Dado que</b> el visitante está en la landing<br> 
+<b>Cuando</b> ve y hace clic en el botón “Sign Up”<br> 
+<b>Entonces</b> es redirigido a la interfaz de registro y puede completar su inscripción. </td> </tr> 
+</table>  
+
+
+
+<table border="1" cellspacing="0" cellpadding="6"> 
+<tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> 
+<tr> <td>US41</td> <td>Agencia</td> <td>Alta</td> <td>EP09 – Funcionalidades Landing Page</td> </tr> 
+<tr> <th colspan="4">Title</th> </tr> 
+<tr> <td colspan="4">Identificación de beneficios para agencias</td> </tr> 
+<tr> <th colspan="4">Description</th> </tr> 
+<tr> <td colspan="4"><b>Como</b> visitante del segmento de agencias de turismo, <b>quiero</b> conocer los beneficios que se me ofrecen <b>para</b> evaluar si vale la pena registrarme en la plataforma.</td> </tr> 
+<tr> <th colspan="4">Acceptance Criteria</th> </tr> 
+<tr> <td colspan="4"> <b>Escenario: Revisión de beneficios</b><br> 
+<b>Dado que</b> la sección "Benefits" incluye beneficios generales<br> 
+<b>Cuando</b> una agencia revisa esta sección<br> 
+<b>Entonces</b> puede identificar claramente los beneficios aplicables a su negocio. </td> </tr> 
+</table>  
+
+
+
+<table border="1" cellspacing="0" cellpadding="6"> 
+<tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> 
+<tr> <td>US42</td> <td>Agencia</td> <td>Alta</td> <td>EP09 – Funcionalidades Landing Page</td> </tr> 
+<tr> <th colspan="4">Title</th> </tr> 
+<tr> <td colspan="4">Conocer cómo funciona la plataforma</td> </tr> 
+<tr> <th colspan="4">Description</th> </tr> 
+<tr> <td colspan="4"><b>Como</b> visitante del segmento de agencias de turismo, <b>quiero</b> entender cómo funciona la plataforma <b>para</b> saber si es compatible con mis servicios.</td> </tr> 
+<tr> <th colspan="4">Acceptance Criteria</th> </tr> 
+<tr> <td colspan="4"> <b>Escenario: Lectura de funcionamiento</b><br> 
+<b>Dado que</b> la landing incluye una sección de explicación<br> 
+<b>Cuando</b> la agencia revisa este apartado<br> 
+<b>Entonces</b> puede comprender claramente cómo se usan las funciones principales de la plataforma. </td> </tr> 
+</table>  
+
+
 |EP01 – Autenticación y Registro de Usuarios|1,2,3|
+|-|-|
 |EP02 – Exploración y Búsqueda de Destinos |4,5,6,7|
 |EP03 – Planificación y Gestión de Itinerarios|8,9,10,11,12|
 |EP04 – Gestión de Experiencias|19,20,21,16,17,18|
 |EP05 – Gestión de Reservas|19-20-21|
 |EP06 – Consultas y Soporte|22-23-24-25-26|
-|-|-|
-
-
-
-|**User story ID**|**Título**|**Descripción** |**Criterio de aceptación**|**Relación (EPIC ID)**|
-| - | - | - | - | - |
-| US28 | Descubrimiento de beneficios para turistas | **Como** visitante del segmento de turistas, **quiero** ver claramente los beneficios que ofrece la plataforma **para** entender cómo puede mejorar mi experiencia de viaje. | <p>**Escenario:** Visualización de beneficios</p><p>**Dado que** el visitante se encuentra en la sección “Benefits”</p><p>**Cuando** hace scroll hasta esa sección</p><p>**Entonces** puede visualizar una lista de beneficios relevantes para turistas</p><p>Y entender cómo estos se relacionan con sus necesidades</p> | EP08 |
-| US29 | Conocer el propósito de la plataforma | **Como** visitante del segmento de turistas, **quiero** saber de qué se trata Turisfera **para** decidir si me interesa seguir explorando. | <p>**Escenario:** Lectura de “About us”</p><p>**Dado que** el visitante accede a la sección “About us”</p><p>**Cuando** lee la descripción disponible</p><p>**Entonces** puede comprender el propósito de la plataforma</p> | EP08  |
-| US30 | Navegación simple desde el header | **Como** visitante del segmento de turistas, **quiero** usar el menú superior **para** moverme fácilmente por la página. | <p>**Escenario:** Uso del menú</p><p>**Dado que** el visitante visualiza el menú superior</p><p>**Cuando** hace clic en un ítem (Home, About us, etc.)</p><p>**Entonces** la página hace scroll automáticamente a esa sección</p> | EP08  |
-| US31 | Acceder al formulario de contacto | **Como** visitante del segmento de turistas, **quiero** llegar fácilmente al formulario de contacto **para** comunicarme con el equipo. | <p>**Escenario:** Acceso al formulario</p><p>**Dado que** el visitante está en la landing</p><p>**Cuando** hace clic en “Contact”</p><p>**Entonces** es dirigido al formulario en la parte inferior</p> | EP08  |
-| US32 | Registro desde la landing | **Como** visitante del segmento de turistas, **quiero** encontrar fácilmente el botón de registro **para** crear una cuenta. | <p>**Escenario:** Clic en "Sign Up"</p><p>**Dado que** el visitante está en la landing</p><p>**Cuando** ve y hace clic en el botón “Sign Up”</p><p>**Entonces** es redirigido a la interfaz de registro</p> | EP08  |
-| US33 | Identificación de beneficios para agencias | **Como** visitante del segmento de agencias de turismo, **quiero** conocer los beneficios que se me ofrecen **para** evaluar si vale la pena registrarme. | <p>**Escenario:** Revisión de beneficios</p><p>**Dado que** la sección "Benefits" incluye beneficios generales</p><p>**Cuando** una agencia revisa esta sección</p><p>**Entonces** puede identificar beneficios aplicables</p> | EP09  |
-| US34 | Conocer cómo funciona la plataforma | **Como** visitante del segmento de agencias de turismo, **quiero** entender cómo funciona la plataforma **para** saber si es compatible con mis servicios. | <p>**Escenario:** Lectura de “How does it work?”</p><p>**Dado que** el visitante accede a esa sección</p><p>**Cuando** lee los pasos indicados</p><p>**Entonces** comprende el flujo de uso general</p> | EP09 |
-| US35 | Contacto para consultas comerciales | **Como** visitante del segmento de agencias de turismo, **quiero** usar el formulario de contacto **para** hacer consultas o proponer colaboración. | <p>**Escenario:** Envío de mensaje</p><p>**Dado que** el visitante llega a la sección de contacto</p><p>**Cuando** completa los campos requeridos</p><p>**Entonces** puede enviar una consulta al equipo</p> | EP09 |
-| US36 | Acceder a secciones informativas | **Como** visitante del segmento de agencias de turismo, **quiero** acceder desde el menú a secciones como FAQs y About us **para** informarme. | <p>**Escenario:** Navegación por menú</p><p>**Dado que** el menú incluye accesos</p><p>**Cuando** hace clic en “FAQs” o “About us”</p><p>**Entonces** es dirigido a esas secciones</p> | EP09 |
-| US37 | Registro para agencias | **Como** visitante del segmento de agencias de turismo, **quiero** registrarme desde la landing **para** empezar a formar parte de la plataforma. | <p>**Escenario:** Registro desde botón</p><p>**Dado que** el botón “Sign Up” está visible</p><p>**Cuando** el visitante hace clic en él</p><p>**Entonces** es redirigido a la interfaz de registro correspondiente</p> | EP09 |
+|EP07 - Reseñas y Valoraciones| 27-28-29-30|
+|EP08 - Perfiles de agencia y de usuario| 31-32-33-34-35|
+|EP09- Funcionalidades Landing Page|38-37-38-39-40-41-42|
 
 
 
