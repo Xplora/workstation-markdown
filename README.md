@@ -4229,23 +4229,125 @@ Agencias
 
 ## 4.1. Software Configuration Management
 
-
+Esta sección establece las decisiones y convenciones para mantener la consistencia durante el ciclo de vida del proyecto TripMatch, una solución IoT de Xplora que conecta turistas con agencias locales mediante app móvil Android, landing page y web services. Se incluyen subsecciones para configuración del entorno de desarrollo, gestión de código fuente, guías de estilo y configuración de despliegue, priorizando herramientas gratuitas y colaborativas como GitHub y Figma, con nomenclatura en inglés y enfoque en procesos ágiles simples. Estas prácticas aseguran trazabilidad y colaboración eficiente, respetando restricciones de open-source y evitando SaaS no utilizados.
 
 ### 4.1.1. Software Development Environment Configuration
 
+En esta subsección, el equipo especifica los productos de software utilizados para colaborar en el ciclo de vida de TripMatch, cubriendo actividades como project management, requirements management, UX/UI design, desarrollo, testing, despliegue y documentación. Se indica nombres en inglés, propósito y rutas de referencia (URL para SaaS) o descarga (para locales), centrándose en herramientas reales como el repositorio Markdown dedicado para documentación y requisitos. Toda nomenclatura se aplica en inglés, priorizando accesibilidad y minimalismo.
+
+#### Project Management
+
+- GitHub Organization: Plataforma para colaboración general y seguimiento informal de sprints y epics.  
+  URL: https://github.com/Xplora
+
+#### Requirements Management
+
+- GitHub Markdown Repo: Repositorio central para documentación y gestión de requisitos.  
+  URL: https://github.com/Xplora/workstation-markdown/tree/main  
+  Registra user stories, priorización MoSCoW, acceptance criteria, traceability y actividades de needfinding con personas y empathy mapping.
+
+#### Product UX/UI Design
+
+- Figma: SaaS para wireframes, prototipos y mockups.  
+  URL: https://www.figma.com  
+  Desarrolla diseños de landing page, flujos móviles y guías de estilo para TripMatch.
+
+#### Software Development
+
+- Android Studio: IDE para desarrollo móvil en Kotlin.  
+
+- Visual Studio Code: Editor para landing page en HTML/CSS/JS nativo.  
+
+- IntelliJ IDEA: IDE para backend en Java/Spring Boot.  
+
+#### Software Testing
+
+- JUnit: Framework para pruebas unitarias e integración en Java (backend, integrado en IntelliJ).
+- Espresso: Para pruebas UI en móvil Kotlin (incluido en Android Studio).
+- Postman: SaaS para testing de APIs REST.  
+
+#### Software Deployment
+
+- Docker: Para contenedorización de web services.  
+
+- Google Play Console: SaaS para publicación de apps móviles.  
+
+#### Software Documentation
+
+- GitHub Markdown Repo: Nativo en repositorio dedicado para README, guías y diagramas.  
+  URL: https://github.com/Xplora/workstation-markdown/tree/main  
+  Incluye documentación de APIs con Swagger y requisitos estructurados.
 
 
 ### 4.1.2. Source Code Management
 
+El equipo utiliza GitHub como plataforma de control de versiones para el seguimiento de modificaciones, centralizado en la organización:  
+https://github.com/Xplora
 
+Repositorios Específicos:
+- Landing Page: [HTML/CSS/JS]  
+  https://github.com/Xplora/workstation-landing-page
+- Web Services (Spring Boot):  
+  https://github.com/Xplora/workstation-back-end
+- Mobile Frontend (Android Kotlin):  
+  https://github.com/Xplora/workstation-frontend-mobile
+
+El workflow aplicado es GitFlow, basado en el modelo de Vincent Driessen, con las siguientes convenciones:
+- Rama principal: `main`
+- Rama de desarrollo: `develop`
+- Feature branches: `feature/<nombre-en-kebab-case>` (ejemplo: `feature/add-tour-search`)
+- Release branches: `release/v<MAJOR>.<MINOR>.<PATCH>` (ejemplo: `release/v1.0.0`)
+- Hotfix branches: `hotfix/<descripcion>`
+- Versionado Semántico: MAJOR.MINOR.PATCH según Semantic Versioning 2.0.0
+- Commits: Formato Conventional Commits  
+  `<type>[scope]: <description>`, por ejemplo:  
+  `feat(auth): implement JWT login`  
+  Incluyendo `!` para cambios incompatibles
 
 ### 4.1.3. Source Code Style Guide & Conventions
 
+Se aplican convenciones estándar para nombrar y programar en los lenguajes de TripMatch (HTML, CSS, JavaScript, Java, Kotlin, Gherkin), siempre en inglés:
+- camelCase para variables y métodos (userProfile)
+- PascalCase para clases y componentes (UserEntity)
+- snake_case para constantes (MAX_RESERVATIONS)
+- kebab-case para nombres de archivos y branches (user-search-activity.kt)
 
+Referencias seguidas:
+- HTML: "HTML Style Guide and Coding Conventions" (indentación 2 espacios, tags cerrados)
+- CSS: "Google HTML/CSS Style Guide" (selectores semánticos, 80 chars, organización alfabética)
+- JavaScript: "Google JavaScript Style Guide" (strict mode, arrow functions, let/const)
+- Java: "Google Java Style Guide" (100 chars por línea, imports ordenados, checked exceptions)
+- Kotlin: Guidelines de Android (null-safety, coroutines, extensión de funciones)
+- Gherkin: "Gherkin Conventions for Readable Specifications" (Given-When-Then, inglés, conciso)
+- Spring Boot: @RestController para APIs, uso de application.properties para config
 
 ### 4.1.4. Software Deployment Configuration
 
+Se detallan los pasos de despliegue desde los repositorios GitHub para la Landing Page (HTML nativo), Web Services (backend) y Mobile Applications (Android).  
+Despliegue automatizado y seguro, con GitHub Actions para CI/CD y Docker para contenedorización.
 
+#### Landing Page
+
+1. Clonar: https://github.com/Xplora/workstation-landing-page
+2. Modificar HTML/CSS/JS directamente en main (sin build por HTML nativo)
+3. Configurar GitHub Pages para servir estáticos desde main  
+   Acceso: https://xplora.github.io/workstation-landing-page
+
+#### Web Services
+
+1. Clonar: https://github.com/Xplora/workstation-back-end
+2. Ejecutar: `mvn clean package` para compilar el JAR de Spring Boot
+3. Docker:  
+   - `docker build -t tripmatch-backend:latest .`  
+   - `docker push <tu-registry>`
+4. Desplegar con workflow de GitHub Actions en Heroku, AWS u otro cloud, configurando variables de entorno y puerto 8080
+
+#### Mobile Applications
+
+1. Clonar: https://github.com/Xplora/workstation-frontend-mobile
+2. Importar en Android Studio
+3. Build APK Release: Build > Generate Signed Bundle / APK
+4. Publicar APK manual o vía Actions en Google Play Console
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
