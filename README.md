@@ -4359,9 +4359,31 @@ Despliegue automatizado y seguro, con GitHub Actions para CI/CD y Docker para co
 
 #### 4.2.1.1. Sprint Planning 1
 
+| **Sprint #**                          | **Sprint 1 TripMatch**                                                |
+|---------------------------------------|----------------------------------------------------------------------|
+| **Sprint Planning Background**        |                                                                      |
+| **Date**                             | 08/10/2025                                                           |
+| **Time**                             | 05:00 PM                                                             |
+| **Location**                         | Servidor de Discord del Equipo                                       |
+| **Prepared By**                      | Oscar Antayhua                                                       |
+| **Attendees (to planning meeting)**   | Oscar Antayhua / Marcia Melgarejo / Rodrigo Alaya / Melisa Sulca / Gabriel Gordon |
+| **Sprint 1 Review Summary**           | Durante este sprint, el equipo desarrolló, diseñó y publicó la primera versión funcional de la landing page de TripMatch, enfocándose en secciones clave como presentación del servicio, planes, formulario de contacto y estructura multiplataforma. Se completaron actividades de UX: User Personas, Journey Maps y arquitectura de información, alineando la experiencia y el propósito del producto con las expectativas de turistas y agencias.                          |
+| **Sprint 1 Retrospective Summary**    | El trabajo en equipo fue eficiente y colaborativo. Destacan aciertos en la integración de herramientas como Figma y el diseño responsivo. Como mejora, se identificó la necesidad de optimizar gestión de tiempos y definir criterios de aceptación claros desde el inicio.                    |
+| **Sprint Goal & User Stories**        | Completar la fase de descubrimiento e investigación, validación de usuarios, análisis de la competencia, arquitectura de información y base de la landing de TripMatch.                                                 |
+| **Sprint 1 Goal**                     | Desarrollar una landing page coherente y funcional para TripMatch, asegurando que refleje propósito, sea responsiva y accesible tanto para turistas como agencias, y sentar las bases de experiencia de usuario con entregables como User Personas, Wireframes y Style Guides.     |
+| **Sprint 1 Velocity**                 | 4 Velocity                                                           |
+| **Sum of Story Points**               | 6 Story Points                                                       |
 
 #### 4.2.1.2. Sprint Backlog 1
 
+| User Story Id | User Story Title                                                                                                         | Work-Item/Task Id | Work-Item/Task Title                     | Description                                                             | Estimation | Assigned To      | Status     |
+|:-------------:|:------------------------------------------------------------------------------------------------------------------------:|:-----------------:|:-----------------------------------------:|:------------------------------------------------------------------------:|:----------:|:---------------:|:----------:|
+| US01          | Como usuario/agencia nuevo, quiero registrarme con validación de datos para crear una cuenta confiable y recibir una bienvenida. | T01               | Formulario de registro y onboarding       | Implementar formulario de registro, validación de datos y bienvenida     | 8h         | Equipo Frontend  | Done       |
+| US02          | Como usuario/agencia, quiero iniciar sesión con correo y contraseña para acceder a mi cuenta de TripMatch.               | T02               | Interfaz y lógica de login                | Crear pantalla de login y lógica de autenticación                        | 6h         | Equipo Frontend  | Done       |
+| US03          | Como usuario, quiero que el sistema me fuerce a crear una contraseña robusta y confirmarla para proteger mi cuenta.      | T03               | Validación de contraseña                  | Validar seguridad y confirmación de contraseña                            | 4h         | Equipo Frontend  | Done       |
+| US04          | Como usuario, quiero recibir un mensaje de bienvenida personalizado tras mi registro.                                    | T04               | Mensaje y lógica de bienvenida            | Programar el mensaje posterior a registro exitoso                        | 3h         | Equipo Frontend  | Done       |
+| US05          | Como usuario, quiero poder registrarme con mi cuenta de Google o Facebook para ahorrar tiempo.                           | T05               | Integración con OAuth (Google/Facebook)   | Implementar el login/register con OAuth providers                        | 8h         | Equipo Frontend  | Done       |
+| US06          | Como usuario, quiero recibir un correo de confirmación después de registrarme para validar mi cuenta.                    | T06               | Implementación de correo de confirmación  | Lógica para envío y validación vía correo electrónico                    | 5h         | Equipo Backend   | Done       |
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
