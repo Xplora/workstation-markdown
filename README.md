@@ -4393,6 +4393,49 @@ Despliegue automatizado y seguro, con GitHub Actions para CI/CD y Docker para co
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
+Para este primer Sprint de TripMatch, se desarrolló y publicó la Landing Page del proyecto. A través de esta landing, los usuarios pueden visualizar claramente la propuesta de valor de la plataforma, destinada a conectar turistas con agencias locales, facilitando la reserva, coordinación y acceso seguro a experiencias auténticas.
+
+Las User Stories ejecutadas y su evidencia visible en la Landing Page son:
+
+| ID   | User Story                                                      | Evidencia en Landing Page                                                |
+|------|------------------------------------------------------------------|--------------------------------------------------------------------------|
+| US01 | Acceso multiplataforma a la Landing Page de TripMatch           | Visualización responsive en computadoras, tablet y móviles                |
+| US02 | Información clara sobre el propósito y beneficios de TripMatch   | Sección "About Us" y "Benefits" describen misión, visión y solución       |
+| US03 | Visualización de imágenes y gráficos turísticos relevantes       | Imágenes y gráficos en secciones principales (home, benefits, FAQ, team)  |
+| US04 | Tipografía cómoda y estilo agradable                             | Fuente moderna y legible compatible con el diseño visual                  |
+| US05 | Navegación clara y funcional entre secciones                     | Menú de navegación y botones de acción funcionales en el header           |
+| US06 | Formulario de contacto funcional                                 | Sección de contacto con campos validados y presentación profesional       |
+
+La evidencia se puede validar visualmente en la Landing Page, que presenta cada uno de estos elementos como parte de la experiencia principal del usuario en TripMatch.
+
+**Sección About Us**
+
+Muestra el propósito de TripMatch, permitiendo al visitante entender rápidamente el objetivo de la plataforma.
+
+<img alt="About Us" src="img/about-us.png">
+
+
+**Sección Our Team**
+
+Se exhiben los perfiles de los desarrolladores de la startup, reforzando la transparencia y profesionalismo del proyecto.
+
+<img alt="Our Team" src="img/our-members.png">
+
+
+**Sección Benefits**
+
+Se muestra una estructura clara de los beneficios de nuestra aplicación para ambos segmentos objetivos.
+
+<img alt="Benefits" src="img/benefits.png">
+
+
+**Sección Contact Us**
+
+Formularios para el envío de mensajes de contacto, cumpliendo criterios de accesibilidad y usabilidad.
+
+<img alt="Contact Us" src="img/contact.png">
+
+
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
