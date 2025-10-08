@@ -4015,7 +4015,7 @@ La tabla principal Review almacena la calificación, comentario y fecha, relacio
 ![Review-Database](./img/Review-Database.png) 
 
 
-# Capítulo III: Solution UI/UX Design  
+# Capítulo 3: Solution UI/UX Design  
 
 ## 3.1. Product Design   
 
@@ -4225,7 +4225,7 @@ Agencias
 
 
 
-# Capítulo IV: Product Implementation & Validation
+# Capítulo 4: Product Implementation & Validation
 
 ## 4.1. Software Configuration Management
 
