@@ -2449,7 +2449,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 |EP06 – Consultas y Soporte|22-23-24-25-26|
 |EP07 - Reseñas y Valoraciones| 27-28-29-30|
 |EP08 - Perfiles de agencia y de usuario| 31-32-33-34-35|
-|EP09- Funcionalidades Landing Page|38-37-38-39-40-41-42|
+|EP09- Funcionalidades Landing Page|36-37-38-37-38-39-40-41-42|
 
 
 
@@ -2617,45 +2617,50 @@ El Impact Mapping es una metodología visual y ágil que permite a las organizac
 
 
 ### 2.4.3. Product Backlog
-|# Orden|User Story Id|Description|Story Points (1 /3 /5 /8)|
-| :-: | :-: | - | :-: |
-|1|US01|**Como** usuario, **quiero** registrarme en la aplicación **para** poder acceder a sus funcionalidades y planificar mis viajes.|8|
-|2|US02|**Como** usuario, **quiero** que el sistema valide mis datos correctamente al registrarme **para** evitar errores.|5|
-|3|US03|**Como** usuario, **quiero** confirmar mi contraseña durante el registro **para** asegurarme de que la escribí correctamente.|3|
-|4|US04|**Como** usuario, **quiero** recibir un mensaje de bienvenida después de registrarme **para** sentirme valorado.|8|
-|5|US05|**Como** usuario, **quiero** poder registrarme con mi cuenta de Google o Facebook **para** ahorrar tiempo.|8|
-|6|US06|**Como** usuario, **quiero** recibir un correo de confirmación después de registrarme **para** validar mi cuenta.|8|
-|7|US07|**Como** usuario, **quiero** buscar destinos turísticos dentro de la aplicación **para** explorar opciones de viaje que se ajusten a mis intereses.|5|
-|8|US08|**Como** usuario, **quiero** usar filtros al buscar destinos **para** encontrar los que se ajusten a mis preferencias.|5|
-|9|US09|**Como** usuario, **quiero** que los resultados de búsqueda sean relevantes **para** no perder tiempo revisando opciones irrelevantes|3|
-|10|US10|**Como** usuario, **quiero** ver una vista previa de cada destino **para** decidir rápidamente cuál me interesa explorar.|5|
-|11|US11|**Como** usuario, **quiero** poder marcar destinos como favoritos **para** acceder a ellos rápidamente más adelante.|8|
-|12|US12|**Como** usuario, **quiero** buscar destinos por país o región **para** explorar zonas específicas que me interesen.|8|
-|13|US13|**Como** usuario, **quiero** eliminar un itinerario que ya no necesito **para** mantener mi cuenta organizada.|5|
-|14|US14|<p>**Como** usuario, **quiero** visualizar todos los detalles de mi itinerario **para** revisarlo antes y durante el viaje.</p><p></p>|5|
-|15|US15|**Como** usuario, **quiero** buscar destinos turísticos por nombre **para** encontrar rápidamente el lugar que deseo visitar.|3|
-|16|US16|**Como** usuario, **quiero** filtrar los destinos por tipo de experiencia (aventura, relax, cultura, etc.) **para** encontrar opciones que se alineen con mis intereses.|5|
-|17|US17|**Como** usuario, **quiero** ver la información completa de un destino (fotos, descripción, actividades disponibles) **para** decidir si me interesa visitarlo.|5|
-|18|US18|**Como** usuario, **quiero** guardar destinos como favoritos **para** poder acceder rápidamente a ellos en el futuro.|8|
-|19|US19|**Como** usuario, **quiero** recibir recomendaciones de destinos según mis búsquedas y preferencias **para** descubrir nuevas opciones personalizadas.|3|
-|20|US20|**Como** agencia de turismo, **quiero** poder publicar mis paquetes turísticos en la plataforma **para** llegar a más usuarios interesados en viajar.|3|
-|21|US21|**Como** agencia de turismo, **quiero** editar la información de los paquetes turísticos que ya publiqué **para** mantenerlos actualizados.|3|
-|22|US22|**Como** agencia de turismo, **quiero** poder activar o desactivar la disponibilidad de mis paquetes **para** ajustarlos según la temporada o los cupos disponibles.|5|
-|23|US23|**Como** agencia de turismo, **quiero** gestionar las reservas realizadas por los usuarios **para** tener un control claro de los cupos y atención al cliente.|5|
-|24|US24|**Como** agencia de turismo, **quiero** confirmar o rechazar reservas pendientes **para** asegurar que se respeten los cupos y condiciones del servicio.|5|
-|25|US25|**Como** agencia de turismo, **quiero** comunicarme directamente con los usuarios que reservaron **para** brindar información adicional o resolver dudas.|3|
-|26|US26|**Como** agencia de turismo, **quiero** crear y editar paquetes turísticos en la plataforma **para** ofrecer experiencias personalizadas a los usuarios.|3|
-|27|US27|**Como** agencia de turismo, **quiero** modificar precios y aplicar promociones en mis paquetes **para** atraer más clientes según temporadas.|8|
-|28| US28 |  **Como** visitante del segmento de turistas, **quiero** ver claramente los beneficios que ofrece la plataforma **para** entender cómo puede mejorar mi experiencia de viaje. | 3 |
-|29| US29 | **Como** visitante del segmento de turistas, **quiero** saber de qué se trata Turisfera **para** decidir si me interesa seguir explorando.| 5  |
-|30| US30 | **Como** visitante del segmento de turistas, **quiero** usar el menú superior **para** moverme fácilmente por la página. | 3  |
-|31| US31  | **Como** visitante del segmento de turistas, **quiero** llegar fácilmente al formulario de contacto **para** comunicarme con el equipo. | 8  |
-|32| US32  | **Como** visitante del segmento de turistas, **quiero** encontrar fácilmente el botón de registro **para** crear una cuenta.  | 3  |
-|33| US33  | **Como** visitante del segmento de agencias de turismo, **quiero** conocer los beneficios que se me ofrecen **para** evaluar si vale la pena registrarme.  | 3  |
-|34| US34  | **Como** visitante del segmento de agencias de turismo, **quiero** entender cómo funciona la plataforma **para** saber si es compatible con mis servicios.  | 5 |
-|35| US35  | **Como** visitante del segmento de agencias de turismo, **quiero** usar el formulario de contacto **para** hacer consultas o proponer colaboración. | 8 |
-|36| US36  | **Como** visitante del segmento de agencias de turismo, **quiero** acceder desde el menú a secciones como FAQs y About us **para** informarme. | 5 |
-|37| US37  | **Como** visitante del segmento de agencias de turismo, **quiero** registrarme desde la landing **para** empezar a formar parte de la plataforma.  | 5 |
+| # Orden | User Story Id | Título | Story Points (1 / 2 / 3 / 5 / 8) |
+| :---: | :---: | :--- | :---: |
+| 1 | US36 | Descubrimiento de beneficios para turistas | 5 |
+| 2 | US37 | Conocer el propósito de la plataforma | 5 |
+| 3 | US38 | Navegación simple desde el header | 3 |
+| 4 | US39 | Acceder al formulario de contacto | 5 |
+| 5 | US40 | Registro desde la landing | 3 |
+| 6 | US41 | Identificación de beneficios para agencias | 3 |
+| 7 | US42 | Conocer cómo funciona la plataforma | 5 |
+| 8 | US01 | Registro de nuevo usuario con validación | 5 |
+| 9 | US02 | Inicio de sesión con credenciales y manejo de errores | 3 |
+| 10 | US03 | Garantía de seguridad y confirmación de la contraseña | 3 |
+| 11 | US04 | Recomendaciones basadas en Popularidad y Categorías en la Home | 8 |
+| 12 | US05 | Acciones rápidas en la tarjeta de experiencia (Favoritos y Navegación) | 5 |
+| 13 | US06 | Búsqueda inicial, mapa centrado y refinamiento dinámico de filtros | 8 |
+| 14 | US07 | Visualización de resultados con carga incremental | 5 |
+| 15 | US08 | Visualizar mis reservas en un calendario móvil | 5 |
+| 16 | US09 | Visualizar mis reservas en formato lista | 3 |
+| 17 | US10 | Buscar experiencias dentro de mi itinerario | 2 |
+| 18 | US11 | Cancelar una reserva desde el itinerario | 5 |
+| 19 | US12 | Visualizar reservas confirmadas en formato lista | 5 |
+| 20 | US13 | Acceder a la creación de experiencias desde Gestión de Experiencias | 2 |
+| 21 | US14 | Registrar detalles de una experiencia en el formulario | 5 |
+| 22 | US15 | Editar experiencias existentes | 5 |
+| 23 | US16 | Eliminar experiencias publicadas | 3 |
+| 24 | US17 | Visualizar listado de experiencias creadas | 3 |
+| 25 | US18 | Buscar experiencias por nombre o categoría | 3 |
+| 26 | US19 | Realizar una reserva desde la vista de detalle de experiencia | 5 |
+| 27 | US20 | Recibir notificación de confirmación de reserva | 3 |
+| 28 | US21 | Recibir notificación recordatoria de experiencia próxima | 5 |
+| 29 | US22 | Enviar consulta desde los detalles de una experiencia | 3 |
+| 30 | US23 | Visualizar consultas recibidas de turistas | 5 |
+| 31 | US24 | Responder consultas de turistas | 5 |
+| 32 | US25 | Recibir notificación de respuesta a consulta | 2 |
+| 33 | US26 | Consultar historial de mis preguntas y respuestas | 3 |
+| 34 | US27 | Dejar una reseña con calificación en estrellas y comentario | 8 |
+| 35 | US28 | Editar o eliminar mi reseña publicada | 5 |
+| 36 | US29 | Visualizar reseñas de otros turistas en la agencia | 5 |
+| 37 | US30 | Visualizar reseñas y promedio de calificaciones en mi perfil | 3 |
+| 38 | US31 | Editar información personal en el perfil | 5 |
+| 39 | US32 | Visualizar mi perfil con datos actualizados | 2 |
+| 40 | US33 | Editar información del perfil de agencia | 5 |
+| 41 | US34 | Ver reseñas en el perfil de agencia | 3 |
+| 42 | US35 | Mostrar estadísticas en el perfil de agencia | 5 |
 
 
 ## 2.5. Strategic-Level Domain-Driven Design
