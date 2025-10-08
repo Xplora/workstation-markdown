@@ -4249,7 +4249,7 @@ En esta subsección, el equipo especifica los productos de software utilizados p
 #### Product UX/UI Design
 
 - Figma: SaaS para wireframes, prototipos y mockups.  
-  URL: https://www.figma.com  
+
   Desarrolla diseños de landing page, flujos móviles y guías de estilo para TripMatch.
 
 #### Software Development
