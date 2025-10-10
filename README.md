@@ -2439,9 +2439,18 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 <b>Entonces</b> puede comprender claramente cómo se usan las funciones principales de la plataforma. </td> </tr> 
 </table>  
 
+<table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS001</td> <td>Desarrollador</td> <td>Alta</td> <td>EP08 - Perfiles de agencia y de usuario</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Actualizar datos de agencia mediante RESTful API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br> <b>quiero</b> actualizar la información de una agencia mediante el endpoint <code>/api/v1/profile/user/agency/{userId}</code><br> <b>para</b> reflejar cambios en los datos de la entidad en tiempo real.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Actualización exitosa</b><br> <b>Dado que</b> el endpoint <code>/api/v1/profile/user/agency/{userId}</code> está disponible,<br> <b>cuando</b> se envía una solicitud PUT con datos válidos de la agencia,<br> <b>entonces</b> el sistema responde con estado <code>200 OK</code> e incluye la agencia actualizada en el body.<br><br>
+
+<b>Escenario 2: Usuario inexistente</b><br>
+<b>Dado que</b> el endpoint está disponible,<br>
+<b>cuando</b> se envía una solicitud PUT con un <code>userId</code> inexistente,<br>
+<b>entonces</b> el sistema responde con estado <code>404 Not Found</code> e informa que la agencia no existe.
+
+</td> </tr> </table>
+
 
 |EP01 – Autenticación y Registro de Usuarios|1,2,3|
-|-|-|
+|--|--|
 |EP02 – Exploración y Búsqueda de Destinos |4,5,6,7|
 |EP03 – Planificación y Gestión de Itinerarios|8,9,10,11,12|
 |EP04 – Gestión de Experiencias|19,20,21,16,17,18|
@@ -2449,7 +2458,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 |EP06 – Consultas y Soporte|22-23-24-25-26|
 |EP07 - Reseñas y Valoraciones| 27-28-29-30|
 |EP08 - Perfiles de agencia y de usuario| 31-32-33-34-35|
-|EP09- Funcionalidades Landing Page|36-37-38-37-38-39-40-41-42|
+|EP09 - Funcionalidades Landing Page| 36-37-38-37-38-39-40-41-42|
 
 
 
