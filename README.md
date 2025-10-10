@@ -84,6 +84,12 @@
         </ul>
       </td>
       <td>
+        <ul>
+          <li>Capítulo III:  Solution UI/UX Design</li>
+          <li>Capítulo IV: Requirements Development and Software Solution Design</li>
+          <li>Avance del despliegue de la landing page y el backend</li>
+          <li>Avance de las imagenes sobre la aplicación movile</li>
+        </ul>
       </td>
   </tr>
   <tr>
