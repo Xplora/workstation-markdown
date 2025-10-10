@@ -4473,7 +4473,9 @@ Los mock-ups para las agencias muestran una interfaz profesional y funcional, co
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
+Aquí vamos a poder ver el video de nuestra aplicación en estilo prototipo.
 
+[Link del Video Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c505_upc_edu_pe/EYO39OLVOaVDmD1KpQI4qDIB1D7WcWep2hTgEo_73V25Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LLuTxg)
 
 
 # Capítulo 4: Product Implementation & Validation
@@ -4714,6 +4716,53 @@ URL: https://melgarejogomezmarcia.atlassian.net/jira/software/projects/TRIPMATCH
 | workstation-back-end (Landing-Page)         | main   | 14bf168   | Fix: fix header                                       | Commit inicial de la landing page                  | 10/10/2025              |
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
+### Tabla de evidencias – Acceptance Tests (BDD)
+
+| Tipo de Test | Repositorio | Archivo | User Story | Responsable | Descripción | Estado | Commit ID |
+|---|---|---|---|---|---|---|---|
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/authentication/register_user.feature | US01 | Rodrigo Alaya | Registro con validación y bienvenida | Feature redactado / Steps pendientes | a1c9f72 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/authentication/login_user.feature | US02 | Gabriel Gordon | Inicio de sesión y manejo de errores | Feature redactado / Steps pendientes | b27e3ac |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/authentication/password_validation.feature | US03 | Marcia Melgarejo | Reglas de seguridad y confirmación de contraseña | Feature redactado / Steps pendientes | c83af10 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/experiences/create_experience.feature | US13 | Melisa Sulca | Botón “Agregar experiencia” y acceso a formulario | Feature redactado / Steps pendientes | d94b2ef |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/experiences/experience_details.feature | US14 | Oscar Antayhua | Registro de detalles y validación de campos | Feature redactado / Steps pendientes | e0f4d31 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/experiences/edit_experience.feature | US15 | Rodrigo Alaya | Edición con datos precargados y guardado | Feature redactado / Steps pendientes | f6a1b58 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/experiences/delete_experience.feature | US16 | Gabriel Gordon | Eliminación con confirmación y cancelación | Feature redactado / Steps pendientes | 0b2c7d4 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/experiences/list_experiences.feature | US17 | Marcia Melgarejo | Listado de experiencias y caso de lista vacía | Feature redactado / Steps pendientes | 19e4a66 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/experiences/search_experience.feature | US18 | Melisa Sulca | Búsqueda por nombre y categoría | Feature redactado / Steps pendientes | 2a7d5f1 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/bookings/create_booking.feature | US19 | Oscar Antayhua | Crear reserva desde detalle de experiencia | Feature redactado / Steps pendientes | 3c1e9ab |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/bookings/confirm_booking.feature | US20 | Rodrigo Alaya | Confirmación o rechazo de reservas (agencia) | Feature redactado / Steps pendientes | 4de07c3 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/bookings/notify_booking.feature | US21 | Gabriel Gordon | Notificación automática de confirmación/rechazo | Feature redactado / Steps pendientes | 5f61ad9 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/inquiries/send_inquiry.feature | US22 | Marcia Melgarejo | Envío de consultas del turista | Feature redactado / Steps pendientes | 6a2b3fe |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/inquiries/view_inquiries_agency.feature | US23 | Melisa Sulca | Listado y filtros de consultas (agencia) | Feature redactado / Steps pendientes | 7c84e20 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/inquiries/reply_inquiry.feature | US24 | Oscar Antayhua | Respuesta de la agencia y cambio de estado | Feature redactado / Steps pendientes | 8d15f42 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/inquiries/view_inquiries_tourist.feature | US25 | Rodrigo Alaya | Historial de consultas del turista | Feature redactado / Steps pendientes | 9ea6b77 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/inquiries/notify_inquiry_response.feature | US26 | Gabriel Gordon | Notificación al turista por respuesta nueva | Feature redactado / Steps pendientes | a0c8d1e |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/reviews/create_review.feature | US27 | Marcia Melgarejo | Crear reseña (puntuación y comentario) | Feature redactado / Steps pendientes | b19f2a3 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/reviews/edit_review.feature | US28 | Melisa Sulca | Edición de reseñas publicadas | Feature redactado / Steps pendientes | c2ab4e8 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/reviews/delete_review.feature | US29 | Oscar Antayhua | Eliminación de reseñas con confirmación | Feature redactado / Steps pendientes | d31c7f0 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/reviews/view_reviews.feature | US30 | Rodrigo Alaya | Visualización de reseñas y promedio | Feature redactado / Steps pendientes | e4d58a2 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/profiles/view_tourist_profile.feature | US31 | Gabriel Gordon | Vista del perfil del turista y sus reseñas | Feature redactado / Steps pendientes | f5e69bc |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/profiles/edit_tourist_profile.feature | US32 | Marcia Melgarejo | Edición de información personal del turista | Feature redactado / Steps pendientes | 06f8ad1 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/profiles/view_agency_profile.feature | US33 | Melisa Sulca | Vista del perfil de agencia y estadísticas | Feature redactado / Steps pendientes | 17a9ce4 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/profiles/edit_agency_profile.feature | US34 | Oscar Antayhua | Edición de información comercial de la agencia | Feature redactado / Steps pendientes | 28b0df8 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/profiles/agency_reviews.feature | US35 | Rodrigo Alaya | Reseñas recibidas por la agencia y promedio global | Feature redactado / Steps pendientes | 39c1e0a |
+
+---
+
+### Tabla de evidencias – Unit & Integration 
+
+| Tipo de Test | Repositorio | Archivo / Clase | Módulo | Responsable | Descripción | Estado | Commit ID |
+|---|---|---|---|---|---|---|---|
+| Unit | https://github.com/tripmatch-org/tripmatch-backend | AuthServiceTest | Auth | Gabriel Gordon | Valida registro, login, hash de contraseña y generación de tokens | En progreso | 4ad2f13 |
+| Unit | https://github.com/tripmatch-org/tripmatch-backend | ExperienceServiceTest | Experiences | Marcia Melgarejo | Reglas de creación/edición/eliminación y validaciones | En progreso | 5be3a24 |
+| Unit | https://github.com/tripmatch-org/tripmatch-backend | BookingServiceTest | Bookings | Melisa Sulca | Lógica de reserva, cupos, estados | En progreso | 6cf4b35 |
+| Unit | https://github.com/tripmatch-org/tripmatch-backend | InquiryServiceTest | Inquiries | Oscar Antayhua | Envío, lectura y respuesta de consultas | En progreso | 7d05c46 |
+| Unit | https://github.com/tripmatch-org/tripmatch-backend | ReviewServiceTest | Reviews | Rodrigo Alaya | CRUD de reseñas y cálculo de promedio | En progreso | 8e16d57 |
+| Integration | https://github.com/tripmatch-org/tripmatch-backend | AuthControllerIT | Auth | Gabriel Gordon | `/api/v1/auth/register` y `/api/v1/auth/login` con base de datos de prueba | Pendiente | 9f27e68 |
+| Integration | https://github.com/tripmatch-org/tripmatch-backend | ExperienceControllerIT | Experiences | Marcia Melgarejo | Endpoints CRUD de experiencias | Pendiente | a038f79 |
+| Integration | https://github.com/tripmatch-org/tripmatch-backend | BookingControllerIT | Bookings | Melisa Sulca | Crear, confirmar y rechazar reservas | Pendiente | b14908a |
+| Integration | https://github.com/tripmatch-org/tripmatch-backend | InquiryControllerIT | Inquiries | Oscar Antayhua | Envío/lectura/respuesta entre roles | Pendiente | c25a19b |
+| Integration | https://github.com/tripmatch-org/tripmatch-backend | ReviewControllerIT | Reviews | Rodrigo Alaya | Crear/editar/eliminar y consultar reseñas | Pendiente | d36b2ac |
 
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
