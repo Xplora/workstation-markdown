@@ -2471,7 +2471,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 <b>Dado que</b> el endpoint está disponible,<br>
 <b>cuando</b> los campos requeridos no están presentes,<br>
 <b>entonces</b> el sistema devuelve <code>400 Bad Request</code> indicando el error.
-
+</td> </tr> </table>
 
 <table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS005</td> <td>Desarrollador</td> <td>Alta</td> <td>EP01 – Autenticación y Registro de Usuarios</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Registrar nuevos usuarios mediante API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br><b>quiero</b> permitir el registro de nuevos usuarios mediante el endpoint <code>/api/v1/iam/auth/signup</code><br><b>para</b> crear perfiles de autenticación iniciales en la plataforma.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Registro exitoso</b><br> <b>Dado que</b> el endpoint <code>/api/v1/iam/auth/signup</code> está disponible,<br> <b>cuando</b> se envía una solicitud POST con credenciales válidas (nombre, correo, contraseña),<br> <b>entonces</b> el sistema responde con <code>201 Created</code> y el objeto del usuario registrado.<br><br> <b>Escenario 2: Email duplicado</b><br> <b>Dado que</b> el endpoint está disponible,<br> <b>cuando</b> se envía un correo ya existente en el sistema,<br> <b>entonces</b> se devuelve <code>409 Conflict</code> con el mensaje “El usuario ya existe”. </td> </tr> </table>
 
