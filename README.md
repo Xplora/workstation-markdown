@@ -4213,7 +4213,19 @@ Agencias
 
 #### 3.1.3.1. Landing Page Wireframe  
 
+A continuación se muestra la primera captura de wireframe que enseña la distribución de los elementos, como un navbar que redirige a las secciones correspondientes y un espacio para la imagen princiapl de toda la landing page. Por otro lado, se meustran las dos primeras secciones, los espaicos reservados para imágenes y texto (Soluciones y Cómo funciona).
+
+<img src="img/Landing Page-Wireframe.png">
+
+De igual manera se le corresponde el diseño en versión mobile.
+
+<img src="img/Landing Page- Wireframe- Mobile.png">
+
 #### 3.1.3.2. Landing Page Mock-up   
+
+Para la versión mockup de la landing page se agregó las imagenes correspondientes. Además, el logo representativo y se completaron los campos de imformación.
+
+<img src="img/Landing Page- Mock Up.png">
 
 ### 3.1.4. Mobile Applications UX/UI Design  
  
