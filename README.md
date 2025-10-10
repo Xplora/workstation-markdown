@@ -126,6 +126,9 @@
 | :------------------: | :---------------------------: | 
 | https://github.com/Xplora | https://github.com/Xplora/workstation-markdown/tree/main |
 
+| URL de la Landing Page desplegada | URL del Backend  deployado   |
+| :------------------: | :---------------------------: | 
+| https://xplora.github.io/workstation-landing-page/ | https://xplora-backend.onrender.com/swagger/index.html |
 
 
 Commits del Report TB1:
@@ -985,13 +988,13 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <td>US05</td>
     <td>Usuario</td>
     <td>Alta</td>
-    <td>EP02 – Exploración y Búsqueda de Destinos (Mobile)</td>
+    <td>EP02 – Exploración y Búsqueda de Destinos</td>
   </tr>
   <tr>
     <th colspan="4">Title</th>
   </tr>
   <tr>
-    <td colspan="4">Acciones rápidas en la tarjeta de experiencia (Favoritos y Navegación)</td>
+    <td colspan="4">Acciones Rápidas (Favoritos) en Tarjeta de Experiencia</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -2124,7 +2127,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <th colspan="4">Title</th> 
   </tr> 
   <tr> 
-    <td colspan="4">Editar información personal en el perfil</td> 
+    <td colspan="4">Editar información personal en el perfil de turista</td> 
   </tr> 
   <tr> 
     <th colspan="4">Description</th> 
@@ -2673,7 +2676,7 @@ El Impact Mapping es una metodología visual y ágil que permite a las organizac
 | 9 | US02 | Inicio de sesión con credenciales y manejo de errores | 3 |
 | 10 | US03 | Garantía de seguridad y confirmación de la contraseña | 3 |
 | 11 | US04 | Recomendaciones basadas en Popularidad y Categorías en la Home | 8 |
-| 12 | US05 | Acciones rápidas en la tarjeta de experiencia (Favoritos y Navegación) | 5 |
+| 12 | US05 | Acciones Rápidas (Favoritos) en Tarjeta de Experiencia | 5 |
 | 13 | US06 | Búsqueda inicial, mapa centrado y refinamiento dinámico de filtros | 8 |
 | 14 | US07 | Visualización de resultados con carga incremental | 5 |
 | 15 | US08 | Visualizar mis reservas en un calendario móvil | 5 |
@@ -2699,7 +2702,7 @@ El Impact Mapping es una metodología visual y ágil que permite a las organizac
 | 35 | US28 | Editar o eliminar mi reseña publicada | 5 |
 | 36 | US29 | Visualizar reseñas de otros turistas en la agencia | 5 |
 | 37 | US30 | Visualizar reseñas y promedio de calificaciones en mi perfil | 3 |
-| 38 | US31 | Editar información personal en el perfil | 5 |
+| 38 | US31 | Editar información personal en el perfil de turista | 5 |
 | 39 | US32 | Visualizar mi perfil con datos actualizados | 2 |
 | 40 | US33 | Editar información del perfil de agencia | 5 |
 | 41 | US34 | Ver reseñas en el perfil de agencia | 3 |
@@ -4350,9 +4353,46 @@ En los wireframes dirigidos a agencias locales, se muestra una estructura que si
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams    
 
+>Segmento: Turistas  
+
+
+**Crear Cuenta Turista**
+<img src="img/Crear Cuenta Turista - Wireflow.png">  
+
+**Dejar Reseñas**
+<img src="img/Dejar Reseñas- wireflow.png">  
+
+**Reservar una experiencia**
+<img src="img/Reservar Experiencia- wireflow.png">  
+
+**Turista guarda experiencia como favorito**
+<img src="img/Experiencia como Favorito.jpg">  
+
+**Turista guarda experiencia como favorito**
+<img src="img/Experiencia como Favorito.jpg">  
+
+**Turista entra a ver sus itinerarios**
+<img src="img/Turista Itinerarios.jpg">  
 
 
 
+>Segmento: Agencias de turismo
+
+**Crear Cuenta Agencia**
+<img src="img/Crear Cuenta Agencia- Wireflow.png">  
+
+**Agencia crea una nueva experiencia**  
+
+<img src="img/Agencia crea una nueva experiencia.jpg">  
+
+**Agencia busca en su panel de reservas**
+<img src="img/Agencia busca en su panel de reservas.jpg.jpg">  
+
+**Agencia responde y mira las consultas**
+<img src="img/Agencia responde y mira las consultas.jpg">    
+
+**Agencia edita perfil**
+<img src="img/Agencia edita perfil.jpg">   
 
 #### 3.1.4.3. Mobile Applications Mock-ups    
 
@@ -4426,11 +4466,6 @@ Los mock-ups para las agencias muestran una interfaz profesional y funcional, co
 
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams     
-
-
-
-
-
 
 ![User Flow Diagram](./img/Mobile_Aplication_User_Flow.jpeg)
 
