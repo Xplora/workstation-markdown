@@ -4728,11 +4728,67 @@ Formularios para el envío de mensajes de contacto, cumpliendo criterios de acce
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 1 se desplegó la Landing Page en GitHub Pages, asegurando que la versión en producción reflejara los cambios implementados:
+
+Capturas del Despliegue
+
+<img src="img/lpgXpl.png">
+
+También se avanzó considerablemente en la documentación de los servicios REST desarrollados para el backend de TripMatch, utilizando la especificación OpenAPI (Swagger). Esta documentación es clave para facilitar la integración entre el backend y el frontend, así como para permitir pruebas rápidas y comprensión clara de la estructura de los endpoints implementados.
+
+
+| **Módulo**            | **Acción**                      | **Método** | **Endpoint**           | **Parámetros (ejemplo)**                                                                                       | **Respuesta (ejemplo)**                                                  |
+|------------------------|---------------------------------|-------------|------------------------|----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| Usuarios               | Registrar usuario               | POST        | `/api/users`           | `{"username": "britney", "email": "britney@test.com", "password": "12345678"}`                                 | `{"id": 1, "username": "britney", "email": "britney@test.com"}`          |
+| Autenticación          | Iniciar sesión                  | POST        | `/api/auth/sign-in`    | `{"username": "britney", "password": "12345678"}`                                                              | `{"token": "eyJhbGciOi..."}`                                             |
+| Agencias               | Registrar agencia               | POST        | `/api/agencies`        | `{"name": "Agencia Andes", "email": "contacto@andes.com", "ruc": "12345678901"}`                               | `{"id": 1, "name": "Agencia Andes", "email": "contacto@andes.com"}`      |
+| Paquetes turísticos    | Crear paquete turístico          | POST        | `/api/packages`        | `{"name": "Cusco Explorer", "price": 550.00, "agencyId": 1}`                                                  | `{"id": 1, "name": "Cusco Explorer", "price": 550.00}`                   |
+| Reservas               | Reservar paquete turístico       | POST        | `/api/bookings`        | `{"packageId": 1, "userId": 1, "travelDate": "2025-07-10"}`                                                   | `{"id": 1, "status": "CONFIRMED"}`                                       |
+| Destinos               | Obtener todos los destinos       | GET         | `/api/destinations`    | -                                                                                                              | `[{"id": 1, "name": "Cusco"}, {"id": 2, "name": "Arequipa"}]`            |
+| Itinerarios            | Registrar itinerario             | POST        | `/api/itineraries`     | `{"packageId": 1, "day": 1, "description": "Tour por el Valle Sagrado"}`                                       | `{"id": 1, "day": 1, "description": "Tour por el Valle Sagrado"}`        |
+
+
+
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
+Backend Deployment
+
+- Nos logeamos y creamos nuestra base de datos en freesqldatabase.com
+
+<img src="img/bck0.jpg">
+
+- Entramos a render, nos logueamos y accedemos a web service
+
+<img src="img/bck2.png">
+
+- Ingresamos el codigo de Docker en nuestro repositorio para posibilitar la conexción con el deploy
+
+<img src="img/bck3.png">
+
+- Ingresamos la configuración para la conexión con la base de datos que hemos creado
+
+<img src="img/bck4.png">
+
+- Una vez hecho el deploy podemos visualizar el link por el cual podremos ingresar a nuestra web
+
+<img src="img/bck5.png">
+
+
+<img src="img/bck1.png">
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint 3, el equipo colaboró de forma activa, coordinada y orientada a objetivos comunes para implementar los componentes esenciales del backend de la aplicación TripMatch. El trabajo se centró en el modelado del dominio, la creación de controladores REST, el desarrollo de servicios para usuarios, agencias, paquetes turísticos, destinos y reservas, así como la configuración del entorno de despliegue local y la documentación de servicios mediante Swagger UI. 
+
+A continuación, se muestran la captura de los insights del repositorio.
+
+**Contributors Insights**
+
+En esta imagen se muestra el resumen de contribuciones por cada integrante del equipo durante el Sprint.
+
+<img src="img/collaboration.png">
+
 
 
 ## 4.3. Validation Interviews
