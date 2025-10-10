@@ -4271,14 +4271,166 @@ Para la versión mockup de la landing page se agregó las imagenes correspondien
 <img src="img/Landing Page- Mock Up.png">
 
 ### 3.1.4. Mobile Applications UX/UI Design  
- 
+
+Segmento: Turistas
+La propuesta UX/UI para el segmento de turistas se enfoca en ofrecer una experiencia visual intuitiva, dinámica y centrada en la exploración de experiencias auténticas. El diseño busca transmitir confianza y cercanía, priorizando la facilidad de navegación, el acceso rápido a información relevante y la personalización de resultados según intereses y presupuesto. Cada elemento visual, desde los íconos hasta la tipografía y la paleta de colores, refuerza una identidad cálida y moderna que invita a descubrir.
+
+Segmento: Agencias de turismo
+Para el segmento de agencias de turismo, la propuesta UX/UI prioriza la eficiencia y el control en la gestión de servicios turísticos. La interfaz combina simplicidad y funcionalidad, permitiendo que los usuarios gestionen fácilmente su catálogo de experiencias, respondan consultas y monitoreen reservas en tiempo real. El diseño está orientado a reducir la carga cognitiva y a facilitar la adaptación de usuarios con distintos niveles de alfabetización digital, manteniendo coherencia visual con la app de los turistas para reforzar la identidad de marca compartida.
+
 #### 3.1.4.1. Mobile Applications Wireframes  
 
-#### 3.1.4.2. Mobile Applications Wireflow Diagrams  
+**Registro e inicio de sesión**
 
-#### 3.1.4.3. Mobile Applications Mock-ups  
+<img src="img/Inicio de sesion - wireframe.png">
 
-#### 3.1.4.4. Mobile Applications User Flow Diagrams  
+<img src="img/Registro - wireframe.png">
+
+>Segmento: Turistas  
+
+Los wireframes para el segmento de turistas presentan una estructura jerárquica clara que facilita la exploración de experiencias, la comparación de opciones y la reserva con pocos pasos. Se aplicaron principios de arquitectura de información que priorizan la visibilidad del estado del sistema, la consistencia y la retroalimentación inmediata. El diseño inclusivo garantiza la legibilidad y el uso adecuado del espacio en pantallas pequeñas.
+
+**Pantalla de inicio y perfil**
+
+<img src="img/Inicio turista-wireframe.png">
+
+<img src="img/Vista turista perfil-wireframe.png">  
+
+
+**Pantalla de resultados de busqueda**  
+
+<img src="img/Busqueda turista - wireframe.png">  
+
+**Pantalla de detalles de experiencia**   
+
+<img src="img/Vista experiencia turista-wireframe.png">  
+
+<img src="img/Vista experiencia turista2 -wireframe.png">  
+
+**Pantalla de Favoritos**
+
+<img src="img/Favoritos turista-wireframe.png">  
+
+**Pantalla de Itinerarios**   
+
+<img src="img/Itinerarios turista-wireframe.png">  
+
+<img src="img/Itinerarios turista2-wireframe.png">  
+
+
+>Segmento: Agencias de turismo  
+
+En los wireframes dirigidos a agencias locales, se muestra una estructura que simplifica las tareas administrativas, como la actualización del catálogo y la gestión de reservas. La organización visual sigue un flujo lógico, destacando la priorización de acciones frecuentes mediante botones y accesos directos. Los elementos se distribuyen con un diseño modular que facilita la escalabilidad futura del sistema.  
+
+
+**Pantalla de inicio y perfil**  
+
+<img src="img/Inicio agencia-wireframe.png">
+
+<img src="img/Vista agencia perfil-wireframe.png">  
+
+
+**Pantalla de Gestión de Experiencias**  
+
+<img src="img/Experiencia agencia-wireframe.png">  
+
+<img src="img/Agregar experiencia- wireframe.png"> 
+
+
+**Pantalla de Gestión de Reservas**  
+
+<img src="img/Reservas agencia-wireframe.png">     
+
+
+**Pantalla de Consultas**  
+
+<img src="img/Consultas agencia-wireframe.png">  
+<img src="img/Consultas agencia2-wireframe.png">  
+
+
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams    
+
+
+
+
+
+#### 3.1.4.3. Mobile Applications Mock-ups    
+
+
+**Registro e inicio de sesión**
+
+<img src="img/Inicio de sesion - mockup.png">
+
+<img src="img/Registro - mockup.png">  
+
+
+>Segmento: Turistas  
+
+Los mock-ups presentan la versión visual final de la aplicación orientada al turista, evidenciando la coherencia con el Design System de TripMatch. Los colores, iconografía y tipografía refuerzan la identidad de una app moderna, confiable y enfocada en la experiencia local. Se aplicaron principios de contraste, jerarquía visual y diseño inclusivo para optimizar la legibilidad y la accesibilidad en entornos móviles.
+
+
+**Pantalla de inicio y perfil**
+
+<img src="img/Inicio turista-mockup.png">
+
+<img src="img/Vista turista perfil-mockup.png">  
+
+
+**Pantalla de resultados de busqueda**  
+
+<img src="img/Busqueda turista - mockup.png">  
+
+**Pantalla de detalles de experiencia**   
+
+<img src="img/Vista experiencia turista-mockup.png">  
+
+<img src="img/Vista experiencia turista2 -mockup.png">  
+
+**Pantalla de Favoritos**
+
+<img src="img/Favoritos turista-mockup.png">  
+
+**Pantalla de Itinerarios**   
+
+<img src="img/Itinerarios turista-mockup.png">  
+
+<img src="img/Itinerarios turista2-mockup.png">  
+
+
+>Segmento: Agencias de turismo  
+
+Los mock-ups para las agencias muestran una interfaz profesional y funcional, con una paleta cromática sobria que transmite confianza y organización. Se destacan los paneles de gestión de experiencias, las notificaciones y el acceso a métricas de desempeño. Cada pantalla refleja consistencia con la versión para turistas, garantizando una experiencia integrada entre ambos tipos de usuarios.
+
+
+<img src="img/Inicio agencia-mockup.png">
+
+<img src="img/Vista agencia perfil-mockup.png">  
+
+
+**Pantalla de Gestión de Experiencias**  
+
+<img src="img/Experiencia agencia-mockup.png">  
+
+<img src="img/Agregar experiencia- mockup.png"> 
+
+
+**Pantalla de Gestión de Reservas**  
+
+<img src="img/Reservas agencia-mockup.png">     
+
+
+**Pantalla de Consultas**  
+
+<img src="img/Consultas agencia-mockup.png">  
+<img src="img/Consultas agencia2-mockup.png">
+
+
+#### 3.1.4.4. Mobile Applications User Flow Diagrams     
+
+
+
+
+
 
 ![User Flow Diagram](./img/Mobile_Aplication_User_Flow.jpeg)
 
