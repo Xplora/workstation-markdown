@@ -4684,14 +4684,16 @@ Para este primer Sprint de TripMatch, se desarrolló y publicó la Landing Page 
 
 Las User Stories ejecutadas y su evidencia visible en la Landing Page son:
 
-| ID   | User Story                                                      | Evidencia en Landing Page                                                |
-|------|------------------------------------------------------------------|--------------------------------------------------------------------------|
-| US01 | Acceso multiplataforma a la Landing Page de TripMatch           | Visualización responsive en computadoras, tablet y móviles                |
-| US02 | Información clara sobre el propósito y beneficios de TripMatch   | Sección "About Us" y "Benefits" describen misión, visión y solución       |
-| US03 | Visualización de imágenes y gráficos turísticos relevantes       | Imágenes y gráficos en secciones principales (home, benefits, FAQ, team)  |
-| US04 | Tipografía cómoda y estilo agradable                             | Fuente moderna y legible compatible con el diseño visual                  |
-| US05 | Navegación clara y funcional entre secciones                     | Menú de navegación y botones de acción funcionales en el header           |
-| US06 | Formulario de contacto funcional                                 | Sección de contacto con campos validados y presentación profesional       |
+| ID   | User Story                                                               | Evidencia en Landing Page                                                |
+|------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| US36 | Descubrimiento de beneficios para turistas                               | Beneficios destacados para turistas, visualización clara y secciones dedicadas |
+| US37 | Conocer el propósito de la plataforma                                    | Sección "About Us" describe misión, visión y propósito de TripMatch      |
+| US38 | Navegación simple desde el header                                        | Menú de navegación funcional y accesible en todas las secciones          |
+| US39 | Acceder al formulario de contacto                                        | Sección "Contact Us" con campos validados y presentación profesional     |
+| US40 | Registro desde la landing                                                | Botón "Sign Up" y acceso directo desde la landing                        |
+| US41 | Identificación de beneficios para agencias                               | Beneficios destacados para agencias en sección específica                |
+| US42 | Conocer cómo funciona la plataforma                                      | Sección "How does it work?" y FAQs explicando el funcionamiento          |
+
 
 La evidencia se puede validar visualmente en la Landing Page, que presenta cada uno de estos elementos como parte de la experiencia principal del usuario en TripMatch.
 
