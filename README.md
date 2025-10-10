@@ -4674,6 +4674,28 @@ Despliegue automatizado y seguro, con GitHub Actions para CI/CD y Docker para co
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
+| Repository                             | Branch | Commit Id | Commit Message                                        | Commit Message Body                                  | Commited on (Date)      |
+|---------------------------------------- |--------|-----------|------------------------------------------------------|------------------------------------------------------|-------------------------|
+| workstation-frontend-mobile (Front-end) | main   | 206859a   | feat: tab of bokkings in agency view                 | Tab de reservas para agencias en la vista de la app  | 10/10/2025              |
+| workstation-frontend-mobile (Front-end) | main   | 8a21dab   | feature: agregate agency profile                     | Agregada sección para perfil de agencia              | 10/10/2025              |
+| workstation-frontend-mobile (Front-end) | main   | 1b45fe1   | Feat: add manage experience                          | Añadida gestión de experiencias                      | 10/10/2025              |
+| workstation-frontend-mobile (Front-end) | main   | 3fe653c   | fix: presentation of dashboard                       | Corrección de presentación en dashboard              | 09/10/2025              |
+| workstation-frontend-mobile (Front-end) | main   | efcaf04   | feat: new home dashboard and part of experience on view turist | Nueva home y experiencia en vista turista | 09/10/2025              |
+| workstation-frontend-mobile (Front-end) | main   | b97e5c0   | feat: agencyhomedashboard                            | Dashboard de agencia implementado                    | 09/10/2025              |
+| workstation-frontend-mobile (Front-end) | main   | 491de23   | feat: new aparence off sig in, sing up and nav bar   | Actualización de apariencia y barra de navegación    | 08/10/2025              |
+| workstation-frontend-mobile (Front-end) | main   | 1874a15   | Feat: Initial commit with Android Studio project     | Commit inicial del proyecto en Android Studio        | 08/10/2025              |
+| workstation-back-end (Back-end)         | main   | 0ea18ac   | fix: allow entrance on production to swagger          | Permite acceso a swagger en producción               | 10/10/2025              |
+| workstation-back-end (Back-end)         | main   | 42d6e75   | doc: added vercel file                               | Agregado archivo de configuración vercel             | 10/10/2025              |
+| workstation-back-end (Back-end)         | main   | e80870f   | feat: added a Dockerfile                             | Añadido Dockerfile para despliegue                   | 10/10/2025              |
+| workstation-back-end (Back-end)         | main   | cd156df   | Fix: fix connections                                 | Corrección de conexiones en la API                   | 09/10/2025              |
+| workstation-back-end (Back-end)         | main   | d35e927   | Fix: authentification                                | Corrección en el sistema de autenticación            | 08/10/2025              |
+| workstation-back-end (Back-end)         | main   | da9c549   | Initial commit                                       | Commit inicial del proyecto backend                  | 07/10/2025              |
+| workstation-back-end (Landing-Page)         | main   | b411cdd   | Initial commit                                       | Commit inicial de la landing page                  | 03/10/2025              |
+| workstation-back-end (Landing-Page)         | main   | 29f851b   | feat: tripMatch landingPage                                      | Commit inicial de la landing page                  | 03/10/2025              |
+| workstation-back-end (Landing-Page)         | main   | bc1335c   | fix: z-index nav-bar value                                       | Commit inicial de la landing page                  | 03/10/2025              |
+| workstation-back-end (Landing-Page)         | main   | e4b3d52   | feat: update design of page                                       | Commit inicial de la landing page                  | 06/10/2025              |
+| workstation-back-end (Landing-Page)         | main   | b9843b7   | Feat: agregate a documentation on landing page                                       | Commit inicial de la landing page                  | 10/10/2025              |
+| workstation-back-end (Landing-Page)         | main   | 14bf168   | Fix: fix header                                       | Commit inicial de la landing page                  | 10/10/2025              |
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
