@@ -4451,6 +4451,55 @@ Formularios para el envío de mensajes de contacto, cumpliendo criterios de acce
 
 ### 4.3.1. Diseño de Entrevistas
 
+**Preguntas:**
+
+##### Segmento Objetivo #1: Turistas
+
+**Perfil del entrevistado:**
+* ¿Cuál es tu nombre y qué tipo de actividades turísticas disfrutas más?
+* ¿Cuáles son tus aplicaciones o plataformas favoritas para planificar viajes?
+
+**Tras mostrar la Landing Page:**
+* ¿Qué entiendes que ofrece TripMatch?
+* ¿Crees que esta plataforma es adecuada para alguien como tú, que busca experiencias personalizadas durante sus viajes?
+* ¿Qué mejorarías en la página para hacerla más atractiva o útil para viajeros como tú?
+
+**Tras la demostración de la aplicación móvil:**
+* ¿Qué impresión general te dio la plataforma TripMatch?
+* ¿Fue fácil de usar y entender cómo buscar y reservar experiencias en la app?
+* ¿Te pareció que las categorías y filtros facilitaron la búsqueda de actividades?
+* ¿Te gustaría que la aplicación tuviera alguna funcionalidad adicional para mejorar la planificación de tu viaje?
+* ¿Cómo calificarías la experiencia de ver recomendaciones basadas en tus intereses o historial?
+
+**Cierre:**
+* ¿Qué es lo que más te gustó de TripMatch?
+* ¿Usarías esta herramienta regularmente para planificar tus viajes? ¿Por qué?
+* ¿Qué te gustaría que TripMatch brindara para ofrecer una experiencia más completa como turista? 
+
+##### Segmento Objetivo #2: Agencias de Turismo
+
+**Perfil del entrevistado:**
+* ¿Cuál es el nombre de tu agencia y qué tipo de experiencias o servicios turísticos ofreces?
+* ¿Qué herramientas o plataformas digitales usas actualmente para gestionar reservas y atender a tus clientes?
+
+**Tras mostrar la Landing Page:**
+* Qué entiendes que ofrece TripMatch?
+* ¿Crees que esta plataforma está pensada para agencias como la tuya que buscan digitalizar su negocio?
+* ¿Qué mejorarías en la página para hacerla más atractiva y útil para agencias de turismo?
+* ¿Te resulta claro lo que ofrece TripMatch para las agencias?
+
+**Tras la demostración de la aplicación web:**
+* ¿Qué impresión general te dio la plataforma TripMatch?
+* ¿Fue fácil de usar y entender cómo gestionar tus experiencias en la aplicación?
+* ¿Te parece que las funcionalidades de gestión de reservas y consultas facilitarán tu trabajo diario?
+* ¿Qué te parece la posibilidad de interactuar con los turistas en tiempo real mediante la app?
+* ¿Te gustaría que la aplicación tuviera alguna funcionalidad adicional para optimizar la gestión de tu agencia?
+
+**Cierre:**
+* ¿Qué es lo que más te gustó de TripMatch desde la perspectiva de una agencia de turismo?
+* ¿Te gustaría adoptar esta plataforma para gestionar tu negocio y atraer más clientes? ¿Por qué?
+* ¿Qué mejorarías de TripMatch para adaptarlo mejor a las necesidades de tu agencia?
+
 
 ### 4.3.2. Registro de Entrevistas
 
