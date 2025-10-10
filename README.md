@@ -4280,6 +4280,10 @@ Para la versión mockup de la landing page se agregó las imagenes correspondien
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams  
 
+![User Flow Diagram](./img/Mobile_Aplication_User_Flow.jpeg)
+
+[Link del User Flow Diagram](https://lucid.app/lucidspark/9c2e78a1-025e-4137-8096-0bbad19df758/edit?viewport_loc=-15647%2C-7119%2C28317%2C12765%2C0_0&invitationId=inv_7d104b7d-63cf-4497-b44c-5860bc53ebebhttps://url-del-enlace)
+
 #### 3.1.4.5. Mobile Applications Prototyping
 
 
