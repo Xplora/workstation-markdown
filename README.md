@@ -4398,7 +4398,7 @@ Despliegue automatizado y seguro, con GitHub Actions para CI/CD y Docker para co
 | **Sprint Goal & User Stories**        | Completar la fase de descubrimiento e investigación, validación de usuarios, análisis de la competencia, arquitectura de información y base de la landing de TripMatch.                                                 |
 | **Sprint 1 Goal**                     | Desarrollar una landing page coherente y funcional para TripMatch, asegurando que refleje propósito, sea responsiva y accesible tanto para turistas como agencias, y sentar las bases de experiencia de usuario con entregables como User Personas, Wireframes y Style Guides.     |
 | **Sprint 1 Velocity**                 | 4 Velocity                                                           |
-| **Sum of Story Points**               | 6 Story Points                                                       |
+| **Sum of Story Points**               | 180 Story Points                                                       |
 
 #### 4.2.1.2. Sprint Backlog 1
 
