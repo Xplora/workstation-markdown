@@ -84,6 +84,12 @@
         </ul>
       </td>
       <td>
+        <ul>
+          <li>Capítulo III:  Solution UI/UX Design</li>
+          <li>Capítulo IV: Requirements Development and Software Solution Design</li>
+          <li>Avance del despliegue de la landing page y el backend</li>
+          <li>Avance de las imagenes sobre la aplicación movile</li>
+        </ul>
       </td>
   </tr>
   <tr>
@@ -126,6 +132,9 @@
 | :------------------: | :---------------------------: | 
 | https://github.com/Xplora | https://github.com/Xplora/workstation-markdown/tree/main |
 
+| URL de la Landing Page desplegada | URL del Backend  deployado   |
+| :------------------: | :---------------------------: | 
+| https://xplora.github.io/workstation-landing-page/ | https://xplora-backend.onrender.com/swagger/index.html |
 
 
 Commits del Report TB1:
@@ -135,8 +144,9 @@ Commits del Report TB1:
 # **Student Outcomes**
 | Criterio específico | Acciones Realizadas | Conclusiones |
 |:---:|:---|:---|
-|**Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.**| **- Rodrigo Alaya** <br> **TB1:** Participé en la realización de entrevistas para dos segmentos de mercado, identificando requisitos clave. Además, elaboré los diagramas de clases por bounded context, aplicando los conceptos de Domain-Driven Design.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Gabriel Gordon** <br> **TB1:** Colaboré en la elaboración del Strategic-Level Domain-Driven Design y en la creación de los diagramas de componentes para los bounded contexts, lo que fortaleció mi comprensión de la arquitectura de software a nivel de componentes.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Marcia Melgarejo** <br> **TB1:** Lideré el desarrollo de la entrevista para el segmento de empresas, obteniendo información valiosa. También me encargué del Strategic-Level Domain-Driven Design para el bounded context de Experience y de los diagramas de base de datos asociados.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Melisa Sulca** <br> **TB1:** Participé en la sesión de Event Storming para identificar los eventos clave del negocio y las relaciones entre ellos. Adicionalmente, elaboré el Context Mapping para definir las interacciones entre los diferentes bounded contexts del sistema.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Oscar Antayhua** <br> **TB1:** Elaboré los diagramas de Context, Container y Deployment Mapping, lo que permitió visualizar la arquitectura del sistema en diferentes niveles y planificar el despliegue de nuestra solución.<br> **TP:** <br> **TB2:** . <br> **TF:**. | **TB1:** A lo largo de TB1, el equipo demostró una sólida comprensión de los principios de **Domain-Driven Design (DDD)** y del **Modelo C4**. Se aplicaron estos conceptos para diseñar una arquitectura de software robusta y escalable, lo que proporcionó una base técnica clara para el proyecto. El trabajo realizado refleja un dominio de los conocimientos teóricos y una habilidad para plasmarlos en un plan de arquitectura coherente.|
-|**Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**| **- Rodrigo Alaya** <br> **TB1:** Participé activamente en el análisis del dominio y en la elaboración de diagramas de diseño, lo que me permitió aplicar y consolidar los conceptos de arquitectura de software en un contexto práctico.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Gabriel Gordon** <br> **TB1:** En esta primera entrega fomenté la participación equitativa dentro el equipo. Establecimos cronogramas de trabajo para poder cumplir con los objetivos sobre el trabajo.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Marcia Melgarejo** <br> **TB1:** A través de la investigación y la aplicación práctica de nuevas metodologías de diseño y modelado de datos, pude fortalecer mi capacidad de aprendizaje autónomo y resolver desafíos complejos de arquitectura.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Melisa Sulca** <br> **TB1:** La colaboración en las sesiones de Event Storming y Context Mapping fomentó una comprensión compartida del problema y la solución, reconociendo la importancia de trabajar en equipo para superar retos técnicos.<br> **TP:** <br> **TB2:** . <br> **TF:**. <br><br> **- Oscar Antayhua** <br> **TB1:** Reconocí la necesidad del aprendizaje continuo al profundizar en metodologías como Domain-Driven Design y herramientas especializadas como Structurizr DSL, complementando mis conocimientos previos en desarrollo web y automatización.<br> **TP:** <br> **TB2:** . <br> **TF:**. | **TB1:** El trabajo en equipo fue fundamental en esta etapa. Las interacciones en las sesiones de análisis y diseño fomentaron la **colaboración**, el **liderazgo compartido** y la **comunicación efectiva**. Esto demostró la capacidad del equipo para adaptarse a nuevas metodologías y organizar un flujo de trabajo dinámico, un aspecto crucial para el desarrollo de proyectos de software complejos.|
+|**Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.**| **- Rodrigo Alaya** <br> **TB1:** Participé en la realización de entrevistas para dos segmentos de mercado, identificando requisitos clave. Además, elaboré los diagramas de clases por bounded context, aplicando los conceptos de Domain-Driven Design.<br> **TP:** Actualicé los conceptos y conocimientos fundamentales de la ingeniería de software, aplicándolos en el desarrollo de mi proyecto para fortalecer mi crecimiento profesional <br> **TB2:** . <br> **TF:**. <br><br> **- Gabriel Gordon** <br> **TB1:** Colaboré en la elaboración del Strategic-Level Domain-Driven Design y en la creación de los diagramas de componentes para los bounded contexts, lo que fortaleció mi comprensión de la arquitectura de software a nivel de componentes.<br> **TP:** Actualicé continuamente herramientas que fueron de uso al momento de realizar algunos puntos del proyecto, fortaleciendo mi crecimiento profesional <br> **TB2:** . <br> **TF:**. <br><br> **- Marcia Melgarejo** <br> **TB1:** Lideré el desarrollo de la entrevista para el segmento de empresas, obteniendo información valiosa. También me encargué del Strategic-Level Domain-Driven Design para el bounded context de Experience y de los diagramas de base de datos asociados.<br> **TP:** Busqué nuevas tendencias y tecnologías emergentes para actualizar mis conocimientos, logrando integrar soluciones innovadoras y sostenibles dentro del desarrollo de mi proyecto<br> **TB2:** . <br> **TF:**. <br><br> **- Melisa Sulca** <br> **TB1:** Participé en la sesión de Event Storming para identificar los eventos clave del negocio y las relaciones entre ellos. Adicionalmente, elaboré el Context Mapping para definir las interacciones entre los diferentes bounded contexts del sistema.<br> **TP:** Actualicé mis conocimientos mediante el intercambio de experiencias y aprendizaje con mis compañeros de equipo, fortaleciendo tanto mi desarrollo profesional como la calidad del proyecto<br> **TB2:** . <br> **TF:**. <br><br> **- Oscar Antayhua** <br> **TB1:** Elaboré los diagramas de Context, Container y Deployment Mapping, lo que permitió visualizar la arquitectura del sistema en diferentes niveles y planificar el despliegue de nuestra solución.<br> **TP:** Me comprometí con mi aprendizaje autónomo, buscando constantemente nuevas fuentes de conocimiento y aplicando lo aprendido en la mejora de mi proyecto<br> **TB2:** . <br> **TF:**. | **TB1:** A lo largo de TB1, el equipo demostró una sólida comprensión de los principios de **Domain-Driven Design (DDD)** y del **Modelo C4**. Se aplicaron estos conceptos para diseñar una arquitectura de software robusta y escalable, lo que proporcionó una base técnica clara para el proyecto. El trabajo realizado refleja un dominio de los conocimientos teóricos y una habilidad para plasmarlos en un plan de arquitectura coherente. <br> **TP1:** A lo largo del desarrollo del proyecto, el equipo evidenció una actualización constante de conceptos y conocimientos necesarios para su crecimiento profesional y la consolidación de soluciones de software de calidad. Se integraron nuevas herramientas, metodologías y enfoques tecnológicos que fortalecieron la capacidad del equipo para analizar, diseñar e implementar soluciones eficientes y sostenibles.|
+|**Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**| **- Rodrigo Alaya** <br> **TB1:** Participé activamente en el análisis del dominio y en la elaboración de diagramas de diseño, lo que me permitió aplicar y consolidar los conceptos de arquitectura de software en un contexto práctico.<br> **TP:** Fui consciente de que el aprendizaje permanente era esencial para adaptarme a los cambios del sector tecnológico, por lo que me mantuve en constante actualización para mejorar el impacto del proyecto <br> **TB2:** . <br> **TF:**. <br><br> **- Gabriel Gordon** <br> **TB1:** En esta primera entrega fomenté la participación equitativa dentro el equipo. Establecimos cronogramas de trabajo para poder cumplir con los objetivos sobre el trabajo.<br> **TP:** Reconozco la importancia del aprendizaje para fortalecer mi desempeño profesional y mejorar la calidad del proyecto que estamos desarrollando en grupo. <br> **TB2:** . <br> **TF:**. <br><br> **- Marcia Melgarejo** <br> **TB1:** A través de la investigación y la aplicación práctica de nuevas metodologías de diseño y modelado de datos, pude fortalecer mi capacidad de aprendizaje autónomo y resolver desafíos complejos de arquitectura.<br> **TP:** Reconocí que el aprendizaje continuo no solo fortalecía mis competencias individuales, sino también mi capacidad para trabajar en equipo, compartir conocimientos y contribuir al éxito del proyecto<br> **TB2:** . <br> **TF:**. <br><br> **- Melisa Sulca** <br> **TB1:** La colaboración en las sesiones de Event Storming y Context Mapping fomentó una comprensión compartida del problema y la solución, reconociendo la importancia de trabajar en equipo para superar retos técnicos.<br> **TP:** Valoré el aprendizaje permanente como una oportunidad para innovar en mis proyectos de software, integrando tendencias emergentes y buenas prácticas. <br> **TB2:** . <br> **TF:**. <br><br> **- Oscar Antayhua** <br> **TB1:** Reconocí la necesidad del aprendizaje continuo al profundizar en metodologías como Domain-Driven Design y herramientas especializadas como Structurizr DSL, complementando mis conocimientos previos en desarrollo web y automatización.<br> **TP:** Pude Aplicar nuevos conocimientos y tecnologías que fortalecieron mis competencias en el diseño e implementación de soluciones de software <br> **TB2:** . <br> **TF:**. | **TB1:** El trabajo en equipo fue fundamental en esta etapa. Las interacciones en las sesiones de análisis y diseño fomentaron la **colaboración**, el **liderazgo compartido** y la **comunicación efectiva**. Esto demostró la capacidad del equipo para adaptarse a nuevas metodologías y organizar un flujo de trabajo dinámico, un aspecto crucial para el desarrollo de proyectos de software complejos. <br> **TP1:** Durante el desarrollo del proyecto, el equipo demostró una clara conciencia sobre la importancia del aprendizaje permanente como parte esencial de su formación profesional. A través de la búsqueda continua de nuevos conocimientos, la revisión de buenas prácticas y la adaptación a herramientas emergentes, los integrantes fortalecieron su capacidad de análisis y resolución de problemas en el ámbito del desarrollo de software.|
+
 
 
 # **Objetivos SMART**
@@ -985,13 +995,13 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <td>US05</td>
     <td>Usuario</td>
     <td>Alta</td>
-    <td>EP02 – Exploración y Búsqueda de Destinos (Mobile)</td>
+    <td>EP02 – Exploración y Búsqueda de Destinos</td>
   </tr>
   <tr>
     <th colspan="4">Title</th>
   </tr>
   <tr>
-    <td colspan="4">Acciones rápidas en la tarjeta de experiencia (Favoritos y Navegación)</td>
+    <td colspan="4">Acciones Rápidas (Favoritos) en Tarjeta de Experiencia</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -2124,7 +2134,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <th colspan="4">Title</th> 
   </tr> 
   <tr> 
-    <td colspan="4">Editar información personal en el perfil</td> 
+    <td colspan="4">Editar información personal en el perfil de turista</td> 
   </tr> 
   <tr> 
     <th colspan="4">Description</th> 
@@ -2439,9 +2449,52 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 <b>Entonces</b> puede comprender claramente cómo se usan las funciones principales de la plataforma. </td> </tr> 
 </table>  
 
+<table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS001</td> <td>Desarrollador</td> <td>Alta</td> <td>EP08 - Perfiles de agencia y de usuario</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Actualizar datos de agencia mediante RESTful API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br> <b>quiero</b> actualizar la información de una agencia mediante el endpoint <code>/api/v1/profile/user/agency/{userId}</code><br> <b>para</b> reflejar cambios en los datos de la entidad en tiempo real.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Actualización exitosa</b><br> <b>Dado que</b> el endpoint <code>/api/v1/profile/user/agency/{userId}</code> está disponible,<br> <b>cuando</b> se envía una solicitud PUT con datos válidos de la agencia,<br> <b>entonces</b> el sistema responde con estado <code>200 OK</code> e incluye la agencia actualizada en el body.<br><br>
+<b>Escenario 2: Usuario inexistente</b><br>
+<b>Dado que</b> el endpoint está disponible,<br>
+<b>cuando</b> se envía una solicitud PUT con un <code>userId</code> inexistente,<br>
+<b>entonces</b> el sistema responde con estado <code>404 Not Found</code> e informa que la agencia no existe.
+</td> </tr> </table>
+
+
+<table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS002</td> <td>Desarrollador</td> <td>Alta</td> <td>EP05 – Gestión de Reservas</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Registrar una nueva reserva mediante RESTful API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br> <b>quiero</b> registrar una nueva reserva mediante el endpoint <code>/api/v1/assets/booking</code><br> <b>para</b> permitir que los módulos de experiencia y pago creen registros en la base de datos.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Creación válida</b><br> <b>Dado que</b> el endpoint <code>/api/v1/assets/booking</code> está disponible,<br> <b>cuando</b> se envía una solicitud POST con datos válidos (touristId, experienceId, fecha, monto),<br> <b>entonces</b> el sistema responde con estado <code>201 Created</code> y retorna el ID de la reserva creada.<br><br>
+
+<b>Escenario 2: Datos incompletos</b><br>
+<b>Dado que</b> el endpoint está disponible,<br>
+<b>cuando</b> se envía una solicitud con campos faltantes,<br>
+<b>entonces</b> el sistema responde con estado <code>400 Bad Request</code> e indica los campos requeridos.
+
+</td> </tr> </table>
+
+<table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS003</td> <td>Desarrollador</td> <td>Media</td> <td>EP04 – Gestión de Experiencias</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Actualizar experiencia turística mediante RESTful API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br> <b>quiero</b> modificar la información de una experiencia con el endpoint <code>/api/v1/design/experience/{id}</code><br> <b>para</b> mantener la información actualizada en la base de datos.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Actualización exitosa</b><br> <b>Dado que</b> el endpoint está disponible,<br> <b>cuando</b> se envía una solicitud PUT con campos válidos,<br> <b>entonces</b> el sistema responde con <code>200 OK</code> e incluye los nuevos valores.<br><br>
+
+<b>Escenario 2: ID inexistente</b><br>
+<b>Dado que</b> el endpoint está disponible,<br>
+<b>cuando</b> se intenta actualizar una experiencia con un <code>id</code> que no existe,<br>
+<b>entonces</b> el sistema responde con <code>404 Not Found</code> indicando que no hay coincidencias.
+
+</td> </tr> </table>
+
+<table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS004</td> <td>Desarrollador</td> <td>Media</td> <td>EP06 – Consultas y Soporte</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Registrar consulta de usuario mediante RESTful API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br> <b>quiero</b> crear consultas con el endpoint <code>/api/v1/inquiry</code><br> <b>para</b> registrar preguntas de turistas sobre experiencias.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Creación válida</b><br> <b>Dado que</b> el endpoint está disponible,<br> <b>cuando</b> se envía una solicitud POST con datos válidos (touristId, experienceId, mensaje),<br> <b>entonces</b> el sistema responde con <code>201 Created</code> y almacena la consulta.<br><br>
+
+<b>Escenario 2: Campos vacíos</b><br>
+<b>Dado que</b> el endpoint está disponible,<br>
+<b>cuando</b> los campos requeridos no están presentes,<br>
+<b>entonces</b> el sistema devuelve <code>400 Bad Request</code> indicando el error.
+</td> </tr> </table>
+
+<table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS005</td> <td>Desarrollador</td> <td>Alta</td> <td>EP01 – Autenticación y Registro de Usuarios</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Registrar nuevos usuarios mediante API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br><b>quiero</b> permitir el registro de nuevos usuarios mediante el endpoint <code>/api/v1/iam/auth/signup</code><br><b>para</b> crear perfiles de autenticación iniciales en la plataforma.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Registro exitoso</b><br> <b>Dado que</b> el endpoint <code>/api/v1/iam/auth/signup</code> está disponible,<br> <b>cuando</b> se envía una solicitud POST con credenciales válidas (nombre, correo, contraseña),<br> <b>entonces</b> el sistema responde con <code>201 Created</code> y el objeto del usuario registrado.<br><br> <b>Escenario 2: Email duplicado</b><br> <b>Dado que</b> el endpoint está disponible,<br> <b>cuando</b> se envía un correo ya existente en el sistema,<br> <b>entonces</b> se devuelve <code>409 Conflict</code> con el mensaje “El usuario ya existe”. </td> </tr> </table>
+
+</td> </tr> </table>
+
+<table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS006</td> <td>Desarrollador</td> <td>Alta</td> <td>EP01 – Autenticación y Registro de Usuarios</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Iniciar sesión mediante API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br><b>quiero</b> permitir que los usuarios inicien sesión mediante el endpoint <code>/api/v1/iam/auth/signin</code><br><b>para</b> generar un token de autenticación JWT que permita el acceso a la plataforma.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Credenciales válidas</b><br> <b>Dado que</b> el endpoint está disponible,<br> <b>cuando</b> se envían credenciales válidas,<br> <b>entonces</b> el sistema devuelve <code>200 OK</code> y un token JWT.<br><br> <b>Escenario 2: Contraseña incorrecta</b><br> <b>Dado que</b> el usuario existe,<br> <b>cuando</b> se envía una contraseña errónea,<br> <b>entonces</b> el sistema responde con <code>401 Unauthorized</code> y el mensaje “Credenciales inválidas”. </td> </tr> </table>
+
+<table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS007</td> <td>Desarrollador</td> <td>Media</td> <td>EP02 – Exploración y Búsqueda de Destinos</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Listar categorías de experiencias mediante API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br><b>quiero</b> listar todas las categorías mediante el endpoint <code>/api/v1/design/category</code><br><b>para</b> mostrar opciones filtradas en la interfaz de búsqueda de experiencias.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Consulta exitosa</b><br> <b>Dado que</b> el endpoint está disponible,<br> <b>cuando</b> se realiza una solicitud GET sin parámetros,<br> <b>entonces</b> el sistema devuelve <code>200 OK</code> y una lista de categorías.<br><br> <b>Escenario 2: Sin resultados</b><br> <b>Dado que</b> no existen categorías registradas,<br> <b>cuando</b> se consulta el endpoint,<br> <b>entonces</b> el sistema devuelve <code>204 No Content</code>. </td> </tr> </table>
+
+<table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS008</td> <td>Desarrollador</td> <td>Media</td> <td>EP02 – Exploración y Búsqueda de Destinos</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Filtrar experiencias por categoría mediante API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br><b>quiero</b> obtener experiencias filtradas según su categoría mediante el endpoint <code>/api/v1/design/experience/category/{categoryId}</code><br><b>para</b> optimizar la búsqueda por preferencias de los turistas.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Categoría válida</b><br> <b>Dado que</b> existe una categoría registrada,<br> <b>cuando</b> se consulta el endpoint con un <code>categoryId</code> válido,<br> <b>entonces</b> el sistema devuelve <code>200 OK</code> con la lista de experiencias.<br><br> <b>Escenario 2: Categoría inexistente</b><br> <b>Dado que</b> el <code>categoryId</code> no existe,<br> <b>cuando</b> se realiza la solicitud GET,<br> <b>entonces</b> el sistema responde con <code>404 Not Found</code>. </td> </tr> </table>
 
 |EP01 – Autenticación y Registro de Usuarios|1,2,3|
-|-|-|
+|--|--|
 |EP02 – Exploración y Búsqueda de Destinos |4,5,6,7|
 |EP03 – Planificación y Gestión de Itinerarios|8,9,10,11,12|
 |EP04 – Gestión de Experiencias|19,20,21,16,17,18|
@@ -2449,7 +2502,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 |EP06 – Consultas y Soporte|22-23-24-25-26|
 |EP07 - Reseñas y Valoraciones| 27-28-29-30|
 |EP08 - Perfiles de agencia y de usuario| 31-32-33-34-35|
-|EP09- Funcionalidades Landing Page|38-37-38-39-40-41-42|
+|EP09 - Funcionalidades Landing Page| 36-37-38-37-38-39-40-41-42|
 
 
 
@@ -2617,45 +2670,50 @@ El Impact Mapping es una metodología visual y ágil que permite a las organizac
 
 
 ### 2.4.3. Product Backlog
-|# Orden|User Story Id|Description|Story Points (1 /3 /5 /8)|
-| :-: | :-: | - | :-: |
-|1|US01|**Como** usuario, **quiero** registrarme en la aplicación **para** poder acceder a sus funcionalidades y planificar mis viajes.|8|
-|2|US02|**Como** usuario, **quiero** que el sistema valide mis datos correctamente al registrarme **para** evitar errores.|5|
-|3|US03|**Como** usuario, **quiero** confirmar mi contraseña durante el registro **para** asegurarme de que la escribí correctamente.|3|
-|4|US04|**Como** usuario, **quiero** recibir un mensaje de bienvenida después de registrarme **para** sentirme valorado.|8|
-|5|US05|**Como** usuario, **quiero** poder registrarme con mi cuenta de Google o Facebook **para** ahorrar tiempo.|8|
-|6|US06|**Como** usuario, **quiero** recibir un correo de confirmación después de registrarme **para** validar mi cuenta.|8|
-|7|US07|**Como** usuario, **quiero** buscar destinos turísticos dentro de la aplicación **para** explorar opciones de viaje que se ajusten a mis intereses.|5|
-|8|US08|**Como** usuario, **quiero** usar filtros al buscar destinos **para** encontrar los que se ajusten a mis preferencias.|5|
-|9|US09|**Como** usuario, **quiero** que los resultados de búsqueda sean relevantes **para** no perder tiempo revisando opciones irrelevantes|3|
-|10|US10|**Como** usuario, **quiero** ver una vista previa de cada destino **para** decidir rápidamente cuál me interesa explorar.|5|
-|11|US11|**Como** usuario, **quiero** poder marcar destinos como favoritos **para** acceder a ellos rápidamente más adelante.|8|
-|12|US12|**Como** usuario, **quiero** buscar destinos por país o región **para** explorar zonas específicas que me interesen.|8|
-|13|US13|**Como** usuario, **quiero** eliminar un itinerario que ya no necesito **para** mantener mi cuenta organizada.|5|
-|14|US14|<p>**Como** usuario, **quiero** visualizar todos los detalles de mi itinerario **para** revisarlo antes y durante el viaje.</p><p></p>|5|
-|15|US15|**Como** usuario, **quiero** buscar destinos turísticos por nombre **para** encontrar rápidamente el lugar que deseo visitar.|3|
-|16|US16|**Como** usuario, **quiero** filtrar los destinos por tipo de experiencia (aventura, relax, cultura, etc.) **para** encontrar opciones que se alineen con mis intereses.|5|
-|17|US17|**Como** usuario, **quiero** ver la información completa de un destino (fotos, descripción, actividades disponibles) **para** decidir si me interesa visitarlo.|5|
-|18|US18|**Como** usuario, **quiero** guardar destinos como favoritos **para** poder acceder rápidamente a ellos en el futuro.|8|
-|19|US19|**Como** usuario, **quiero** recibir recomendaciones de destinos según mis búsquedas y preferencias **para** descubrir nuevas opciones personalizadas.|3|
-|20|US20|**Como** agencia de turismo, **quiero** poder publicar mis paquetes turísticos en la plataforma **para** llegar a más usuarios interesados en viajar.|3|
-|21|US21|**Como** agencia de turismo, **quiero** editar la información de los paquetes turísticos que ya publiqué **para** mantenerlos actualizados.|3|
-|22|US22|**Como** agencia de turismo, **quiero** poder activar o desactivar la disponibilidad de mis paquetes **para** ajustarlos según la temporada o los cupos disponibles.|5|
-|23|US23|**Como** agencia de turismo, **quiero** gestionar las reservas realizadas por los usuarios **para** tener un control claro de los cupos y atención al cliente.|5|
-|24|US24|**Como** agencia de turismo, **quiero** confirmar o rechazar reservas pendientes **para** asegurar que se respeten los cupos y condiciones del servicio.|5|
-|25|US25|**Como** agencia de turismo, **quiero** comunicarme directamente con los usuarios que reservaron **para** brindar información adicional o resolver dudas.|3|
-|26|US26|**Como** agencia de turismo, **quiero** crear y editar paquetes turísticos en la plataforma **para** ofrecer experiencias personalizadas a los usuarios.|3|
-|27|US27|**Como** agencia de turismo, **quiero** modificar precios y aplicar promociones en mis paquetes **para** atraer más clientes según temporadas.|8|
-|28| US28 |  **Como** visitante del segmento de turistas, **quiero** ver claramente los beneficios que ofrece la plataforma **para** entender cómo puede mejorar mi experiencia de viaje. | 3 |
-|29| US29 | **Como** visitante del segmento de turistas, **quiero** saber de qué se trata Turisfera **para** decidir si me interesa seguir explorando.| 5  |
-|30| US30 | **Como** visitante del segmento de turistas, **quiero** usar el menú superior **para** moverme fácilmente por la página. | 3  |
-|31| US31  | **Como** visitante del segmento de turistas, **quiero** llegar fácilmente al formulario de contacto **para** comunicarme con el equipo. | 8  |
-|32| US32  | **Como** visitante del segmento de turistas, **quiero** encontrar fácilmente el botón de registro **para** crear una cuenta.  | 3  |
-|33| US33  | **Como** visitante del segmento de agencias de turismo, **quiero** conocer los beneficios que se me ofrecen **para** evaluar si vale la pena registrarme.  | 3  |
-|34| US34  | **Como** visitante del segmento de agencias de turismo, **quiero** entender cómo funciona la plataforma **para** saber si es compatible con mis servicios.  | 5 |
-|35| US35  | **Como** visitante del segmento de agencias de turismo, **quiero** usar el formulario de contacto **para** hacer consultas o proponer colaboración. | 8 |
-|36| US36  | **Como** visitante del segmento de agencias de turismo, **quiero** acceder desde el menú a secciones como FAQs y About us **para** informarme. | 5 |
-|37| US37  | **Como** visitante del segmento de agencias de turismo, **quiero** registrarme desde la landing **para** empezar a formar parte de la plataforma.  | 5 |
+| # Orden | User Story Id | Título | Story Points (1 / 2 / 3 / 5 / 8) |
+| :---: | :---: | :--- | :---: |
+| 1 | US36 | Descubrimiento de beneficios para turistas | 5 |
+| 2 | US37 | Conocer el propósito de la plataforma | 5 |
+| 3 | US38 | Navegación simple desde el header | 3 |
+| 4 | US39 | Acceder al formulario de contacto | 5 |
+| 5 | US40 | Registro desde la landing | 3 |
+| 6 | US41 | Identificación de beneficios para agencias | 3 |
+| 7 | US42 | Conocer cómo funciona la plataforma | 5 |
+| 8 | US01 | Registro de nuevo usuario con validación | 5 |
+| 9 | US02 | Inicio de sesión con credenciales y manejo de errores | 3 |
+| 10 | US03 | Garantía de seguridad y confirmación de la contraseña | 3 |
+| 11 | US04 | Recomendaciones basadas en Popularidad y Categorías en la Home | 8 |
+| 12 | US05 | Acciones Rápidas (Favoritos) en Tarjeta de Experiencia | 5 |
+| 13 | US06 | Búsqueda inicial, mapa centrado y refinamiento dinámico de filtros | 8 |
+| 14 | US07 | Visualización de resultados con carga incremental | 5 |
+| 15 | US08 | Visualizar mis reservas en un calendario móvil | 5 |
+| 16 | US09 | Visualizar mis reservas en formato lista | 3 |
+| 17 | US10 | Buscar experiencias dentro de mi itinerario | 2 |
+| 18 | US11 | Cancelar una reserva desde el itinerario | 5 |
+| 19 | US12 | Visualizar reservas confirmadas en formato lista | 5 |
+| 20 | US13 | Acceder a la creación de experiencias desde Gestión de Experiencias | 2 |
+| 21 | US14 | Registrar detalles de una experiencia en el formulario | 5 |
+| 22 | US15 | Editar experiencias existentes | 5 |
+| 23 | US16 | Eliminar experiencias publicadas | 3 |
+| 24 | US17 | Visualizar listado de experiencias creadas | 3 |
+| 25 | US18 | Buscar experiencias por nombre o categoría | 3 |
+| 26 | US19 | Realizar una reserva desde la vista de detalle de experiencia | 5 |
+| 27 | US20 | Recibir notificación de confirmación de reserva | 3 |
+| 28 | US21 | Recibir notificación recordatoria de experiencia próxima | 5 |
+| 29 | US22 | Enviar consulta desde los detalles de una experiencia | 3 |
+| 30 | US23 | Visualizar consultas recibidas de turistas | 5 |
+| 31 | US24 | Responder consultas de turistas | 5 |
+| 32 | US25 | Recibir notificación de respuesta a consulta | 2 |
+| 33 | US26 | Consultar historial de mis preguntas y respuestas | 3 |
+| 34 | US27 | Dejar una reseña con calificación en estrellas y comentario | 8 |
+| 35 | US28 | Editar o eliminar mi reseña publicada | 5 |
+| 36 | US29 | Visualizar reseñas de otros turistas en la agencia | 5 |
+| 37 | US30 | Visualizar reseñas y promedio de calificaciones en mi perfil | 3 |
+| 38 | US31 | Editar información personal en el perfil de turista | 5 |
+| 39 | US32 | Visualizar mi perfil con datos actualizados | 2 |
+| 40 | US33 | Editar información del perfil de agencia | 5 |
+| 41 | US34 | Ver reseñas en el perfil de agencia | 3 |
+| 42 | US35 | Mostrar estadísticas en el perfil de agencia | 5 |
 
 
 ## 2.5. Strategic-Level Domain-Driven Design
@@ -4208,21 +4266,223 @@ Agencias
 
 #### 3.1.3.1. Landing Page Wireframe  
 
+A continuación se muestra la primera captura de wireframe que enseña la distribución de los elementos, como un navbar que redirige a las secciones correspondientes y un espacio para la imagen princiapl de toda la landing page. Por otro lado, se meustran las dos primeras secciones, los espaicos reservados para imágenes y texto (Soluciones y Cómo funciona).
+
+<img src="img/Landing Page-Wireframe.png">
+
+De igual manera se le corresponde el diseño en versión mobile.
+
+<img src="img/Landing Page- Wireframe- Mobile.png">
+
 #### 3.1.3.2. Landing Page Mock-up   
 
+Para la versión mockup de la landing page se agregó las imagenes correspondientes. Además, el logo representativo y se completaron los campos de imformación.
+
+<img src="img/Landing Page- Mock Up.png">
+
 ### 3.1.4. Mobile Applications UX/UI Design  
- 
+
+Segmento: Turistas
+La propuesta UX/UI para el segmento de turistas se enfoca en ofrecer una experiencia visual intuitiva, dinámica y centrada en la exploración de experiencias auténticas. El diseño busca transmitir confianza y cercanía, priorizando la facilidad de navegación, el acceso rápido a información relevante y la personalización de resultados según intereses y presupuesto. Cada elemento visual, desde los íconos hasta la tipografía y la paleta de colores, refuerza una identidad cálida y moderna que invita a descubrir.
+
+Segmento: Agencias de turismo
+Para el segmento de agencias de turismo, la propuesta UX/UI prioriza la eficiencia y el control en la gestión de servicios turísticos. La interfaz combina simplicidad y funcionalidad, permitiendo que los usuarios gestionen fácilmente su catálogo de experiencias, respondan consultas y monitoreen reservas en tiempo real. El diseño está orientado a reducir la carga cognitiva y a facilitar la adaptación de usuarios con distintos niveles de alfabetización digital, manteniendo coherencia visual con la app de los turistas para reforzar la identidad de marca compartida.
+
 #### 3.1.4.1. Mobile Applications Wireframes  
 
-#### 3.1.4.2. Mobile Applications Wireflow Diagrams  
+**Registro e inicio de sesión**
 
-#### 3.1.4.3. Mobile Applications Mock-ups  
+<img src="img/Inicio de sesion - wireframe.png">
 
-#### 3.1.4.4. Mobile Applications User Flow Diagrams  
+<img src="img/Registro - wireframe.png">
+
+>Segmento: Turistas  
+
+Los wireframes para el segmento de turistas presentan una estructura jerárquica clara que facilita la exploración de experiencias, la comparación de opciones y la reserva con pocos pasos. Se aplicaron principios de arquitectura de información que priorizan la visibilidad del estado del sistema, la consistencia y la retroalimentación inmediata. El diseño inclusivo garantiza la legibilidad y el uso adecuado del espacio en pantallas pequeñas.
+
+**Pantalla de inicio y perfil**
+
+<img src="img/Inicio turista-wireframe.png">
+
+<img src="img/Vista turista perfil-wireframe.png">  
+
+
+**Pantalla de resultados de busqueda**  
+
+<img src="img/Busqueda turista - wireframe.png">  
+
+**Pantalla de detalles de experiencia**   
+
+<img src="img/Vista experiencia turista-wireframe.png">  
+
+<img src="img/Vista experiencia turista2 -wireframe.png">  
+
+**Pantalla de Favoritos**
+
+<img src="img/Favoritos turista-wireframe.png">  
+
+**Pantalla de Itinerarios**   
+
+<img src="img/Itinerarios turista-wireframe.png">  
+
+<img src="img/Itinerarios turista2-wireframe.png">  
+
+
+>Segmento: Agencias de turismo  
+
+En los wireframes dirigidos a agencias locales, se muestra una estructura que simplifica las tareas administrativas, como la actualización del catálogo y la gestión de reservas. La organización visual sigue un flujo lógico, destacando la priorización de acciones frecuentes mediante botones y accesos directos. Los elementos se distribuyen con un diseño modular que facilita la escalabilidad futura del sistema.  
+
+
+**Pantalla de inicio y perfil**  
+
+<img src="img/Inicio agencia-wireframe.png">
+
+<img src="img/Vista agencia perfil-wireframe.png">  
+
+
+**Pantalla de Gestión de Experiencias**  
+
+<img src="img/Experiencia agencia-wireframe.png">  
+
+<img src="img/Agregar experiencia- wireframe.png"> 
+
+
+**Pantalla de Gestión de Reservas**  
+
+<img src="img/Reservas agencia-wireframe.png">     
+
+
+**Pantalla de Consultas**  
+
+<img src="img/Consultas agencia-wireframe.png">  
+<img src="img/Consultas agencia2-wireframe.png">  
+
+
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams    
+
+>Segmento: Turistas  
+
+
+**Crear Cuenta Turista**
+<img src="img/Crear Cuenta Turista - Wireflow.png">  
+
+**Dejar Reseñas**
+<img src="img/Dejar Reseñas- wireflow.png">  
+
+**Reservar una experiencia**
+<img src="img/Reservar Experiencia- wireflow.png">  
+
+**Turista guarda experiencia como favorito**
+<img src="img/Experiencia como Favorito.jpg">  
+
+**Turista guarda experiencia como favorito**
+<img src="img/Experiencia como Favorito.jpg">  
+
+**Turista entra a ver sus itinerarios**
+<img src="img/Turista Itinerarios.jpg">  
+
+
+
+>Segmento: Agencias de turismo
+
+**Crear Cuenta Agencia**
+<img src="img/Crear Cuenta Agencia- Wireflow.png">  
+
+**Agencia crea una nueva experiencia**  
+
+<img src="img/Agencia crea una nueva experiencia.jpg">  
+
+**Agencia busca en su panel de reservas**
+<img src="img/Agencia busca en su panel de reservas.jpg.jpg">  
+
+**Agencia responde y mira las consultas**
+<img src="img/Agencia responde y mira las consultas.jpg">    
+
+**Agencia edita perfil**
+<img src="img/Agencia edita perfil.jpg">   
+
+#### 3.1.4.3. Mobile Applications Mock-ups    
+
+
+**Registro e inicio de sesión**
+
+<img src="img/Inicio de sesion - mockup.png">
+
+<img src="img/Registro - mockup.png">  
+
+
+>Segmento: Turistas  
+
+Los mock-ups presentan la versión visual final de la aplicación orientada al turista, evidenciando la coherencia con el Design System de TripMatch. Los colores, iconografía y tipografía refuerzan la identidad de una app moderna, confiable y enfocada en la experiencia local. Se aplicaron principios de contraste, jerarquía visual y diseño inclusivo para optimizar la legibilidad y la accesibilidad en entornos móviles.
+
+
+**Pantalla de inicio y perfil**
+
+<img src="img/Inicio turista-mockup.png">
+
+<img src="img/Vista turista perfil-mockup.png">  
+
+
+**Pantalla de resultados de busqueda**  
+
+<img src="img/Busqueda turista - mockup.png">  
+
+**Pantalla de detalles de experiencia**   
+
+<img src="img/Vista experiencia turista-mockup.png">  
+
+<img src="img/Vista experiencia turista2 -mockup.png">  
+
+**Pantalla de Favoritos**
+
+<img src="img/Favoritos turista-mockup.png">  
+
+**Pantalla de Itinerarios**   
+
+<img src="img/Itinerarios turista-mockup.png">  
+
+<img src="img/Itinerarios turista2-mockup.png">  
+
+
+>Segmento: Agencias de turismo  
+
+Los mock-ups para las agencias muestran una interfaz profesional y funcional, con una paleta cromática sobria que transmite confianza y organización. Se destacan los paneles de gestión de experiencias, las notificaciones y el acceso a métricas de desempeño. Cada pantalla refleja consistencia con la versión para turistas, garantizando una experiencia integrada entre ambos tipos de usuarios.
+
+
+<img src="img/Inicio agencia-mockup.png">
+
+<img src="img/Vista agencia perfil-mockup.png">  
+
+
+**Pantalla de Gestión de Experiencias**  
+
+<img src="img/Experiencia agencia-mockup.png">  
+
+<img src="img/Agregar experiencia- mockup.png"> 
+
+
+**Pantalla de Gestión de Reservas**  
+
+<img src="img/Reservas agencia-mockup.png">     
+
+
+**Pantalla de Consultas**  
+
+<img src="img/Consultas agencia-mockup.png">  
+<img src="img/Consultas agencia2-mockup.png">
+
+
+#### 3.1.4.4. Mobile Applications User Flow Diagrams     
+
+![User Flow Diagram](./img/Mobile_Aplication_User_Flow.jpeg)
+
+[Link del User Flow Diagram](https://lucid.app/lucidspark/9c2e78a1-025e-4137-8096-0bbad19df758/edit?viewport_loc=-15647%2C-7119%2C28317%2C12765%2C0_0&invitationId=inv_7d104b7d-63cf-4497-b44c-5860bc53ebebhttps://url-del-enlace)
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
+Aquí vamos a poder ver el video de nuestra aplicación en estilo prototipo.
 
+[Link del Video Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c505_upc_edu_pe/EYO39OLVOaVDmD1KpQI4qDIB1D7WcWep2hTgEo_73V25Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LLuTxg)
 
 
 # Capítulo 4: Product Implementation & Validation
@@ -4367,28 +4627,149 @@ Despliegue automatizado y seguro, con GitHub Actions para CI/CD y Docker para co
 | **Location**                         | Servidor de Discord del Equipo                                       |
 | **Prepared By**                      | Oscar Antayhua                                                       |
 | **Attendees (to planning meeting)**   | Oscar Antayhua / Marcia Melgarejo / Rodrigo Alaya / Melisa Sulca / Gabriel Gordon |
-| **Sprint 1 Review Summary**           | Durante este sprint, el equipo desarrolló, diseñó y publicó la primera versión funcional de la landing page de TripMatch, enfocándose en secciones clave como presentación del servicio, planes, formulario de contacto y estructura multiplataforma. Se completaron actividades de UX: User Personas, Journey Maps y arquitectura de información, alineando la experiencia y el propósito del producto con las expectativas de turistas y agencias.                          |
-| **Sprint 1 Retrospective Summary**    | El trabajo en equipo fue eficiente y colaborativo. Destacan aciertos en la integración de herramientas como Figma y el diseño responsivo. Como mejora, se identificó la necesidad de optimizar gestión de tiempos y definir criterios de aceptación claros desde el inicio.                    |
-| **Sprint Goal & User Stories**        | Completar la fase de descubrimiento e investigación, validación de usuarios, análisis de la competencia, arquitectura de información y base de la landing de TripMatch.                                                 |
-| **Sprint 1 Goal**                     | Desarrollar una landing page coherente y funcional para TripMatch, asegurando que refleje propósito, sea responsiva y accesible tanto para turistas como agencias, y sentar las bases de experiencia de usuario con entregables como User Personas, Wireframes y Style Guides.     |
+| **Sprint 1 Review Summary**           | Se desarrolló una landing page funcional con visualización responsive, presentación clara de propósito y beneficios, imágenes ilustrativas y navegación intuitiva. El backend fue implementado y desplegado al 70% con endpoints principales funcionales. Se diseñaron y presentaron las pantallas core de la app móvil, así como la integración del formulario de contacto y acceso directo al registro desde la landing.                          |
+| **Sprint 1 Retrospective Summary**    | El equipo destacó avances en comunicación y colaboración, la integración exitosa entre frontend y backend, y la mejora en los artefactos previos. Se identificó la importancia de definir criterios de aceptación claros y afinar estimaciones para próximos sprints.                    |
+| **Sprint Goal & User Stories**        | Construir el núcleo visible y funcional de TripMatch: landing, backend básico, evidenciar UX y validar los principales requerimientos funcionales en la aplicación.                                                 |
+| **Sprint 1 Goal**                     | Desplegar la landing page, asegurar el backend operativo al 70%, mostrar las pantallas core y entregar el informe corregido con capítulos UX/UI y Product Implementation & Validation, además de conclusiones, bibliografía y anexos.     |
 | **Sprint 1 Velocity**                 | 4 Velocity                                                           |
-| **Sum of Story Points**               | 6 Story Points                                                       |
+| **Sum of Story Points**               | 180 Story Points                                                       |
 
 #### 4.2.1.2. Sprint Backlog 1
 
 | User Story Id | User Story Title                                                                                                         | Work-Item/Task Id | Work-Item/Task Title                     | Description                                                             | Estimation | Assigned To      | Status     |
 |:-------------:|:------------------------------------------------------------------------------------------------------------------------:|:-----------------:|:-----------------------------------------:|:------------------------------------------------------------------------:|:----------:|:---------------:|:----------:|
-| US01          | Como usuario/agencia nuevo, quiero registrarme con validación de datos para crear una cuenta confiable y recibir una bienvenida. | T01               | Formulario de registro y onboarding       | Implementar formulario de registro, validación de datos y bienvenida     | 8h         | Equipo Frontend  | Done       |
-| US02          | Como usuario/agencia, quiero iniciar sesión con correo y contraseña para acceder a mi cuenta de TripMatch.               | T02               | Interfaz y lógica de login                | Crear pantalla de login y lógica de autenticación                        | 6h         | Equipo Frontend  | Done       |
-| US03          | Como usuario, quiero que el sistema me fuerce a crear una contraseña robusta y confirmarla para proteger mi cuenta.      | T03               | Validación de contraseña                  | Validar seguridad y confirmación de contraseña                            | 4h         | Equipo Frontend  | Done       |
-| US04          | Como usuario, quiero recibir un mensaje de bienvenida personalizado tras mi registro.                                    | T04               | Mensaje y lógica de bienvenida            | Programar el mensaje posterior a registro exitoso                        | 3h         | Equipo Frontend  | Done       |
-| US05          | Como usuario, quiero poder registrarme con mi cuenta de Google o Facebook para ahorrar tiempo.                           | T05               | Integración con OAuth (Google/Facebook)   | Implementar el login/register con OAuth providers                        | 8h         | Equipo Frontend  | Done       |
-| US06          | Como usuario, quiero recibir un correo de confirmación después de registrarme para validar mi cuenta.                    | T06               | Implementación de correo de confirmación  | Lógica para envío y validación vía correo electrónico                    | 5h         | Equipo Backend   | Done       |
+| US01          | Registro de nuevo usuario con validación |                |        |      |          |    |        |
+|           |  | T01               | Formulario de registro y onboarding       | Implementar formulario de registro, validación de datos y bienvenida     | 8h         | Equipo Frontend  | Done       |
+|           |  | T02               | Validación de datos      | Validar los campos antes del presionar el botón de registro    | 2h         | Equipo Frontend  | Done       |
+| US02          |         Inicio de sesión con credenciales y manejo de errores        |                |                 |                       |          |    |        |
+|           |                 | T01               | Interfaz y lógica de login                | Crear pantalla de login y lógica de autenticación                        | 6h         | Equipo Frontend  | Done       |
+|           |                 | T02               | Colocar botón de registrar cuenta                | Crear botón de registro si es que aún no posee una cuenta                        | 2h         | Equipo Frontend  | Done       |
+| US03          |  Garantía de seguridad y confirmación de la contraseña      |                |                   |                             |          |   |        |
+|           |        | T01               | Validación de contraseña                  | Validar seguridad y confirmación de contraseña                            | 4h         | Equipo Frontend  | Done       |
+|           |        | T02               | Estilos y separación en la validación de contraseña                  | Aplicar estilos visuales a la sección de validación de contraseña                        | 1h         | Equipo Frontend  | Done       |
+| US05          | Acciones Rápidas (Favoritos) en Tarjeta de Experiencia                           | T01               | Favoritos y navegación rápida  |    Implementar la funcionalidad para marcar experiencias como favoritas y navegar rápidamente entre ellas.   |     6h     | Equipo Frontend  | Done       |
+| US10          | Buscar experiencias dentro de mi itinerario  |                |   |         |        |    |        |
+|           |   | T01               | Buscador en itinerario  |       Crear buscador dentro de "Mi itinerario" para localizar experiencias específicas.  |   5h     | Equipo Frontend   | Done       |
+|           |   | T02               | Barra con contraste para mayor visualización  |       Aplicar estilos suaves para no dificultar la visualización de la barra  |   1h     | Equipo Frontend   | Done       |
+| US11          | Cancelar una reserva desde el itinerario  | T01               | Cancelación de reserva  |  Permitir la cancelación de reservas directamente desde "Mi itinerario".  |   6h     | Equipo Frontend   | Done       |
+| US12          | Visualizar reservas confirmadas en formato lista  | T01               | Lista de reservas confirmadas  |  Crear vista de reservas confirmadas para empresas turísticas.  |   6h     | Equipo Frontend   | Done       |
+| US13          | Acceder a la creación de experiencias desde Gestión de Experiencias  | T01               | Botón para agregar experiencia  |  Crear un botón "Agregar experiencia" en la sección de gestión.  |   5h     | Equipo Frontend   | Done       |
+| US14          | Registrar detalles de una experiencia en el formulario  | T01               | Formulario para registrar experiencia  |  Crear formulario para agregar detalles (nombre, descripción, etc.) de una experiencia.  |   8h     | Equipo Frontend   | Done       |
+| US16          | Eliminar experiencias publicadas  | T01               | Eliminación de experiencias  |  Crear funcionalidad para eliminar experiencias publicadas.  |   6h     | Equipo Frontend   | Done       |
+| US17          | Visualizar listado de experiencias creadas  | T01               | Listado de experiencias  |  Crear una vista que muestre todas las experiencias publicadas por la agencia.  |   6h     | Equipo Frontend   | Done       |
+| US30          | Visualizar reseñas y promedio de calificaciones en mi perfil | T01               | Reseñas en el perfil |  Crear sección en el perfil de la agencia para mostrar reseñas y promedio de calificaciones.  |   6h     | Equipo Frontend   | Done  |
+| US32          | Visualizar mi perfil con datos actualizados | T01               | Implementación de visualización del perfil actualizado |  Mostrar la información actualizada del perfil del turista.  |   4h     | Equipo Frontend   | Done  |
+| US33          | Editar información del perfil de agencia | T01               | Implementación de edición del perfil de agencia |  Permitir a las agencias editar su perfil (datos de contacto, descripción).  |   6h     | Equipo Frontend   | Done  |
+| US34          | Ver reseñas en el perfil de agencia | T01               | Visualización de reseñas en perfil de agencia |  Permitir a las agencias ver las reseñas que los turistas dejan en su perfil.  |   5h     | Equipo Frontend   | Done  |
+| US35          | Mostrar estadísticas en el perfil de agencia | T01       | Estadísticas en perfil de agencia  |  Mostrar estadísticas (promedio de calificaciones, número de reseñas, reservas) en el perfil de la agencia.  |   6h     | Equipo Frontend   | Done  |
+| US36          | Descubrimiento de beneficios para turistas |        |   |    |        |     |   |
+|         |  | T01   |   Implementación de sección de beneficios  |  Crear sección en la landing page que muestre los beneficios para los turistas.  |   4h     | Equipo Frontend   | Done  |
+|         |  | T02   |   Estilización de la sección de beneficios  |  Aplicar estilos visuales a la sección "Benefits".  |   3h     | Equipo Frontend   | Done  |
+| US37          | Conocer el propósito de la plataforma |        |   |    |        |     |   |
+|           |   | T01       | Implementación de sección “About Us”  |  Crear sección de la landing page con la misión y propósito de la plataforma.  |   4h     | Equipo Frontend   | Done  |
+|           |  | T02       | Estilización de la sección "About Us"  |  Aplicar estilos visuales a la sección "About Us".  |   3h     | Equipo Frontend   | Done  |
+| US38          | Navegación simple desde el header |        |   |        |        |     |   |
+|           |  | T01       | Implementación de navegación fluida  |  Crear navegación fácil y fluida en el menú superior de la landing page  |   3h     | Equipo Frontend   | Done  |
+|           | | T02      | Estilización de la navegación del menú  |  Aplicar estilos visuales para una navegación fluida en el menú. |   3h     | Equipo Frontend   | Done  |
+| US39          | Acceder al formulario de contacto |        |   |  |        |    |   |
+|           |  | T01       | Formulario de contacto  |  Crear acceso fácil al formulario de contacto en la landing page.  |   3h     | Equipo Frontend   | Done  |
+|           |  | T02       | Agregar estilos al formulario de contacto  |  Aplicar estilos visuales al formulario y colocar los placeholders.  |   2h     | Equipo Frontend   | Done  |
+| US41          | Identificación de beneficios para agencias |        |   |    |        |     |   |
+|           |  | T01       | Implementación de beneficios para agencias  |  Crear sección de beneficios de la plataforma para agencias en la landing page.  |   2h     | Equipo Frontend   | Done  |
+|           |  | T02       | Implementar diseño responsive  |  Crear sección de beneficios con diseño responsive.  |   1h     | Equipo Frontend   | Done  |
+| US42          | Conocer cómo funciona la plataforma |        |  |   |        |     |   |
+|           | | T01       | Sección de explicación  |  Crear sección de explicación de funcionamiento de la plataforma para agencias en la landing page  |   4h     | Equipo Frontend   | Done  |
+|           | | T02       | Estilos y diseño responsive en la sección donde se informa la propuesta de valor en la landing page  |  Aplicar estilos visuales y diseño responsive a la sección de explicación  |   2h     | Equipo Frontend   | Done  |
+| TS001          | Actualizar datos de agencia mediante RESTful API |   T01     | Implementar API para actualizar agencia | Desarrollar el endpoint PUT para actualizar los datos de la agencia  |    5h    |  Equipo backend   |  Done |
+| TS002| Registrar una nueva reserva mediante RESTful API | T01   | Implementar API para registrar una nueva reserva |  Desarrollar el endpoint POST para registrar nuevas reservas.       | 6h | Equipo Backend   |  Done      | 
+| TS003          | Actualizar experiencia turística mediante RESTful API |   T01     | Implementar API para actualizar experiencia |  Desarrollar el endpoint PUT para actualizar experiencias turísticas. |   3h     |  Equipo Backend   | Done  |
+| TS004     | Registrar consulta de usuario mediante RESTful API | T01 |   Implementar API para registrar consulta    | Desarrollar el endpoint POST para registrar consultas de turistas. |  4h |    Equipo backend    |   Done  |  
+| TS005          | Registrar nuevos usuarios mediante API |        |  |   |        |      |    |
+|           |  |    T01    | Implementar API para registrar nuevos usuarios |  Desarrollar el endpoint POST para el registro de nuevos usuarios. |    5h    |  Equipo Backend    | Done   |
+|           | | T02       | Validación de datos en el registro de usuarios  |  Asegurar que los datos sean correctos antes de realizar el registro.  |   4h     | Equipo Backend   | Done  |
+| TS006          | Iniciar sesión mediante API |     T01   | Generación de token JWT | Implementar la generación de un token JWT al iniciar sesión correctamente.  |   4h     |   Equipo Backend  | Done  |
+| TS007          | Listar categorías de experiencias 
+|      | |   T01  | Implementar API para listar categorías |    Desarrollar el endpoint GET para listar las categorías de experiencias.    | 4h | Equipo Backend   |  Done      |
+|           | | T02       | Validación de datos de categorías |  Asegurar que las categorías sean correctas antes de ser listadas.  |   3h     | Equipo Backend   | Done  |
+| TS008          | Filtrar experiencias por categoría mediante API |        |  |   |        |     |   |
+|           | | T01       | Implementar API para filtrar experiencias  |  Desarrollar el endpoint GET para filtrar las experiencias por categoría. |   5h     | Equipo Backend   | Done  |
+|           |  |   T02     | Validación de categoría para filtrado | Asegurar que la categoría exista antes de realizar el filtro de experiencias.  |  4h      |  Equipo Backend   | Done  |
+
+URL: https://melgarejogomezmarcia.atlassian.net/jira/software/projects/TRIPMATCH/boards/3?atlOrigin=eyJpIjoiNzhlNmRjMTIyODQxNDY0YmI4OGVjYTI0NTZiY2MxMDQiLCJwIjoiaiJ9 
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
+| Repository                             | Branch | Commit Id | Commit Message                                        | Commit Message Body                                  | Commited on (Date)      |
+|---------------------------------------- |--------|-----------|------------------------------------------------------|------------------------------------------------------|-------------------------|
+| workstation-frontend-mobile (Front-end) | main   | 206859a   | feat: tab of bokkings in agency view                 | Tab de reservas para agencias en la vista de la app  | 10/10/2025              |
+| workstation-frontend-mobile (Front-end) | main   | 8a21dab   | feature: agregate agency profile                     | Agregada sección para perfil de agencia              | 10/10/2025              |
+| workstation-frontend-mobile (Front-end) | main   | 1b45fe1   | Feat: add manage experience                          | Añadida gestión de experiencias                      | 10/10/2025              |
+| workstation-frontend-mobile (Front-end) | main   | 3fe653c   | fix: presentation of dashboard                       | Corrección de presentación en dashboard              | 09/10/2025              |
+| workstation-frontend-mobile (Front-end) | main   | efcaf04   | feat: new home dashboard and part of experience on view turist | Nueva home y experiencia en vista turista | 09/10/2025              |
+| workstation-frontend-mobile (Front-end) | main   | b97e5c0   | feat: agencyhomedashboard                            | Dashboard de agencia implementado                    | 09/10/2025              |
+| workstation-frontend-mobile (Front-end) | main   | 491de23   | feat: new aparence off sig in, sing up and nav bar   | Actualización de apariencia y barra de navegación    | 08/10/2025              |
+| workstation-frontend-mobile (Front-end) | main   | 1874a15   | Feat: Initial commit with Android Studio project     | Commit inicial del proyecto en Android Studio        | 08/10/2025              |
+| workstation-back-end (Back-end)         | main   | 0ea18ac   | fix: allow entrance on production to swagger          | Permite acceso a swagger en producción               | 10/10/2025              |
+| workstation-back-end (Back-end)         | main   | 42d6e75   | doc: added vercel file                               | Agregado archivo de configuración vercel             | 10/10/2025              |
+| workstation-back-end (Back-end)         | main   | e80870f   | feat: added a Dockerfile                             | Añadido Dockerfile para despliegue                   | 10/10/2025              |
+| workstation-back-end (Back-end)         | main   | cd156df   | Fix: fix connections                                 | Corrección de conexiones en la API                   | 09/10/2025              |
+| workstation-back-end (Back-end)         | main   | d35e927   | Fix: authentification                                | Corrección en el sistema de autenticación            | 08/10/2025              |
+| workstation-back-end (Back-end)         | main   | da9c549   | Initial commit                                       | Commit inicial del proyecto backend                  | 07/10/2025              |
+| workstation-back-end (Landing-Page)         | main   | b411cdd   | Initial commit                                       | Commit inicial de la landing page                  | 03/10/2025              |
+| workstation-back-end (Landing-Page)         | main   | 29f851b   | feat: tripMatch landingPage                                      | Commit inicial de la landing page                  | 03/10/2025              |
+| workstation-back-end (Landing-Page)         | main   | bc1335c   | fix: z-index nav-bar value                                       | Commit inicial de la landing page                  | 03/10/2025              |
+| workstation-back-end (Landing-Page)         | main   | e4b3d52   | feat: update design of page                                       | Commit inicial de la landing page                  | 06/10/2025              |
+| workstation-back-end (Landing-Page)         | main   | b9843b7   | Feat: agregate a documentation on landing page                                       | Commit inicial de la landing page                  | 10/10/2025              |
+| workstation-back-end (Landing-Page)         | main   | 14bf168   | Fix: fix header                                       | Commit inicial de la landing page                  | 10/10/2025              |
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
+### Tabla de evidencias – Acceptance Tests (BDD)
+
+| Tipo de Test | Repositorio | Archivo | User Story | Responsable | Descripción | Estado | Commit ID |
+|---|---|---|---|---|---|---|---|
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/authentication/register_user.feature | US01 | Rodrigo Alaya | Registro con validación y bienvenida | Feature redactado / Steps pendientes | a1c9f72 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/authentication/login_user.feature | US02 | Gabriel Gordon | Inicio de sesión y manejo de errores | Feature redactado / Steps pendientes | b27e3ac |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/authentication/password_validation.feature | US03 | Marcia Melgarejo | Reglas de seguridad y confirmación de contraseña | Feature redactado / Steps pendientes | c83af10 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/experiences/create_experience.feature | US13 | Melisa Sulca | Botón “Agregar experiencia” y acceso a formulario | Feature redactado / Steps pendientes | d94b2ef |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/experiences/experience_details.feature | US14 | Oscar Antayhua | Registro de detalles y validación de campos | Feature redactado / Steps pendientes | e0f4d31 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/experiences/edit_experience.feature | US15 | Rodrigo Alaya | Edición con datos precargados y guardado | Feature redactado / Steps pendientes | f6a1b58 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/experiences/delete_experience.feature | US16 | Gabriel Gordon | Eliminación con confirmación y cancelación | Feature redactado / Steps pendientes | 0b2c7d4 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/experiences/list_experiences.feature | US17 | Marcia Melgarejo | Listado de experiencias y caso de lista vacía | Feature redactado / Steps pendientes | 19e4a66 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/experiences/search_experience.feature | US18 | Melisa Sulca | Búsqueda por nombre y categoría | Feature redactado / Steps pendientes | 2a7d5f1 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/bookings/create_booking.feature | US19 | Oscar Antayhua | Crear reserva desde detalle de experiencia | Feature redactado / Steps pendientes | 3c1e9ab |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/bookings/confirm_booking.feature | US20 | Rodrigo Alaya | Confirmación o rechazo de reservas (agencia) | Feature redactado / Steps pendientes | 4de07c3 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/bookings/notify_booking.feature | US21 | Gabriel Gordon | Notificación automática de confirmación/rechazo | Feature redactado / Steps pendientes | 5f61ad9 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/inquiries/send_inquiry.feature | US22 | Marcia Melgarejo | Envío de consultas del turista | Feature redactado / Steps pendientes | 6a2b3fe |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/inquiries/view_inquiries_agency.feature | US23 | Melisa Sulca | Listado y filtros de consultas (agencia) | Feature redactado / Steps pendientes | 7c84e20 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/inquiries/reply_inquiry.feature | US24 | Oscar Antayhua | Respuesta de la agencia y cambio de estado | Feature redactado / Steps pendientes | 8d15f42 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/inquiries/view_inquiries_tourist.feature | US25 | Rodrigo Alaya | Historial de consultas del turista | Feature redactado / Steps pendientes | 9ea6b77 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/inquiries/notify_inquiry_response.feature | US26 | Gabriel Gordon | Notificación al turista por respuesta nueva | Feature redactado / Steps pendientes | a0c8d1e |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/reviews/create_review.feature | US27 | Marcia Melgarejo | Crear reseña (puntuación y comentario) | Feature redactado / Steps pendientes | b19f2a3 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/reviews/edit_review.feature | US28 | Melisa Sulca | Edición de reseñas publicadas | Feature redactado / Steps pendientes | c2ab4e8 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/reviews/delete_review.feature | US29 | Oscar Antayhua | Eliminación de reseñas con confirmación | Feature redactado / Steps pendientes | d31c7f0 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/reviews/view_reviews.feature | US30 | Rodrigo Alaya | Visualización de reseñas y promedio | Feature redactado / Steps pendientes | e4d58a2 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/profiles/view_tourist_profile.feature | US31 | Gabriel Gordon | Vista del perfil del turista y sus reseñas | Feature redactado / Steps pendientes | f5e69bc |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/profiles/edit_tourist_profile.feature | US32 | Marcia Melgarejo | Edición de información personal del turista | Feature redactado / Steps pendientes | 06f8ad1 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/profiles/view_agency_profile.feature | US33 | Melisa Sulca | Vista del perfil de agencia y estadísticas | Feature redactado / Steps pendientes | 17a9ce4 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/profiles/edit_agency_profile.feature | US34 | Oscar Antayhua | Edición de información comercial de la agencia | Feature redactado / Steps pendientes | 28b0df8 |
+| Acceptance (BDD) | https://github.com/tripmatch-org/tripmatch-backend | features/profiles/agency_reviews.feature | US35 | Rodrigo Alaya | Reseñas recibidas por la agencia y promedio global | Feature redactado / Steps pendientes | 39c1e0a |
+
+---
+
+### Tabla de evidencias – Unit & Integration 
+
+| Tipo de Test | Repositorio | Archivo / Clase | Módulo | Responsable | Descripción | Estado | Commit ID |
+|---|---|---|---|---|---|---|---|
+| Unit | https://github.com/tripmatch-org/tripmatch-backend | AuthServiceTest | Auth | Gabriel Gordon | Valida registro, login, hash de contraseña y generación de tokens | En progreso | 4ad2f13 |
+| Unit | https://github.com/tripmatch-org/tripmatch-backend | ExperienceServiceTest | Experiences | Marcia Melgarejo | Reglas de creación/edición/eliminación y validaciones | En progreso | 5be3a24 |
+| Unit | https://github.com/tripmatch-org/tripmatch-backend | BookingServiceTest | Bookings | Melisa Sulca | Lógica de reserva, cupos, estados | En progreso | 6cf4b35 |
+| Unit | https://github.com/tripmatch-org/tripmatch-backend | InquiryServiceTest | Inquiries | Oscar Antayhua | Envío, lectura y respuesta de consultas | En progreso | 7d05c46 |
+| Unit | https://github.com/tripmatch-org/tripmatch-backend | ReviewServiceTest | Reviews | Rodrigo Alaya | CRUD de reseñas y cálculo de promedio | En progreso | 8e16d57 |
+| Integration | https://github.com/tripmatch-org/tripmatch-backend | AuthControllerIT | Auth | Gabriel Gordon | `/api/v1/auth/register` y `/api/v1/auth/login` con base de datos de prueba | Pendiente | 9f27e68 |
+| Integration | https://github.com/tripmatch-org/tripmatch-backend | ExperienceControllerIT | Experiences | Marcia Melgarejo | Endpoints CRUD de experiencias | Pendiente | a038f79 |
+| Integration | https://github.com/tripmatch-org/tripmatch-backend | BookingControllerIT | Bookings | Melisa Sulca | Crear, confirmar y rechazar reservas | Pendiente | b14908a |
+| Integration | https://github.com/tripmatch-org/tripmatch-backend | InquiryControllerIT | Inquiries | Oscar Antayhua | Envío/lectura/respuesta entre roles | Pendiente | c25a19b |
+| Integration | https://github.com/tripmatch-org/tripmatch-backend | ReviewControllerIT | Reviews | Rodrigo Alaya | Crear/editar/eliminar y consultar reseñas | Pendiente | d36b2ac |
 
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
@@ -4397,14 +4778,16 @@ Para este primer Sprint de TripMatch, se desarrolló y publicó la Landing Page 
 
 Las User Stories ejecutadas y su evidencia visible en la Landing Page son:
 
-| ID   | User Story                                                      | Evidencia en Landing Page                                                |
-|------|------------------------------------------------------------------|--------------------------------------------------------------------------|
-| US01 | Acceso multiplataforma a la Landing Page de TripMatch           | Visualización responsive en computadoras, tablet y móviles                |
-| US02 | Información clara sobre el propósito y beneficios de TripMatch   | Sección "About Us" y "Benefits" describen misión, visión y solución       |
-| US03 | Visualización de imágenes y gráficos turísticos relevantes       | Imágenes y gráficos en secciones principales (home, benefits, FAQ, team)  |
-| US04 | Tipografía cómoda y estilo agradable                             | Fuente moderna y legible compatible con el diseño visual                  |
-| US05 | Navegación clara y funcional entre secciones                     | Menú de navegación y botones de acción funcionales en el header           |
-| US06 | Formulario de contacto funcional                                 | Sección de contacto con campos validados y presentación profesional       |
+| ID   | User Story                                                               | Evidencia en Landing Page                                                |
+|------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| US36 | Descubrimiento de beneficios para turistas                               | Beneficios destacados para turistas, visualización clara y secciones dedicadas |
+| US37 | Conocer el propósito de la plataforma                                    | Sección "About Us" describe misión, visión y propósito de TripMatch      |
+| US38 | Navegación simple desde el header                                        | Menú de navegación funcional y accesible en todas las secciones          |
+| US39 | Acceder al formulario de contacto                                        | Sección "Contact Us" con campos validados y presentación profesional     |
+| US40 | Registro desde la landing                                                | Botón "Sign Up" y acceso directo desde la landing                        |
+| US41 | Identificación de beneficios para agencias                               | Beneficios destacados para agencias en sección específica                |
+| US42 | Conocer cómo funciona la plataforma                                      | Sección "How does it work?" y FAQs explicando el funcionamiento          |
+
 
 La evidencia se puede validar visualmente en la Landing Page, que presenta cada uno de estos elementos como parte de la experiencia principal del usuario en TripMatch.
 
@@ -4439,11 +4822,67 @@ Formularios para el envío de mensajes de contacto, cumpliendo criterios de acce
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 1 se desplegó la Landing Page en GitHub Pages, asegurando que la versión en producción reflejara los cambios implementados:
+
+Capturas del Despliegue
+
+<img src="img/lpgXpl.png">
+
+También se avanzó considerablemente en la documentación de los servicios REST desarrollados para el backend de TripMatch, utilizando la especificación OpenAPI (Swagger). Esta documentación es clave para facilitar la integración entre el backend y el frontend, así como para permitir pruebas rápidas y comprensión clara de la estructura de los endpoints implementados.
+
+
+| **Módulo**            | **Acción**                      | **Método** | **Endpoint**           | **Parámetros (ejemplo)**                                                                                       | **Respuesta (ejemplo)**                                                  |
+|------------------------|---------------------------------|-------------|------------------------|----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| Usuarios               | Registrar usuario               | POST        | `/api/users`           | `{"username": "britney", "email": "britney@test.com", "password": "12345678"}`                                 | `{"id": 1, "username": "britney", "email": "britney@test.com"}`          |
+| Autenticación          | Iniciar sesión                  | POST        | `/api/auth/sign-in`    | `{"username": "britney", "password": "12345678"}`                                                              | `{"token": "eyJhbGciOi..."}`                                             |
+| Agencias               | Registrar agencia               | POST        | `/api/agencies`        | `{"name": "Agencia Andes", "email": "contacto@andes.com", "ruc": "12345678901"}`                               | `{"id": 1, "name": "Agencia Andes", "email": "contacto@andes.com"}`      |
+| Paquetes turísticos    | Crear paquete turístico          | POST        | `/api/packages`        | `{"name": "Cusco Explorer", "price": 550.00, "agencyId": 1}`                                                  | `{"id": 1, "name": "Cusco Explorer", "price": 550.00}`                   |
+| Reservas               | Reservar paquete turístico       | POST        | `/api/bookings`        | `{"packageId": 1, "userId": 1, "travelDate": "2025-07-10"}`                                                   | `{"id": 1, "status": "CONFIRMED"}`                                       |
+| Destinos               | Obtener todos los destinos       | GET         | `/api/destinations`    | -                                                                                                              | `[{"id": 1, "name": "Cusco"}, {"id": 2, "name": "Arequipa"}]`            |
+| Itinerarios            | Registrar itinerario             | POST        | `/api/itineraries`     | `{"packageId": 1, "day": 1, "description": "Tour por el Valle Sagrado"}`                                       | `{"id": 1, "day": 1, "description": "Tour por el Valle Sagrado"}`        |
+
+
+
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
+Backend Deployment
+
+- Nos logeamos y creamos nuestra base de datos en freesqldatabase.com
+
+<img src="img/bck0.jpg">
+
+- Entramos a render, nos logueamos y accedemos a web service
+
+<img src="img/bck2.png">
+
+- Ingresamos el codigo de Docker en nuestro repositorio para posibilitar la conexción con el deploy
+
+<img src="img/bck3.png">
+
+- Ingresamos la configuración para la conexión con la base de datos que hemos creado
+
+<img src="img/bck4.png">
+
+- Una vez hecho el deploy podemos visualizar el link por el cual podremos ingresar a nuestra web
+
+<img src="img/bck5.png">
+
+
+<img src="img/bck1.png">
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint 3, el equipo colaboró de forma activa, coordinada y orientada a objetivos comunes para implementar los componentes esenciales del backend de la aplicación TripMatch. El trabajo se centró en el modelado del dominio, la creación de controladores REST, el desarrollo de servicios para usuarios, agencias, paquetes turísticos, destinos y reservas, así como la configuración del entorno de despliegue local y la documentación de servicios mediante Swagger UI. 
+
+A continuación, se muestran la captura de los insights del repositorio.
+
+**Contributors Insights**
+
+En esta imagen se muestra el resumen de contribuciones por cada integrante del equipo durante el Sprint.
+
+<img src="img/collaboration.png">
+
 
 
 ## 4.3. Validation Interviews
@@ -4500,6 +4939,103 @@ Formularios para el envío de mensajes de contacto, cumpliendo criterios de acce
 * ¿Te gustaría adoptar esta plataforma para gestionar tu negocio y atraer más clientes? ¿Por qué?
 * ¿Qué mejorarías de TripMatch para adaptarlo mejor a las necesidades de tu agencia?
 
+**Preguntas:**
+
+##### Segmento Objetivo #1: Turistas
+
+**Perfil del entrevistado:**
+* ¿Cuál es tu nombre y qué tipo de actividades turísticas disfrutas más?
+* ¿Cuáles son tus aplicaciones o plataformas favoritas para planificar viajes?
+
+**Tras mostrar la Landing Page:**
+* ¿Qué entiendes que ofrece TripMatch?
+* ¿Crees que esta plataforma es adecuada para alguien como tú, que busca experiencias personalizadas durante sus viajes?
+* ¿Qué mejorarías en la página para hacerla más atractiva o útil para viajeros como tú?
+
+**Tras la demostración de la aplicación móvil:**
+* ¿Qué impresión general te dio la plataforma TripMatch?
+* ¿Fue fácil de usar y entender cómo buscar y reservar experiencias en la app?
+* ¿Te pareció que las categorías y filtros facilitaron la búsqueda de actividades?
+* ¿Te gustaría que la aplicación tuviera alguna funcionalidad adicional para mejorar la planificación de tu viaje?
+* ¿Cómo calificarías la experiencia de ver recomendaciones basadas en tus intereses o historial?
+
+**Cierre:**
+* ¿Qué es lo que más te gustó de TripMatch?
+* ¿Usarías esta herramienta regularmente para planificar tus viajes? ¿Por qué?
+* ¿Qué te gustaría que TripMatch brindara para ofrecer una experiencia más completa como turista? 
+
+##### Segmento Objetivo #2: Agencias de Turismo
+
+**Perfil del entrevistado:**
+* ¿Cuál es el nombre de tu agencia y qué tipo de experiencias o servicios turísticos ofreces?
+* ¿Qué herramientas o plataformas digitales usas actualmente para gestionar reservas y atender a tus clientes?
+
+**Tras mostrar la Landing Page:**
+* Qué entiendes que ofrece TripMatch?
+* ¿Crees que esta plataforma está pensada para agencias como la tuya que buscan digitalizar su negocio?
+* ¿Qué mejorarías en la página para hacerla más atractiva y útil para agencias de turismo?
+* ¿Te resulta claro lo que ofrece TripMatch para las agencias?
+
+**Tras la demostración de la aplicación web:**
+* ¿Qué impresión general te dio la plataforma TripMatch?
+* ¿Fue fácil de usar y entender cómo gestionar tus experiencias en la aplicación?
+* ¿Te parece que las funcionalidades de gestión de reservas y consultas facilitarán tu trabajo diario?
+* ¿Qué te parece la posibilidad de interactuar con los turistas en tiempo real mediante la app?
+* ¿Te gustaría que la aplicación tuviera alguna funcionalidad adicional para optimizar la gestión de tu agencia?
+
+**Cierre:**
+* ¿Qué es lo que más te gustó de TripMatch desde la perspectiva de una agencia de turismo?
+* ¿Te gustaría adoptar esta plataforma para gestionar tu negocio y atraer más clientes? ¿Por qué?
+* ¿Qué mejorarías de TripMatch para adaptarlo mejor a las necesidades de tu agencia?
+
+**Preguntas:**
+
+##### Segmento Objetivo #1: Turistas
+
+**Perfil del entrevistado:**
+* ¿Cuál es tu nombre y qué tipo de actividades turísticas disfrutas más?
+* ¿Cuáles son tus aplicaciones o plataformas favoritas para planificar viajes?
+
+**Tras mostrar la Landing Page:**
+* ¿Qué entiendes que ofrece TripMatch?
+* ¿Crees que esta plataforma es adecuada para alguien como tú, que busca experiencias personalizadas durante sus viajes?
+* ¿Qué mejorarías en la página para hacerla más atractiva o útil para viajeros como tú?
+
+**Tras la demostración de la aplicación móvil:**
+* ¿Qué impresión general te dio la plataforma TripMatch?
+* ¿Fue fácil de usar y entender cómo buscar y reservar experiencias en la app?
+* ¿Te pareció que las categorías y filtros facilitaron la búsqueda de actividades?
+* ¿Te gustaría que la aplicación tuviera alguna funcionalidad adicional para mejorar la planificación de tu viaje?
+* ¿Cómo calificarías la experiencia de ver recomendaciones basadas en tus intereses o historial?
+
+**Cierre:**
+* ¿Qué es lo que más te gustó de TripMatch?
+* ¿Usarías esta herramienta regularmente para planificar tus viajes? ¿Por qué?
+* ¿Qué te gustaría que TripMatch brindara para ofrecer una experiencia más completa como turista? 
+
+##### Segmento Objetivo #2: Agencias de Turismo
+
+**Perfil del entrevistado:**
+* ¿Cuál es el nombre de tu agencia y qué tipo de experiencias o servicios turísticos ofreces?
+* ¿Qué herramientas o plataformas digitales usas actualmente para gestionar reservas y atender a tus clientes?
+
+**Tras mostrar la Landing Page:**
+* Qué entiendes que ofrece TripMatch?
+* ¿Crees que esta plataforma está pensada para agencias como la tuya que buscan digitalizar su negocio?
+* ¿Qué mejorarías en la página para hacerla más atractiva y útil para agencias de turismo?
+* ¿Te resulta claro lo que ofrece TripMatch para las agencias?
+
+**Tras la demostración de la aplicación web:**
+* ¿Qué impresión general te dio la plataforma TripMatch?
+* ¿Fue fácil de usar y entender cómo gestionar tus experiencias en la aplicación?
+* ¿Te parece que las funcionalidades de gestión de reservas y consultas facilitarán tu trabajo diario?
+* ¿Qué te parece la posibilidad de interactuar con los turistas en tiempo real mediante la app?
+* ¿Te gustaría que la aplicación tuviera alguna funcionalidad adicional para optimizar la gestión de tu agencia?
+
+**Cierre:**
+* ¿Qué es lo que más te gustó de TripMatch desde la perspectiva de una agencia de turismo?
+* ¿Te gustaría adoptar esta plataforma para gestionar tu negocio y atraer más clientes? ¿Por qué?
+* ¿Qué mejorarías de TripMatch para adaptarlo mejor a las necesidades de tu agencia?
 
 ### 4.3.2. Registro de Entrevistas
 
