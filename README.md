@@ -6,15 +6,15 @@
 
 # Universidad Peruana de Ciencias Aplicadas
 
-## Carrera de Ingeniería de Software
+## Ingeniería de Software
 
 </div>
 
 <div align="center">
 
-**Ciclo:** 2025 - 2  
-**Curso:** Aplicaciones para Dispositivos Móviles - 1ACC0238  
-**Sección:** 14649  
+**Periodo:** 202520 <br>
+**1ACC0238 |** Aplicaciones para Dispositivos Móviles <br>
+**NRC:** 14649  
 **Docente:** David Gerardo Quevedo Velasco  
 
 **Informe del Trabajo Final**  
@@ -26,13 +26,13 @@
 | Código      | Nombre                           |
 |-------------|----------------------------------|
 | U202219481  | Alaya Cabrera Rodrigo             |
+| U20191E414  | Antayhua Castillo Oscar Josué   |
 | U20221E229  | Gordon Salas Gabriel Fernando  |
 | U20231C505  | Melgarejo Gomez Marcia Victoria   |
-| U20191E414  | Antayhua Castillo Oscar Josué   |
 | U202224602 | Sulca Silva Melisa Geraldine     |
 
 
-**Setiembre - 2025**
+**Octubre - 2025**
 
 </div>  
 
