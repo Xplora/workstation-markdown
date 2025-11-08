@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/UpcLogo.png" alt="Logo de UPC" width="100%">
+  <img src="img/UpcLogo.png" alt="Logo de UPC" width="">
 </p>
 
 <div align="center">
@@ -942,89 +942,87 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 
 
 <table border="1" cellspacing="0" cellpadding="6">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US04</td>
-    <td>Usuario</td>
-    <td>Alta</td>
-    <td>EP02 – Exploración y Búsqueda de Destinos (Mobile)</td>
-  </tr>
-  <tr>
-    <th colspan="4">Title</th>
-  </tr>
-  <tr>
-    <td colspan="4">Recomendaciones basadas en Popularidad y Categorías en la Home</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4"><b>Como</b> usuario, <b>quiero</b> que la pantalla de inicio me muestre secciones de experiencias basadas en su popularidad y mis intereses <b>para</b> encontrar fácilmente viajes atractivos sin necesidad de buscarlos.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <b>Escenario A: Recomendación por categoría recurrente</b><br>
-      <b>Dado que</b> el usuario ha agregado a favoritos o visualizado varias experiencias de la categoría "Aventura"<br>
-      <b>Cuando</b> se carga la pantalla de inicio<br>
-      <b>Entonces</b> se muestra una sección destacada con el título: "Recomendado para ti: Aventuras".<br>
-      <br>
-      <b>Escenario B: Contenido por defecto (Experiencias Populares)</b><br>
-      <b>Dado que</b> el usuario es nuevo y no tiene historial de interacciones ni favoritos<br>
-      <b>Cuando</b> se carga la pantalla de inicio<br>
-      <b>Entonces</b> se muestra una sección con las experiencias **más populares** de la plataforma (basadas en número de favoritos o cantidad de reservas).
-    </td>
-  </tr>
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US04</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP02 – Exploración y Búsqueda de Destinos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Recomendaciones automáticas por popularidad y categorías</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> usuario, <b>quiero</b> recibir recomendaciones personalizadas basadas en mis intereses y las experiencias más populares, <b>para</b> descubrir destinos relevantes sin necesidad de buscarlos manualmente.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 01: Recomendaciones personalizadas</b><br>
+      Dado que el usuario ha interactuado previamente con experiencias de una categoría determinada,<br>
+      Cuando el sistema analiza el historial de navegación y favoritos,<br>
+      Entonces debe generar una lista de experiencias recomendadas según esas categorías y mostrarlas en el inicio.<br><br>
+      <b>Escenario 02: Recomendaciones por popularidad</b><br>
+      Dado que el usuario no posee historial de interacciones,<br>
+      Cuando el sistema no dispone de datos personalizados,<br>
+      Entonces debe presentar una lista de experiencias destacadas basadas en su nivel de popularidad general (reservas o favoritos).
+    </td>
+  </tr>
 </table>
 
 <table border="1" cellspacing="0" cellpadding="6">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>US05</td>
-    <td>Usuario</td>
-    <td>Alta</td>
-    <td>EP02 – Exploración y Búsqueda de Destinos</td>
-  </tr>
-  <tr>
-    <th colspan="4">Title</th>
-  </tr>
-  <tr>
-    <td colspan="4">Acciones Rápidas (Favoritos) en Tarjeta de Experiencia</td>
-  </tr>
-  <tr>
-    <th colspan="4">Description</th>
-  </tr>
-  <tr>
-    <td colspan="4"><b>Como</b> usuario, <b>quiero</b> poder ver los datos esenciales y guardar una experiencia como favorita directamente desde su tarjeta en la lista <b>para</b> optimizar el tiempo de navegación.</td>
-  </tr>
-  <tr>
-    <th colspan="4">Acceptance Criteria</th>
-  </tr>
-  <tr>
-    <td colspan="4">
-      <b>Escenario A: Contenido obligatorio de la tarjeta</b><br>
-      <b>Dado que</b> el usuario está visualizando una lista de resultados o recomendaciones<br>
-      <b>Cuando</b> se muestra cada experiencia en formato de tarjeta<br>
-      <b>Entonces</b> la tarjeta incluye la <b>Imagen principal</b>, <b>Título</b>, <b>Precio</b>, <b>Duración</b> y <b>Categoría</b> de la experiencia.<br>
-      <br>
-      <b>Escenario B: Toggle de Favorito sin navegación</b><br>
-      <b>Dado que</b> el usuario toca el ícono de corazón para guardar una experiencia<br>
-      <b>Cuando</b> se produce la interacción<br>
-      <b>Entonces</b> la experiencia se añade/elimina de su lista de favoritos.
-    </td>
-  </tr>
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>US05</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP02 – Exploración y Búsqueda de Destinos</td>
+  </tr>
+  <tr>
+    <th colspan="4">Title</th>
+  </tr>
+  <tr>
+    <td colspan="4">Gestión de favoritos desde las tarjetas de experiencia</td>
+  </tr>
+  <tr>
+    <th colspan="4">Description</th>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Como</b> usuario, <b>quiero</b> guardar o eliminar experiencias como favoritas directamente desde su vista resumida, <b>para</b> mantener una lista personalizada de mis destinos preferidos.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Acceptance Criteria</th>
+  </tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 01: Registro de favoritos</b><br>
+      Dado que el usuario selecciona una experiencia para guardar,<br>
+      Cuando el sistema recibe la acción,<br>
+      Entonces debe registrar la experiencia en la lista de favoritos del usuario.<br><br>
+      <b>Escenario 02: Eliminación de favoritos</b><br>
+      Dado que la experiencia ya se encuentra registrada como favorita,<br>
+      Cuando el usuario decide retirarla,<br>
+      Entonces el sistema debe actualizar el estado y eliminar la experiencia de su lista personalizada.
+    </td>
+  </tr>
 </table>
 
 <table border="1" cellspacing="0" cellpadding="6">
@@ -1038,41 +1036,37 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <td>US06</td>
     <td>Usuario</td>
     <td>Alta</td>
-    <td>EP02 – Exploración y Búsqueda de Destinos (Mobile)</td>
+    <td>EP02 – Exploración y Búsqueda de Destinos</td>
   </tr>
   <tr>
     <th colspan="4">Title</th>
   </tr>
   <tr>
-    <td colspan="4">Búsqueda inicial, mapa centrado y refinamiento dinámico de filtros</td>
+    <td colspan="4">Búsqueda avanzada con filtros dinámicos y mapa contextual</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
   </tr>
   <tr>
-    <td colspan="4">
-      <b>Como</b> usuario, <b>quiero</b> que los valores de mi búsqueda inicial se transfieran y que el mapa se centre automáticamente, además de poder modificar <b>cualquiera de los cuatro filtros (Destino, Día, Presupuesto, Tipo de Experiencia)</b> de manera dinámica en la página de resultados, <b>para</b> ajustar y ampliar mi exploración sin tener que reiniciar la búsqueda.
-    </td>
+    <td colspan="4"><b>Como</b> usuario, <b>quiero</b> refinar mis resultados de búsqueda mediante filtros dinámicos y visualizar las experiencias en un mapa centrado en mi destino, <b>para</b> optimizar la exploración de opciones sin reiniciar la búsqueda.</td>
   </tr>
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario A: Transferencia de búsqueda y mapa centrado</b><br>
-      <b>Dado que</b> el usuario ingresa valores para <b>Destino</b> y <b>Día</b> en el formulario de la página de inicio<br>
-      <b>Cuando</b> el usuario presiona el botón de <b>Buscar</b><br>
-      <b>Entonces</b> el sistema navega a la página de resultados, los cuatro filtros se muestran precargados con los valores seleccionados (si los hubiera), y el mapa se carga centrado en el Destino elegido.<br>
-      <br>
-      <b>Escenario B: Refinamiento dinámico de filtros</b><br>
-      <b>Dado que</b> el usuario se encuentra en la página de resultados<br>
-      <b>Cuando</b> el usuario edita o cambia el valor de cualquiera de los filtros (<b>Destino, Día, Presupuesto, Tipo de Experiencia</b>)<br>
-      <b>Entonces</b> la lista de experiencias y el mapa se actualizan de forma inmediata para reflejar los nuevos criterios.<br>
-      <br>
-      <b>Escenario C: Anulación de un filtro</b><br>
-      <b>Dado que</b> el usuario tiene valores seleccionados en uno o varios filtros (<b>Destino, Día, Presupuesto, Tipo de Experiencia</b>)<br>
-      <b>Cuando</b> el usuario vuelve a seleccionar la opción inicial (placeholder o valor sin filtro) en cualquiera de estos campos<br>
-      <b>Entonces</b> el sistema anula ese criterio, ampliando los resultados, mientras mantiene activos los demás filtros que sigan aplicados.
+      <b>Escenario 01: Transferencia de parámetros de búsqueda</b><br>
+      Dado que el usuario define criterios de búsqueda,<br>
+      Cuando el sistema recibe esos valores,<br>
+      Entonces debe mantenerlos activos al mostrar los resultados y centrar el mapa en el destino correspondiente.<br><br>
+      <b>Escenario 02: Aplicación dinámica de filtros</b><br>
+      Dado que el usuario modifica los valores de los filtros (Destino, Día, Presupuesto, Tipo de experiencia),<br>
+      Cuando el sistema detecta el cambio,<br>
+      Entonces debe actualizar los resultados y la información del mapa de forma automática sin requerir reiniciar la búsqueda.<br><br>
+      <b>Escenario 03: Restablecimiento de filtros</b><br>
+      Dado que el usuario elimina uno o más filtros activos,<br>
+      Cuando el sistema actualiza los criterios,<br>
+      Entonces debe ampliar el conjunto de resultados sin afectar los filtros restantes.
     </td>
   </tr>
 </table>
@@ -1088,39 +1082,33 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <td>US07</td>
     <td>Usuario</td>
     <td>Alta</td>
-    <td>EP02 – Exploración y Búsqueda de Destinos (Mobile)</td>
+    <td>EP02 – Exploración y Búsqueda de Destinos</td>
   </tr>
   <tr>
     <th colspan="4">Title</th>
   </tr>
   <tr>
-    <td colspan="4">Visualización de resultados con carga incremental</td>
+    <td colspan="4">Visualización optimizada mediante carga progresiva de resultados</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
   </tr>
   <tr>
-    <td colspan="4">
-      <b>Como</b> usuario,  
-      <b>quiero</b> que los resultados de experiencias se carguen de manera progresiva (scroll infinito o botón "Ver más"),  
-      <b>para</b> poder explorar sin que la página tarde demasiado en mostrar todos los resultados de golpe.
-    </td>
+    <td colspan="4"><b>Como</b> usuario, <b>quiero</b> que los resultados de experiencias se muestren de manera progresiva, <b>para</b> explorar sin afectar el rendimiento de carga en mi dispositivo móvil.</td>
   </tr>
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario A: Carga inicial</b><br>
-      <b>Dado que</b> el usuario realiza una búsqueda<br>
-      <b>Cuando</b> se muestran los resultados<br>
-      <b>Entonces</b> el sistema presenta solo un bloque inicial (ej. 10 resultados) en la lista y en el mapa.<br>
-      <br>
-      <b>Escenario B: Carga adicional</b><br>
-      <b>Dado que</b> el usuario llegó al final de la lista de resultados<br>
-      <b>Cuando</b> activa el scroll infinito o presiona el botón <b>Ver más</b><br>
-      <b>Entonces</b> el sistema carga los siguientes resultados, manteniendo los filtros aplicados.<br>
-      <br>
+      <b>Escenario 01: Carga inicial de resultados</b><br>
+      Dado que el usuario ha realizado una búsqueda,<br>
+      Cuando el sistema obtiene el conjunto de resultados,<br>
+      Entonces debe mostrar un grupo inicial limitado de experiencias y mantener los restantes disponibles para carga posterior.<br><br>
+      <b>Escenario 02: Carga adicional de resultados</b><br>
+      Dado que el usuario alcanza el final del conjunto visible,<br>
+      Cuando el sistema detecta que se requiere más contenido,<br>
+      Entonces debe cargar un nuevo bloque de experiencias manteniendo los filtros y el contexto de búsqueda activos.
     </td>
   </tr>
 </table>
