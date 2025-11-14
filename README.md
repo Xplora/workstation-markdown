@@ -5163,7 +5163,7 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 | Nº Entrevista | Datos del entrevistado  | Resumen de la entrevista     | Evidencia de entrevista                      |
 |---------------|-----------------------------------|-------------------------------|----------------|
 | 1             | - **Nombre:** Joaquin Cuentas <br> - **Edad:** 22 años <br> - **Distrito:** San Miguel <br> - **Link:** [Validación: Joaquin Cuentas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQB1ucAjBVW-QYoSizEoBPDaAZuOgO0WK9VjjYD3O_QqV0Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LcmZQW) | Actualmente es estudiante y le gusta los viajes, va a distintas ciudades con su familia durante sus vacaciones. Las actividades turísticas que más disfruta son viajar a las ciudades para conocer lugares históricos y emblemáticos de la ciudad. Joaquin no utiliza ninguna aplicación para planificar viajes, solo utiliza apps que te permiten ver las reservaciones de hospedaje, pero para actividades turísticas no ha usado. Él entiende que TripMatch es una app ofrecerá para cada ciudad experiencias turísticas con sus respectivos precios, y resalta que las opciones disponibles son claras, lo cual le facilitó en la navegación de la aplicación. Además, agrega que las categorías y filtros de búsqueda le facilitó su búsqueda para las experiencias turísticas, ya que son adecuados para la situación y claras para elegir. Joaquin comenta que una funcionalidad que le agregaría a TripMatch que ofrezca experiencias turísticas de comida, como un descubrimiento de platos típicos y agradables restaurantes en distintas ciudades, una categoría de restaurantes. En cuanto a la sección de recomendaciones de experiencias, él nos comenta que le pareció útil, que le gusta que se muestre las cosas que él muestra interés en las recomendaciones y que aquello facilita su búsqueda de experiencias. Por último, Joaquin nos señala que sería bueno agregar una funcionalidad, que él considera importante, sobre la cancelación de reserva si es que ya uno no desea aquella experiencia. | ![Entrevista 1: Joaquin Cuentas](https://i.imgur.com/qEvRfPU.png) |
-| 2             | - **Nombre:** Manuel Tumi <br> - **Edad:** 25 años <br> - **Distrito:** Magdalena del Mar <br> - **Link:** [Validación: Manuel Tumi](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQBFcf0SxQalQ6F_gINc1jTSAf2uWUSaHPcxERYQLDIxlmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iR1XNI) | Manuel es un estudiante de Ingeniería de Software y lo que mas busca y disfruta durante sus viajes es conocer lugares nuevos, cuando viaja él se comunica con los habitantes locales para preguntar que lugares le recomiendan visitar y señala que le parece interesante lo que ofrece TripMatch ya que la app le ahorraría obtener recomendaciones en persona. Él nos comenta que las únicas apps que utiliza para sus viajes es para encontrar buses que le lleven a su destino deseado, pero no ha usado una app de experiencias (tours) que le facilite planificar su paseos turísticos. Mas bien, él le preguntaba a sus amigos que agencias de viaje utilizaban durante sus excursiones, pero aun así no se sentía del todo satisfecho, ya que su interés y los intereses de sus amigos eran diferentes lo que lo hacia un poco complicado. Manuel comprende que TripMatch B4ofrece experiencias a los turistas y le parece una buena idea, debido a que no se ve apps de este rubro mucho en el país. Considera que esta plataforma es adecuada para él, le gusta que la app sea directa y clara en cuanto a la búsqueda de experiencias en determinado destino. | ![Entrevista 2: Manuel Tumi](https://i.imgur.com/l5aEy7T.png) |
+| 2             | - **Nombre:** Manuel Tumi <br> - **Edad:** 25 años <br> - **Distrito:** Magdalena del Mar <br> - **Link:** [Validación: Manuel Tumi](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQBFcf0SxQalQ6F_gINc1jTSAf2uWUSaHPcxERYQLDIxlmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iR1XNI) | Manuel es un estudiante de Ingeniería de Software y lo que más busca y disfruta durante sus viajes es conocer lugares nuevos, cuando viaja él se comunica con los habitantes locales para preguntar qué lugares le recomiendan visitar y señala que le parece interesante lo que ofrece TripMatch ya que la app le ahorraría obtener recomendaciones en persona. Él nos comenta que las únicas apps que utiliza para sus viajes es para encontrar buses que le lleven a su destino deseado, pero no ha usado una app de experiencias (tours) que le facilite planificar su paseos turísticos. Más bien, él le preguntaba a sus amigos que agencias de viaje utilizaban durante sus excursiones, pero aun así no se sentía del todo satisfecho, ya que su interés y los intereses de sus amigos eran diferentes lo que lo hacía un poco complicado. Manuel comprende que TripMatch  ofrece experiencias a los turistas y le parece una buena idea, debido a que no se ven mucho este tipo de apps en el país. Considera que esta plataforma es adecuada para él, le gusta que la app sea directa y clara en cuanto a la búsqueda de experiencias en determinado destino. Destaca que está bien organizado y es intuitivo aplicación, le pareció fácil de usar, no es confuso para él. La funcionalidad extra que le agregaría es el seguimiento en tiempo real de los tours con horas, listado de experiencias de varios días y mensajes si es que ocurre algún impertinente. La sección de recomendación le pareció útil, ya que le ahorra tiempo de buscar lugares nuevos a visitar. Por último, señala que lo que más le gustó de TripMatch es su simpleza y claro enfoque de servicio.  | ![Entrevista 2: Manuel Tumi](https://i.imgur.com/l5aEy7T.png) |
 | 3             | - **Nombre:** Fabricio Diaz <br> - **Edad:** 21<br> - **Distrito:** Callao <br> - **Link:** [Validación: Fabricio Diaz](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219481_upc_edu_pe/IQCyq1SBhyntSp7glsSQIUnQAdEtj1BPNHdzikhHUfTrsJ4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jF8wHI) |La entrevista con Fabricio, un viajero que busca experiencias auténticas y huye de los tours masivos, validó la propuesta de valor de TripMatch. Aunque su problema principal es la desconfianza al reservar online y la dificultad para encontrar opciones flexibles, percibió que la plataforma ataca estos puntos al ofrecer experiencias personalizadas y filtros útiles (especialmente el de presupuesto). Valoró positivamente la facilidad de uso de la app, pero insistió en que para ganar su confianza total, TripMatch debe destacar visiblemente cómo verifica a las agencias, asegurar precios finales sin cargos ocultos y añadir una función de chat para consultas directas antes de reservar.| ![Entrevista 3](img/entrevista-turista-fabricio.png) |
 
 </div>
@@ -5174,9 +5174,9 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 
 | Nº Entrevista | Datos del entrevistado  | Resumen de la entrevista     | Evidencia de entrevista                      |
 |---------------|-----------------------------------|-------------------------------|----------------|
-| 1             | - **Nombre:** Nayib Maguiña<br> - **Edad:** 25 años <br> - **Distrito:** San Miguel <br> - **Link:** [Validación: Nayib Maguiña](httpss://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQDRT2CSMUhnTqTiP6HTBL6hAVOlpbJnXTYOC7TVsQv2vRQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QqatyY) | | ![Entrevista 4: Nayib Maguiña](https://i.imgur.com/J0ku8yt.png) |
+| 1             | - **Nombre:** Nayib Maguiña<br> - **Edad:** 25 años <br> - **Distrito:** San Miguel <br> - **Link:** [Validación: Nayib Maguiña](httpss://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQDRT2CSMUhnTqTiP6HTBL6hAVOlpbJnXTYOC7TVsQv2vRQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QqatyY) | Nayib tiene una agencia familiar TravExpress, la cual ofrece experiencias turísticas personalizadas con paquetes completos full-day o no completos con actividades locales en provincias. Actualmente, gestionan las reservas mediante WhatsApp, Facebook y manejan sus datos en Excel. Él entiende que TripMatch conecta turistas a agencias para reservar experiencias turísticas y gestionarlas en una sola plataforma. También señala que prefiere que la Landing Page de TripMatch muestre casos de usos, ejemplos reales de uso de la app y una información de los beneficios reales para las agencias en videos demostrativos. Tras navegar por la plataforma, él señala que la app le parece moderna, se ve bien organizada y orientada a resolver problemas reales de gestión. También, destaca que fue fácil la navegación de la app e intuitivo. Sobre las secciones de reservas y consultas, comenta que es vital para agencias como la que él posee, ya que centraliza toda la gestión y ahorra tiempo. Asimismo, nos comenta que lo diferencial que tiene la plataforma es la interacción en tiempo real con los turistas y sugiere que se implemente una sección de estadísticas de ventas para las agencias o rendimiento de tour (que tal agradable es). Lo que más le gusto sobre la vista de agencias de turismo, es la facilidad de realizar la reserva es claro y conciso. Por último, menciona que sí usaría TripMatch debido a que atraerá a clientes por la modernidad y la eficiencia que brinda.  | ![Entrevista 4: Nayib Maguiña](https://i.imgur.com/J0ku8yt.png) |
 | 2             | - **Nombre:** Hector <br> - **Edad:** 24 años <br> - **Distrito:** San Miguel <br> - **Link:** [Validación de Hector](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c505_upc_edu_pe/IQDipORQmeTrTqdTSO8-yJrGAfvuivg_YQldy_hEAHGPjOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=kBmkI9) |Héctor, quien gestiona servicios turísticos en Lima, actualmente utiliza un sistema fragmentado de WhatsApp, Excel y redes sociales, lo que le ocasiona desorden y pérdida de información. Tras la demostración, validó a TripMatch como una solución ideal para agencias pequeñas que buscan digitalizar y centralizar su operación. Lo que más valoró fue la capacidad de la plataforma para unificar la gestión de experiencias, reservas, consultas y reseñas en un solo lugar. La aplicación web le pareció moderna, ligera y fácil de usar, incluso para personal no técnico. Sus principales sugerencias de mejora fueron destacar más los beneficios para las agencias en la landing page y añadir un panel de estadísticas más visual con gráficos para analizar el rendimiento. | ![Entrevista 5](img/entrevista-agencias-hector.png) |
-| 3             | - **Nombre:** <br> - **Edad:** <br> - **Distrito:** <br> - **Link:** [Validación de entrevista Segmento #2 .mp4]() | | ![Entrevista 6]() |
+
 
 </div>
 
@@ -5192,21 +5192,32 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 **AUDITOR**: TripMatch
 
 **CLIENTE(S)**:
+
 * Joaquin Cuentas
 * Manuel Tumi
-* 
+* Fabricio
 * Nayib Maguiña
-*
-*
+* Hector
 
-**SITE O APP A EVALUAR**: TripMatch
+**SITE O APP A EVALUAR**: TripMatch <br>
 
-**TAREAS A EVALUAR**:
-El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
-* 
+**TAREAS A EVALUAR**: <br>
 
-No están incluidas en esta versión de la evaluación las siguientes tareas:
-* 
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas: <br>
+
+* Pantallas de Inicio de sesión y Registro 
+* Pantalla de Inicio para turista y Agencias de turismo
+* Pantalla de Favoritos para turista
+* Pantalla de Itinerario para turista
+* Pantalla de Perfil para turista y agencias de turismo
+* Pantalla de Experiencia para agencias
+* Pantalla de Reservas para agencias
+* Pantalla de Consultas para agencias
+<br>
+
+No están incluidas en esta versión de la evaluación las siguientes tareas: <br>
+* Pantalla de información de agencias de viajes en la pantalla de experiencia para reservar.
+<br>
 
 **ESCALA DE SEVERIDAD**:
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
@@ -5222,27 +5233,50 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 | # | Problema                                                                                        | Escala de severidad | Heurística/Principio violada(o)       |
 | :- | :---------------------------------------------------------------------------------------------- | :------------------ | :------------------------------------ |
-| 1 |  |                    |  |
-| 2 |  |                    |           |
-| 3 |  |                    |         |
-| 4 |  |                    |          |
+| 1 | La plataforma no permite la cancelación de reservas por parte del usuario    |   3   | Control y libertad del usuario |
+| 2 | La aplicación no cuenta con un sistema de notificaciones claro para el usuario. |  2    |    Visibilidad y localización      |
+| 3 | Falta un sistema de seguimiento en tiempo real de los tours, como las horas y mensajes de actualizaciones. | 2  |   Información visible y actualización constante      |
 
 #### DESCRIPCIÓN DE PROBLEMAS
 
 #### PROBLEMA #1:
-* **Severidad**: 
-* **Heurística violada**: 
-* **Problema**: 
 
-**Figura**
+* **Severidad**: 3
 
-  <p align="center">
-  <img src="" alt="fig1" width="500">
-  </p>
+* **Heurística violada**: Control y libertad del usuario
 
-*Nota. Elaboración propia.*
+* **Problema**: La plataforma no permite la cancelación de reservas por parte del usuario. Esto limita la flexibilidad que los usuarios necesitan para gestionar sus planes de viaje, especialmente si hay cambios inesperados o cambios de última hora en sus preferencias.
 
-**Recomendación**:
+
+**Recomendación**: Implementar una funcionalidad que permita a los usuarios cancelar sus reservas fácilmente desde su perfil o la sección de reservas de la aplicación. Esto aumentará la flexibilidad y control para los usuarios.
+
+<br>
+
+#### PROBLEMA #2:
+
+* **Severidad**: 2
+
+* **Heurística violada**: Visibilidad y localización
+
+* **Problema**: La aplicación no cuenta con un sistema de notificaciones claro para el usuario. Esto dificulta que los usuarios se mantengan informados sobre actualizaciones importantes como cambios en las reservas o nuevas recomendaciones.
+
+
+**Recomendación**: Implementar un sistema de notificaciones más claro y accesible, como un ícono en la parte superior de la aplicación que notifique cambios importantes, nuevas recomendaciones o actualizaciones en las reservas.
+
+<br>
+
+#### PROBLEMA #3:
+
+* **Severidad**: 2
+
+* **Heurística violada**: Información visible y actualización constante
+
+* **Problema**: Falta un sistema de seguimiento en tiempo real de los tours, como las horas y mensajes de actualizaciones importantes. Esto afecta la capacidad del usuario para gestionar y disfrutar de su experiencia de forma adecuada.
+
+
+**Recomendación**: Incorporar una funcionalidad de seguimiento en tiempo real para los tours, incluyendo detalles como las horas de inicio, la duración y cualquier mensaje importante sobre el recorrido, lo que mejorará la experiencia del usuario y la claridad de la información.
+
+
 
 
 
