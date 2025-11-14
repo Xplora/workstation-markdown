@@ -5049,6 +5049,9 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
   <img src="https://i.imgur.com/qEvRfPU.png" alt="ent1" width="500">
   </p>
 
+<br>
+Actualmente es estudiante y le gusta los viajes, va a distintas ciudades con su familia durante sus vacaciones. Las actividades turísticas que más disfruta son viajar a las ciudades para conocer lugares históricos y emblemáticos de la ciudad. Joaquin no utiliza ninguna aplicación para planificar viajes, solo utiliza apps que te permiten ver las reservaciones de hospedaje, pero para actividades turísticas no ha usado. Él entiende que TripMatch es una app ofrecerá para cada ciudad experiencias turísticas con sus respectivos precios, y resalta que las opciones disponibles son claras, lo cual le facilitó en la navegación de la aplicación. Además, agrega que las categorías y filtros de búsqueda le facilitó su búsqueda para las experiencias turísticas, ya que son adecuados para la situación y claras para elegir. Joaquin comenta que una funcionalidad que le agregaría a TripMatch que ofrezca experiencias turísticas de comida, como un descubrimiento de platos típicos y agradables restaurantes en distintas ciudades, una categoría de restaurantes. En cuanto a la sección de recomendaciones de experiencias, él nos comenta que le pareció útil, que le gusta que se muestre las cosas que él muestra interés en las recomendaciones y que aquello facilita su búsqueda de experiencias. Por último, Joaquin nos señala que sería bueno agregar una funcionalidad, que él considera importante, sobre la cancelación de reserva si es que ya uno no desea aquella experiencia. <br>
+
 Link: [Validación de entrevista Segmento #1 Joaquin Cuentas.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQB1ucAjBVW-QYoSizEoBPDaAZuOgO0WK9VjjYD3O_QqV0Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LcmZQW)
 
 ##### Entrevistado #2: Manuel Tumi
@@ -5058,6 +5061,10 @@ Link: [Validación de entrevista Segmento #1 Joaquin Cuentas.mp4](https://upcedu
   <p align="center">
   <img src="https://i.imgur.com/l5aEy7T.png" alt="ent2" width="500">
   </p>
+
+<br>
+
+Manuel es un estudiante de Ingeniería de Software y lo que mas busca y disfruta durante sus viajes es conocer lugares nuevos, cuando viaja él se comunica con los habitantes locales para preguntar que lugares le recomiendan visitar y señala que le parece interesante lo que ofrece TripMatch ya que la app le ahorraría obtener recomendaciones en persona. Él nos comenta que las únicas apps que utiliza para sus viajes es para encontrar buses que le lleven a su destino deseado, pero no ha usado una app de experiencias (tours) que le facilite planificar su paseos turísticos. Mas bien, él le preguntaba a sus amigos que agencias de viaje utilizaban durante sus excursiones, pero aun así no se sentía del todo satisfecho, ya que su interés y los intereses de sus amigos eran diferentes lo que lo hacia un poco complicado. Manuel comprende que TripMatch  ofrece experiencias a los turistas y le parece una buena idea, debido a que no se ve apps de este rubro mucho en el país. Considera que esta plataforma es adecuada para él, le gusta que la app sea directa y clara en cuanto a la búsqueda de experiencias en determinado destino. <br>
 
 Link: [Validación de entrevista Segmento #1 Manuel Tumi.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQBFcf0SxQalQ6F_gINc1jTSAf2uWUSaHPcxERYQLDIxlmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iR1XNI)
 
