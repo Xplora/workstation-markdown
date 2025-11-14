@@ -4674,7 +4674,7 @@ Despliegue automatizado y seguro, con GitHub Actions para CI/CD y Docker para co
 | **Sprint Goal & User Stories**        | Construir el núcleo visible y funcional de TripMatch: landing, backend básico, evidenciar UX y validar los principales requerimientos funcionales en la aplicación.                                                 |
 | **Sprint 1 Goal**                     | Desplegar la landing page, asegurar el backend operativo al 70%, mostrar las pantallas core y entregar el informe corregido con capítulos UX/UI y Product Implementation & Validation, además de conclusiones, bibliografía y anexos.     |
 | **Sprint 1 Velocity**                 | 4 Velocity                                                           |
-| **Sum of Story Points**               | 180 Story Points                                                       |
+| **Sum of Story Points**               | 88 Story Points                                                       |
 
 #### 4.2.1.2. Sprint Backlog 1
 
@@ -4927,9 +4927,22 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 
 ### 4.2.2. Sprint 2
 
-
-
 #### 4.2.2.1. Sprint Planning 2
+| **Sprint #**                          | **Sprint 2 TripMatch**                                                |
+|---------------------------------------|----------------------------------------------------------------------|
+| **Sprint Planning Background**        |                                                                      |
+| **Date**                             | 13/10/2025                                                           |
+| **Time**                             | 07:00 PM                                                             |
+| **Location**                         | Servidor de Discord del Equipo                                       |
+| **Prepared By**                      | Marcia Melgarejo                                                       |
+| **Attendees (to planning meeting)**   | Oscar Antayhua / Marcia Melgarejo / Rodrigo Alaya / Melisa Sulca / Gabriel Gordon |
+| **Sprint 2 Review Summary**           | Durante el Sprint 2 se implementaron funcionalidades importante para TripMatch. Se continuó avanzando las vistas de agencia de viaje y turista en Kotlin y Flutter. Por ejemplo, se implementó la edición de experiencias existentes, las búsquedas por nombre o categoría, el refinamiento mediante filtros avanzados, etc. Además, se actualizó la Landing Page, se agregó la sección de beneficios para turistas y agencias y se introdujo la sección para los videos Video About The Team y About The Product.            |
+| **Sprint 2 Retrospective Summary**    | El equipo destacó mejoras en la integración entre el frontend y el backend al realizar las funcionalidades de búsquedas, filtros y reservas. Se realizaron las técnicas y pruebas adecuadas y necesarias sobre las HU implementadas en la  app móvil. La comunicación continua del equipo ayudo a resolver situaciones de una manera más rápida.                  |
+| **Sprint Goal & User Stories**        | Construir el flujo central de TripMatch dirigido a turistas y agencias de viajes con las funcionalidades de búsqueda y exploración de experiencias, interacción con los detalles de aquellas experiencias, la realización de las reservas y visualización de reseñas y consultas. Asimismo, reforzar la experiencia de la landing page y transmitir los beneficios para cada tipo de usuario de TripMatch.                                          |
+| **Sprint 2 Goal**                     | Entregar un sistema funcional con las nuevas funcionalidades agregadas. Además, desplegar la landing page, el backend y ambas vistas de la app con pantallas core y entregar el informe corregido con el sprint 2, además de conclusiones, bibliografía y anexos.     |
+| **Sprint 2 Velocity**                 | 11 Velocity                                                           |
+| **Sum of Story Points**               |  45 Story Points                                                       |
+
 
 #### 4.2.2.2. Sprint Backlog 2
 
