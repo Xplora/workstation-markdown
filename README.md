@@ -4973,10 +4973,12 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 **User flows utilizados:**
 
 * **Segmento 1: Turistas**
-    * Como usuario,
+    * Como usuario, quiero poder explorar diversas experiencias de distintas agencias de turismo para reservar la mejor experiencia y disfrutar mi viaje.
+    * Como usuario, quiero poder navegar fácilmente e intuitivamente entre la sección de experiencias, mis itinerarios y mis experiencias favoritas.
 
 * **Segmento 2: Agencias de Turismo**
-    * Como usuario, 
+    * Como usuario, quiero poder agregar experiencias que mi agencia de viaje ofrece para atraer turistas y mejorar la valoración de mi agencia.
+    * Como usuario, quiero poder visualiazr y responder las consultas hechas por turistas sobre la experiencia que agregué para poder mejorar mi servicio y atender sus dudas.
 
 **Preguntas:**
 
@@ -5038,7 +5040,7 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 * Distrito: San Miguel
 
   <p align="center">
-  <img src="" alt="ent1" width="500">
+  <img src="https://i.imgur.com/qEvRfPU.png" alt="ent1" width="500">
   </p>
 
 Link: [Validación de entrevista Segmento #1 Joaquin Cuentas.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQB1ucAjBVW-QYoSizEoBPDaAZuOgO0WK9VjjYD3O_QqV0Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LcmZQW)
@@ -5048,7 +5050,7 @@ Link: [Validación de entrevista Segmento #1 Joaquin Cuentas.mp4](https://upcedu
 * Distrito: Magdalena del Mar
 
   <p align="center">
-  <img src="" alt="ent1" width="500">
+  <img src="https://i.imgur.com/l5aEy7T.png" alt="ent2" width="500">
   </p>
 
 Link: [Validación de entrevista Segmento #1 Manuel Tumi.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQBFcf0SxQalQ6F_gINc1jTSAf2uWUSaHPcxERYQLDIxlmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iR1XNI)
@@ -5058,7 +5060,7 @@ Link: [Validación de entrevista Segmento #1 Manuel Tumi.mp4](https://upcedupe-m
 * Distrito:  
 
   <p align="center">
-  <img src="" alt="ent1" width="500">
+  <img src="" alt="ent3" width="500">
   </p>
 
 Link: [Validación de entrevista Segmento #1 .mp4]()
@@ -5071,7 +5073,7 @@ Link: [Validación de entrevista Segmento #1 .mp4]()
 * Distrito: San Miguel
 
   <p align="center">
-  <img src="" alt="ent1" width="500">
+  <img src="https://i.imgur.com/J0ku8yt.png" alt="ent4" width="500">
   </p>
 
 Link: [Validación de entrevista Segmento #2 Nayib Maguiña.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQDRT2CSMUhnTqTiP6HTBL6hAVOlpbJnXTYOC7TVsQv2vRQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QqatyY)
@@ -5081,7 +5083,7 @@ Link: [Validación de entrevista Segmento #2 Nayib Maguiña.mp4](https://upcedup
 * Distrito: 
 
   <p align="center">
-  <img src="" alt="ent1" width="500">
+  <img src="" alt="ent5" width="500">
   </p>
 
 Link: [Validación de entrevista Segmento #2 .mp4]()
@@ -5091,7 +5093,7 @@ Link: [Validación de entrevista Segmento #2 .mp4]()
 * Distrito:  
 
   <p align="center">
-  <img src="" alt="ent1" width="500">
+  <img src="" alt="ent6" width="500">
   </p>
 
 Link: [Validación de entrevista Segmento #2 .mp4]()
@@ -5102,10 +5104,10 @@ Link: [Validación de entrevista Segmento #2 .mp4]()
 #### UX Heuristics & Principles Evaluation
 #### Usability - Inclusive Design - Information Architecture
 
-**CARRERA**: Ingeniería de Software
-**CURSO**: Aplicaciones para Dispositivos Móviles
-**NRC**: 14649
-**PROFESORES**: David Gerardo Quevedo Velasco
+**CARRERA**: Ingeniería de Software <br>
+**CURSO**: Aplicaciones para Dispositivos Móviles <br>
+**NRC**: 14649 <br>
+**PROFESORES**: David Gerardo Quevedo Velasco <br>
 **AUDITOR**: TripMatch
 
 **CLIENTE(S)**:
