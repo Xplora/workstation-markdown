@@ -506,9 +506,11 @@ Aproximadamente el 82% de las reservas de viajes en 2018 se realizaron a través
 
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
-Nuestro servicio ofrece una aplicación que conecta a viajeros con agencias de turismo locales, permitiendo a los usuarios explorar, comparar y reservar experiencias auténticas y personalizadas basadas en sus preferencias, presupuesto y destino. Al mismo tiempo, brindamos a las agencias locales herramientas digitales para gestionar sus servicios, interactuar con clientes en tiempo real y ampliar su alcance comercial de manera eficiente, promoviendo el turismo responsable y el crecimiento de negocios locales. <br>  
-Hemos identificado un factor crítico que afecta tanto a viajeros como a agencias locales. Los turistas enfrentan dificultades para encontrar experiencias confiables y adaptadas a sus intereses, mientras que las agencias carecen de una presencia digital efectiva para competir en un mercado cada vez más globalizado. Esta desconexión genera frustración en los viajeros, que terminan recurriendo a opciones genéricas o masificadas, y limita el crecimiento de las agencias, que no logran aprovechar la creciente demanda de turismo auténtico y personalizado. <br>  
-¿Cómo podemos mejorar la conexión entre viajeros y agencias locales para garantizar experiencias turísticas auténticas y personalizadas simplificando el proceso de planificación y reserva, con un impacto positivo en el turismo responsable?
+Nuestro servicio ofrece una aplicación que permite a viajeros explorar, comparar y reservar experiencias turísticas gestionadas por agencias locales. Al mismo tiempo, la plataforma brinda a estas agencias un espacio digital para mostrar sus servicios y conectarse con potenciales clientes dentro de un entorno seguro y accesible.
+
+Hemos identificado un factor crítico que afecta la experiencia tanto de viajeros como de agencias locales: actualmente existe una baja efectividad en la interacción entre ambos actores, lo que dificulta que los viajeros encuentren experiencias alineadas a sus intereses y que las agencias logren una mayor visibilidad dentro del mercado turístico.
+
+¿Cómo podemos mejorar la efectividad de la conexión entre viajeros y agencias locales para asegurar experiencias turísticas auténticas y alineadas a las preferencias del usuario, fortaleciendo al mismo tiempo la interacción dentro de la plataforma?
 
 #### 1.2.2.2. Lean UX Assumptions
 **User Assumptions**
@@ -1013,7 +1015,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <th colspan="4">Title</th>
   </tr>
   <tr>
-    <td colspan="4">Acceder a la creación de experiencias desde Gestión de Experiencias</td>
+    <td colspan="4">Crear una experiencia</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -1976,7 +1978,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <th colspan="4">Title</th>
   </tr>
   <tr>
-    <td colspan="4">Ver reseñas en el perfil de agencia</td>
+    <td colspan="4">Ver reseñas en el perfil de agencia como turista</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -2702,48 +2704,49 @@ El Impact Mapping es una metodología visual y ágil que permite a las organizac
 ### 2.4.3. Product Backlog
 | # Orden | User Story Id | Título | Story Points (1 / 2 / 3 / 5 / 8) |
 | :---: | :---: | :--- | :---: |
-| 1 | US36 | Descubrimiento de beneficios para turistas | 5 |
-| 2 | US37 | Conocer el propósito de la plataforma | 5 |
-| 3 | US38 | Navegación simple desde el header | 3 |
-| 4 | US39 | Acceder al formulario de contacto | 5 |
-| 5 | US40 | Registro desde la landing | 3 |
-| 6 | US41 | Identificación de beneficios para agencias | 3 |
-| 7 | US42 | Conocer cómo funciona la plataforma | 5 |
-| 8 | US01 | Registro de nuevo usuario con validación | 5 |
-| 9 | US02 | Inicio de sesión con credenciales y manejo de errores | 3 |
-| 10 | US03 | Garantía de seguridad y confirmación de la contraseña | 3 |
-| 11 | US04 | Recomendaciones basadas en Popularidad y Categorías en la Home | 8 |
-| 12 | US05 | Acciones Rápidas (Favoritos) en Tarjeta de Experiencia | 5 |
-| 13 | US06 | Búsqueda inicial, mapa centrado y refinamiento dinámico de filtros | 8 |
-| 14 | US07 | Visualización de resultados con carga incremental | 5 |
-| 15 | US08 | Visualizar mis reservas en un calendario móvil | 5 |
-| 16 | US09 | Visualizar mis reservas en formato lista | 3 |
-| 17 | US10 | Buscar experiencias dentro de mi itinerario | 2 |
-| 18 | US11 | Cancelar una reserva desde el itinerario | 5 |
-| 19 | US12 | Visualizar reservas confirmadas en formato lista | 5 |
-| 20 | US13 | Acceder a la creación de experiencias desde Gestión de Experiencias | 2 |
-| 21 | US14 | Registrar detalles de una experiencia en el formulario | 5 |
-| 22 | US15 | Editar experiencias existentes | 5 |
-| 23 | US16 | Eliminar experiencias publicadas | 3 |
-| 24 | US17 | Visualizar listado de experiencias creadas | 3 |
-| 25 | US18 | Buscar experiencias por nombre o categoría | 3 |
-| 26 | US19 | Realizar una reserva desde la vista de detalle de experiencia | 5 |
-| 27 | US20 | Recibir notificación de confirmación de reserva | 3 |
-| 28 | US21 | Recibir notificación recordatoria de experiencia próxima | 5 |
-| 29 | US22 | Enviar consulta desde los detalles de una experiencia | 3 |
-| 30 | US23 | Visualizar consultas recibidas de turistas | 5 |
-| 31 | US24 | Responder consultas de turistas | 5 |
-| 32 | US25 | Recibir notificación de respuesta a consulta | 2 |
-| 33 | US26 | Consultar historial de mis preguntas y respuestas | 3 |
-| 34 | US27 | Dejar una reseña con calificación en estrellas y comentario | 8 |
-| 35 | US28 | Editar o eliminar mi reseña publicada | 5 |
-| 36 | US29 | Visualizar reseñas de otros turistas en la agencia | 5 |
-| 37 | US30 | Visualizar reseñas y promedio de calificaciones en mi perfil | 3 |
-| 38 | US31 | Editar información personal en el perfil de turista | 5 |
-| 39 | US32 | Visualizar mi perfil con datos actualizados | 2 |
-| 40 | US33 | Editar información del perfil de agencia | 5 |
-| 41 | US34 | Ver reseñas en el perfil de agencia | 3 |
-| 42 | US35 | Mostrar estadísticas en el perfil de agencia | 5 |
+| 1 | US13 | Crear una experiencia | 5 |
+| 2 | US14 | Registrar detalles de una experiencia | 5 |
+| 3 | US15 | Editar experiencias existentes | 5 |
+| 4 | US16 | Eliminar experiencias publicadas | 3 |
+| 5 | US17 | Visualizar listado de experiencias creadas | 3 |
+| 6 | US18 | Buscar experiencias por nombre o categoría | 3 |
+| 7 | US04 | Generar recomendaciones basadas en popularidad | 5 |
+| 8 | US05 | Gestionar experiencias favoritas | 5 |
+| 9 | US06 | Refinar resultados mediante filtros de búsqueda | 3 |
+| 10 | US07 | Cargar resultados de manera progresiva | 5 |
+| 11 | US43 | Consultar detalle de una experiencia | 3 |
+| 12 | US19 | Realizar una reserva desde la vista de detalle de experiencia | 5 |
+| 13 | US08 | Visualizar reservas en un calendario | 5 |
+| 14 | US09 | Visualizar reservas en formato lista | 3 |
+| 15 | US10 | Buscar experiencias dentro del itinerario | 2 |
+| 16 | US11 | Cancelar una reserva del itinerario | 5 |
+| 17 | US12 | Visualizar reservas confirmadas en lista | 5 |
+| 18 | US01 | Registrar usuario con validación de datos | 5 |
+| 19 | US02 | Autenticar inicio de sesión | 3 |
+| 20 | US03 | Validar requisitos de seguridad de la contraseña | 3 |
+| 21 | US31 | Editar información personal en el perfil de turista | 5 |
+| 22 | US32 | Visualizar mi perfil con datos actualizados | 2 |
+| 23 | US33 | Editar información del perfil de agencia | 5 |
+| 24 | US22 | Enviar consulta desde los detalles de una experiencia | 3 |
+| 25 | US23 | Visualizar consultas recibidas de turistas | 5 |
+| 26 | US24 | Responder consultas de turistas | 5 |
+| 27 | US26 | Consultar historial de mis preguntas y respuestas | 3 |
+| 28 | US27 | Dejar una reseña con calificación en estrellas y comentario | 8 |
+| 29 | US28 | Editar o eliminar mi reseña publicada | 5 |
+| 30 | US34 | Ver reseñas en el perfil de agencia | 3 |
+| 31 | US29 | Visualizar reseñas de otros turistas en la agencia | 5 |
+| 32 | US30 | Visualizar reseñas y promedio de calificaciones en mi perfil | 3 |
+| 33 | US35 | Mostrar estadísticas en el perfil de agencia | 5 |
+| 34 | US20 | Recibir notificación de confirmación de reserva | 3 |
+| 35 | US21 | Recibir notificación recordatoria de experiencia próxima | 5 |
+| 36 | US25 | Recibir notificación de respuesta a consulta | 2 |
+| 37 | US36 | Descubrimiento de beneficios para turistas | 5 |
+| 38 | US37 | Conocer el propósito de la plataforma | 5 |
+| 39 | US38 | Navegación simple desde el header | 3 |
+| 40 | US39 | Acceder al formulario de contacto | 5 |
+| 41 | US40 | Registro desde la landing | 3 |
+| 42 | US41 | Identificación de beneficios para agencias | 3 |
+| 43 | US42 | Conocer cómo funciona la plataforma | 5 |
 
 
 ## 2.5. Strategic-Level Domain-Driven Design
