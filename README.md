@@ -46,6 +46,12 @@
     <td style="border: none; padding: 4px;">Sulca Silva Melisa Geraldine</td>
   </tr>
 </table>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 **Octubre - 2025**
 </div>  
@@ -990,7 +996,6 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 </td>
 </tr> </table>
 </table>
-
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
     <th>Story ID</th>
@@ -1014,21 +1019,21 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <th colspan="4">Description</th>
   </tr>
   <tr>
-    <td colspan="4"><b>Como</b> empresa turística, <b>quiero</b> crear nuevas experiencias desde el botón en la sección "Gestión de Experiencias", <b>para</b> centralizar la administración en un único lugar.</td>
+    <td colspan="4"><b>Como</b> empresa turística, <b>quiero</b> iniciar la creación de nuevas experiencias desde el módulo "Gestión de Experiencias", <b>para</b> centralizar la administración en un único lugar.</td>
   </tr>
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario A: Botón visible</b><br>
-      <b>Dado que</b> la empresa está en "Gestión de Experiencias"<br>
-      <b>Cuando</b> entra a la vista<br>
-      <b>Entonces</b> el sistema muestra un botón "Agregar experiencia".<br><br>
-      <b>Escenario B: Redirección</b><br>
-      <b>Dado que</b> la empresa pulsa el botón "Agregar experiencia"<br>
-      <b>Cuando</b> lo selecciona<br>
-      <b>Entonces</b> el sistema redirige al formulario de creación de experiencias.
+      <b>Escenario A: Disponibilidad de acceso a creación</b><br>
+      <b>Dado que</b> la empresa accede al módulo "Gestión de Experiencias",<br>
+      <b>Cuando</b> requiere registrar una nueva experiencia,<br>
+      <b>Entonces</b> el sistema debe ofrecer una opción para iniciar el registro de una nueva experiencia.<br><br>
+      <b>Escenario B: Inicio del flujo de creación</b><br>
+      <b>Dado que</b> la empresa decide registrar una nueva experiencia,<br>
+      <b>Cuando</b> selecciona la opción disponible para crear una experiencia,<br>
+      <b>Entonces</b> el sistema debe iniciar el flujo de creación de una nueva experiencia, habilitando el registro de su información.
     </td>
   </tr>
 </table>
@@ -1050,7 +1055,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <th colspan="4">Title</th>
   </tr>
   <tr>
-    <td colspan="4">Registrar detalles de una experiencia en el formulario</td>
+    <td colspan="4">Registrar detalles de una experiencia</td>
   </tr>
   <tr>
     <th colspan="4">Description</th>
@@ -1063,14 +1068,16 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario A: Campos obligatorios</b><br>
-      <b>Dado que</b> la empresa está en el formulario<br>
-      <b>Cuando</b> intenta guardar sin completar los campos requeridos<br>
-      <b>Entonces</b> el sistema muestra un mensaje de alerta.<br><br>
-      <b>Escenario B: Experiencia guardada</b><br>
-      <b>Dado que</b> la empresa llenó todos los campos<br>
-      <b>Cuando</b> pulsa "Guardar"<br>
-      <b>Entonces</b> el sistema crea la experiencia y muestra un mensaje de confirmación.
+      <b>Escenario A: Validación de campos obligatorios</b><br>
+      <b>Dado que</b> la empresa está registrando una nueva experiencia,<br>
+      <b>Cuando</b> intenta completar el registro sin proporcionar todos los campos obligatorios definidos por el sistema,<br>
+      <b>Entonces</b> el sistema debe impedir el registro de la experiencia<br>
+      <b>Y</b> debe notificar que existe información requerida pendiente de completar.<br><br>
+      <b>Escenario B: Registro exitoso de experiencia</b><br>
+      <b>Dado que</b> la empresa proporciona toda la información requerida de la experiencia,<br>
+      <b>Cuando</b> confirma el registro de la experiencia,<br>
+      <b>Entonces</b> el sistema debe almacenar la experiencia de forma correcta,<br>
+      <b>Y</b> debe confirmar que la experiencia fue registrada exitosamente y queda disponible para su publicación.
     </td>
   </tr>
 </table>
@@ -1105,14 +1112,15 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario A: Acceso a edición</b><br>
-      <b>Dado que</b> la empresa visualiza la lista de experiencias<br>
-      <b>Cuando</b> selecciona "Editar"<br>
-      <b>Entonces</b> el sistema abre el formulario con los datos precargados.<br><br>
-      <b>Escenario B: Guardado de cambios</b><br>
-      <b>Dado que</b> la empresa modifica la información<br>
-      <b>Cuando</b> pulsa "Guardar"<br>
-      <b>Entonces</b> el sistema actualiza la experiencia y muestra un mensaje de éxito.
+      <b>Escenario A: Acceso a información editable</b><br>
+      <b>Dado que</b> la empresa gestiona sus experiencias registradas,<br>
+      <b>Cuando</b> requiere modificar una experiencia existente,<br>
+      <b>Entonces</b> el sistema debe permitir acceder a la información registrada de dicha experiencia para su actualización.<br><br>
+      <b>Escenario B: Actualización de experiencia</b><br>
+      <b>Dado que</b> la empresa modifica la información de una experiencia,<br>
+      <b>Cuando</b> confirma la actualización de los datos,<br>
+      <b>Entonces</b> el sistema debe guardar los cambios realizados en la experiencia,<br>
+      <b>Y</b> debe dejar disponible la experiencia actualizada para consultas y gestiones posteriores.
     </td>
   </tr>
 </table>
@@ -1147,14 +1155,15 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario A: Confirmación de eliminación</b><br>
-      <b>Dado que</b> la empresa selecciona "Eliminar" en una experiencia<br>
-      <b>Cuando</b> confirma la acción<br>
-      <b>Entonces</b> el sistema elimina la experiencia y muestra un mensaje de éxito.<br><br>
-      <b>Escenario B: Cancelación</b><br>
-      <b>Dado que</b> la empresa selecciona "Eliminar"<br>
-      <b>Cuando</b> cancela la acción<br>
-      <b>Entonces</b> el sistema no borra la experiencia.
+      <b>Escenario A: Eliminación confirmada</b><br>
+      <b>Dado que</b> la empresa decide dejar de ofrecer una experiencia,<br>
+      <b>Cuando</b> confirma la eliminación de dicha experiencia,<br>
+      <b>Entonces</b> el sistema debe eliminar la experiencia del catálogo disponible para los turistas,<br>
+      <b>Y</b> debe asegurar que la experiencia eliminada no se muestre en futuras búsquedas o listados.<br><br>
+      <b>Escenario B: Cancelación de eliminación</b><br>
+      <b>Dado que</b> la empresa inicia el proceso de eliminación de una experiencia,<br>
+      <b>Cuando</b> cancela la eliminación antes de confirmarla,<br>
+      <b>Entonces</b> el sistema debe mantener la experiencia sin cambios y disponible como antes.
     </td>
   </tr>
 </table>
@@ -1189,14 +1198,14 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario A: Lista cargada</b><br>
-      <b>Dado que</b> la empresa entra a "Gestión de Experiencias"<br>
-      <b>Cuando</b> se carga la vista<br>
-      <b>Entonces</b> el sistema muestra las experiencias en formato tarjetas con título, precio, duración y categoría.<br><br>
-      <b>Escenario B: Lista vacía</b><br>
-      <b>Dado que</b> la empresa no tiene experiencias creadas<br>
-      <b>Cuando</b> entra a la vista<br>
-      <b>Entonces</b> el sistema muestra un mensaje indicando "No tienes experiencias publicadas".
+      <b>Escenario A: Listado con experiencias registradas</b><br>
+      <b>Dado que</b> la empresa tiene experiencias registradas en el sistema,<br>
+      <b>Cuando</b> accede al módulo "Gestión de Experiencias",<br>
+      <b>Entonces</b> el sistema debe mostrar un listado con la información principal de cada experiencia (por ejemplo, título, precio, duración y categoría).<br><br>
+      <b>Escenario B: Sin experiencias registradas</b><br>
+      <b>Dado que</b> la empresa no tiene experiencias registradas en el sistema,<br>
+      <b>Cuando</b> accede al módulo "Gestión de Experiencias",<br>
+      <b>Entonces</b> el sistema debe indicar que no existen experiencias disponibles para mostrar.
     </td>
   </tr>
 </table>
@@ -1232,13 +1241,13 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   <tr>
     <td colspan="4">
       <b>Escenario A: Búsqueda por nombre</b><br>
-      <b>Dado que</b> la empresa tiene varias experiencias<br>
-      <b>Cuando</b> escribe un título en el buscador<br>
-      <b>Entonces</b> el sistema filtra y muestra solo las coincidencias.<br><br>
+      <b>Dado que</b> la empresa cuenta con varias experiencias registradas,<br>
+      <b>Cuando</b> proporciona un criterio de búsqueda basado en el nombre de la experiencia,<br>
+      <b>Entonces</b> el sistema debe mostrar únicamente las experiencias cuyo nombre coincida total o parcialmente con el criterio ingresado.<br><br>
       <b>Escenario B: Búsqueda por categoría</b><br>
-      <b>Dado que</b> la empresa selecciona una categoría en el filtro<br>
-      <b>Cuando</b> aplica el filtro<br>
-      <b>Entonces</b> el sistema muestra solo las experiencias asociadas a esa categoría.
+      <b>Dado que</b> la empresa cuenta con varias experiencias registradas,<br>
+      <b>Cuando</b> define una categoría como criterio de búsqueda,<br>
+      <b>Entonces</b> el sistema debe mostrar únicamente las experiencias asociadas a esa categoría.
     </td>
   </tr>
 </table>
@@ -1266,21 +1275,25 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <th colspan="4">Description</th>
   </tr>
   <tr>
-    <td colspan="4"><b>Como</b> turista, <b>quiero</b> reservar una experiencia desde su pantalla de detalle, <b>para</b> confirmar mi participación en la fecha y horario seleccionados desde mi móvil.</td>
+    <td colspan="4"><b>Como</b> turista, <b>quiero</b> reservar una experiencia a partir de su información de detalle, <b>para</b> confirmar mi participación en la fecha y horario seleccionados desde mi móvil.</td>
   </tr>
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario A: Reserva exitosa</b><br>
-      <b>Dado que</b> el turista ha ingresado a la vista de detalle<br>
-      <b>Cuando</b> selecciona fecha, horario y número de personas y pulsa "Reservar ahora"<br>
-      <b>Entonces</b> el sistema confirma la reserva y muestra un mensaje de éxito.<br><br>   
-      <b>Escenario B: Validación faltante</b><br>
-      <b>Dado que</b> el turista no selecciona fecha u horario<br>
-      <b>Cuando</b> intenta reservar<br>
-      <b>Entonces</b> el sistema muestra un mensaje indicando que debe completar los campos obligatorios.
+      <b>Escenario A: Reserva válida registrada</b><br>
+      <b>Dado que</b> el turista consulta la información de una experiencia disponible,<br>
+      <b>Cuando</b> proporciona una fecha, un horario y el número de personas requeridas<br>
+      <b>Y</b> confirma que desea reservar la experiencia,<br>
+      <b>Entonces</b> el sistema debe validar que la información obligatoria fue completada<br>
+      <b>Y</b> verificar la disponibilidad para esa fecha y horario,<br>
+      <b>Y</b> registrar la reserva asociándola al turista y a la experiencia seleccionada.<br><br>
+      <b>Escenario B: Falta de información obligatoria</b><br>
+      <b>Dado que</b> el turista desea realizar una reserva,<br>
+      <b>Cuando</b> no proporciona alguno de los datos obligatorios definidos por el sistema (por ejemplo, fecha u horario),<br>
+      <b>Entonces</b> el sistema debe rechazar el registro de la reserva<br>
+      <b>Y</b> notificar que existe información requerida pendiente de completar.
     </td>
   </tr>
 </table>
@@ -1308,21 +1321,23 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <th colspan="4">Description</th> 
   </tr> 
   <tr> 
-    <td colspan="4"><b>Como</b> turista, <b>quiero</b> recibir una notificación en mi dispositivo móvil al confirmar una reserva, <b>para</b> estar seguro de que quedó registrada correctamente.</td> 
+    <td colspan="4"><b>Como</b> turista, <b>quiero</b> recibir una notificación cuando se confirme una reserva, <b>para</b> estar seguro de que quedó registrada correctamente.</td> 
   </tr> 
   <tr> 
     <th colspan="4">Acceptance Criteria</th> 
   </tr> 
   <tr> 
     <td colspan="4"> 
-      <b>Escenario A: Confirmación exitosa</b><br> 
-      <b>Dado que</b> el turista completa la reserva<br> 
-      <b>Cuando</b> el sistema la confirma<br> 
-      <b>Entonces</b> se envía una notificación push con los datos principales de la experiencia reservada.<br><br>      
-      <b>Escenario B: Error en confirmación</b><br> 
-      <b>Dado que</b> ocurre un problema de servidor<br> 
-      <b>Cuando</b> el turista intenta reservar<br> 
-      <b>Entonces</b> el sistema muestra un mensaje: "No se pudo confirmar la reserva, intente nuevamente". 
+      <b>Escenario A: Notificación de reserva confirmada</b><br> 
+      <b>Dado que</b> el sistema registra una reserva del turista de forma exitosa,<br> 
+      <b>Cuando</b> la reserva cambia al estado de confirmada,<br> 
+      <b>Entonces</b> el sistema debe generar una notificación de confirmación de reserva<br>
+      <b>Y</b> dicha notificación debe incluir los datos principales de la experiencia reservada (por ejemplo, nombre de la experiencia, fecha, hora y número de personas).<br><br>      
+      <b>Escenario B: Imposibilidad de confirmar la reserva</b><br> 
+      <b>Dado que</b> ocurre un problema interno que impide registrar la reserva del turista,<br> 
+      <b>Cuando</b> el turista intenta completar la reserva,<br> 
+      <b>Entonces</b> el sistema debe indicar que la reserva no pudo ser confirmada<br>
+      <b>Y</b> sugerir al turista que intente nuevamente más adelante.
     </td> 
   </tr> 
 </table>
@@ -1357,18 +1372,20 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario A: Notificación programada</b><br>
-      <b>Dado que</b> el turista tiene una reserva confirmada<br>
-      <b>Cuando</b> falte exactamente 7 días para la fecha de la experiencia<br>
-      <b>Entonces</b> el sistema envía una notificación push con el nombre de la experiencia, la fecha y la hora.<br><br>
-      <b>Escenario B: Acceso desde la notificación</b><br>
-      <b>Dado que</b> el turista recibe una notificación de su próxima experiencia<br>
-      <b>Cuando</b> toca sobre la notificación<br>
-      <b>Entonces</b> el sistema abre directamente la sección "Mis itinerarios" mostrando la tarjeta de esa reserva.<br><br>
-      <b>Escenario C: Cancelación de experiencia</b><br>
-      <b>Dado que</b> el turista cancela una reserva<br>
-      <b>Cuando</b> la cancelación es confirmada<br>
-      <b>Entonces</b> el sistema ya no envía la notificación programada para esa experiencia.
+      <b>Escenario A: Envío de recordatorio previo</b><br>
+      <b>Dado que</b> el turista tiene una reserva confirmada con fecha futura,<br>
+      <b>Cuando</b> falten exactamente 7 días para la fecha programada de la experiencia,<br>
+      <b>Entonces</b> el sistema debe generar un recordatorio automático<br>
+      <b>Y</b> el recordatorio debe incluir al menos el nombre de la experiencia, la fecha y la hora reservada.<br><br>
+      <b>Escenario B: Acceso a la reserva desde el recordatorio</b><br>
+      <b>Dado que</b> el turista recibe un recordatorio de una experiencia próxima,<br>
+      <b>Cuando</b> accede a la información de la reserva desde dicho recordatorio,<br>
+      <b>Entonces</b> el sistema debe mostrar la información detallada de esa reserva en la sección donde el turista gestiona sus itinerarios o reservas ("Mis itinerarios").<br><br>
+      <b>Escenario C: Cancelación de reserva y recordatorio</b><br>
+      <b>Dado que</b> el turista cancela una reserva confirmada,<br>
+      <b>Cuando</b> el sistema registra la cancelación de la reserva,<br>
+      <b>Entonces</b> el sistema debe anular cualquier recordatorio pendiente asociado a dicha experiencia<br>
+      <b>Y</b> no debe enviar notificaciones futuras sobre esa reserva cancelada.
     </td>
   </tr>
 </table>
@@ -1396,21 +1413,26 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <th colspan="4">Description</th>
   </tr>
   <tr>
-    <td colspan="4"><b>Como</b> turista, <b>quiero</b> enviar una consulta directamente desde la ventana de detalles de una experiencia, <b>para</b> resolver dudas antes de reservar.</td>
+    <td colspan="4">
+      <b>Como</b> turista, <b>quiero</b> enviar una consulta directamente desde la información detallada de una experiencia,
+      <b>para</b> resolver dudas antes de reservar.
+    </td>
   </tr>
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario A: Consulta básica</b><br>
-      <b>Dado que</b> el turista está viendo los detalles de una experiencia<br>
-      <b>Cuando</b> selecciona la opción "Enviar consulta"<br>
-      <b>Entonces</b> el sistema muestra un campo de texto para escribir la pregunta y enviarla a la agencia.<br><br>
+      <b>Escenario A: Registro de consulta</b><br>
+      <b>Dado que</b> el turista está consultando los detalles de una experiencia,<br>
+      <b>Cuando</b> decide enviar una consulta y proporciona el contenido de su pregunta,<br>
+      <b>Entonces</b> el sistema debe registrar la consulta asociándola al turista y a la experiencia correspondiente,<br>
+      <b>Y</b> dejarla disponible para la revisión de la empresa turística.<br><br>
       <b>Escenario B: Confirmación de envío</b><br>
-      <b>Dado que</b> el turista envía su consulta<br>
-      <b>Cuando</b> el sistema procesa la solicitud<br>
-      <b>Entonces</b> se muestra un mensaje de confirmación indicando que la consulta fue enviada exitosamente.
+      <b>Dado que</b> el turista ha enviado una consulta válida,<br>
+      <b>Cuando</b> el sistema termina de registrar la consulta sin errores,<br>
+      <b>Entonces</b> el sistema debe confirmar que la consulta fue recibida<br>
+      <b>Y</b> reflejar que la consulta se encuentra pendiente de respuesta por parte de la empresa turística.
     </td>
   </tr>
 </table>
@@ -1438,7 +1460,10 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <th colspan="4">Description</th>
   </tr>
   <tr>
-    <td colspan="4"><b>Como</b> empresa turística, <b>quiero</b> visualizar en una lista las consultas enviadas por turistas, <b>para</b> responderlas oportunamente y mejorar la atención.</td>
+    <td colspan="4">
+      <b>Como</b> empresa turística, <b>quiero</b> visualizar en una lista las consultas enviadas por turistas,
+      <b>para</b> responderlas oportunamente y mejorar la atención.
+    </td>
   </tr>
   <tr>
     <th colspan="4">Acceptance Criteria</th>
@@ -1446,13 +1471,14 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   <tr>
     <td colspan="4">
       <b>Escenario A: Visualización de consultas</b><br>
-      <b>Dado que</b> la empresa accede a la sección "Consultas"<br>
-      <b>Cuando</b> abre la lista<br>
-      <b>Entonces</b> el sistema muestra cada consulta con datos como: nombre del turista, experiencia relacionada, fecha y contenido de la consulta.<br><br>
+      <b>Dado que</b> la empresa accede a la funcionalidad de gestión de consultas,<br>
+      <b>Cuando</b> solicita ver las consultas recibidas,<br>
+      <b>Entonces</b> el sistema debe mostrar cada consulta registrada con información como nombre del turista,
+      experiencia relacionada, fecha de envío y contenido de la consulta.<br><br>
       <b>Escenario B: Orden de consultas</b><br>
-      <b>Dado que</b> hay varias consultas<br>
-      <b>Cuando</b> la empresa accede<br>
-      <b>Entonces</b> las consultas aparecen ordenadas de más recientes a más antiguas.
+      <b>Dado que</b> existen varias consultas registradas en el sistema,<br>
+      <b>Cuando</b> la empresa visualiza el listado de consultas,<br>
+      <b>Entonces</b> el sistema debe ordenar las consultas de más recientes a más antiguas.
     </td>
   </tr>
 </table>
@@ -1480,21 +1506,26 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <th colspan="4">Description</th>
   </tr>
   <tr>
-    <td colspan="4"><b>Como</b> empresa turística, <b>quiero</b> responder consultas desde la app, <b>para</b> resolver dudas de los turistas de manera rápida.</td>
+    <td colspan="4">
+      <b>Como</b> empresa turística, <b>quiero</b> responder consultas desde la app,
+      <b>para</b> resolver dudas de los turistas de manera rápida.
+    </td>
   </tr>
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario A: Respuesta escrita</b><br>
-      <b>Dado que</b> la empresa visualiza una consulta<br>
-      <b>Cuando</b> selecciona "Responder"<br>
-      <b>Entonces</b> el sistema habilita un campo de texto para enviar una respuesta al turista.<br><br>
-      <b>Escenario B: Confirmación</b><br>
-      <b>Dado que</b> la empresa envía una respuesta<br>
-      <b>Cuando</b> la acción se procesa<br>
-      <b>Entonces</b> el turista recibe una notificación con la respuesta.
+      <b>Escenario A: Registro de respuesta</b><br>
+      <b>Dado que</b> la empresa visualiza una consulta pendiente de respuesta,<br>
+      <b>Cuando</b> registra una respuesta para dicha consulta,<br>
+      <b>Entonces</b> el sistema debe almacenar la respuesta asociándola a la consulta original,<br>
+      <b>Y</b> marcar la consulta como respondida en el sistema.<br><br>
+      <b>Escenario B: Disponibilidad de la respuesta al turista</b><br>
+      <b>Dado que</b> el sistema ha almacenado correctamente la respuesta de la empresa,<br>
+      <b>Cuando</b> el turista consulta el estado de su pregunta,<br>
+      <b>Entonces</b> el sistema debe mostrar la respuesta registrada por la empresa<br>
+      <b>Y</b> generar un mecanismo de aviso para que el turista sepa que su consulta ha sido respondida.
     </td>
   </tr>
 </table>
@@ -1522,21 +1553,24 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <th colspan="4">Description</th>
   </tr>
   <tr>
-    <td colspan="4"><b>Como</b> turista, <b>quiero</b> recibir una notificación cuando la agencia responda a mi consulta, <b>para</b> estar informado sin necesidad de revisar manualmente.</td>
+    <td colspan="4">
+      <b>Como</b> turista, <b>quiero</b> recibir una notificación cuando la agencia responda a mi consulta,
+      <b>para</b> estar informado sin necesidad de revisar manualmente.
+    </td>
   </tr>
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario A: Notificación en tiempo real</b><br>
-      <b>Dado que</b> la empresa responde a una consulta<br>
-      <b>Cuando</b> la respuesta se envía<br>
-      <b>Entonces</b> el turista recibe una notificación push en su dispositivo móvil.<br><br>
-      <b>Escenario B: Acceso directo</b><br>
-      <b>Dado que</b> el turista recibe la notificación<br>
-      <b>Cuando</b> la abre<br>
-      <b>Entonces</b> el sistema lo redirige al detalle de la consulta con la respuesta visible.
+      <b>Escenario A: Notificación de respuesta disponible</b><br>
+      <b>Dado que</b> la empresa registra una respuesta a una consulta realizada por el turista,<br>
+      <b>Cuando</b> el sistema almacena la respuesta de forma exitosa,<br>
+      <b>Entonces</b> el sistema debe generar una notificación dirigida al turista indicando que su consulta ha sido respondida.<br><br>
+      <b>Escenario B: Acceso al detalle de la consulta desde la notificación</b><br>
+      <b>Dado que</b> el turista recibe una notificación sobre la respuesta a su consulta,<br>
+      <b>Cuando</b> accede a la información vinculada a esa notificación,<br>
+      <b>Entonces</b> el sistema debe mostrar el detalle de la consulta junto con la respuesta enviada por la empresa.
     </td>
   </tr>
 </table>
@@ -1564,21 +1598,24 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <th colspan="4">Description</th>
   </tr>
   <tr>
-    <td colspan="4"><b>Como</b> turista, <b>quiero</b> acceder al historial de mis consultas y respuestas, <b>para</b> revisar información anterior sin tener que preguntar de nuevo.</td>
+    <td colspan="4">
+      <b>Como</b> turista, <b>quiero</b> acceder al historial de mis consultas y respuestas,
+      <b>para</b> revisar información anterior sin tener que preguntar de nuevo.
+    </td>
   </tr>
   <tr>
     <th colspan="4">Acceptance Criteria</th>
   </tr>
   <tr>
     <td colspan="4">
-      <b>Escenario A: Visualización</b><br>
-      <b>Dado que</b> el turista accede a la sección "Mis consultas"<br>
-      <b>Cuando</b> abre la lista<br>
-      <b>Entonces</b> el sistema muestra todas las preguntas enviadas y sus respuestas asociadas.<br><br>
-      <b>Escenario B: Detalle</b><br>
-      <b>Dado que</b> el turista selecciona una consulta<br>
-      <b>Cuando</b> abre el detalle<br>
-      <b>Entonces</b> el sistema muestra la pregunta enviada, la fecha y la respuesta de la agencia.
+      <b>Escenario A: Visualización del historial</b><br>
+      <b>Dado que</b> el turista accede a la funcionalidad "Mis consultas",<br>
+      <b>Cuando</b> solicita ver su historial de consultas,<br>
+      <b>Entonces</b> el sistema debe mostrar todas las consultas enviadas por el turista junto con el estado de cada una y, de existir, sus respuestas asociadas.<br><br>
+      <b>Escenario B: Detalle de una consulta</b><br>
+      <b>Dado que</b> el turista selecciona una consulta de su historial,<br>
+      <b>Cuando</b> solicita ver el detalle de dicha consulta,<br>
+      <b>Entonces</b> el sistema debe mostrar el contenido de la pregunta enviada, la fecha de envío y la respuesta registrada por la empresa turística.
     </td>
   </tr>
 </table>
@@ -1606,25 +1643,32 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <th colspan="4">Description</th> 
   </tr> 
   <tr> 
-    <td colspan="4"><b>Como</b> turista, <b>quiero</b> dejar una reseña con estrellas y un comentario sobre la experiencia, <b>para</b> compartir mi opinión y ayudar a otros usuarios.</td> 
+    <td colspan="4">
+      <b>Como</b> turista, <b>quiero</b> dejar una reseña con estrellas y un comentario sobre la experiencia,
+      <b>para</b> compartir mi opinión y ayudar a otros usuarios.
+    </td> 
   </tr> 
   <tr> 
     <th colspan="4">Acceptance Criteria</th> 
   </tr> 
   <tr> 
     <td colspan="4"> 
-      <b>Escenario A: Reseña exitosa</b><br> 
-      <b>Dado que</b> el turista ha completado una experiencia<br> 
-      <b>Cuando</b> entra al perfil de la agencia y presiona el botón “Dejar reseña” y envía estrellas y comentario<br> 
-      <b>Entonces</b> el sistema guarda la reseña y muestra un mensaje de confirmación.<br><br>             
-      <b>Escenario B: Validación incompleta</b><br> 
-      <b>Dado que</b> el turista intenta enviar sin calificación o comentario<br> 
-      <b>Cuando</b> presiona “Enviar reseña”<br> 
-      <b>Entonces</b> el sistema muestra un mensaje de error solicitando completar ambos campos.<br><br>       
-      <b>Escenario C: Intento sin reserva</b><br> 
-      <b>Dado que</b> el turista no ha realizado una reserva con la empresa<br> 
-      <b>Cuando</b> intenta dejar una reseña en el perfil de la empresa<br> 
-      <b>Entonces</b> el sistema muestra un mensaje de error: "Solo puedes dejar una reseña si has realizado una reserva con esta empresa". 
+      <b>Escenario A: Reseña válida registrada</b><br> 
+      <b>Dado que</b> el turista ha completado una experiencia y está habilitado para opinar,<br> 
+      <b>Cuando</b> registra una calificación en estrellas y un comentario sobre la experiencia
+      <b>y</b> confirma el envío de la reseña,<br> 
+      <b>Entonces</b> el sistema debe validar que la información requerida fue proporcionada,<br>
+      <b>Y</b> almacenar la reseña asociándola al turista y a la experiencia, dejándola disponible para futuras consultas.<br><br>             
+      <b>Escenario B: Información incompleta</b><br> 
+      <b>Dado que</b> el turista desea dejar una reseña sobre una experiencia,<br> 
+      <b>Cuando</b> intenta confirmar la reseña sin haber registrado calificación o comentario,<br> 
+      <b>Entonces</b> el sistema debe rechazar el registro de la reseña<br>
+      <b>Y</b> notificar que la reseña requiere al menos una calificación en estrellas y un comentario para ser registrada.<br><br>       
+      <b>Escenario C: Intento de reseña sin reserva previa</b><br> 
+      <b>Dado que</b> el turista no tiene una reserva completada con la empresa para esa experiencia,<br> 
+      <b>Cuando</b> intenta registrar una reseña asociada a dicha empresa o experiencia,<br> 
+      <b>Entonces</b> el sistema debe impedir el registro de la reseña<br>
+      <b>Y</b> notificar que solo pueden dejar reseñas los turistas que hayan realizado una reserva con esa empresa.
     </td> 
   </tr> 
 </table>
@@ -1662,14 +1706,17 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   </tr> 
   <tr> 
     <td colspan="4"> 
-      <b>Escenario A: Edición</b><br> 
-      <b>Dado que</b> el turista tiene una reseña publicada<br> 
-      <b>Cuando</b> selecciona “Editar” y modifica comentario o estrellas<br> 
-      <b>Entonces</b> el sistema actualiza la reseña correctamente.<br><br>       
-      <b>Escenario B: Eliminación</b><br> 
-      <b>Dado que</b> el turista desea retirar su opinión<br> 
-      <b>Cuando</b> selecciona “Eliminar reseña” y confirma<br> 
-      <b>Entonces</b> el sistema borra la reseña y deja de mostrarla en el perfil de la agencia. 
+      <b>Escenario A: Actualización de reseña</b><br> 
+      <b>Dado que</b> el turista tiene una reseña publicada en el sistema,<br> 
+      <b>Cuando</b> modifica la calificación en estrellas y/o el comentario de esa reseña
+      <b>y</b> confirma los cambios,<br> 
+      <b>Entonces</b> el sistema debe actualizar la reseña reemplazando la información anterior por la nueva,<br>
+      <b>Y</b> mantener la reseña asociada al mismo turista y a la misma experiencia.<br><br>       
+      <b>Escenario B: Eliminación de reseña</b><br> 
+      <b>Dado que</b> el turista decide retirar una reseña propia,<br> 
+      <b>Cuando</b> confirma la eliminación de dicha reseña,<br> 
+      <b>Entonces</b> el sistema debe eliminar la reseña del conjunto de reseñas visibles para la agencia y otros turistas,<br>
+      <b>Y</b> dejar de considerar esa reseña en el cálculo de métricas relacionadas (por ejemplo, promedio de calificación).
     </td> 
   </tr> 
 </table>
@@ -1707,14 +1754,16 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   </tr> 
   <tr> 
     <td colspan="4"> 
-      <b>Escenario A: Lista inicial</b><br> 
-      <b>Dado que</b> el turista accede al perfil de una agencia<br> 
-      <b>Cuando</b> se desplaza a la sección “Reseñas”<br> 
-      <b>Entonces</b> el sistema muestra las últimas reseñas con nombre, fecha, calificación y comentario.<br><br>       
-      <b>Escenario B: Ver más</b><br> 
-      <b>Dado que</b> existen más de dos reseñas<br> 
-      <b>Cuando</b> el turista selecciona “Ver más”<br> 
-      <b>Entonces</b> el sistema abre una ventana con todas las reseñas disponibles. 
+      <b>Escenario A: Visualización de reseñas recientes</b><br> 
+      <b>Dado que</b> el turista accede al perfil de una agencia registrada en el sistema,<br> 
+      <b>Cuando</b> consulta la sección de reseñas de esa agencia,<br> 
+      <b>Entonces</b> el sistema debe mostrar un conjunto de reseñas recientes que incluya, al menos,
+      un identificador del turista, la fecha de publicación, la calificación en estrellas y el comentario asociado.<br><br>       
+      <b>Escenario B: Acceso a más reseñas</b><br> 
+      <b>Dado que</b> existen más reseñas registradas de las inicialmente mostradas para la agencia,<br> 
+      <b>Cuando</b> el turista solicita ver más reseñas,<br> 
+      <b>Entonces</b> el sistema debe permitir acceder al conjunto ampliado de reseñas registradas para esa agencia,
+      manteniendo la información de calificación y comentarios.
     </td> 
   </tr> 
 </table>
@@ -1752,17 +1801,20 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   </tr> 
   <tr> 
     <td colspan="4"> 
-      <b>Escenario A: Promedio visible</b><br> 
-      <b>Dado que</b> la agencia accede a su perfil<br> 
-      <b>Cuando</b> se cargan los datos<br> 
-      <b>Entonces</b> el sistema muestra el promedio de estrellas con un número y gráfico visual.<br><br>       
-      <b>Escenario B: Listado de reseñas</b><br> 
-      <b>Dado que</b> la agencia tiene reseñas recibidas<br> 
-      <b>Cuando</b> revisa la sección de reseñas<br> 
-      <b>Entonces</b> puede leer cada comentario y la calificación de los turistas. 
+      <b>Escenario A: Cálculo y visualización de promedio</b><br> 
+      <b>Dado que</b> la agencia cuenta con reseñas registradas en el sistema,<br> 
+      <b>Cuando</b> accede a la información de desempeño en su perfil,<br> 
+      <b>Entonces</b> el sistema debe calcular el promedio de calificación a partir de todas las reseñas vigentes,<br>
+      <b>Y</b> mostrar dicho promedio a la agencia como valor de referencia de satisfacción de sus turistas.<br><br>       
+      <b>Escenario B: Listado de reseñas recibidas</b><br> 
+      <b>Dado que</b> la agencia tiene reseñas registradas,<br> 
+      <b>Cuando</b> accede a la sección de reseñas en su perfil,<br> 
+      <b>Entonces</b> el sistema debe mostrar la lista de reseñas recibidas
+      incluyendo, para cada una, el comentario del turista, la calificación otorgada y la fecha de registro.
     </td> 
   </tr> 
 </table>
+
 
 <table border="1" cellspacing="0" cellpadding="6"> 
   <tr> 
@@ -1798,13 +1850,16 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   <tr> 
     <td colspan="4"> 
       <b>Escenario A: Edición exitosa</b><br> 
-      <b>Dado que</b> el turista accede a su perfil<br> 
-      <b>Cuando</b> modifica sus datos y presiona "Guardar"<br> 
-      <b>Entonces</b> el sistema actualiza la información y muestra un mensaje: "Perfil actualizado exitosamente".<br><br>      
-      <b>Escenario B: Error en la conexión</b><br> 
-      <b>Dado que</b> el turista edita sus datos<br> 
-      <b>Cuando</b> ocurre un error en el guardado<br> 
-      <b>Entonces</b> se muestra un mensaje: "Error al actualizar perfil. Intente nuevamente". 
+      <b>Dado que</b> el turista accede a la funcionalidad de edición de su perfil,<br> 
+      <b>Cuando</b> modifica sus datos personales <b>y</b> confirma la actualización,<br> 
+      <b>Entonces</b> el sistema debe validar la información ingresada,<br>
+      <b>Y</b> actualizar los datos almacenados del perfil del turista,<br>
+      <b>Y</b> confirmar que el perfil fue actualizado correctamente.<br><br>      
+      <b>Escenario B: Error en la actualización</b><br> 
+      <b>Dado que</b> el turista ha editado su información de perfil,<br> 
+      <b>Cuando</b> se presenta un error en el proceso de actualización de datos ,<br> 
+      <b>Entonces</b> el sistema debe mantener los datos anteriores del perfil sin cambios,<br>
+      <b>Y</b> notificar al turista que no fue posible actualizar el perfil e indicar que intente nuevamente más tarde. 
     </td> 
   </tr> 
 </table>
@@ -1833,8 +1888,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   </tr> 
   <tr> 
     <td colspan="4">
-      <b>Como</b> turista, <b>quiero</b> visualizar mi información de perfil actualizada 
-      (nombre, correo, teléfono y foto), <b>para</b> confirmar que mis datos se encuentran correctos.
+      <b>Como</b> turista, <b>quiero</b> visualizar mi información de perfil actualizada , <b>para</b> confirmar que mis datos se encuentran correctos.
     </td> 
   </tr> 
   <tr> 
@@ -1842,14 +1896,15 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   </tr> 
   <tr> 
     <td colspan="4"> 
-      <b>Escenario A: Visualización correcta</b><br> 
-      <b>Dado que</b> el turista tiene datos guardados<br> 
-      <b>Cuando</b> ingresa a su perfil<br> 
-      <b>Entonces</b> la aplicación muestra la información en los campos correspondientes.<br><br>       
+      <b>Escenario A: Visualización correcta de datos</b><br> 
+      <b>Dado que</b> el turista tiene datos de perfil almacenados en el sistema,<br> 
+      <b>Cuando</b> accede a la funcionalidad de visualización de su perfil,<br> 
+      <b>Entonces</b> el sistema debe mostrar la información vigente del perfil del turista,
+      incluyendo nombre, correo, teléfono y foto de perfil, según lo que esté registrado.<br><br>       
       <b>Escenario B: Datos faltantes</b><br> 
-      <b>Dado que</b> algún campo no ha sido completado<br> 
-      <b>Cuando</b> el turista accede al perfil<br> 
-      <b>Entonces</b> el sistema muestra un texto por defecto: “Dato no registrado”. 
+      <b>Dado que</b> uno o más datos del perfil del turista no han sido registrados previamente,<br> 
+      <b>Cuando</b> el turista accede a la visualización de su perfil,<br> 
+      <b>Entonces</b> el sistema debe indicar, para cada dato no registrado, que la información no se encuentra disponible. 
     </td> 
   </tr> 
 </table>
@@ -1888,14 +1943,18 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   <tr>
     <td colspan="4">
       <p><b>Escenario A: Actualización correcta</b><br>
-      <b>Dado que</b> la agencia edita los campos<br>
-      <b>Cuando</b> guarda los cambios<br>
-      <b>Entonces</b> el sistema actualiza los datos y muestra un mensaje: 
-      “Perfil de agencia actualizado exitosamente”.</p>
-      <p><b>Escenario B: Validación de campos</b><br>
-      <b>Dado que</b> la agencia deja un campo obligatorio vacío<br>
-      <b>Cuando</b> intenta guardar<br>
-      <b>Entonces</b> el sistema muestra un mensaje de error indicando el campo inválido.</p>
+      <b>Dado que</b> la agencia tiene un perfil registrado en el sistema,<br>
+      <b>Cuando</b> modifica los datos de contacto, descripción o redes sociales
+      <b>y</b> confirma la actualización de su perfil,<br>
+      <b>Entonces</b> el sistema debe validar la información ingresada,<br>
+      <b>Y</b> actualizar los datos almacenados del perfil de la agencia,<br>
+      <b>Y</b> confirmar que el perfil de agencia fue actualizado exitosamente.</p>
+      <p><b>Escenario B: Validación de campos obligatorios</b><br>
+      <b>Dado que</b> la agencia está editando su perfil,<br>
+      <b>Cuando</b> intenta registrar cambios dejando uno o más campos obligatorios vacíos
+      o con información no válida según las reglas definidas por el sistema,<br>
+      <b>Entonces</b> el sistema debe rechazar la actualización del perfil,<br>
+      <b>Y</b> indicar claramente qué campo o campos presentan información faltante o inválida.</p>
     </td>
   </tr>
 </table>
@@ -1933,14 +1992,15 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   </tr>
   <tr>
     <td colspan="4">
-      <p><b>Escenario A: Visualización de reseñas</b><br>
-      <b>Dado que</b> existen reseñas registradas<br>
-      <b>Cuando</b> la agencia ingresa a su perfil<br>
-      <b>Entonces</b> se muestran las reseñas con nombre del turista, fecha, comentario y calificación.</p>
-      <p><b>Escenario B: Sin reseñas</b><br>
-      <b>Dado que</b> la agencia aún no tiene reseñas<br>
-      <b>Cuando</b> accede a su perfil<br>
-      <b>Entonces</b> se muestra un mensaje: “Aún no tienes reseñas”.</p>
+      <p><b>Escenario A: Visualización de reseñas existentes</b><br>
+      <b>Dado que</b> existen reseñas registradas en el sistema para la agencia,<br>
+      <b>Cuando</b> la agencia accede a su perfil y consulta la sección de reseñas,<br>
+      <b>Entonces</b> el sistema debe mostrar un listado de reseñas que incluya, para cada una,
+      el identificador del turista (por ejemplo, nombre), la fecha de la reseña, el comentario y la calificación otorgada.</p>
+      <p><b>Escenario B: Ausencia de reseñas</b><br>
+      <b>Dado que</b> la agencia aún no tiene reseñas registradas en el sistema,<br>
+      <b>Cuando</b> accede a su perfil y consulta la sección de reseñas,<br>
+      <b>Entonces</b> el sistema debe indicar que todavía no existen reseñas disponibles para la agencia.</p>
     </td>
   </tr>
 </table>
@@ -1964,7 +2024,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   <tr>
     <td colspan="4">Mostrar estadísticas en el perfil de agencia</td>
   </tr>
-  <tr >
+  <tr>
     <th colspan="4">Description</th>
   </tr>
   <tr>
@@ -1979,16 +2039,19 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
   <tr>
     <td colspan="4">
       <p><b>Escenario A: Estadísticas disponibles</b><br>
-      <b>Dado que</b> la agencia tiene reseñas y reservas<br>
-      <b>Cuando</b> accede a su perfil<br>
-      <b>Entonces</b> se muestran: promedio de calificación, total de reseñas y total de reservas.</p>
-      <p><b>Escenario B: Sin datos</b><br>
-      <b>Dado que</b> la agencia aún no registra actividad<br>
-      <b>Cuando</b> entra al perfil<br>
-      <b>Entonces</b> se muestra un mensaje: “Todavía no tienes estadísticas disponibles”.</p>
+      <b>Dado que</b> la agencia cuenta con reseñas y reservas registradas en el sistema,<br>
+      <b>Cuando</b> accede a su perfil y consulta la sección de estadísticas,<br>
+      <b>Entonces</b> el sistema debe calcular y mostrar, a partir de la información disponible,
+      el promedio de calificación de la agencia, el número total de reseñas y la cantidad total de reservas asociadas.</p>
+      <p><b>Escenario B: Falta de datos para estadísticas</b><br>
+      <b>Dado que</b> la agencia aún no registra reseñas ni reservas en el sistema,<br>
+      <b>Cuando</b> accede a su perfil y consulta la sección de estadísticas,<br>
+      <b>Entonces</b> el sistema debe indicar que todavía no existen datos suficientes para generar estadísticas
+      sobre el rendimiento de sus servicios.</p>
     </td>
   </tr>
 </table>
+
 
 <table border="1" cellspacing="0" cellpadding="6"> 
 <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> 
@@ -1996,12 +2059,22 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 <tr> <th colspan="4">Title</th> </tr> 
 <tr> <td colspan="4">Descubrimiento de beneficios para turistas</td> </tr> 
 <tr> <th colspan="4">Description</th> </tr> 
-<tr> <td colspan="4"><b>Como</b> visitante del segmento de turistas, <b>quiero</b> ver claramente los beneficios que ofrece la plataforma, <b>para</b> entender cómo puede mejorar mi experiencia de viaje.</td> </tr> 
+<tr> 
+  <td colspan="4">
+    <b>Como</b> visitante del segmento de turistas, <b>quiero</b> ver claramente los beneficios que ofrece la plataforma,
+    <b>para</b> entender cómo puede mejorar mi experiencia de viaje.
+  </td> 
+</tr> 
 <tr> <th colspan="4">Acceptance Criteria</th> </tr> 
-<tr> <td colspan="4"> <b>Escenario: Visualización de beneficios</b><br> 
-<b>Dado que</b> el visitante se encuentra en la sección “Benefits”<br> 
-<b>Cuando</b> hace scroll hasta esa sección<br> 
-<b>Entonces</b> puede visualizar una lista de beneficios relevantes para turistas y entender cómo estos se relacionan con sus necesidades. </td> </tr> 
+<tr> 
+  <td colspan="4"> 
+    <b>Escenario: Visualización de beneficios</b><br> 
+    <b>Dado que</b> el visitante pertenece al segmento de turistas y accede a la sección de beneficios de la plataforma,<br> 
+    <b>Cuando</b> consulta la información de dicha sección,<br> 
+    <b>Entonces</b> el sistema debe mostrar una lista de beneficios orientados a turistas,<br>
+    <b>Y</b> cada beneficio debe describir cómo contribuye a mejorar la experiencia de viaje del visitante.
+  </td> 
+</tr> 
 </table>  
 
 
@@ -2011,12 +2084,22 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 <tr> <th colspan="4">Title</th> </tr> 
 <tr> <td colspan="4">Conocer el propósito de la plataforma</td> </tr> 
 <tr> <th colspan="4">Description</th> </tr> 
-<tr> <td colspan="4"><b>Como</b> visitante del segmento de turistas, <b>quiero</b> saber de qué se trata Turisfera, <b>para</b> decidir si me interesa seguir explorando.</td> </tr> 
+<tr> 
+  <td colspan="4">
+    <b>Como</b> visitante del segmento de turistas, <b>quiero</b> saber de qué se trata Turisfera,
+    <b>para</b> decidir si me interesa seguir explorando.
+  </td> 
+</tr> 
 <tr> <th colspan="4">Acceptance Criteria</th> </tr> 
-<tr> <td colspan="4"> <b>Escenario: Lectura de “About us”</b><br> 
-<b>Dado que</b> el visitante accede a la sección “About us”<br> 
-<b>Cuando</b> lee la descripción disponible<br> 
-<b>Entonces</b> puede comprender claramente el propósito y la misión de la plataforma. </td> </tr> 
+<tr> 
+  <td colspan="4"> 
+    <b>Escenario: Lectura de “About us”</b><br> 
+    <b>Dado que</b> la plataforma dispone de una sección de presentación institucional (“About us”),<br> 
+    <b>Cuando</b> el visitante consulta el contenido de esta sección,<br> 
+    <b>Entonces</b> el sistema debe mostrar una descripción clara del propósito, misión y enfoque de la plataforma,<br>
+    <b>Y</b> esta descripción debe permitir al visitante entender para qué fue creada Turisfera y a quién está dirigida.
+  </td> 
+</tr> 
 </table>  
 
 
@@ -2026,12 +2109,22 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 <tr> <th colspan="4">Title</th> </tr> 
 <tr> <td colspan="4">Navegación simple desde el header</td> </tr> 
 <tr> <th colspan="4">Description</th> </tr> 
-<tr> <td colspan="4"><b>Como</b> visitante del segmento de turistas, <b>quiero</b> usar el menú superior <b>para</b> moverme fácilmente por la página sin perder tiempo.</td> </tr> 
+<tr> 
+  <td colspan="4">
+    <b>Como</b> visitante del segmento de turistas, <b>quiero</b> usar el menú superior
+    <b>para</b> moverme fácilmente por la página sin perder tiempo.
+  </td> 
+</tr> 
 <tr> <th colspan="4">Acceptance Criteria</th> </tr> 
-<tr> <td colspan="4"> <b>Escenario: Uso del menú</b><br> 
-<b>Dado que</b> el visitante visualiza el menú superior<br> 
-<b>Cuando</b> hace clic en un ítem (Home, About us, Benefits, Contact)<br> 
-<b>Entonces</b> la página hace scroll automáticamente a la sección correspondiente de forma fluida. </td> </tr> 
+<tr> 
+  <td colspan="4"> 
+    <b>Escenario: Uso del menú</b><br> 
+    <b>Dado que</b> el visitante tiene disponible opciones de navegación principales (Home, About us, Benefits, Contact),<br> 
+    <b>Cuando</b> selecciona una de estas opciones de navegación,<br> 
+    <b>Entonces</b> el sistema debe mostrar el contenido correspondiente a la sección seleccionada,<br>
+    <b>Y</b> la transición entre secciones debe permitir al visitante continuar explorando la página de forma clara y fluida.
+  </td> 
+</tr> 
 </table>  
 
 
@@ -2041,12 +2134,22 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 <tr> <th colspan="4">Title</th> </tr> 
 <tr> <td colspan="4">Acceder al formulario de contacto</td> </tr> 
 <tr> <th colspan="4">Description</th> </tr> 
-<tr> <td colspan="4"><b>Como</b> visitante del segmento de turistas, <b>quiero</b> llegar fácilmente al formulario de contacto <b>para</b> comunicarme con el equipo y resolver dudas.</td> </tr> 
+<tr> 
+  <td colspan="4">
+    <b>Como</b> visitante del segmento de turistas, <b>quiero</b> llegar fácilmente al formulario de contacto
+    <b>para</b> comunicarme con el equipo y resolver dudas.
+  </td> 
+</tr> 
 <tr> <th colspan="4">Acceptance Criteria</th> </tr> 
-<tr> <td colspan="4"> <b>Escenario: Acceso al formulario</b><br> 
-<b>Dado que</b> el visitante está en la landing<br> 
-<b>Cuando</b> hace clic en “Contact”<br> 
-<b>Entonces</b> es dirigido al formulario en la parte inferior de la página, listo para enviar un mensaje. </td> </tr> 
+<tr> 
+  <td colspan="4"> 
+    <b>Escenario: Acceso al formulario</b><br> 
+    <b>Dado que</b> el visitante se encuentra navegando en la página informativa de la plataforma,<br> 
+    <b>Cuando</b> solicita acceder a la funcionalidad de contacto con el equipo de Turisfera,<br> 
+    <b>Entonces</b> el sistema debe mostrar el formulario destinado al envío de consultas o mensajes,<br>
+    <b>Y</b> el formulario debe estar disponible para que el visitante pueda registrar y enviar su mensaje.
+  </td> 
+</tr> 
 </table>  
 
 
@@ -2056,12 +2159,22 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 <tr> <th colspan="4">Title</th> </tr> 
 <tr> <td colspan="4">Registro desde la landing</td> </tr> 
 <tr> <th colspan="4">Description</th> </tr> 
-<tr> <td colspan="4"><b>Como</b> visitante del segmento de turistas, <b>quiero</b> encontrar fácilmente el botón de registro <b>para</b> crear una cuenta en la plataforma sin complicaciones.</td> </tr> 
+<tr> 
+  <td colspan="4">
+    <b>Como</b> visitante del segmento de turistas, <b>quiero</b> encontrar fácilmente el botón de registro
+    <b>para</b> crear una cuenta en la plataforma sin complicaciones.
+  </td> 
+</tr> 
 <tr> <th colspan="4">Acceptance Criteria</th> </tr> 
-<tr> <td colspan="4"> <b>Escenario: Clic en "Sign Up"</b><br> 
-<b>Dado que</b> el visitante está en la landing<br> 
-<b>Cuando</b> ve y hace clic en el botón “Sign Up”<br> 
-<b>Entonces</b> es redirigido a la interfaz de registro y puede completar su inscripción. </td> </tr> 
+<tr> 
+  <td colspan="4"> 
+    <b>Escenario: Solicitud de registro desde la landing</b><br> 
+    <b>Dado que</b> el visitante se encuentra en la página pública (landing) de la plataforma,<br> 
+    <b>Cuando</b> decide registrarse como turista y selecciona la opción de registro disponible,<br> 
+    <b>Entonces</b> el sistema debe iniciar el flujo de creación de cuenta de turista,<br>
+    <b>Y</b> permitir que el visitante proporcione la información requerida para completar su registro en la plataforma.
+  </td> 
+</tr> 
 </table>  
 
 
@@ -2072,12 +2185,23 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 <tr> <th colspan="4">Title</th> </tr> 
 <tr> <td colspan="4">Identificación de beneficios para agencias</td> </tr> 
 <tr> <th colspan="4">Description</th> </tr> 
-<tr> <td colspan="4"><b>Como</b> visitante del segmento de agencias de turismo, <b>quiero</b> conocer los beneficios que se me ofrecen <b>para</b> evaluar si vale la pena registrarme en la plataforma.</td> </tr> 
+<tr> 
+  <td colspan="4">
+    <b>Como</b> visitante del segmento de agencias de turismo, <b>quiero</b> conocer los beneficios que se me ofrecen
+    <b>para</b> evaluar si vale la pena registrarme en la plataforma.
+  </td> 
+</tr> 
 <tr> <th colspan="4">Acceptance Criteria</th> </tr> 
-<tr> <td colspan="4"> <b>Escenario: Revisión de beneficios</b><br> 
-<b>Dado que</b> la sección "Benefits" incluye beneficios generales<br> 
-<b>Cuando</b> una agencia revisa esta sección<br> 
-<b>Entonces</b> puede identificar claramente los beneficios aplicables a su negocio. </td> </tr> 
+<tr> 
+  <td colspan="4"> 
+    <b>Escenario: Revisión de beneficios</b><br> 
+    <b>Dado que</b> la plataforma dispone de una sección de beneficios generales de uso de Turisfera,<br> 
+    <b>Cuando</b> una agencia de turismo consulta la información de beneficios en dicha sección,<br> 
+    <b>Entonces</b> el sistema debe presentar beneficios que incluyan, de forma explícita o interpretativa,
+    las ventajas aplicables para agencias (por ejemplo, visibilidad, captación de turistas, gestión de reservas),<br>
+    <b>Y</b> la agencia debe poder identificar a partir de esta información si los beneficios son relevantes para su negocio.
+  </td> 
+</tr> 
 </table>  
 
 
@@ -2088,68 +2212,327 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
 <tr> <th colspan="4">Title</th> </tr> 
 <tr> <td colspan="4">Conocer cómo funciona la plataforma</td> </tr> 
 <tr> <th colspan="4">Description</th> </tr> 
-<tr> <td colspan="4"><b>Como</b> visitante del segmento de agencias de turismo, <b>quiero</b> entender cómo funciona la plataforma <b>para</b> saber si es compatible con mis servicios.</td> </tr> 
+<tr> 
+  <td colspan="4">
+    <b>Como</b> visitante del segmento de agencias de turismo, <b>quiero</b> entender cómo funciona la plataforma
+    <b>para</b> saber si es compatible con mis servicios.
+  </td> 
+</tr> 
 <tr> <th colspan="4">Acceptance Criteria</th> </tr> 
-<tr> <td colspan="4"> <b>Escenario: Lectura de funcionamiento</b><br> 
-<b>Dado que</b> la landing incluye una sección de explicación<br> 
-<b>Cuando</b> la agencia revisa este apartado<br> 
-<b>Entonces</b> puede comprender claramente cómo se usan las funciones principales de la plataforma. </td> </tr> 
+<tr> 
+  <td colspan="4"> 
+    <b>Escenario: Lectura de funcionamiento</b><br> 
+    <b>Dado que</b> la landing de Turisfera incluye una sección que explica el funcionamiento de la plataforma,<br> 
+    <b>Cuando</b> una agencia revisa el contenido de esta sección,<br> 
+    <b>Entonces</b> el sistema debe presentar una explicación clara de las principales funciones de la plataforma
+    (por ejemplo, registro de agencias, publicación de experiencias, gestión de reservas y reseñas),<br>
+    <b>Y</b> dicha explicación debe permitir a la agencia determinar si el modelo de funcionamiento es compatible con sus servicios actuales.
+  </td> 
+</tr> 
 </table>  
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS001</td><td>Desarrollador</td><td>Alta</td><td>EP08 - Perfiles de agencia y de usuario</td>
+  </tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr>
+    <td colspan="4">Actualizar datos de agencia mediante RESTful API</td>
+  </tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr>
+    <td colspan="4">
+      <b>Como</b> desarrollador,<br>
+      <b>quiero</b> actualizar la información de una agencia mediante el endpoint <code>/api/v1/profile/user/agency/{userId}</code><br>
+      <b>para</b> reflejar cambios en los datos de la entidad en tiempo real.
+    </td>
+  </tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1: Actualización exitosa</b><br>
+      <b>Dado que</b> el endpoint <code>/api/v1/profile/user/agency/{userId}</code> está disponible,<br>
+      <b>cuando</b> se envía una solicitud PUT con un <code>userId</code> existente y un payload válido de la agencia,<br>
+      <b>entonces</b> el sistema actualiza los datos de la agencia asociada al <code>userId</code>,<br>
+      <b>y</b> responde con estado <code>200 OK</code> incluyendo en el body la entidad de agencia actualizada.<br><br>
+      <b>Escenario 2: Usuario inexistente</b><br>
+      <b>Dado que</b> el endpoint está disponible,<br>
+      <b>cuando</b> se envía una solicitud PUT con un <code>userId</code> que no existe en el sistema,<br>
+      <b>entonces</b> el sistema no realiza cambios en los datos,<br>
+      <b>y</b> responde con estado <code>404 Not Found</code> indicando que la agencia asociada no fue encontrada.
+    </td>
+  </tr>
+</table>
 
-<table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS001</td> <td>Desarrollador</td> <td>Alta</td> <td>EP08 - Perfiles de agencia y de usuario</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Actualizar datos de agencia mediante RESTful API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br> <b>quiero</b> actualizar la información de una agencia mediante el endpoint <code>/api/v1/profile/user/agency/{userId}</code><br> <b>para</b> reflejar cambios en los datos de la entidad en tiempo real.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Actualización exitosa</b><br> <b>Dado que</b> el endpoint <code>/api/v1/profile/user/agency/{userId}</code> está disponible,<br> <b>cuando</b> se envía una solicitud PUT con datos válidos de la agencia,<br> <b>entonces</b> el sistema responde con estado <code>200 OK</code> e incluye la agencia actualizada en el body.<br><br>
-<b>Escenario 2: Usuario inexistente</b><br>
-<b>Dado que</b> el endpoint está disponible,<br>
-<b>cuando</b> se envía una solicitud PUT con un <code>userId</code> inexistente,<br>
-<b>entonces</b> el sistema responde con estado <code>404 Not Found</code> e informa que la agencia no existe.
-</td> </tr> </table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS002</td><td>Desarrollador</td><td>Alta</td><td>EP05 – Gestión de Reservas</td>
+  </tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr>
+    <td colspan="4">Registrar una nueva reserva mediante RESTful API</td>
+  </tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr>
+    <td colspan="4">
+      <b>Como</b> desarrollador,<br>
+      <b>quiero</b> registrar una nueva reserva mediante el endpoint <code>/api/v1/assets/booking</code><br>
+      <b>para</b> permitir que los módulos de experiencia y pago creen registros en la base de datos.
+    </td>
+  </tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1: Creación válida</b><br>
+      <b>Dado que</b> el endpoint <code>/api/v1/assets/booking</code> está disponible,<br>
+      <b>cuando</b> se envía una solicitud POST con datos válidos (por ejemplo: <code>touristId</code>, <code>experienceId</code>, fecha y monto),<br>
+      <b>entonces</b> el sistema crea un nuevo registro de reserva en la base de datos,<br>
+      <b>y</b> responde con estado <code>201 Created</code> incluyendo el identificador único de la reserva creada.<br><br>
+      <b>Escenario 2: Datos incompletos</b><br>
+      <b>Dado que</b> el endpoint está disponible,<br>
+      <b>cuando</b> se envía una solicitud POST con uno o más campos requeridos faltantes o nulos,<br>
+      <b>entonces</b> el sistema no crea la reserva,<br>
+      <b>y</b> responde con estado <code>400 Bad Request</code> indicando qué campos son obligatorios o presentan error de validación.
+    </td>
+  </tr>
+</table>
 
 
-<table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS002</td> <td>Desarrollador</td> <td>Alta</td> <td>EP05 – Gestión de Reservas</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Registrar una nueva reserva mediante RESTful API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br> <b>quiero</b> registrar una nueva reserva mediante el endpoint <code>/api/v1/assets/booking</code><br> <b>para</b> permitir que los módulos de experiencia y pago creen registros en la base de datos.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Creación válida</b><br> <b>Dado que</b> el endpoint <code>/api/v1/assets/booking</code> está disponible,<br> <b>cuando</b> se envía una solicitud POST con datos válidos (touristId, experienceId, fecha, monto),<br> <b>entonces</b> el sistema responde con estado <code>201 Created</code> y retorna el ID de la reserva creada.<br><br>
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS003</td><td>Desarrollador</td><td>Media</td><td>EP04 – Gestión de Experiencias</td>
+  </tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr>
+    <td colspan="4">Actualizar experiencia turística mediante RESTful API</td>
+  </tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr>
+    <td colspan="4">
+      <b>Como</b> desarrollador,<br>
+      <b>quiero</b> modificar la información de una experiencia con el endpoint <code>/api/v1/design/experience/{id}</code><br>
+      <b>para</b> mantener la información actualizada en la base de datos.
+    </td>
+  </tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1: Actualización exitosa</b><br>
+      <b>Dado que</b> el endpoint <code>/api/v1/design/experience/{id}</code> está disponible,<br>
+      <b>cuando</b> se envía una solicitud PUT con un <code>id</code> existente y campos válidos de la experiencia,<br>
+      <b>entonces</b> el sistema actualiza la experiencia correspondiente en la base de datos,<br>
+      <b>y</b> responde con <code>200 OK</code> incluyendo los valores actualizados en el body.<br><br>
+      <b>Escenario 2: ID inexistente</b><br>
+      <b>Dado que</b> el endpoint está disponible,<br>
+      <b>cuando</b> se intenta actualizar una experiencia con un <code>id</code> que no existe,<br>
+      <b>entonces</b> el sistema no realiza ningún cambio,<br>
+      <b>y</b> responde con <code>404 Not Found</code> indicando que no se encontró una experiencia con el identificador proporcionado.
+    </td>
+  </tr>
+</table>
 
-<b>Escenario 2: Datos incompletos</b><br>
-<b>Dado que</b> el endpoint está disponible,<br>
-<b>cuando</b> se envía una solicitud con campos faltantes,<br>
-<b>entonces</b> el sistema responde con estado <code>400 Bad Request</code> e indica los campos requeridos.
 
-</td> </tr> </table>
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS004</td><td>Desarrollador</td><td>Media</td><td>EP06 – Consultas y Soporte</td>
+  </tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr>
+    <td colspan="4">Registrar consulta de usuario mediante RESTful API</td>
+  </tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr>
+    <td colspan="4">
+      <b>Como</b> desarrollador,<br>
+      <b>quiero</b> crear consultas con el endpoint <code>/api/v1/inquiry</code><br>
+      <b>para</b> registrar preguntas de turistas sobre experiencias.
+    </td>
+  </tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1: Creación válida</b><br>
+      <b>Dado que</b> el endpoint <code>/api/v1/inquiry</code> está disponible,<br>
+      <b>cuando</b> se envía una solicitud POST con datos válidos (por ejemplo: <code>touristId</code>, <code>experienceId</code>, mensaje),<br>
+      <b>entonces</b> el sistema almacena la consulta en la base de datos,<br>
+      <b>y</b> responde con <code>201 Created</code> incluyendo la información básica de la consulta creada.<br><br>
+      <b>Escenario 2: Campos vacíos</b><br>
+      <b>Dado que</b> el endpoint está disponible,<br>
+      <b>cuando</b> alguno de los campos requeridos no está presente o viene vacío en la solicitud,<br>
+      <b>entonces</b> el sistema no almacena la consulta,<br>
+      <b>y</b> devuelve <code>400 Bad Request</code> indicando qué campo o campos incumplen las validaciones.
+    </td>
+  </tr>
+</table>
 
-<table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS003</td> <td>Desarrollador</td> <td>Media</td> <td>EP04 – Gestión de Experiencias</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Actualizar experiencia turística mediante RESTful API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br> <b>quiero</b> modificar la información de una experiencia con el endpoint <code>/api/v1/design/experience/{id}</code><br> <b>para</b> mantener la información actualizada en la base de datos.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Actualización exitosa</b><br> <b>Dado que</b> el endpoint está disponible,<br> <b>cuando</b> se envía una solicitud PUT con campos válidos,<br> <b>entonces</b> el sistema responde con <code>200 OK</code> e incluye los nuevos valores.<br><br>
 
-<b>Escenario 2: ID inexistente</b><br>
-<b>Dado que</b> el endpoint está disponible,<br>
-<b>cuando</b> se intenta actualizar una experiencia con un <code>id</code> que no existe,<br>
-<b>entonces</b> el sistema responde con <code>404 Not Found</code> indicando que no hay coincidencias.
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS005</td><td>Desarrollador</td><td>Alta</td><td>EP01 – Autenticación y Registro de Usuarios</td>
+  </tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr>
+    <td colspan="4">Registrar nuevos usuarios mediante API</td>
+  </tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr>
+    <td colspan="4">
+      <b>Como</b> desarrollador,<br>
+      <b>quiero</b> permitir el registro de nuevos usuarios mediante el endpoint <code>/api/v1/iam/auth/signup</code><br>
+      <b>para</b> crear perfiles de autenticación iniciales en la plataforma.
+    </td>
+  </tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1: Registro exitoso</b><br>
+      <b>Dado que</b> el endpoint <code>/api/v1/iam/auth/signup</code> está disponible,<br>
+      <b>cuando</b> se envía una solicitud POST con credenciales válidas (nombre, correo, contraseña) que cumplen las reglas de negocio,<br>
+      <b>entonces</b> el sistema crea un nuevo usuario en el módulo de autenticación,<br>
+      <b>y</b> responde con <code>201 Created</code> y el objeto del usuario registrado en el body.<br><br>
+      <b>Escenario 2: Email duplicado</b><br>
+      <b>Dado que</b> el endpoint está disponible y ya existe un usuario registrado con un determinado correo,<br>
+      <b>cuando</b> se envía una solicitud POST con el mismo correo electrónico,<br>
+      <b>entonces</b> el sistema no crea un nuevo usuario,<br>
+      <b>y</b> se devuelve <code>409 Conflict</code> con un mensaje indicando que el usuario ya existe.
+    </td>
+  </tr>
+</table>
 
-</td> </tr> </table>
 
-<table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS004</td> <td>Desarrollador</td> <td>Media</td> <td>EP06 – Consultas y Soporte</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Registrar consulta de usuario mediante RESTful API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br> <b>quiero</b> crear consultas con el endpoint <code>/api/v1/inquiry</code><br> <b>para</b> registrar preguntas de turistas sobre experiencias.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Creación válida</b><br> <b>Dado que</b> el endpoint está disponible,<br> <b>cuando</b> se envía una solicitud POST con datos válidos (touristId, experienceId, mensaje),<br> <b>entonces</b> el sistema responde con <code>201 Created</code> y almacena la consulta.<br><br>
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS006</td><td>Desarrollador</td><td>Alta</td><td>EP01 – Autenticación y Registro de Usuarios</td>
+  </tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr>
+    <td colspan="4">Iniciar sesión mediante API</td>
+  </tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr>
+    <td colspan="4">
+      <b>Como</b> desarrollador,<br>
+      <b>quiero</b> permitir que los usuarios inicien sesión mediante el endpoint <code>/api/v1/iam/auth/signin</code><br>
+      <b>para</b> generar un token de autenticación JWT que permita el acceso a la plataforma.
+    </td>
+  </tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1: Credenciales válidas</b><br>
+      <b>Dado que</b> el endpoint está disponible y el usuario existe en el sistema,<br>
+      <b>cuando</b> se envían credenciales válidas (correo y contraseña correctos),<br>
+      <b>entonces</b> el sistema valida las credenciales,<br>
+      <b>y</b> devuelve <code>200 OK</code> junto con un token JWT válido en el body de la respuesta.<br><br>
+      <b>Escenario 2: Contraseña incorrecta</b><br>
+      <b>Dado que</b> el usuario existe en el sistema,<br>
+      <b>cuando</b> se envía una contraseña errónea para el correo indicado,<br>
+      <b>entonces</b> el sistema rechaza la autenticación,<br>
+      <b>y</b> responde con <code>401 Unauthorized</code> y un mensaje indicando que las credenciales son inválidas.
+    </td>
+  </tr>
+</table>
 
-<b>Escenario 2: Campos vacíos</b><br>
-<b>Dado que</b> el endpoint está disponible,<br>
-<b>cuando</b> los campos requeridos no están presentes,<br>
-<b>entonces</b> el sistema devuelve <code>400 Bad Request</code> indicando el error.
-</td> </tr> </table>
 
-<table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS005</td> <td>Desarrollador</td> <td>Alta</td> <td>EP01 – Autenticación y Registro de Usuarios</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Registrar nuevos usuarios mediante API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br><b>quiero</b> permitir el registro de nuevos usuarios mediante el endpoint <code>/api/v1/iam/auth/signup</code><br><b>para</b> crear perfiles de autenticación iniciales en la plataforma.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Registro exitoso</b><br> <b>Dado que</b> el endpoint <code>/api/v1/iam/auth/signup</code> está disponible,<br> <b>cuando</b> se envía una solicitud POST con credenciales válidas (nombre, correo, contraseña),<br> <b>entonces</b> el sistema responde con <code>201 Created</code> y el objeto del usuario registrado.<br><br> <b>Escenario 2: Email duplicado</b><br> <b>Dado que</b> el endpoint está disponible,<br> <b>cuando</b> se envía un correo ya existente en el sistema,<br> <b>entonces</b> se devuelve <code>409 Conflict</code> con el mensaje “El usuario ya existe”. </td> </tr> </table>
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS007</td><td>Desarrollador</td><td>Media</td><td>EP02 – Exploración y Búsqueda de Destinos</td>
+  </tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr>
+    <td colspan="4">Listar categorías de experiencias mediante API</td>
+  </tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr>
+    <td colspan="4">
+      <b>Como</b> desarrollador,<br>
+      <b>quiero</b> listar todas las categorías mediante el endpoint <code>/api/v1/design/category</code><br>
+      <b>para</b> mostrar opciones filtradas en la interfaz de búsqueda de experiencias.
+    </td>
+  </tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1: Consulta exitosa</b><br>
+      <b>Dado que</b> el endpoint <code>/api/v1/design/category</code> está disponible y existen categorías registradas,<br>
+      <b>cuando</b> se realiza una solicitud GET sin parámetros adicionales,<br>
+      <b>entonces</b> el sistema devuelve <code>200 OK</code> y una lista de categorías en el body (posiblemente vacía o con elementos, según los datos).<br><br>
+      <b>Escenario 2: Sin resultados</b><br>
+      <b>Dado que</b> no existen categorías registradas en la base de datos,<br>
+      <b>cuando</b> se consulta el endpoint mediante una solicitud GET,<br>
+      <b>entonces</b> el sistema responde con <code>204 No Content</code> sin contenido en el body.
+    </td>
+  </tr>
+</table>
 
-</td> </tr> </table>
 
-<table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS006</td> <td>Desarrollador</td> <td>Alta</td> <td>EP01 – Autenticación y Registro de Usuarios</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Iniciar sesión mediante API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br><b>quiero</b> permitir que los usuarios inicien sesión mediante el endpoint <code>/api/v1/iam/auth/signin</code><br><b>para</b> generar un token de autenticación JWT que permita el acceso a la plataforma.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Credenciales válidas</b><br> <b>Dado que</b> el endpoint está disponible,<br> <b>cuando</b> se envían credenciales válidas,<br> <b>entonces</b> el sistema devuelve <code>200 OK</code> y un token JWT.<br><br> <b>Escenario 2: Contraseña incorrecta</b><br> <b>Dado que</b> el usuario existe,<br> <b>cuando</b> se envía una contraseña errónea,<br> <b>entonces</b> el sistema responde con <code>401 Unauthorized</code> y el mensaje “Credenciales inválidas”. </td> </tr> </table>
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Story ID</th><th>User</th><th>Priority</th><th>Epic</th>
+  </tr>
+  <tr>
+    <td>TS008</td><td>Desarrollador</td><td>Media</td><td>EP02 – Exploración y Búsqueda de Destinos</td>
+  </tr>
+  <tr><th colspan="4">Title</th></tr>
+  <tr>
+    <td colspan="4">Filtrar experiencias por categoría mediante API</td>
+  </tr>
+  <tr><th colspan="4">Description</th></tr>
+  <tr>
+    <td colspan="4">
+      <b>Como</b> desarrollador,<br>
+      <b>quiero</b> obtener experiencias filtradas según su categoría mediante el endpoint <code>/api/v1/design/experience/category/{categoryId}</code><br>
+      <b>para</b> optimizar la búsqueda por preferencias de los turistas.
+    </td>
+  </tr>
+  <tr><th colspan="4">Acceptance Criteria</th></tr>
+  <tr>
+    <td colspan="4">
+      <b>Escenario 1: Categoría válida</b><br>
+      <b>Dado que</b> existe una categoría registrada en el sistema,<br>
+      <b>cuando</b> se consulta el endpoint con un <code>categoryId</code> válido mediante una solicitud GET,<br>
+      <b>entonces</b> el sistema devuelve <code>200 OK</code> con la lista de experiencias asociadas a esa categoría en el body.<br><br>
+      <b>Escenario 2: Categoría inexistente</b><br>
+      <b>Dado que</b> el <code>categoryId</code> proporcionado no corresponde a ninguna categoría registrada,<br>
+      <b>cuando</b> se realiza la solicitud GET al endpoint,<br>
+      <b>entonces</b> el sistema responde con <code>404 Not Found</code> indicando que la categoría no fue encontrada.
+    </td>
+  </tr>
+</table>
 
-<table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS007</td> <td>Desarrollador</td> <td>Media</td> <td>EP02 – Exploración y Búsqueda de Destinos</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Listar categorías de experiencias mediante API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br><b>quiero</b> listar todas las categorías mediante el endpoint <code>/api/v1/design/category</code><br><b>para</b> mostrar opciones filtradas en la interfaz de búsqueda de experiencias.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Consulta exitosa</b><br> <b>Dado que</b> el endpoint está disponible,<br> <b>cuando</b> se realiza una solicitud GET sin parámetros,<br> <b>entonces</b> el sistema devuelve <code>200 OK</code> y una lista de categorías.<br><br> <b>Escenario 2: Sin resultados</b><br> <b>Dado que</b> no existen categorías registradas,<br> <b>cuando</b> se consulta el endpoint,<br> <b>entonces</b> el sistema devuelve <code>204 No Content</code>. </td> </tr> </table>
 
-<table border="1" cellspacing="0" cellpadding="6"> <tr> <th>Story ID</th> <th>User</th> <th>Priority</th> <th>Epic</th> </tr> <tr> <td>TS008</td> <td>Desarrollador</td> <td>Media</td> <td>EP02 – Exploración y Búsqueda de Destinos</td> </tr> <tr> <th colspan="4">Title</th> </tr> <tr> <td colspan="4">Filtrar experiencias por categoría mediante API</td> </tr> <tr> <th colspan="4">Description</th> </tr> <tr> <td colspan="4"><b>Como</b> desarrollador,<br><b>quiero</b> obtener experiencias filtradas según su categoría mediante el endpoint <code>/api/v1/design/experience/category/{categoryId}</code><br><b>para</b> optimizar la búsqueda por preferencias de los turistas.</td> </tr> <tr> <th colspan="4">Acceptance Criteria</th> </tr> <tr> <td colspan="4"> <b>Escenario 1: Categoría válida</b><br> <b>Dado que</b> existe una categoría registrada,<br> <b>cuando</b> se consulta el endpoint con un <code>categoryId</code> válido,<br> <b>entonces</b> el sistema devuelve <code>200 OK</code> con la lista de experiencias.<br><br> <b>Escenario 2: Categoría inexistente</b><br> <b>Dado que</b> el <code>categoryId</code> no existe,<br> <b>cuando</b> se realiza la solicitud GET,<br> <b>entonces</b> el sistema responde con <code>404 Not Found</code>. </td> </tr> </table>
-
-|EP01 – Autenticación y Registro de Usuarios|1,2,3|
-|--|--|
-|EP02 – Exploración y Búsqueda de Destinos |4,5,6,7|
-|EP03 – Planificación y Gestión de Itinerarios|8,9,10,11,12|
-|EP04 – Gestión de Experiencias|19,20,21,16,17,18|
-|EP05 – Gestión de Reservas|19-20-21|
-|EP06 – Consultas y Soporte|22-23-24-25-26|
-|EP07 - Reseñas y Valoraciones| 27-28-29-30|
-|EP08 - Perfiles de agencia y de usuario| 31-32-33-34-35|
-|EP09 - Funcionalidades Landing Page| 36-37-38-37-38-39-40-41-42|
+| Epic                                      | User Stories asociadas      |
+|-------------------------------------------|-----------------------------|
+| EP01 – Autenticación y Registro de Usuarios        | 1, 2, 3                     |
+| EP02 – Exploración y Búsqueda de Destinos         | 4, 5, 6, 7, 43              |
+| EP03 – Planificación y Gestión de Itinerarios     | 8, 9, 10, 11, 12            |
+| EP04 – Gestión de Experiencias                    | 13, 14, 15, 16, 17, 18      |
+| EP05 – Gestión de Reservas                        | 19, 20, 21                  |
+| EP06 – Consultas y Soporte                        | 22, 23, 24, 25, 26          |
+| EP07 – Reseñas y Valoraciones                     | 27, 28, 29, 30              |
+| EP08 – Perfiles de agencia y de usuario           | 31, 32, 33, 34, 35          |
+| EP09 – Funcionalidades Landing Page               | 36, 37, 38, 39, 40, 41, 42  |
 
 
 
