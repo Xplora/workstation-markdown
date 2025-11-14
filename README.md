@@ -5099,78 +5099,30 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 
 ### 4.3.2. Registro de Entrevistas
 
-##### Segmento Objetivo #1: Turistas
 
-##### Entrevistado #1: Joaquin Cuentas
-* Edad: 22
-* Distrito: San Miguel
-
-  <p align="center">
-  <img src="https://i.imgur.com/qEvRfPU.png" alt="ent1" width="500">
-  </p>
-
-<br>
-Actualmente es estudiante y le gusta los viajes, va a distintas ciudades con su familia durante sus vacaciones. Las actividades turísticas que más disfruta son viajar a las ciudades para conocer lugares históricos y emblemáticos de la ciudad. Joaquin no utiliza ninguna aplicación para planificar viajes, solo utiliza apps que te permiten ver las reservaciones de hospedaje, pero para actividades turísticas no ha usado. Él entiende que TripMatch es una app ofrecerá para cada ciudad experiencias turísticas con sus respectivos precios, y resalta que las opciones disponibles son claras, lo cual le facilitó en la navegación de la aplicación. Además, agrega que las categorías y filtros de búsqueda le facilitó su búsqueda para las experiencias turísticas, ya que son adecuados para la situación y claras para elegir. Joaquin comenta que una funcionalidad que le agregaría a TripMatch que ofrezca experiencias turísticas de comida, como un descubrimiento de platos típicos y agradables restaurantes en distintas ciudades, una categoría de restaurantes. En cuanto a la sección de recomendaciones de experiencias, él nos comenta que le pareció útil, que le gusta que se muestre las cosas que él muestra interés en las recomendaciones y que aquello facilita su búsqueda de experiencias. Por último, Joaquin nos señala que sería bueno agregar una funcionalidad, que él considera importante, sobre la cancelación de reserva si es que ya uno no desea aquella experiencia. <br>
-
-Link: [Validación de entrevista Segmento #1 Joaquin Cuentas.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQB1ucAjBVW-QYoSizEoBPDaAZuOgO0WK9VjjYD3O_QqV0Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LcmZQW)
-
-##### Entrevistado #2: Manuel Tumi
-* Edad: 25
-* Distrito: Magdalena del Mar
-
-  <p align="center">
-  <img src="https://i.imgur.com/l5aEy7T.png" alt="ent2" width="500">
-  </p>
-
-<br>
-
-Manuel es un estudiante de Ingeniería de Software y lo que mas busca y disfruta durante sus viajes es conocer lugares nuevos, cuando viaja él se comunica con los habitantes locales para preguntar que lugares le recomiendan visitar y señala que le parece interesante lo que ofrece TripMatch ya que la app le ahorraría obtener recomendaciones en persona. Él nos comenta que las únicas apps que utiliza para sus viajes es para encontrar buses que le lleven a su destino deseado, pero no ha usado una app de experiencias (tours) que le facilite planificar su paseos turísticos. Mas bien, él le preguntaba a sus amigos que agencias de viaje utilizaban durante sus excursiones, pero aun así no se sentía del todo satisfecho, ya que su interés y los intereses de sus amigos eran diferentes lo que lo hacia un poco complicado. Manuel comprende que TripMatch  ofrece experiencias a los turistas y le parece una buena idea, debido a que no se ve apps de este rubro mucho en el país. Considera que esta plataforma es adecuada para él, le gusta que la app sea directa y clara en cuanto a la búsqueda de experiencias en determinado destino. <br>
-
-Link: [Validación de entrevista Segmento #1 Manuel Tumi.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQBFcf0SxQalQ6F_gINc1jTSAf2uWUSaHPcxERYQLDIxlmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iR1XNI)
-
-##### Entrevistado #3: 
-* Edad: 
-* Distrito:  
-
-  <p align="center">
-  <img src="" alt="ent3" width="500">
-  </p>
-
-Link: [Validación de entrevista Segmento #1 .mp4]()
+> Segmento 1: Turistas
+<div align="center">
 
 
-##### Segmento Objetivo #2: Agencias de Turismo
+| Nº Entrevista | Datos del entrevistado  | Resumen de la entrevista     | Evidencia de entrevista                      |
+|---------------|-----------------------------------|-------------------------------|----------------|
+| 1             | - **Nombre:** Joaquin Cuentas <br> - **Edad:** 22 años <br> - **Distrito:** San Miguel <br> - **Link:** [Validación: Joaquin Cuentas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQB1ucAjBVW-QYoSizEoBPDaAZuOgO0WK9VjjYD3O_QqV0Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LcmZQW) | Actualmente es estudiante y le gusta los viajes, va a distintas ciudades con su familia durante sus vacaciones. Las actividades turísticas que más disfruta son viajar a las ciudades para conocer lugares históricos y emblemáticos de la ciudad. Joaquin no utiliza ninguna aplicación para planificar viajes, solo utiliza apps que te permiten ver las reservaciones de hospedaje, pero para actividades turísticas no ha usado. Él entiende que TripMatch es una app ofrecerá para cada ciudad experiencias turísticas con sus respectivos precios, y resalta que las opciones disponibles son claras, lo cual le facilitó en la navegación de la aplicación. Además, agrega que las categorías y filtros de búsqueda le facilitó su búsqueda para las experiencias turísticas, ya que son adecuados para la situación y claras para elegir. Joaquin comenta que una funcionalidad que le agregaría a TripMatch que ofrezca experiencias turísticas de comida, como un descubrimiento de platos típicos y agradables restaurantes en distintas ciudades, una categoría de restaurantes. En cuanto a la sección de recomendaciones de experiencias, él nos comenta que le pareció útil, que le gusta que se muestre las cosas que él muestra interés en las recomendaciones y que aquello facilita su búsqueda de experiencias. Por último, Joaquin nos señala que sería bueno agregar una funcionalidad, que él considera importante, sobre la cancelación de reserva si es que ya uno no desea aquella experiencia. | ![Entrevista 1: Joaquin Cuentas](https://i.imgur.com/qEvRfPU.png) |
+| 2             | - **Nombre:** Manuel Tumi <br> - **Edad:** 25 años <br> - **Distrito:** Magdalena del Mar <br> - **Link:** [Validación: Manuel Tumi](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQBFcf0SxQalQ6F_gINc1jTSAf2uWUSaHPcxERYQLDIxlmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iR1XNI) | Manuel es un estudiante de Ingeniería de Software y lo que mas busca y disfruta durante sus viajes es conocer lugares nuevos, cuando viaja él se comunica con los habitantes locales para preguntar que lugares le recomiendan visitar y señala que le parece interesante lo que ofrece TripMatch ya que la app le ahorraría obtener recomendaciones en persona. Él nos comenta que las únicas apps que utiliza para sus viajes es para encontrar buses que le lleven a su destino deseado, pero no ha usado una app de experiencias (tours) que le facilite planificar su paseos turísticos. Mas bien, él le preguntaba a sus amigos que agencias de viaje utilizaban durante sus excursiones, pero aun así no se sentía del todo satisfecho, ya que su interés y los intereses de sus amigos eran diferentes lo que lo hacia un poco complicado. Manuel comprende que TripMatch B4ofrece experiencias a los turistas y le parece una buena idea, debido a que no se ve apps de este rubro mucho en el país. Considera que esta plataforma es adecuada para él, le gusta que la app sea directa y clara en cuanto a la búsqueda de experiencias en determinado destino. | ![Entrevista 2: Manuel Tumi](https://i.imgur.com/l5aEy7T.png) |
+| 3             | - **Nombre:** Fabricio Diaz <br> - **Edad:** 21<br> - **Distrito:** Callao <br> - **Link:** [Validación: Fabricio Diaz](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219481_upc_edu_pe/IQCyq1SBhyntSp7glsSQIUnQAdEtj1BPNHdzikhHUfTrsJ4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jF8wHI) |La entrevista con Fabricio, un viajero que busca experiencias auténticas y huye de los tours masivos, validó la propuesta de valor de TripMatch. Aunque su problema principal es la desconfianza al reservar online y la dificultad para encontrar opciones flexibles, percibió que la plataforma ataca estos puntos al ofrecer experiencias personalizadas y filtros útiles (especialmente el de presupuesto). Valoró positivamente la facilidad de uso de la app, pero insistió en que para ganar su confianza total, TripMatch debe destacar visiblemente cómo verifica a las agencias, asegurar precios finales sin cargos ocultos y añadir una función de chat para consultas directas antes de reservar.| ![Entrevista 3](img/entrevista-turista-fabricio.png) |
 
-##### Entrevistado #1: Nayib Maguiña
-* Edad: 25
-* Distrito: San Miguel
+</div>
 
-  <p align="center">
-  <img src="https://i.imgur.com/J0ku8yt.png" alt="ent4" width="500">
-  </p>
+> Segmento 2: Agencias de Turismo
 
-Link: [Validación de entrevista Segmento #2 Nayib Maguiña.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQDRT2CSMUhnTqTiP6HTBL6hAVOlpbJnXTYOC7TVsQv2vRQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QqatyY)
+<div align="center">
 
-##### Entrevistado #2: 
-* Edad: 
-* Distrito: 
+| Nº Entrevista | Datos del entrevistado  | Resumen de la entrevista     | Evidencia de entrevista                      |
+|---------------|-----------------------------------|-------------------------------|----------------|
+| 1             | - **Nombre:** Nayib Maguiña<br> - **Edad:** 25 años <br> - **Distrito:** San Miguel <br> - **Link:** [Validación: Nayib Maguiña](httpss://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQDRT2CSMUhnTqTiP6HTBL6hAVOlpbJnXTYOC7TVsQv2vRQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QqatyY) | | ![Entrevista 4: Nayib Maguiña](https://i.imgur.com/J0ku8yt.png) |
+| 2             | - **Nombre:** Hector <br> - **Edad:** 24 años <br> - **Distrito:** San Miguel <br> - **Link:** [Validación de Hector](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c505_upc_edu_pe/IQDipORQmeTrTqdTSO8-yJrGAfvuivg_YQldy_hEAHGPjOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=kBmkI9) |Héctor, quien gestiona servicios turísticos en Lima, actualmente utiliza un sistema fragmentado de WhatsApp, Excel y redes sociales, lo que le ocasiona desorden y pérdida de información. Tras la demostración, validó a TripMatch como una solución ideal para agencias pequeñas que buscan digitalizar y centralizar su operación. Lo que más valoró fue la capacidad de la plataforma para unificar la gestión de experiencias, reservas, consultas y reseñas en un solo lugar. La aplicación web le pareció moderna, ligera y fácil de usar, incluso para personal no técnico. Sus principales sugerencias de mejora fueron destacar más los beneficios para las agencias en la landing page y añadir un panel de estadísticas más visual con gráficos para analizar el rendimiento. | ![Entrevista 5](img/entrevista-agencias-hector.png) |
+| 3             | - **Nombre:** <br> - **Edad:** <br> - **Distrito:** <br> - **Link:** [Validación de entrevista Segmento #2 .mp4]() | | ![Entrevista 6]() |
 
-  <p align="center">
-  <img src="" alt="ent5" width="500">
-  </p>
-
-Link: [Validación de entrevista Segmento #2 .mp4]()
-
-##### Entrevistado #3: 
-* Edad: 
-* Distrito:  
-
-  <p align="center">
-  <img src="" alt="ent6" width="500">
-  </p>
-
-Link: [Validación de entrevista Segmento #2 .mp4]()
-
+</div>
 
 ### 4.3.3. Evaluaciones según heurísticas
 
