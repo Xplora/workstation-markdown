@@ -327,7 +327,7 @@ Tabla de contenidos
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+  - [1.3. Segmentos objetivos](#13-segmentos-objetivos)
 
 - [Capítulo II: Requirements Development and Software Solution Design](#capítulo-ii-requirements-development-and-software-solution-design)
   - [2.1. Competidores](#21-competidores)
@@ -4931,7 +4931,7 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 | **Sprint #**                          | **Sprint 2 TripMatch**                                                |
 |---------------------------------------|----------------------------------------------------------------------|
 | **Sprint Planning Background**        |                                                                      |
-| **Date**                             | 13/10/2025                                                           |
+| **Date**                             | 11/10/2025                                                           |
 | **Time**                             | 07:00 PM                                                             |
 | **Location**                         | Servidor de Discord del Equipo                                       |
 | **Prepared By**                      | Marcia Melgarejo                                                       |
@@ -4969,6 +4969,14 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 
 
 ### 4.3.1. Diseño de Entrevistas
+
+**User flows utilizados:**
+
+* **Segmento 1: Turistas**
+    * Como usuario,
+
+* **Segmento 2: Agencias de Turismo**
+    * Como usuario, 
 
 **Preguntas:**
 
@@ -5023,11 +5031,136 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 
 ### 4.3.2. Registro de Entrevistas
 
+##### Segmento Objetivo #1: Turistas
+
+##### Entrevistado #1: Joaquin Cuentas
+* Edad: 22
+* Distrito: San Miguel
+
+  <p align="center">
+  <img src="" alt="ent1" width="500">
+  </p>
+
+Link: [Validación de entrevista Segmento #1 Joaquin Cuentas.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQB1ucAjBVW-QYoSizEoBPDaAZuOgO0WK9VjjYD3O_QqV0Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LcmZQW)
+
+##### Entrevistado #2: Manuel Tumi
+* Edad: 25
+* Distrito: Magdalena del Mar
+
+  <p align="center">
+  <img src="" alt="ent1" width="500">
+  </p>
+
+Link: [Validación de entrevista Segmento #1 Manuel Tumi.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQBFcf0SxQalQ6F_gINc1jTSAf2uWUSaHPcxERYQLDIxlmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iR1XNI)
+
+##### Entrevistado #3: 
+* Edad: 
+* Distrito:  
+
+  <p align="center">
+  <img src="" alt="ent1" width="500">
+  </p>
+
+Link: [Validación de entrevista Segmento #1 .mp4]()
 
 
+##### Segmento Objetivo #2: Agencias de Turismo
+
+##### Entrevistado #1: Nayib Maguiña
+* Edad: 25
+* Distrito: San Miguel
+
+  <p align="center">
+  <img src="" alt="ent1" width="500">
+  </p>
+
+Link: [Validación de entrevista Segmento #2 Nayib Maguiña.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQDRT2CSMUhnTqTiP6HTBL6hAVOlpbJnXTYOC7TVsQv2vRQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QqatyY)
+
+##### Entrevistado #2: 
+* Edad: 
+* Distrito: 
+
+  <p align="center">
+  <img src="" alt="ent1" width="500">
+  </p>
+
+Link: [Validación de entrevista Segmento #2 .mp4]()
+
+##### Entrevistado #3: 
+* Edad: 
+* Distrito:  
+
+  <p align="center">
+  <img src="" alt="ent1" width="500">
+  </p>
+
+Link: [Validación de entrevista Segmento #2 .mp4]()
 
 
 ### 4.3.3. Evaluaciones según heurísticas
+
+#### UX Heuristics & Principles Evaluation
+#### Usability - Inclusive Design - Information Architecture
+
+**CARRERA**: Ingeniería de Software
+**CURSO**: Aplicaciones para Dispositivos Móviles
+**NRC**: 14649
+**PROFESORES**: David Gerardo Quevedo Velasco
+**AUDITOR**: TripMatch
+
+**CLIENTE(S)**:
+* Joaquin Cuentas
+* Manuel Tumi
+* 
+* Nayib Maguiña
+*
+*
+
+**SITE O APP A EVALUAR**: TripMatch
+
+**TAREAS A EVALUAR**:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+* 
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+* 
+
+**ESCALA DE SEVERIDAD**:
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción                                                                                                                                      |
+| :---- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | **Problema superficial**: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | **Problema menor**: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | **Problema mayor**: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | **Problema muy grave**: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+#### TABLA RESUMEN:
+
+| # | Problema                                                                                        | Escala de severidad | Heurística/Principio violada(o)       |
+| :- | :---------------------------------------------------------------------------------------------- | :------------------ | :------------------------------------ |
+| 1 |  |                    |  |
+| 2 |  |                    |           |
+| 3 |  |                    |         |
+| 4 |  |                    |          |
+
+#### DESCRIPCIÓN DE PROBLEMAS
+
+#### PROBLEMA #1:
+* **Severidad**: 
+* **Heurística violada**: 
+* **Problema**: 
+
+**Figura**
+
+  <p align="center">
+  <img src="" alt="fig1" width="500">
+  </p>
+
+*Nota. Elaboración propia.*
+
+**Recomendación**:
+
 
 
 # Conclusiones y recomendaciones
