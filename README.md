@@ -4968,8 +4968,43 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
 
+
+Backend Deployment
+
+- Nos logeamos y creamos nuestra base de datos en freesqldatabase.com
+
+<img src="img/bck0.jpg">
+
+- Entramos a render, nos logueamos y accedemos a web service
+
+<img src="img/bck2.png">
+
+- Ingresamos el codigo de Docker en nuestro repositorio para posibilitar la conexción con el deploy
+
+<img src="img/bck3.png">
+
+- Ingresamos la configuración para la conexión con la base de datos que hemos creado
+
+<img src="img/bck4.png">
+
+- Una vez hecho el deploy podemos visualizar el link por el cual podremos ingresar a nuestra web
+
+<img src="img/bck5.png">
+
+
+<img src="img/bck1.png">
+
 #### 4.2.2.8. Team Collaboration Insights during Sprint
 
+Durante el Sprint 2, el equipo colaboró de manera coordinada para implementar las nuevas funcionalidades de TripMatch. La integración entre frontend y backend fue clave para desarrollar correctamente las búsquedas, filtros y reservas en la app móvil. También se trabajó en equipo para mejorar la Landing Page, añadiendo la sección de beneficios y los videos informativos. La comunicación constante permitió resolver problemas rápidamente y asegurar la correcta integración de todos los componentes del Sprint.
+
+A continuación, se muestran la captura de los insights del repositorio.
+
+**Contributors Insights**
+
+En esta imagen se muestra el resumen de contribuciones por cada integrante del equipo durante el Sprint.
+
+<img src="img/clb.png">
 
 ## 4.3. Validation Interviews
 
