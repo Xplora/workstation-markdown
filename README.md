@@ -1078,7 +1078,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <th colspan="4">Description</th>
   </tr>
   <tr>
-    <td colspan="4"><b>Como</b> empresa turística, <b>quiero</b> ingresar los detalles de una experiencia (nombre, descripción, precio, horario, categoría, imágenes, etc.), <b>para</b> publicarla correctamente en la app.</td>
+    <td colspan="4"><b>Como</b> empresa turística, <b>quiero</b> ingresar los detalles de una experiencia, <b>para</b> publicarla correctamente en la app.</td>
   </tr>
   <tr>
     <th colspan="4">Acceptance Criteria</th>
@@ -1218,7 +1218,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
       <b>Escenario A: Listado con experiencias registradas</b><br>
       <b>Dado que</b> la empresa tiene experiencias registradas en el sistema,<br>
       <b>Cuando</b> accede al módulo "Gestión de Experiencias",<br>
-      <b>Entonces</b> el sistema debe mostrar un listado con la información principal de cada experiencia (por ejemplo, título, precio, duración y categoría).<br><br>
+      <b>Entonces</b> el sistema debe mostrar un listado con la información principal de cada experiencia .<br><br>
       <b>Escenario B: Sin experiencias registradas</b><br>
       <b>Dado que</b> la empresa no tiene experiencias registradas en el sistema,<br>
       <b>Cuando</b> accede al módulo "Gestión de Experiencias",<br>
@@ -1308,7 +1308,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
       <b>Y</b> registrar la reserva asociándola al turista y a la experiencia seleccionada.<br><br>
       <b>Escenario B: Falta de información obligatoria</b><br>
       <b>Dado que</b> el turista desea realizar una reserva,<br>
-      <b>Cuando</b> no proporciona alguno de los datos obligatorios definidos por el sistema (por ejemplo, fecha u horario),<br>
+      <b>Cuando</b> no proporciona alguno de los datos obligatorios definidos por el sistema,<br>
       <b>Entonces</b> el sistema debe rechazar el registro de la reserva<br>
       <b>Y</b> notificar que existe información requerida pendiente de completar.
     </td>
@@ -1349,7 +1349,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
       <b>Dado que</b> el sistema registra una reserva del turista de forma exitosa,<br> 
       <b>Cuando</b> la reserva cambia al estado de confirmada,<br> 
       <b>Entonces</b> el sistema debe generar una notificación de confirmación de reserva<br>
-      <b>Y</b> dicha notificación debe incluir los datos principales de la experiencia reservada (por ejemplo, nombre de la experiencia, fecha, hora y número de personas).<br><br>      
+      <b>Y</b> dicha notificación debe incluir los datos principales de la experiencia reservada.<br><br>      
       <b>Escenario B: Imposibilidad de confirmar la reserva</b><br> 
       <b>Dado que</b> ocurre un problema interno que impide registrar la reserva del turista,<br> 
       <b>Cuando</b> el turista intenta completar la reserva,<br> 
@@ -1397,7 +1397,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
       <b>Escenario B: Acceso a la reserva desde el recordatorio</b><br>
       <b>Dado que</b> el turista recibe un recordatorio de una experiencia próxima,<br>
       <b>Cuando</b> accede a la información de la reserva desde dicho recordatorio,<br>
-      <b>Entonces</b> el sistema debe mostrar la información detallada de esa reserva en la sección donde el turista gestiona sus itinerarios o reservas ("Mis itinerarios").<br><br>
+      <b>Entonces</b> el sistema debe mostrar la información detallada de esa reserva en la sección donde el turista gestiona sus itinerarios o reservas .<br><br>
       <b>Escenario C: Cancelación de reserva y recordatorio</b><br>
       <b>Dado que</b> el turista cancela una reserva confirmada,<br>
       <b>Cuando</b> el sistema registra la cancelación de la reserva,<br>
@@ -2013,7 +2013,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
       <b>Dado que</b> existen reseñas registradas en el sistema para la agencia,<br>
       <b>Cuando</b> la agencia accede a su perfil y consulta la sección de reseñas,<br>
       <b>Entonces</b> el sistema debe mostrar un listado de reseñas que incluya, para cada una,
-      el identificador del turista (por ejemplo, nombre), la fecha de la reseña, el comentario y la calificación otorgada.</p>
+      el identificador del turista , la fecha de la reseña, el comentario y la calificación otorgada.</p>
       <p><b>Escenario B: Ausencia de reseñas</b><br>
       <b>Dado que</b> la agencia aún no tiene reseñas registradas en el sistema,<br>
       <b>Cuando</b> accede a su perfil y consulta la sección de reseñas,<br>
@@ -2242,7 +2242,7 @@ Este glosario representa los conceptos clave que definen nuestro dominio turíst
     <b>Dado que</b> la landing de Turisfera incluye una sección que explica el funcionamiento de la plataforma,<br> 
     <b>Cuando</b> una agencia revisa el contenido de esta sección,<br> 
     <b>Entonces</b> el sistema debe presentar una explicación clara de las principales funciones de la plataforma
-    (por ejemplo, registro de agencias, publicación de experiencias, gestión de reservas y reseñas),<br>
+    ,<br>
     <b>Y</b> dicha explicación debe permitir a la agencia determinar si el modelo de funcionamiento es compatible con sus servicios actuales.
   </td> 
 </tr> 
