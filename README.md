@@ -4981,15 +4981,71 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
-#### 4.2.2.5. Execution Evidence for Sprint Review
-
 ### Tabla de evidencias – Acceptance Tests (BDD)
 
 ### Tabla de evidencias – Unit & Integration 
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
 
+
+Para este segundo Sprint de TripMatch, se desarrolló y publicó la Landing Page del proyecto. A través de esta landing, los usuarios pueden visualizar claramente la propuesta de valor de la plataforma, destinada a conectar turistas con agencias locales, facilitando la reserva, coordinación y acceso seguro a experiencias auténticas.
+
+
+La evidencia se puede validar visualmente en la Landing Page, que presenta cada uno de estos elementos como parte de la experiencia principal del usuario en TripMatch.
+
+**Sección About Us**
+
+Muestra el propósito de TripMatch, permitiendo al visitante entender rápidamente el objetivo de la plataforma.
+
+<img alt="About Us" src="img/about-us.png">
+
+
+**Sección Our Team**
+
+Se exhiben los perfiles de los desarrolladores de la startup, reforzando la transparencia y profesionalismo del proyecto.
+
+<img alt="Our Team" src="img/our-members.png">
+
+
+**Sección Benefits**
+
+Se muestra una estructura clara de los beneficios de nuestra aplicación para ambos segmentos objetivos.
+
+<img alt="Benefits" src="img/benefits.png">
+
+
+**Sección Contact Us**
+
+Formularios para el envío de mensajes de contacto, cumpliendo criterios de accesibilidad y usabilidad.
+
+<img alt="Contact Us" src="img/contact.png">
+
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+
+Durante el Sprint 2 se desplegó la Landing Page en GitHub Pages, asegurando que la versión en producción reflejara los cambios implementados:
+
+Capturas del Despliegue
+
+<img src="img/lpgXpl.png">
+
+También se avanzó considerablemente en la documentación de los servicios REST desarrollados para el backend de TripMatch, utilizando la especificación OpenAPI (Swagger). Esta documentación es clave para facilitar la integración entre el backend y el frontend, así como para permitir pruebas rápidas y comprensión clara de la estructura de los endpoints implementados.
+
+
+| **Módulo**            | **Acción**                      | **Método** | **Endpoint**           | **Parámetros (ejemplo)**                                                                                       | **Respuesta (ejemplo)**                                                  |
+|------------------------|---------------------------------|-------------|------------------------|----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| Usuarios               | Registrar usuario               | POST        | `/api/users`           | `{"username": "britney", "email": "britney@test.com", "password": "12345678"}`                                 | `{"id": 1, "username": "britney", "email": "britney@test.com"}`          |
+| Autenticación          | Iniciar sesión                  | POST        | `/api/auth/sign-in`    | `{"username": "britney", "password": "12345678"}`                                                              | `{"token": "eyJhbGciOi..."}`                                             |
+| Agencias               | Registrar agencia               | POST        | `/api/agencies`        | `{"name": "Agencia Andes", "email": "contacto@andes.com", "ruc": "12345678901"}`                               | `{"id": 1, "name": "Agencia Andes", "email": "contacto@andes.com"}`      |
+| Paquetes turísticos    | Crear paquete turístico          | POST        | `/api/packages`        | `{"name": "Cusco Explorer", "price": 550.00, "agencyId": 1}`                                                  | `{"id": 1, "name": "Cusco Explorer", "price": 550.00}`                   |
+| Reservas               | Reservar paquete turístico       | POST        | `/api/bookings`        | `{"packageId": 1, "userId": 1, "travelDate": "2025-07-10"}`                                                   | `{"id": 1, "status": "CONFIRMED"}`                                       |
+| Destinos               | Obtener todos los destinos       | GET         | `/api/destinations`    | -                                                                                                              | `[{"id": 1, "name": "Cusco"}, {"id": 2, "name": "Arequipa"}]`            |
+| Itinerarios            | Registrar itinerario             | POST        | `/api/itineraries`     | `{"packageId": 1, "day": 1, "description": "Tour por el Valle Sagrado"}`                                       | `{"id": 1, "day": 1, "description": "Tour por el Valle Sagrado"}`        |
+
+
+También se añadió vistas para sector turista mediante flutter.
+
+<img src="img/movbflt.png">
 
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
 
