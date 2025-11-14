@@ -395,15 +395,24 @@ Tabla de contenidos
     - [4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)
     - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
   - [4.2. Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
-    - [4.2.1. Sprint n](#421-sprint-n)
-      - [4.2.1.1. Sprint Planning n](#4211-sprint-planning-n)
-      - [4.2.1.2. Sprint Backlog n](#4212-sprint-backlog-n)
+    - [4.2.1. Sprint 1](#421-sprint-1)
+      - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
+      - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
       - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
       - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
       - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
       - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+    - [4.2.2. Sprint 2](#422-sprint-2)
+      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
+      - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
+      - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
+      - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
+      - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
+      - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
+      - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -4671,23 +4680,23 @@ Despliegue automatizado y seguro, con GitHub Actions para CI/CD y Docker para co
 
 | User Story Id | User Story Title                                                                                                         | Work-Item/Task Id | Work-Item/Task Title                     | Description                                                             | Estimation | Assigned To      | Status     |
 |:-------------:|:------------------------------------------------------------------------------------------------------------------------:|:-----------------:|:-----------------------------------------:|:------------------------------------------------------------------------:|:----------:|:---------------:|:----------:|
-| US01          | Registro de nuevo usuario con validación |                |        |      |          |    |        |
+| US01          | Registrar usuario con validación de datos |                |        |      |          |    |        |
 |           |  | T01               | Formulario de registro y onboarding       | Implementar formulario de registro, validación de datos y bienvenida     | 8h         | Equipo Frontend  | Done       |
 |           |  | T02               | Validación de datos      | Validar los campos antes del presionar el botón de registro    | 2h         | Equipo Frontend  | Done       |
-| US02          |         Inicio de sesión con credenciales y manejo de errores        |                |                 |                       |          |    |        |
+| US02          |         Autenticar inicio de sesión        |                |                 |                       |          |    |        |
 |           |                 | T01               | Interfaz y lógica de login                | Crear pantalla de login y lógica de autenticación                        | 6h         | Equipo Frontend  | Done       |
 |           |                 | T02               | Colocar botón de registrar cuenta                | Crear botón de registro si es que aún no posee una cuenta                        | 2h         | Equipo Frontend  | Done       |
-| US03          |  Garantía de seguridad y confirmación de la contraseña      |                |                   |                             |          |   |        |
+| US03          |  Validar requisitos de seguridad de la contraseña      |                |                   |                             |          |   |        |
 |           |        | T01               | Validación de contraseña                  | Validar seguridad y confirmación de contraseña                            | 4h         | Equipo Frontend  | Done       |
 |           |        | T02               | Estilos y separación en la validación de contraseña                  | Aplicar estilos visuales a la sección de validación de contraseña                        | 1h         | Equipo Frontend  | Done       |
-| US05          | Acciones Rápidas (Favoritos) en Tarjeta de Experiencia                           | T01               | Favoritos y navegación rápida  |    Implementar la funcionalidad para marcar experiencias como favoritas y navegar rápidamente entre ellas.   |     6h     | Equipo Frontend  | Done       |
-| US10          | Buscar experiencias dentro de mi itinerario  |                |   |         |        |    |        |
+| US05          | Gestionar experiencias favoritas                           | T01               | Favoritos y navegación rápida  |    Implementar la funcionalidad para marcar experiencias como favoritas y navegar rápidamente entre ellas.   |     6h     | Equipo Frontend  | Done       |
+| US10          | Buscar experiencias dentro del itinerario  |                |   |         |        |    |        |
 |           |   | T01               | Buscador en itinerario  |       Crear buscador dentro de "Mi itinerario" para localizar experiencias específicas.  |   5h     | Equipo Frontend   | Done       |
 |           |   | T02               | Barra con contraste para mayor visualización  |       Aplicar estilos suaves para no dificultar la visualización de la barra  |   1h     | Equipo Frontend   | Done       |
-| US11          | Cancelar una reserva desde el itinerario  | T01               | Cancelación de reserva  |  Permitir la cancelación de reservas directamente desde "Mi itinerario".  |   6h     | Equipo Frontend   | Done       |
-| US12          | Visualizar reservas confirmadas en formato lista  | T01               | Lista de reservas confirmadas  |  Crear vista de reservas confirmadas para empresas turísticas.  |   6h     | Equipo Frontend   | Done       |
-| US13          | Acceder a la creación de experiencias desde Gestión de Experiencias  | T01               | Botón para agregar experiencia  |  Crear un botón "Agregar experiencia" en la sección de gestión.  |   5h     | Equipo Frontend   | Done       |
-| US14          | Registrar detalles de una experiencia en el formulario  | T01               | Formulario para registrar experiencia  |  Crear formulario para agregar detalles (nombre, descripción, etc.) de una experiencia.  |   8h     | Equipo Frontend   | Done       |
+| US11          | Cancelar una reserva del itinerario  | T01               | Cancelación de reserva  |  Permitir la cancelación de reservas directamente desde "Mi itinerario".  |   6h     | Equipo Frontend   | Done       |
+| US12          | Visualizar reservas confirmadas en lista  | T01               | Lista de reservas confirmadas  |  Crear vista de reservas confirmadas para empresas turísticas.  |   6h     | Equipo Frontend   | Done       |
+| US13          | Crear una experiencia  | T01               | Botón para agregar experiencia  |  Crear un botón "Agregar experiencia" en la sección de gestión.  |   5h     | Equipo Frontend   | Done       |
+| US14          | Registrar detalles de una experiencia  | T01               | Formulario para registrar experiencia  |  Crear formulario para agregar detalles (nombre, descripción, etc.) de una experiencia.  |   8h     | Equipo Frontend   | Done       |
 | US16          | Eliminar experiencias publicadas  | T01               | Eliminación de experiencias  |  Crear funcionalidad para eliminar experiencias publicadas.  |   6h     | Equipo Frontend   | Done       |
 | US17          | Visualizar listado de experiencias creadas  | T01               | Listado de experiencias  |  Crear una vista que muestre todas las experiencias publicadas por la agencia.  |   6h     | Equipo Frontend   | Done       |
 | US30          | Visualizar reseñas y promedio de calificaciones en mi perfil | T01               | Reseñas en el perfil |  Crear sección en el perfil de la agencia para mostrar reseñas y promedio de calificaciones.  |   6h     | Equipo Frontend   | Done  |
@@ -4916,6 +4925,31 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 
 <img src="img/collaboration.png">
 
+### 4.2.2. Sprint 2
+
+
+
+#### 4.2.2.1. Sprint Planning 2
+
+#### 4.2.2.2. Sprint Backlog 2
+
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+#### 4.2.2.5. Execution Evidence for Sprint Review
+
+### Tabla de evidencias – Acceptance Tests (BDD)
+
+### Tabla de evidencias – Unit & Integration 
+
+#### 4.2.2.5. Execution Evidence for Sprint Review
+
+#### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+#### 4.2.2.8. Team Collaboration Insights during Sprint
 
 
 ## 4.3. Validation Interviews
@@ -4972,105 +5006,12 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 * ¿Te gustaría adoptar esta plataforma para gestionar tu negocio y atraer más clientes? ¿Por qué?
 * ¿Qué mejorarías de TripMatch para adaptarlo mejor a las necesidades de tu agencia?
 
-**Preguntas:**
 
-##### Segmento Objetivo #1: Turistas
-
-**Perfil del entrevistado:**
-* ¿Cuál es tu nombre y qué tipo de actividades turísticas disfrutas más?
-* ¿Cuáles son tus aplicaciones o plataformas favoritas para planificar viajes?
-
-**Tras mostrar la Landing Page:**
-* ¿Qué entiendes que ofrece TripMatch?
-* ¿Crees que esta plataforma es adecuada para alguien como tú, que busca experiencias personalizadas durante sus viajes?
-* ¿Qué mejorarías en la página para hacerla más atractiva o útil para viajeros como tú?
-
-**Tras la demostración de la aplicación móvil:**
-* ¿Qué impresión general te dio la plataforma TripMatch?
-* ¿Fue fácil de usar y entender cómo buscar y reservar experiencias en la app?
-* ¿Te pareció que las categorías y filtros facilitaron la búsqueda de actividades?
-* ¿Te gustaría que la aplicación tuviera alguna funcionalidad adicional para mejorar la planificación de tu viaje?
-* ¿Cómo calificarías la experiencia de ver recomendaciones basadas en tus intereses o historial?
-
-**Cierre:**
-* ¿Qué es lo que más te gustó de TripMatch?
-* ¿Usarías esta herramienta regularmente para planificar tus viajes? ¿Por qué?
-* ¿Qué te gustaría que TripMatch brindara para ofrecer una experiencia más completa como turista? 
-
-##### Segmento Objetivo #2: Agencias de Turismo
-
-**Perfil del entrevistado:**
-* ¿Cuál es el nombre de tu agencia y qué tipo de experiencias o servicios turísticos ofreces?
-* ¿Qué herramientas o plataformas digitales usas actualmente para gestionar reservas y atender a tus clientes?
-
-**Tras mostrar la Landing Page:**
-* Qué entiendes que ofrece TripMatch?
-* ¿Crees que esta plataforma está pensada para agencias como la tuya que buscan digitalizar su negocio?
-* ¿Qué mejorarías en la página para hacerla más atractiva y útil para agencias de turismo?
-* ¿Te resulta claro lo que ofrece TripMatch para las agencias?
-
-**Tras la demostración de la aplicación web:**
-* ¿Qué impresión general te dio la plataforma TripMatch?
-* ¿Fue fácil de usar y entender cómo gestionar tus experiencias en la aplicación?
-* ¿Te parece que las funcionalidades de gestión de reservas y consultas facilitarán tu trabajo diario?
-* ¿Qué te parece la posibilidad de interactuar con los turistas en tiempo real mediante la app?
-* ¿Te gustaría que la aplicación tuviera alguna funcionalidad adicional para optimizar la gestión de tu agencia?
-
-**Cierre:**
-* ¿Qué es lo que más te gustó de TripMatch desde la perspectiva de una agencia de turismo?
-* ¿Te gustaría adoptar esta plataforma para gestionar tu negocio y atraer más clientes? ¿Por qué?
-* ¿Qué mejorarías de TripMatch para adaptarlo mejor a las necesidades de tu agencia?
-
-**Preguntas:**
-
-##### Segmento Objetivo #1: Turistas
-
-**Perfil del entrevistado:**
-* ¿Cuál es tu nombre y qué tipo de actividades turísticas disfrutas más?
-* ¿Cuáles son tus aplicaciones o plataformas favoritas para planificar viajes?
-
-**Tras mostrar la Landing Page:**
-* ¿Qué entiendes que ofrece TripMatch?
-* ¿Crees que esta plataforma es adecuada para alguien como tú, que busca experiencias personalizadas durante sus viajes?
-* ¿Qué mejorarías en la página para hacerla más atractiva o útil para viajeros como tú?
-
-**Tras la demostración de la aplicación móvil:**
-* ¿Qué impresión general te dio la plataforma TripMatch?
-* ¿Fue fácil de usar y entender cómo buscar y reservar experiencias en la app?
-* ¿Te pareció que las categorías y filtros facilitaron la búsqueda de actividades?
-* ¿Te gustaría que la aplicación tuviera alguna funcionalidad adicional para mejorar la planificación de tu viaje?
-* ¿Cómo calificarías la experiencia de ver recomendaciones basadas en tus intereses o historial?
-
-**Cierre:**
-* ¿Qué es lo que más te gustó de TripMatch?
-* ¿Usarías esta herramienta regularmente para planificar tus viajes? ¿Por qué?
-* ¿Qué te gustaría que TripMatch brindara para ofrecer una experiencia más completa como turista? 
-
-##### Segmento Objetivo #2: Agencias de Turismo
-
-**Perfil del entrevistado:**
-* ¿Cuál es el nombre de tu agencia y qué tipo de experiencias o servicios turísticos ofreces?
-* ¿Qué herramientas o plataformas digitales usas actualmente para gestionar reservas y atender a tus clientes?
-
-**Tras mostrar la Landing Page:**
-* Qué entiendes que ofrece TripMatch?
-* ¿Crees que esta plataforma está pensada para agencias como la tuya que buscan digitalizar su negocio?
-* ¿Qué mejorarías en la página para hacerla más atractiva y útil para agencias de turismo?
-* ¿Te resulta claro lo que ofrece TripMatch para las agencias?
-
-**Tras la demostración de la aplicación web:**
-* ¿Qué impresión general te dio la plataforma TripMatch?
-* ¿Fue fácil de usar y entender cómo gestionar tus experiencias en la aplicación?
-* ¿Te parece que las funcionalidades de gestión de reservas y consultas facilitarán tu trabajo diario?
-* ¿Qué te parece la posibilidad de interactuar con los turistas en tiempo real mediante la app?
-* ¿Te gustaría que la aplicación tuviera alguna funcionalidad adicional para optimizar la gestión de tu agencia?
-
-**Cierre:**
-* ¿Qué es lo que más te gustó de TripMatch desde la perspectiva de una agencia de turismo?
-* ¿Te gustaría adoptar esta plataforma para gestionar tu negocio y atraer más clientes? ¿Por qué?
-* ¿Qué mejorarías de TripMatch para adaptarlo mejor a las necesidades de tu agencia?
 
 ### 4.3.2. Registro de Entrevistas
+
+
+
 
 
 ### 4.3.3. Evaluaciones según heurísticas
