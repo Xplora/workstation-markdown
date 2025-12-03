@@ -5120,6 +5120,23 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 #### 4.2.3.1. Sprint Planning 3
 
 
+| **Sprint #**                          | **Sprint 3 TripMatch**                                                |
+|---------------------------------------|----------------------------------------------------------------------|
+| **Sprint Planning Background**        |                                                                      |
+| **Date**                             | 30/11/2025                                                           |
+| **Time**                             | 04:00 PM                                                             |
+| **Location**                         | Servidor de Discord del Equipo                                       |
+| **Prepared By**                      | Marcia Melgarejo                                                       |
+| **Attendees (to planning meeting)**   | Oscar Antayhua / Marcia Melgarejo / Rodrigo Alaya / Melisa Sulca / Gabriel Gordon |
+| **Sprint 3 Review Summary**           | Durante el Sprint 3 se avanzó en la implementación de nuevas funcionalidades en TripMatch, centradas principalmente en la gestión de consultas, reservas y reseñas. Además, se incluyó la opción para los usuarios de editar y eliminar sus reseñas y perfiles, y de consultar su historial de preguntas y respuestas. También se continuó con la integración entre el frontend y el backend, avanzando en la generación de recomendaciones y en la visualización del calendario de reservas.             |
+| **Sprint 3 Retrospective Summary**    | El equipo destacó el progreso significativo en la edición y eliminación de reseñas, así como la visualización de reservas en el calendario. La implementación de los algoritmos de recomendaciones ha sido un desafío, pero se solucionaron rápidamente mediante la comunicación eficiente y las pruebas de integración continuas. El flujo de trabajo fue más fluido gracias a la colaboración y la asignación efectiva de tareas.               |
+| **Sprint Goal & User Stories**        | Enfocar el Sprint 3 en completar las funcionalidades de edición de reseñas, manejo de consultas y visualización de reservas. Incluir la opción para que los usuarios editen su perfil, gestionar su historial de consultas y obtener recomendaciones basadas en la popularidad de las experiencias. Asegurarse de que el backend esté completamente integrado con estas funcionalidades y realizar deploy del frontend adecuadamente.                                               |
+| **Sprint 3 Goal**                     | Entregar un sistema donde los usuarios puedan editar y eliminar sus reseñas y perfil, consultar su historial de consultas, visualizar reservas en el calendario, y recibir recomendaciones personalizadas. Completar la integración del backend para las nuevas funcionalidades y realizar las pruebas finales del sistema y realizar deploy del frontend en Kotlin y Flutter. 
+   |
+| **Sprint 3 Velocity**                 | 10 Velocity                                                           |
+| **Sum of Story Points**               |  50 Story Points                                                       |
+
+
 #### 4.2.3.2. Sprint Backlog 3
 
 | User Story Id | User Story Title                                        | Work-Item/Task Id | Work-Item/Task Title                             | Description                                                                 | Estimation | Assigned To     | Status   |
