@@ -5195,6 +5195,20 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
+Frontend Deployment:
+
+<img src="https://i.imgur.com/dJP5Pes.png">
+
+
+<img src="https://i.imgur.com/1TqTkCo.jpeg">
+
+
+<img src="https://i.imgur.com/wMHP0EG.jpeg">
+
+
+<img src="https://i.imgur.com/nIArek8.jpeg">
+
+
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint
 
@@ -5207,6 +5221,15 @@ A continuación, se muestran la captura de los insights del repositorio.
 **Contributors Insights**
 
 En esta imagen se muestra el resumen de contribuciones por cada integrante del equipo durante el Sprint 3.
+
+
+<img src="https://i.imgur.com/5MSLsYk.png">
+
+
+<img src="https://i.imgur.com/JupqrSm.png">
+
+
+<img src="https://i.imgur.com/QHpWgV7.png">
 
 
 
