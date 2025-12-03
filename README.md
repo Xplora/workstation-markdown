@@ -5167,6 +5167,24 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 
 #### 4.2.3.3. Development Evidence for Sprint Review
 
+| Repository                             | Branch | Commit Id | Commit Message                                        | Commit Message Body                                  | Commited on (Date)      |
+|---------------------------------------- |--------|-----------|------------------------------------------------------|------------------------------------------------------|-------------------------|
+| workstation-frontend-mobile (Front-end) | feature/tb2   | 57aef2d   | feat(profile): add option camera                 | --------------------  | 02/12/2025              |
+| workstation-frontend-mobile (Front-end) | feature/tb2   | 2bf7224   | feat(experience): add a new successScreen       |    --------------------           | 02/12/2025              |
+| workstation-frontend-mobile (Front-end) | feature/tb2   | 600287b   | feat(signup): add Terms and conditions       |    --------------------           | 02/12/2025              |
+| workstation-frontend-flutter (Front-end) | main   | 69b5ef5   | feat: add auth logic                          |      --------------------                 | 02/12/2025              |
+| workstation-frontend-flutter (Front-end) | main   | f28ce98   | feat: conection with db and iam                          |      --------------------                 | 03/12/2025              |
+| workstation-frontend-flutter (Front-end) | main   | 89e28b5   | feat: connection with category en db                          |      --------------------                 | 03/12/2025              |
+| workstation-frontend-flutter (Front-end) | main   | 9909549   | feat: fix errors about db                          |      --------------------                 | 03/12/2025              |
+| workstation-frontend-flutter (Front-end) | main   | 5ea8098   | feat: fix error of logic on differents views                         |      --------------------                 | 03/12/2025              |
+| workstation-markdown | main   | a497e5a   | feat: Add index of sections                         |      --------------------                 | 03/12/2025              |
+| workstation-markdown | main   | 1eb8945   | feat: Add sprint backlog 3                         |      --------------------                 | 03/12/2025              |
+| workstation-back-end | main   | 0ff876f   | chore: Change production database connection string                         |      --------------------                 | 01/12/2025              |
+| workstation-back-end | main   | 40ebe71   | chrore: Refactor CORS policy to remove AllowCredentials                         |      --------------------                 | 02/12/2025              |
+| workstation-back-end | main   | 66eb1cf   | chore, update core                         |      --------------------                 | 02/12/2025              |
+| workstation-back-end | main   | a5072e3  | chore, update core                         |      --------------------                 | 02/12/2025              |
+| workstation-back-end | main   | f41fd1f | chore: Change CORS policy name and allow all origins                         |      --------------------                 | 02/12/2025              |
+
 
 #### 4.2.3.4. Testing Suite Evidence for Sprint Review
 
