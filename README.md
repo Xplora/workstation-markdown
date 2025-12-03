@@ -5186,8 +5186,6 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 | workstation-back-end | main   | f41fd1f | chore: Change CORS policy name and allow all origins                         |      --------------------                 | 02/12/2025              |
 
 
-#### 4.2.3.4. Testing Suite Evidence for Sprint Review
-
 
 #### 4.2.3.5. Execution Evidence for Sprint Review
 
@@ -5199,6 +5197,18 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, el equipo trabajó de manera eficiente y sincronizada para implementar el deploy del frontend y las nuevas funcionalidades de TripMatch, centradas principalmente en la edición de reseñas, la visualización de reservas y la gestión del perfil de usuario. La colaboración entre el equipo frontend y backend fue crucial para integrar correctamente las funcionalidades de edición, eliminación de reseñas y la visualización de reservas en formato calendario y lista. Además, se avanzó en la implementación del algoritmo para las recomendaciones basadas en popularidad, lo que permitió una mejor experiencia para los usuarios.
+
+La comunicación constante y la retroalimentación rápida entre los miembros del equipo aseguraron que las tareas se completaran dentro de los tiempos establecidos y con la calidad esperada. Se resolvieron de manera ágil los problemas que surgieron durante las pruebas de integración y se logró una buena sinergia entre todas las partes del proyecto.
+
+A continuación, se muestran la captura de los insights del repositorio.
+
+**Contributors Insights**
+
+En esta imagen se muestra el resumen de contribuciones por cada integrante del equipo durante el Sprint 3.
+
+
 
 
 ## 4.3. Validation Interviews
