@@ -5122,6 +5122,31 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 
 #### 4.2.3.2. Sprint Backlog 3
 
+| User Story Id | User Story Title                                        | Work-Item/Task Id | Work-Item/Task Title                             | Description                                                                 | Estimation | Assigned To     | Status   |
+|---------------|----------------------------------------------------------|-------------------|-------------------------------------------------|-----------------------------------------------------------------------------|------------|-----------------|----------|
+| US20          | Recibir notificación de confirmación de reserva          | T01               | Implementación de notificación de confirmación   | Crear notificación al usuario cuando su reserva sea confirmada.            | 4h         | Equipo Frontend | In Process |
+|               |                                                          | T02               | Configuración del backend para la notificación  | Desarrollar endpoint para enviar la notificación al usuario.               | 5h         | Equipo Backend  | In Process |
+| US21          | Recibir notificación recordatoria de experiencia próxima | T01               | Implementación de notificación recordatoria     | Notificación al usuario 24 horas antes de la experiencia.                 | 4h         | Equipo Frontend | In Process |
+|               |                                                          | T02               | Backend para notificación de recordatorio       | Endpoint para enviar notificación de recordatorio.                         | 5h         | Equipo Backend  | In Process |
+| US25          | Recibir notificación de respuesta a consulta            | T01               | Notificación de respuesta a consulta            | Crear sistema para enviar notificación cuando el turista recibe una respuesta. | 4h         | Equipo Frontend | In Process |
+|               |                                                          | T02               | Backend para notificación de respuesta          | Endpoint para enviar respuesta de consulta por parte de la agencia.        | 5h         | Equipo Backend  | In Process |
+| US22          | Enviar consulta desde los detalles de una experiencia   | T01               | Implementar botón de consulta                   | Añadir botón en la pantalla de detalles de experiencia para enviar consultas. | 3h         | Equipo Frontend | Done     |
+|               |                                                          | T02               | Backend para enviar consulta                    | Desarrollar endpoint para registrar las consultas enviadas por los usuarios. | 5h         | Equipo Backend  | Done     |
+| US24          | Responder consultas de turistas                         | T01               | Implementar sección para responder consultas    | Crear funcionalidad para que las agencias respondan preguntas de turistas. | 4h         | Equipo Frontend | Done     |
+|               |                                                          | T02               | Backend para respuestas de consultas            | Desarrollar endpoint para manejar respuestas de consultas.                 | 6h         | Equipo Backend  | Done     |
+| US26          | Consultar historial de mis preguntas y respuestas       | T01               | Vista de historial de consultas                 | Crear vista donde los usuarios puedan ver el historial de sus consultas.  | 5h         | Equipo Frontend | Done     |
+|               |                                                          | T02               | Backend para consultas históricas               | Endpoint para recuperar historial de consultas y respuestas.               | 6h         | Equipo Backend  | Done     |
+| US27          | Dejar una reseña con calificación en estrellas y comentario | T01               | Implementación de sección de reseñas             | Añadir funcionalidad para que los usuarios dejen reseñas y comentarios.    | 5h         | Equipo Frontend | Done     |
+|               |                                                          | T02               | Backend para registro de reseñas              | Endpoint para almacenar las reseñas y calificaciones de los usuarios             | 5h         | Equipo Backend  | Done     |
+| US28          | Editar o eliminar mi reseña publicada                   | T01               | Implementación de edición y eliminación de reseñas | Crear opción para que los usuarios editen o eliminen sus reseñas.         | 4h         | Equipo Frontend | In Process |
+|               |                                                          | T02               | Backend para editar y eliminar reseñas          | Desarrollar endpoint para editar o eliminar reseñas existentes.            | 5h         | Equipo Backend  | In Process |
+| US31          | Editar información personal en el perfil de turista     | T01               | Implementar edición de perfil                    | Añadir opción para que los usuarios editen su información personal.       | 4h         | Equipo Frontend | Done     |
+|               |                                                          | T02               | Backend para actualizar perfil                  | Endpoint para actualizar la información del perfil del usuario.           | 5h         | Equipo Backend  | Done     |
+| US08          | Visualizar reservas en un calendario                    | T01               | Implementación del calendario de reservas       | Crear vista en formato calendario donde los usuarios vean sus reservas.   | 6h         | Equipo Frontend | Done     |
+| US09          | Visualizar reservas en formato lista                    | T01               | Implementar lista de reservas                   | Crear vista con una lista de todas las reservas realizadas por el usuario. | 5h         | Equipo Frontend | Done     |
+| US04          | Generar recomendaciones basadas en popularidad           | T01               | Algoritmo de recomendaciones por popularidad    | Desarrollar el algoritmo que genere recomendaciones basadas en la popularidad de las experiencias. | 6h         | Equipo Backend  | Done     |
+
+
 
 #### 4.2.3.3. Development Evidence for Sprint Review
 
