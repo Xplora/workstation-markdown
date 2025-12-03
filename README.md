@@ -419,6 +419,15 @@ Tabla de contenidos
       - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
       - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
       - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
+    - [4.2.3. Sprint 3](#423-sprint-3)
+      - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
+      - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
+      - [4.2.3.3. Development Evidence for Sprint Review](#4233-development-evidence-for-sprint-review)
+      - [4.2.3.4. Testing Suite Evidence for Sprint Review](#4234-testing-suite-evidence-for-sprint-review)
+      - [4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review)
+      - [4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review)
+      - [4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review)
+      - [4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint)
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -5102,6 +5111,35 @@ A continuación, se muestran la captura de los insights del repositorio.
 En esta imagen se muestra el resumen de contribuciones por cada integrante del equipo durante el Sprint.
 
 <img src="img/clb.png">
+
+
+### 4.2.3. Sprint 3
+
+
+
+#### 4.2.3.1. Sprint Planning 3
+
+
+#### 4.2.3.2. Sprint Backlog 3
+
+
+#### 4.2.3.3. Development Evidence for Sprint Review
+
+
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint
+
 
 ## 4.3. Validation Interviews
 
