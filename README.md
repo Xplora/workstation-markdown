@@ -5193,6 +5193,14 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
 
+Durante el Sprint 3 se desplegó el frontend  y el backend asegurando que la versión en producción reflejara los cambios implementados:
+
+
+<img src="https://i.imgur.com/KrislXL.png">
+
+<img src="https://i.imgur.com/O2HpnWt.png">
+
+
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
 Frontend Deployment:
