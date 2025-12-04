@@ -5189,6 +5189,39 @@ En esta imagen se muestra el resumen de contribuciones por cada integrante del e
 
 #### 4.2.3.5. Execution Evidence for Sprint Review
 
+Para este segundo Sprint de TripMatch, se desarrolló y publicó el frontend del proyecto. Los usuarios pueden visualizar claramente y usar la propuesta de valor de la plataforma, destinada a conectar turistas con agencias locales, facilitando la reserva, coordinación y acceso seguro a experiencias auténticas.
+
+La evidencia se puede validar visualmente del frontend, que presenta cada una de las vistas esenciales de la aplicación. 
+
+
+<img src="https://i.imgur.com/FB9r4DC.png">
+
+<img src="https://i.imgur.com/JfYy4PI.png">
+
+
+<img src="https://i.imgur.com/QnvRH55.png">
+
+
+<img src="https://i.imgur.com/sf5uBlX.png">
+
+
+<img src="https://i.imgur.com/wezJqDB.png">
+
+
+<img src="https://i.imgur.com/3vjFWIH.png">
+
+
+<img src="https://i.imgur.com/z84nzjz.png">
+
+
+
+<img src="https://i.imgur.com/fV8Pv2v.png">
+
+
+
+<img src="https://i.imgur.com/JYkkp3Z.png">
+
+
 
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
